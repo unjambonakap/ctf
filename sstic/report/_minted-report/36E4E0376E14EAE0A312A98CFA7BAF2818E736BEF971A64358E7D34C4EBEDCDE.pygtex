@@ -1,0 +1,44 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+Script started on Sun \PYG{l+m}{10} Apr \PYG{l+m}{2016} 04:00:01 PM CEST
+\PYGZdl{} unzfile challenge.zip
+challenge.zip: Zip archive data, at least v2.0 to extract
+\PYGZdl{} unzip challenge.zip
+Archive:  challenge.zip
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Gameover.js  
+  inflating: Audio/BGM/level\PYGZus{}1a\PYGZus{}24db\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: plugins/sham\PYGZhy{}data.js    
+   creating: fancybox/
+  inflating: plugins/bonus\PYGZhy{}data.js   
+   creating: plugins/Sham/
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Title.js  
+  inflating: fancybox/jquery.fancybox\PYGZhy{}1.3.4.css  
+   creating: plugins/Bonus/
+  inflating: wood.png                
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Map.js  
+  inflating: fancybox/jquery.fancybox\PYGZhy{}1.3.4.pack.js  
+  inflating: plugins/Sham/Game\PYGZus{}Sham.js  
+  inflating: rpgjs/rpgjs.min.js      
+  inflating: fancybox/jquery.js      
+  inflating: Audio/BGM/level\PYGZus{}2a\PYGZus{}24db\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Load.js  
+  inflating: index.html              
+  inflating: Audio/BGM/maison.ogg    
+  inflating: plugins/Bonus/Game\PYGZus{}Bonus.js  
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Menu.js  
+  inflating: Audio/BGM/level\PYGZus{}1b\PYGZus{}24db\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Generated.js  
+  inflating: plugins/sham.min.js     
+  inflating: Audio/BGM/level\PYGZus{}2b\PYGZus{}24db\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: plugins/Sham/Sprite\PYGZus{}Sham.js  
+  inflating: rpgjs/canvasengine.min.js  
+  inflating: plugins/fs\PYGZhy{}data.js      
+  inflating: Audio/BGM/final\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Window.js  
+  inflating: plugins/soundmanager2\PYGZhy{}jsmin.js  
+  inflating: Audio/BGM/level\PYGZus{}3\PYGZus{}24db\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: plugins/Bonus/Sprite\PYGZus{}Bonus.js  
+\PYGZdl{} xdg\PYGZhy{}open index.html
+\PYG{o}{[}C\PYG{o}{[}Cexit
+
+Script \PYG{k}{done} on Sun \PYG{l+m}{10} Apr \PYG{l+m}{2016} 04:00:19 PM CEST
+\end{Verbatim}

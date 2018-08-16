@@ -1,0 +1,70 @@
+#!/usr/bin/python
+from collections import defaultdict as d
+from itertools import count as c
+from operator import mul as m
+from functools import reduce
+
+list1, dict1 = [], d(list)
+
+
+def f5():
+    _c = 1
+    for a in c():
+        print 'a'
+        if a < len(list1):
+            _c = list1[a]
+        else:
+            _c += 1
+            while _c in dict1:
+                for b in dict1[_c]:
+                    dict1[_c+b] += [b]
+                del dict1[_c]
+                _c += 1
+            dict1[_c+_c] += [_c]
+            list1.append(_c)
+        yield _c
+
+
+def f4(n):
+    for _c in f5():
+        if _c > n:
+            return
+        _d = 0
+        while n % _c == 0:
+            _d, n = _d + 1, n / _c
+        if _d != 0:
+            yield _c
+
+
+def main():
+    f3 = lambda n: int(reduce(m, (1 - 1.0 / p for p in f4(n)), n))
+    f2 = lambda x, y: f3(x*y) == f3(y)*f3(x)
+    f1 = lambda i, j: (
+        (1 << 14) - (3 * (1 << 11)) - (1 << 8) + (1 << 4) < i < 1 << 17 >> 1 | 1077 << 5 and
+        2 ** 6 | 9 << 2 <= j <= 1023 & 39 | 31 << 5)
+
+    tmp='12-34-1-2-3-4'
+    c = tmp.split('-')
+    if len(c) != 6:
+        raise
+    for x in range(0, 6, 2):
+        print x
+        print f1(int(c[x]), int(c[x+1]))
+        print f3(int(c[x])), int(c[x])-1
+        print f2(int(c[x]), int(c[x+1]))
+        if not f1(int(c[x]), int(c[x+1])) or (f3(int(c[x])) != int(c[x])-1) or not f2(int(c[x]), int(c[x+1])):
+            raise
+        if len([y for y in c.__iter__() if y == c[x]]) >> 1 or len([z for z in c.__iter__() if z == c[x+1]]) >> 1:
+            raise
+    c.reverse()
+    for k in range(7, 10):
+        a, b = int(c.pop()), int(c.pop())
+        for x in [a+b*n for n in range(k)]:
+            y = [p for p in f4(x)]
+            if not (len(y) == 1 and y[0] == x):
+                raise
+    with open('flag.txt', 'r') as f:
+        print f.read()
+
+if __name__ == '__main__':
+    main()

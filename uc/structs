@@ -1,0 +1,12 @@
+struct hashtable{
+    numetry
+    log2_size//offset 2
+    bucket_maxentry//off 4
+    buckets // offset 6
+    buckets_size // offset 8
+}
+struct node{
+    char name[0x10]
+    u16 key//offset 0x10
+}/
+

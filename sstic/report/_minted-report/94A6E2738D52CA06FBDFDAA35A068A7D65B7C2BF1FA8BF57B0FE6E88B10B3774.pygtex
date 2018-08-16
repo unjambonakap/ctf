@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{ans\PYGZus{}string}\PYG{o}{=}\PYG{n}{b}\PYG{l+s+s1}{\PYGZsq{}X\PYGZsq{}}\PYG{o}{*}\PYG{l+m+mh}{0x10}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mh}{0x10}\PYG{p}{):}
+  \PYG{n}{patch\PYGZus{}file\PYGZus{}with\PYGZus{}end\PYGZus{}condition}\PYG{p}{(}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{)}
+  \PYG{n}{pty}\PYG{o}{=}\PYG{n}{launch\PYGZus{}qemu}\PYG{p}{()}
+
+  \PYG{k}{for} \PYG{n}{j} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mh}{0x256}\PYG{p}{):}
+    \PYG{n}{ans\PYGZus{}string}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{=}\PYG{n}{j}
+    \PYG{k}{if} \PYG{n}{pty}\PYG{o}{.}\PYG{n}{launch\PYGZus{}program}\PYG{p}{(}\PYG{n}{ans\PYGZus{}string}\PYG{p}{)}\PYG{o}{.}\PYG{n}{output}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Success\PYGZdq{}}\PYG{p}{)}\PYG{o}{!=\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{:}
+      \PYG{k}{break}
+  \PYG{k}{else}\PYG{p}{:}
+    \PYG{k}{assert} \PYG{l+m+mi}{0}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{binascii}\PYG{o}{.}\PYG{n}{hexlify}\PYG{p}{(}\PYG{n}{ans\PYGZus{}string}\PYG{p}{))}
+\end{Verbatim}

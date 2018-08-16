@@ -1,0 +1,1569 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.4.10)  18 APR 2016 22:40
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**\input ./report.tex
+(./report.tex (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-dist/tex/latex/attachfile/attachfile.sty
+Package: attachfile 2015/11/11 v1.8 PDF 1.3+ file attachment
+
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count90
+\calc@Bcount=\count91
+\calc@Adimen=\dimen111
+\calc@Bdimen=\dimen112
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count92
+\calc@Cskip=\skip45
+)
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count93
+))
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count94
+\Hy@pagecounter=\count95
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count96
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count97
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen114
+\Fld@menulength=\count98
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count99
+\c@Item=\count100
+\c@Hfootnote=\count101
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count102
+\c@bookmark@seq@number=\count103
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+\c@atfi@tmp=\count104
+\atfi@appearancewidth=\skip47
+\atfi@appearanceheight=\skip48
+\atfi@appearancedepth=\skip49
+\atfi@appearancebox=\box26
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen119
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen120
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count105
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count106
+\leftroot@=\count107
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count108
+\DOTSCASE@=\count109
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen121
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
+\dotsspace@=\muskip11
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
+\tag@help=\toks17
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
+\andhelp@=\toks18
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count117
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip53
+
+(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+********************************************************
+Package `algorithm2e' Release 5.1 -- october 19 2015 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
+********************************************************
+\skiptotal=\skip54
+\skiplinenumber=\skip55
+\skiprule=\skip56
+\skiphlne=\skip57
+\skiptext=\skip58
+\skiplength=\skip59
+\algomargin=\skip60
+\skipalgocfslide=\skip61
+\algowidth=\dimen128
+\inoutsize=\dimen129
+\inoutindent=\dimen130
+\interspacetitleruled=\dimen131
+\interspacealgoruled=\dimen132
+\interspacetitleboxruled=\dimen133
+\algocf@ruledwidth=\skip62
+\algocf@inoutbox=\box29
+\algocf@inputbox=\box30
+\AlCapSkip=\skip63
+\AlCapHSkip=\skip64
+\algoskipindent=\skip65
+\algocf@nlbox=\box31
+\algocf@hangingbox=\box32
+\algocf@untilbox=\box33
+\algocf@skipuntil=\skip66
+\algocf@capbox=\box34
+\algoheightruledefault=\skip67
+\algoheightrule=\skip68
+\algotitleheightruledefault=\skip69
+\algotitleheightrule=\skip70
+\c@algocfline=\count118
+\c@algocfproc=\count119
+\c@algocf=\count120
+\algocf@algoframe=\box35
+\algocf@algobox=\box36
+) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box37
+\UL@hyphenbox=\box38
+\UL@skip=\skip71
+\UL@hook=\toks21
+\UL@height=\dimen134
+\UL@pe=\count121
+\UL@pixel=\dimen135
+\ULC@box=\box39
+Package: ulem 2012/05/18
+\ULdepth=\dimen136
+)
+(/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+)
+\c@ContinuedFloat=\count122
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count123
+\sf@farskip=\skip72
+\sf@captopadj=\dimen144
+\sf@capskip=\skip73
+\sf@nearskip=\skip74
+\c@subfigure=\count124
+\c@subfigure@save=\count125
+\c@lofdepth=\count126
+\c@subtable=\count127
+\c@subtable@save=\count128
+\c@lotdepth=\count129
+\sf@top=\skip75
+\sf@bottom=\skip76
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count130
+\float@exts=\toks22
+\float@box=\box40
+\@float@everytoks=\toks23
+\@floatcapt=\box41
+)
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2015/08/03 3.9m The Babel package
+
+(/usr/share/texmf-dist/tex/generic/babel-french/frenchb.ldf
+Language: frenchb 2015/10/04 v3.1i French support from the babel system
+
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2015/08/03 3.9m Babel common definitions
+\babel@savecnt=\count131
+\U@D=\dimen145
+)
+\l@acadian = a dialect from \language\l@french 
+\l@canadien = a dialect from \language\l@french 
+\FBcolonskip=\skip77
+\FBthinskip=\skip78
+\FB@interchartokenstateORI=\count132
+Package babel Info: Making : an active character on input line 356.
+Package babel Info: Making ; an active character on input line 357.
+Package babel Info: Making ! an active character on input line 358.
+Package babel Info: Making ? an active character on input line 359.
+\FBguillskip=\skip79
+\FBguill@level=\count133
+\FB@Mht=\dimen146
+\std@mcc=\count134
+\dec@mcc=\count135
+
+
+Package frenchb.ldf Warning: Please load the "caption" package
+(frenchb.ldf)                AFTER babel/frenchb; reported on input line 905.
+
+\listindentFB=\skip80
+\labelwidthFB=\skip81
+\leftmarginFB=\skip82
+\parindentFFN=\dimen147
+)) (/usr/share/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+
+(/usr/share/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texmf/tex/latex/minted/minted.sty
+Package: minted 2015/09/09 v2.1 Yet another Pygments shim for LaTeX
+
+(/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count136
+\FV@InFile=\read1
+\FV@TabBox=\box42
+\c@FancyVerbLine=\count137
+\FV@StepNumber=\count138
+\FV@OutFile=\write3
+) (/usr/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2011/03/01 v1.6 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "report.w18")...executed.
+
+
+(/home/benoit/programmation/hack/sstic/report/report.w18)
+runsystem(rm -- "report.w18")...executed.
+
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count139
+)
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count140
+\decimalpart=\count141
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+(/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count142
+\output=\toks26
+\linenoprevgraf=\count143
+\linenumbersep=\dimen148
+\linenumberwidth=\dimen149
+\c@linenumber=\count144
+\c@pagewiselinenumber=\count145
+\c@LN@truepage=\count146
+\c@internallinenumber=\count147
+\c@internallinenumbers=\count148
+\quotelinenumbersep=\dimen150
+\bframerule=\dimen151
+\bframesep=\dimen152
+\bframebox=\box43
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\minted@appexistsfile=\read2
+\FV@BreakIndent=\dimen153
+\FV@BreakSymbolSepLeft=\dimen154
+\FV@BreakSymbolSepRight=\dimen155
+\FV@BreakSymbolIndentLeft=\dimen156
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 688.
+
+
+(/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+\FV@BreakSymbolIndentRight=\dimen157
+\c@FancyVerbLineBreakLast=\count149
+\FV@LineBox=\box44
+\FV@LineIndentBox=\box45
+\minted@bgbox=\box46
+\minted@code=\write5
+\c@minted@FancyVerbLineTemp=\count150
+\@float@every@listing=\toks27
+\c@listing=\count151
+)
+runsystem(mkdir -p "_minted-report")...executed.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/default.pygstyle)
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2015/10/16 version 3.73 text color boxes
+
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen158
+\pgfutil@tempdimb=\dimen159
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box47
+
+(/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen160
+\pgf@y=\dimen161
+\pgf@xa=\dimen162
+\pgf@ya=\dimen163
+\pgf@xb=\dimen164
+\pgf@yb=\dimen165
+\pgf@xc=\dimen166
+\pgf@yc=\dimen167
+\w@pgf@writea=\write6
+\r@pgf@reada=\read3
+\c@pgf@counta=\count152
+\c@pgf@countb=\count153
+\c@pgf@countc=\count154
+\c@pgf@countd=\count155
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count156
+\pgfsyssoftpath@bigbuffer@items=\count157
+)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen168
+\pgfmath@count=\count158
+\pgfmath@box=\box48
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count159
+)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen169
+\pgf@picmaxx=\dimen170
+\pgf@picminy=\dimen171
+\pgf@picmaxy=\dimen172
+\pgf@pathminx=\dimen173
+\pgf@pathmaxx=\dimen174
+\pgf@pathminy=\dimen175
+\pgf@pathmaxy=\dimen176
+\pgf@xx=\dimen177
+\pgf@xy=\dimen178
+\pgf@yx=\dimen179
+\pgf@yy=\dimen180
+\pgf@zx=\dimen181
+\pgf@zy=\dimen182
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen183
+\pgf@path@lasty=\dimen184
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen185
+\pgf@shorten@start@additional=\dimen186
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
+\pgf@picture@serial@count=\count160
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen187
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen188
+\pgf@pt@y=\dimen189
+\pgf@pt@temp=\dimen190
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen191
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen192
+\pgf@sys@shading@range@num=\count161
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box52
+))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box53
+)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen193
+\pgf@nodesepend=\dimen194
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks38
+\verbatim@line=\toks39
+\verbatim@in@stream=\read4
+)
+(/usr/share/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box54
+\tcb@upperbox=\box55
+\tcb@lowerbox=\box56
+\tcb@phantombox=\box57
+\c@tcbbreakpart=\count162
+\c@tcblayer=\count163
+\tcb@temp=\box58
+\tcb@temp=\box59
+\tcb@temp=\box60
+\tcb@temp=\box61
+\tcb@out=\write7
+\tcb@record@out=\write8
+)
+runsystem(which "pygmentize" && touch "report.aex")...executed.
+
+runsystem(rm "report.aex")...executed.
+
+
+
+LaTeX Warning: Unused global option(s):
+    [14pt].
+
+(/home/benoit/programmation/hack/sstic/report/report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=759.6886pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count164
+\scratchdimen=\dimen195
+\scratchbox=\box62
+\nofMPsegments=\count165
+\nofMParguments=\count166
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count167
+\MPscratchDim=\dimen196
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
+\everyMPtoPDFconversion=\toks41
+)
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 49.
+ (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count170
+)
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
+
+(/home/benoit/programmation/hack/sstic/report/report.out)
+(/home/benoit/programmation/hack/sstic/report/report.out)
+\@outlinefile=\write9
+\openout9 = `report.out'.
+
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \degres on input line 49.
+LaTeX Info: Redefining \dots on input line 49.
+LaTeX Info: Redefining \up on input line 49.
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/default-pyg-prefix
+.pygstyle) ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/home/benoit/programmation/hack/sstic/report/report.toc)
+\tf@toc=\write10
+\openout10 = `report.toc'.
+
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/E8644DA48E6A15DAC2
+84F0B398EBC0154598873B42B95E1854C5CD09E8BB078C.pygtex)
+(/home/benoit/programmation/hack/sstic/report/_minted-report/B845F2EE6D53B321C2
+402569C79A573118E736BEF971A64358E7D34C4EBEDCDE.pygtex) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/48919D74878500BC99
+00A3F487CE3EB44598873B42B95E1854C5CD09E8BB078C.pygtex) [2]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/1417C042F4B21B7A32
+B539686C1D0D92CC3BE276EF0FE63BFED3DF76055EA670.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/0FFE5FCAA80FBE4E16
+36755CE4B3A27D4598873B42B95E1854C5CD09E8BB078C.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/2A399618AA98A181F1
+EE83FCD572603CCC3BE276EF0FE63BFED3DF76055EA670.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/CE28D88C81908EF568
+5BBA3170BA0904CC3BE276EF0FE63BFED3DF76055EA670.pygtex)<<challs/calc/tsf.txt>>
+[3]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/008A866E971CB78C67
+2FA92861013F75193136ACFC6D75A19DECC551ED987DF7.pygtex
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 10.
+)
+<./challs/calc/snapshot1.png, id=183, 553.31718pt x 648.17157pt>
+File: ./challs/calc/snapshot1.png Graphic file (type png)
+
+<use ./challs/calc/snapshot1.png>
+Package pdftex.def Info: ./challs/calc/snapshot1.png used on input line 220.
+(pdftex.def)             Requested size: 364.19667pt x 426.6275pt.
+ [4]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/912E1D067BF49B59D2
+C70DF882F78CF1CC3BE276EF0FE63BFED3DF76055EA670.pygtex)<<challs/calc/solve.cpp>>
+[5 <./challs/calc/snapshot1.png>]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/47C80F30571D7A7EC9
+501992EB717B394598873B42B95E1854C5CD09E8BB078C.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/F6169D7959F6F38B93
+E822A3FB72668EC25A1D5CA50EB4E45B92B4399508E170.pygtex)
+<./challs/part2/efi/img_check.png, id=202, 837.88031pt x 358.33875pt>
+File: ./challs/part2/efi/img_check.png Graphic file (type png)
+
+<use ./challs/part2/efi/img_check.png>
+Package pdftex.def Info: ./challs/part2/efi/img_check.png used on input line 28
+6.
+(pdftex.def)             Requested size: 364.19667pt x 155.7558pt.
+
+<./challs/part2/efi/img_loop.png, id=203, 488.57532pt x 648.92438pt>
+File: ./challs/part2/efi/img_loop.png Graphic file (type png)
+
+<use ./challs/part2/efi/img_loop.png>
+Package pdftex.def Info: ./challs/part2/efi/img_loop.png used on input line 296
+.
+(pdftex.def)             Requested size: 364.19667pt x 483.73146pt.
+ [6 <./challs/part2/efi/img_check.png (PNG copy)>]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/358049BEDB4330FE9C
+3236645846F14A65B7C2BF1FA8BF57B0FE6E88B10B3774.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/EA262E862D3DAEE43B
+7117F9143EC13565B7C2BF1FA8BF57B0FE6E88B10B3774.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/94A6E2738D52CA06FB
+DFDAA35A068A7D65B7C2BF1FA8BF57B0FE6E88B10B3774.pygtex) [7 <./challs/part2/efi/i
+mg_loop.png (PNG copy)>]<<./challs/part2/efi/gen.py>>
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/5DFE3FEC269F39134C
+9B4CCE165A37AA4598873B42B95E1854C5CD09E8BB078C.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/8C70C3ADFB9A38DF5B
+41BF9DE04989D64598873B42B95E1854C5CD09E8BB078C.pygtex) [8]
+(/home/benoit/programmation/hack/sstic/report/_minted-report/D93EF5E2EE507F3E42
+8D293B79625AC376D8123E80394B22F9E7BC685714CE76.pygtex) [9]
+Overfull \vbox (4.22824pt too high) has occurred while \output is active []
+
+
+[10]<<./challs/part2/huge/archive/tar/test.go>>
+\openout5 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/4D61907318A862B738
+1AB474D92208D7B4C1E5D7591C5E1708022410A1202F8C.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/7EF8B6E5506E562AB9
+46A6A92318AD5BCC3BE276EF0FE63BFED3DF76055EA670.pygtex) [11]
+\openout5 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/E7C882C1BE82B1ADE0
+B58EA981AA8AB065B7C2BF1FA8BF57B0FE6E88B10B3774.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/12A5904C2199BD6C30
+B7BD0E3D845D19CC3BE276EF0FE63BFED3DF76055EA670.pygtex) [12]
+Overfull \vbox (28.22824pt too high) has occurred while \output is active []
+
+
+[13]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/808F648F98F6CA5FFF
+E6495271527ACDCC3BE276EF0FE63BFED3DF76055EA670.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/227F480EB4495DE3C6
+7F5FE4C534C426CC3BE276EF0FE63BFED3DF76055EA670.pygtex) [14]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/5093B918013E4AFBFB
+E60868FB378EED193136ACFC6D75A19DECC551ED987DF7.pygtex) [15]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/A8A282798ED197120C
+0CDC2842DD6F9CCC3BE276EF0FE63BFED3DF76055EA670.pygtex)<<./challs/part2/huge/sol
+ve.py>><<./challs/part2/huge/traces/events.out>><<./challs/part2/huge/traces/re
+s.out>> [16]<<./challs/part2/huge/find.cpp>>
+(/home/benoit/programmation/hack/sstic/report/_minted-report/D93EF5E2EE507F3E42
+8D293B79625AC376D8123E80394B22F9E7BC685714CE76.pygtex) [17]
+Overfull \vbox (4.22824pt too high) has occurred while \output is active []
+
+
+[18]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/C9B75EFB3EE4081891
+11B691F4F2B93F193136ACFC6D75A19DECC551ED987DF7.pygtex)
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
+t line 750.
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/D74B455A630D1A79CA
+34A8E3584255AFFD6E244A799D394E6980EBD8C8BFF1D3.pygtex)
+Overfull \hbox (5.81363pt too wide) in paragraph at lines 754--755
+[]\T1/cmr/m/n/10 En gros j'ai juste be-soin d'ex-por-ter la fonc-tion |   [] et
+ de four-nir une in-ter-face |   []
+ []
+
+
+<./challs/part3/video/Stage_anti_APT_chez_Airlhes/win/res_0012.png, id=297, 128
+4.8pt x 722.7pt>
+File: ./challs/part3/video/Stage_anti_APT_chez_Airlhes/win/res_0012.png Graphic
+ file (type png)
+
+<use ./challs/part3/video/Stage_anti_APT_chez_Airlhes/win/res_0012.png>
+Package pdftex.def Info: ./challs/part3/video/Stage_anti_APT_chez_Airlhes/win/r
+es_0012.png used on input line 758.
+(pdftex.def)             Requested size: 364.19667pt x 204.85785pt.
+
+[19] <./imgs/video_reg1.png, id=305, 383.93437pt x 67.0003pt>
+File: ./imgs/video_reg1.png Graphic file (type png)
+
+<use ./imgs/video_reg1.png>
+Package pdftex.def Info: ./imgs/video_reg1.png used on input line 768.
+(pdftex.def)             Requested size: 364.19667pt x 63.55994pt.
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/97702EFDA5CFA32D98
+C414805300A3C665B7C2BF1FA8BF57B0FE6E88B10B3774.pygtex)
+<./imgs/video_final_logic.png, id=306, 462.97969pt x 578.16pt>
+File: ./imgs/video_final_logic.png Graphic file (type png)
+
+<use ./imgs/video_final_logic.png>
+Package pdftex.def Info: ./imgs/video_final_logic.png used on input line 792.
+(pdftex.def)             Requested size: 364.19667pt x 454.80937pt.
+ [20 <./challs/part3/video/Stage_anti_APT_chez_Airlhes/win/res_0012.png (PNG co
+py)> <./imgs/video_reg1.png (PNG copy)>]
+<./imgs/video_final_logic2.png, id=313, 353.06906pt x 176.91093pt>
+File: ./imgs/video_final_logic2.png Graphic file (type png)
+
+<use ./imgs/video_final_logic2.png>
+Package pdftex.def Info: ./imgs/video_final_logic2.png used on input line 797.
+(pdftex.def)             Requested size: 364.19667pt x 182.48753pt.
+
+
+Package caption Warning: \label without proper \caption on input line 760.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `video:img_screen' on page 21 undefined on input line 
+802.
+
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/227DB6B2FB583CD081
+160B48C36B29A865B7C2BF1FA8BF57B0FE6E88B10B3774.pygtex) [21 <./imgs/video_final_
+logic.png (PNG copy)> <./imgs/video_final_logic2.png (PNG copy)>]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/4902F284CF1B220C94
+EA4F2C7ADB71F4CC3BE276EF0FE63BFED3DF76055EA670.pygtex)
+<./imgs/video_trap.png, id=322, 505.89pt x 96.36pt>
+File: ./imgs/video_trap.png Graphic file (type png)
+
+<use ./imgs/video_trap.png>
+Package pdftex.def Info: ./imgs/video_trap.png used on input line 863.
+(pdftex.def)             Requested size: 364.19667pt x 69.37177pt.
+ [22 <./imgs/video_trap.png (PNG copy)>]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/2ABA83D3E1523A7E78
+B5AA013CE637E365B7C2BF1FA8BF57B0FE6E88B10B3774.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/9D804EFC1A43D060F3
+63A4E5228C46D84598873B42B95E1854C5CD09E8BB078C.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/CF401A3DEFCE437497
+BCC251C6193C8DCC3BE276EF0FE63BFED3DF76055EA670.pygtex)<<./challs/part3/video/St
+age_anti_APT_chez_Airlhes/analyse.py>><<./challs/part3/video/Stage_anti_APT_che
+z_Airlhes/win/lib/lib.cpp>><<./challs/part3/video/Stage_anti_APT_chez_Airlhes/w
+in/lib/lib.h>><<./challs/part3/video/Stage_anti_APT_chez_Airlhes/win/lib/lib.de
+f>><<./challs/part3/video/Stage_anti_APT_chez_Airlhes/win/lib/ddraw.h>><<./chal
+ls/part3/video/Stage_anti_APT_chez_Airlhes/win/CMakeLists.txt>><<./challs/part3
+/video/Stage_anti_APT_chez_Airlhes/Airlhes_screensaver.idb>>
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/581B496403F89A3BF3
+C19E9FB05AE0874598873B42B95E1854C5CD09E8BB078C.pygtex) [23]
+<./imgs/usb_img_partitions.png, id=363, 402.00188pt x 220.57407pt>
+File: ./imgs/usb_img_partitions.png Graphic file (type png)
+
+<use ./imgs/usb_img_partitions.png>
+Package pdftex.def Info: ./imgs/usb_img_partitions.png used on input line 937.
+(pdftex.def)             Requested size: 364.19667pt x 199.8308pt.
+
+<./imgs/usb_img_data1.png, id=364, 418.56375pt x 175.40532pt>
+File: ./imgs/usb_img_data1.png Graphic file (type png)
+
+<use ./imgs/usb_img_data1.png>
+Package pdftex.def Info: ./imgs/usb_img_data1.png used on input line 942.
+(pdftex.def)             Requested size: 364.19667pt x 152.62012pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 946--947
+
+ []
+
+<./imgs/usb_binary_imports.png, id=365, 241.65282pt x 163.3603pt>
+File: ./imgs/usb_binary_imports.png Graphic file (type png)
+
+<use ./imgs/usb_binary_imports.png>
+Package pdftex.def Info: ./imgs/usb_binary_imports.png used on input line 954.
+(pdftex.def)             Requested size: 364.19667pt x 246.22884pt.
+ [24 <./imgs/usb_img_partitions.png (PNG copy)> <./imgs/usb_img_data1.png (PNG 
+copy)>]
+<./imgs/usb_binary_wait_driver_init.png, id=373, 866.48718pt x 450.18187pt>
+File: ./imgs/usb_binary_wait_driver_init.png Graphic file (type png)
+
+<use ./imgs/usb_binary_wait_driver_init.png>
+Package pdftex.def Info: ./imgs/usb_binary_wait_driver_init.png used on input l
+ine 969.
+(pdftex.def)             Requested size: 364.19667pt x 189.21935pt.
+
+<./imgs/usb_binary_wait_new_disk.png, id=374, 596.98032pt x 455.45157pt>
+File: ./imgs/usb_binary_wait_new_disk.png Graphic file (type png)
+
+<use ./imgs/usb_binary_wait_new_disk.png>
+Package pdftex.def Info: ./imgs/usb_binary_wait_new_disk.png used on input line
+ 979.
+(pdftex.def)             Requested size: 364.19667pt x 277.85284pt.
+ [25 <./imgs/usb_binary_imports.png (PNG copy)> <./imgs/usb_binary_wait_driver_
+init.png (PNG copy)>]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/CC5CE0CB37D493D310
+1B943F1FA46B8DCC3BE276EF0FE63BFED3DF76055EA670.pygtex)
+Overfull \hbox (28.11119pt too wide) in paragraph at lines 1000--1002
+\T1/cmr/m/n/10 une liste chaîné avec la pre-mière en-trée (ou sen-ti-nelle, j'a
+i pas re-gardé plus loin) si-tué en .data :0000000000015120. 
+ []
+
+
+Overfull \hbox (77.41798pt too wide) in paragraph at lines 1006--1007
+\T1/cmr/m/n/10 à 0x10). Puis on al-loue un buf-fer de cette taille. Ok, on va d
+onc conca-té-ner tous les [size|RC4_KEY|ENC_MD5|ENC_BUF]. 
+ []
+
+<./imgs/usb_driver_concat_rc5.png, id=384, 683.55376pt x 293.59688pt>
+File: ./imgs/usb_driver_concat_rc5.png Graphic file (type png)
+
+<use ./imgs/usb_driver_concat_rc5.png>
+Package pdftex.def Info: ./imgs/usb_driver_concat_rc5.png used on input line 10
+10.
+(pdftex.def)             Requested size: 364.19667pt x 156.4299pt.
+ [26 <./imgs/usb_binary_wait_new_disk.png (PNG copy)>]
+File: ./imgs/usb_driver_concat_rc5.png Graphic file (type png)
+ <use ./imgs/usb_driver_concat_rc5.png>
+Package pdftex.def Info: ./imgs/usb_driver_concat_rc5.png used on input line 10
+19.
+(pdftex.def)             Requested size: 364.19667pt x 156.4299pt.
+
+<./imgs/usb_driver_write_fat.png, id=391, 292.09125pt x 455.45157pt>
+File: ./imgs/usb_driver_write_fat.png Graphic file (type png)
+
+<use ./imgs/usb_driver_write_fat.png>
+Package pdftex.def Info: ./imgs/usb_driver_write_fat.png used on input line 102
+8.
+(pdftex.def)             Requested size: 364.19667pt x 567.93704pt.
+ [27 <./imgs/usb_driver_concat_rc5.png (PNG copy)>]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/C75922DB129592E7CB
+723EE7C64DE5C4B4C1E5D7591C5E1708022410A1202F8C.pygtex) [28 <./imgs/usb_driver_w
+rite_fat.png (PNG copy)>]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/ABA69B62A93376FCA8
+B50CEC16A6915565B7C2BF1FA8BF57B0FE6E88B10B3774.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/01EED67647DB590853
+678CBA50F355D6CC3BE276EF0FE63BFED3DF76055EA670.pygtex)
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/8A1DA7889DC9A82836
+FCCA933B587F8D193136ACFC6D75A19DECC551ED987DF7.pygtex) [29]
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/8E52EBBFEDF070AA83
+DB6D70D060D87F4598873B42B95E1854C5CD09E8BB078C.pygtex) [30]<<./challs/part3/usb
+/userSSTIC.i64>><<./challs/part3/usb/userSSTIC_101_BINARY.i64>><<./challs/part3
+/usb/test.asm>><<./challs/part3/usb/Makefile>><<./challs/part3/usb/solve.cpp>><
+<./challs/part3/usb/solve.py>>
+\openout3 = `report.pyg'.
+
+
+(/home/benoit/programmation/hack/sstic/report/_minted-report/3AFE052BAB1998C047
+E7AC237DA1D825CC3BE276EF0FE63BFED3DF76055EA670.pygtex)
+runsystem(rm "report.pyg")...executed.
+
+ [31]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1176.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1176.
+
+(/home/benoit/programmation/hack/sstic/report/report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1176.
+
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 48D72338F01B79AF6A68402980B7A9A3;1873.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1176.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 1061 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 21986 strings out of 493054
+ 410853 string characters out of 6140586
+ 543444 words of memory out of 5000000
+ 24884 multiletter control sequences out of 15000+600000
+ 17955 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 54i,13n,73p,943b,15486s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/f
+onts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfi
+t1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr
+/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-di
+st/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/
+public/cm-super/sftt1000.pfb>
+Output written on report.pdf (31 pages, 3256066 bytes).
+PDF statistics:
+ 508 PDF objects out of 1000 (max. 8388607)
+ 398 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 534 words of extra memory for PDF output out of 10000 (max. 10000000)
+

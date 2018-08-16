@@ -1,0 +1,5317 @@
+0x51466a42e705: sub rsp, 0x1000 		 <<<< TRACEVENT, rax=00000000
+OpReg rsp:000000000010ff00 
+Regs
+rsp:000000000010ff00 
+rsp:000000000010ef00 
+
+
+0x51466a42e70c: and rsp, 0xfffffffffffffc00 		 <<<< TRACEVENT, rax=00000000
+OpReg rsp:000000000010ef00 
+Regs
+rsp:000000000010ef00 
+rsp:000000000010ec00 
+
+
+0x51466a42e713: mov rbp, rsp 		 <<<< TRACEVENT, rax=00000000
+OpReg rbp:0000000000000000 rsp:000000000010ec00 
+Regs
+rbp:0000000000000000 
+rbp:000000000010ec00 
+
+
+0x51466a42e716: xor rax, rax 		 <<<< TRACEVENT, rax=00000000
+OpReg rax:0000000000000000 
+Regs
+
+
+
+
+0x51466a42e719: inc rax 		 <<<< TRACEVENT, rax=00000001
+OpReg rax:0000000000000000 
+Regs
+rax:0000000000000000 
+rax:0000000000000001 
+
+
+0x51466a42e71c: xor rdi, rdi 		 <<<< TRACEVENT, rax=00000001
+OpReg rdi:0000000000000000 
+Regs
+
+
+
+
+0x51466a42e71f: inc rdi 		 <<<< TRACEVENT, rax=00000001
+OpReg rdi:0000000000000000 
+Regs
+rdi:0000000000000000 
+rdi:0000000000000001 
+
+
+0x51466a42e722: movabs rsi, 0x5a48156509b7 		 <<<< TRACEVENT, rax=00000001
+OpReg rsi:0000000000000000 
+Regs
+rsi:0000000000000000 
+rsi:00005a48156509b7 
+
+
+0x51466a42e72c: mov edx, 0x1b 		 <<<< TRACEVENT, rax=00000001
+OpReg edx:00000000 
+Regs
+rdx:0000000000000000 
+rdx:000000000000001b 
+
+
+0x51466a42e731: syscall  		 <<<< TRACEVENT, rax=00000001
+Regs
+
+
+
+
+0x51466a42e733: xor rax, rax 		 <<<< TRACEVENT, rax=00000000
+OpReg rax:0000000000000001 
+Regs
+rax:0000000000000001 
+rax:0000000000000000 
+
+
+0x51466a42e736: xor rdi, rdi 		 <<<< TRACEVENT, rax=00000000
+OpReg rdi:0000000000000001 
+Regs
+rdi:0000000000000001 
+rdi:0000000000000000 
+
+
+0x51466a42e739: mov rsi, rbp 		 <<<< TRACEVENT, rax=00000000
+OpReg rbp:000000000010ec00 rsi:00005a48156509b7 
+Regs
+rsi:00005a48156509b7 
+rsi:000000000010ec00 
+
+
+0x51466a42e73c: mov edx, 0x400 		 <<<< TRACEVENT, rax=00000000
+OpReg edx:0000001b 
+Regs
+rdx:000000000000001b 
+rdx:0000000000000400 
+
+
+0x51466a42e741: syscall  		 <<<< TRACEVENT, rax=00000021
+Regs
+rax:0000000000000000 
+rax:0000000000000021 
+
+
+0x51466a42e743: mov rax, rsp 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rax:0000000000000021 rsp:000000000010ec00 
+Regs
+rax:0000000000000021 
+rax:000000000010ec00 
+
+
+0x51466a42e746: mov rdi, rsp 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:0000000000000000 rsp:000000000010ec00 
+Regs
+rdi:0000000000000000 
+rdi:000000000010ec00 
+
+
+0x51466a42e749: mov rsi, rsp 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec00 rsp:000000000010ec00 
+Regs
+
+
+
+
+0x51466a42e74c: movabs r15, 0x10f338cf000c 		 <<<< TRACEVENT, rax=0010ec00
+OpReg r15:0000000000000000 
+Regs
+r15:0000000000000000 
+r15:000010f338cf000c 
+
+
+0x51466a42e756: call r15 		 <<<< TRACEVENT, rax=0010ec00
+OpReg r15:000010f338cf000c 
+WriteEvent addr:000000000010ebf8 n:0000000000000008 nval:000051466a42e759 val:0000000000000000 
+Regs
+rsp:000000000010ec00 
+rsp:000000000010ebf8 
+
+
+0x10f338cf000c: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000032 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000032 val:0000000000000032 
+Regs
+
+
+
+
+0x10f338cf7548: mov ecx, 0x10 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ecx:00000000 
+Regs
+rcx:0000000000000000 
+rcx:0000000000000010 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000000 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000032 
+Regs
+rbx:0000000000000000 
+rbx:0000000000000032 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:32 
+Regs
+rbx:0000000000000032 
+rbx:0000000000000002 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:02 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec00 
+Regs
+rsi:000000000010ec00 
+rsi:000000000010ec01 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000002 
+Regs
+rbx:0000000000000002 
+rbx:0000000000000200 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:200 
+ReadEvent addr:000000000010ec01 n:0000000000000001 val:0000000000000039 
+Regs
+rbx:0000000000000200 
+rbx:0000000000000239 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:239 
+Regs
+rbx:0000000000000239 
+rbx:0000000000000209 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:209 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec01 
+Regs
+rsi:000000000010ec01 
+rsi:000000000010ec02 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:209 
+Regs
+rbx:0000000000000209 
+rbx:0000000000000290 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0290 
+Regs
+rbx:0000000000000290 
+rbx:0000000000000029 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:29 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000032 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec00 
+Regs
+rdi:000000000010ec00 
+rdi:000000000010ec01 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000010 
+rcx:000000000000000f 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000029 
+ReadEvent addr:000000000010ec02 n:0000000000000001 val:0000000000000038 
+Regs
+rbx:0000000000000029 
+rbx:0000000000000038 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:38 
+Regs
+rbx:0000000000000038 
+rbx:0000000000000008 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:08 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec02 
+Regs
+rsi:000000000010ec02 
+rsi:000000000010ec03 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000008 
+Regs
+rbx:0000000000000008 
+rbx:0000000000000800 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:800 
+ReadEvent addr:000000000010ec03 n:0000000000000001 val:0000000000000039 
+Regs
+rbx:0000000000000800 
+rbx:0000000000000839 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:839 
+Regs
+rbx:0000000000000839 
+rbx:0000000000000809 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:809 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec03 
+Regs
+rsi:000000000010ec03 
+rsi:000000000010ec04 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:809 
+Regs
+rbx:0000000000000809 
+rbx:0000000000000890 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0890 
+Regs
+rbx:0000000000000890 
+rbx:0000000000000089 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:89 
+WriteEvent addr:000000000010ec01 n:0000000000000001 nval:0000000000000089 val:0000000000000039 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec01 
+Regs
+rdi:000000000010ec01 
+rdi:000000000010ec02 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000f 
+rcx:000000000000000e 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000089 
+ReadEvent addr:000000000010ec04 n:0000000000000001 val:0000000000000037 
+Regs
+rbx:0000000000000089 
+rbx:0000000000000037 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:37 
+Regs
+rbx:0000000000000037 
+rbx:0000000000000007 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:07 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec04 
+Regs
+rsi:000000000010ec04 
+rsi:000000000010ec05 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000007 
+Regs
+rbx:0000000000000007 
+rbx:0000000000000700 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:700 
+ReadEvent addr:000000000010ec05 n:0000000000000001 val:0000000000000065 
+Regs
+rbx:0000000000000700 
+rbx:0000000000000765 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:765 
+Regs
+rbx:0000000000000765 
+rbx:0000000000000735 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:735 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7583: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:735 
+Regs
+rbx:0000000000000735 
+rbx:0000000000000724 
+
+
+0x10f338cf7586: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7588: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:724 
+Regs
+
+
+
+
+0x10f338cf758b: jb 0x10f338cf7597 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf758d: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:724 
+Regs
+rbx:0000000000000724 
+rbx:0000000000000704 
+
+
+0x10f338cf7590: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7592: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:704 
+Regs
+
+
+
+
+0x10f338cf7595: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7597: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:704 
+Regs
+rbx:0000000000000704 
+rbx:000000000000070e 
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec05 
+Regs
+rsi:000000000010ec05 
+rsi:000000000010ec06 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:70e 
+Regs
+rbx:000000000000070e 
+rbx:00000000000007e0 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:07e0 
+Regs
+rbx:00000000000007e0 
+rbx:000000000000007e 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:7e 
+WriteEvent addr:000000000010ec02 n:0000000000000001 nval:000000000000007e val:0000000000000038 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec02 
+Regs
+rdi:000000000010ec02 
+rdi:000000000010ec03 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000e 
+rcx:000000000000000d 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000007e 
+ReadEvent addr:000000000010ec06 n:0000000000000001 val:0000000000000064 
+Regs
+rbx:000000000000007e 
+rbx:0000000000000064 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:64 
+Regs
+rbx:0000000000000064 
+rbx:0000000000000034 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:34 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755a: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:34 
+Regs
+rbx:0000000000000034 
+rbx:0000000000000023 
+
+
+0x10f338cf755d: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755f: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:23 
+Regs
+
+
+
+
+0x10f338cf7562: jb 0x10f338cf756e 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7564: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:23 
+Regs
+rbx:0000000000000023 
+rbx:0000000000000003 
+
+
+0x10f338cf7567: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7569: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:03 
+Regs
+
+
+
+
+0x10f338cf756c: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf756e: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:03 
+Regs
+rbx:0000000000000003 
+rbx:000000000000000d 
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec06 
+Regs
+rsi:000000000010ec06 
+rsi:000000000010ec07 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000000d 
+Regs
+rbx:000000000000000d 
+rbx:0000000000000d00 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d00 
+ReadEvent addr:000000000010ec07 n:0000000000000001 val:0000000000000031 
+Regs
+rbx:0000000000000d00 
+rbx:0000000000000d31 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d31 
+Regs
+rbx:0000000000000d31 
+rbx:0000000000000d01 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d01 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec07 
+Regs
+rsi:000000000010ec07 
+rsi:000000000010ec08 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d01 
+Regs
+rbx:0000000000000d01 
+rbx:0000000000000d10 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0d10 
+Regs
+rbx:0000000000000d10 
+rbx:00000000000000d1 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d1 
+WriteEvent addr:000000000010ec03 n:0000000000000001 nval:00000000000000d1 val:0000000000000039 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec03 
+Regs
+rdi:000000000010ec03 
+rdi:000000000010ec04 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000d 
+rcx:000000000000000c 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:000000d1 
+ReadEvent addr:000000000010ec08 n:0000000000000001 val:0000000000000064 
+Regs
+rbx:00000000000000d1 
+rbx:0000000000000064 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:64 
+Regs
+rbx:0000000000000064 
+rbx:0000000000000034 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:34 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755a: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:34 
+Regs
+rbx:0000000000000034 
+rbx:0000000000000023 
+
+
+0x10f338cf755d: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755f: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:23 
+Regs
+
+
+
+
+0x10f338cf7562: jb 0x10f338cf756e 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7564: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:23 
+Regs
+rbx:0000000000000023 
+rbx:0000000000000003 
+
+
+0x10f338cf7567: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7569: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:03 
+Regs
+
+
+
+
+0x10f338cf756c: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf756e: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:03 
+Regs
+rbx:0000000000000003 
+rbx:000000000000000d 
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec08 
+Regs
+rsi:000000000010ec08 
+rsi:000000000010ec09 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000000d 
+Regs
+rbx:000000000000000d 
+rbx:0000000000000d00 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d00 
+ReadEvent addr:000000000010ec09 n:0000000000000001 val:0000000000000034 
+Regs
+rbx:0000000000000d00 
+rbx:0000000000000d34 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d34 
+Regs
+rbx:0000000000000d34 
+rbx:0000000000000d04 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d04 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec09 
+Regs
+rsi:000000000010ec09 
+rsi:000000000010ec0a 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d04 
+Regs
+rbx:0000000000000d04 
+rbx:0000000000000d40 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0d40 
+Regs
+rbx:0000000000000d40 
+rbx:00000000000000d4 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d4 
+WriteEvent addr:000000000010ec04 n:0000000000000001 nval:00000000000000d4 val:0000000000000037 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec04 
+Regs
+rdi:000000000010ec04 
+rdi:000000000010ec05 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000c 
+rcx:000000000000000b 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:000000d4 
+ReadEvent addr:000000000010ec0a n:0000000000000001 val:0000000000000064 
+Regs
+rbx:00000000000000d4 
+rbx:0000000000000064 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:64 
+Regs
+rbx:0000000000000064 
+rbx:0000000000000034 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:34 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755a: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:34 
+Regs
+rbx:0000000000000034 
+rbx:0000000000000023 
+
+
+0x10f338cf755d: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755f: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:23 
+Regs
+
+
+
+
+0x10f338cf7562: jb 0x10f338cf756e 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7564: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:23 
+Regs
+rbx:0000000000000023 
+rbx:0000000000000003 
+
+
+0x10f338cf7567: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7569: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:03 
+Regs
+
+
+
+
+0x10f338cf756c: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf756e: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:03 
+Regs
+rbx:0000000000000003 
+rbx:000000000000000d 
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec0a 
+Regs
+rsi:000000000010ec0a 
+rsi:000000000010ec0b 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000000d 
+Regs
+rbx:000000000000000d 
+rbx:0000000000000d00 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d00 
+ReadEvent addr:000000000010ec0b n:0000000000000001 val:0000000000000036 
+Regs
+rbx:0000000000000d00 
+rbx:0000000000000d36 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d36 
+Regs
+rbx:0000000000000d36 
+rbx:0000000000000d06 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d06 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec0b 
+Regs
+rsi:000000000010ec0b 
+rsi:000000000010ec0c 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d06 
+Regs
+rbx:0000000000000d06 
+rbx:0000000000000d60 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0d60 
+Regs
+rbx:0000000000000d60 
+rbx:00000000000000d6 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d6 
+WriteEvent addr:000000000010ec05 n:0000000000000001 nval:00000000000000d6 val:0000000000000065 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec05 
+Regs
+rdi:000000000010ec05 
+rdi:000000000010ec06 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000b 
+rcx:000000000000000a 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:000000d6 
+ReadEvent addr:000000000010ec0c n:0000000000000001 val:0000000000000038 
+Regs
+rbx:00000000000000d6 
+rbx:0000000000000038 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:38 
+Regs
+rbx:0000000000000038 
+rbx:0000000000000008 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:08 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec0c 
+Regs
+rsi:000000000010ec0c 
+rsi:000000000010ec0d 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000008 
+Regs
+rbx:0000000000000008 
+rbx:0000000000000800 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:800 
+ReadEvent addr:000000000010ec0d n:0000000000000001 val:0000000000000063 
+Regs
+rbx:0000000000000800 
+rbx:0000000000000863 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:863 
+Regs
+rbx:0000000000000863 
+rbx:0000000000000833 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:833 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7583: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:833 
+Regs
+rbx:0000000000000833 
+rbx:0000000000000822 
+
+
+0x10f338cf7586: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7588: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:822 
+Regs
+
+
+
+
+0x10f338cf758b: jb 0x10f338cf7597 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf758d: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:822 
+Regs
+rbx:0000000000000822 
+rbx:0000000000000802 
+
+
+0x10f338cf7590: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7592: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:802 
+Regs
+
+
+
+
+0x10f338cf7595: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7597: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:802 
+Regs
+rbx:0000000000000802 
+rbx:000000000000080c 
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec0d 
+Regs
+rsi:000000000010ec0d 
+rsi:000000000010ec0e 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:80c 
+Regs
+rbx:000000000000080c 
+rbx:00000000000008c0 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:08c0 
+Regs
+rbx:00000000000008c0 
+rbx:000000000000008c 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:8c 
+WriteEvent addr:000000000010ec06 n:0000000000000001 nval:000000000000008c val:0000000000000064 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec06 
+Regs
+rdi:000000000010ec06 
+rdi:000000000010ec07 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000a 
+rcx:0000000000000009 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000008c 
+ReadEvent addr:000000000010ec0e n:0000000000000001 val:0000000000000039 
+Regs
+rbx:000000000000008c 
+rbx:0000000000000039 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:39 
+Regs
+rbx:0000000000000039 
+rbx:0000000000000009 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:09 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec0e 
+Regs
+rsi:000000000010ec0e 
+rsi:000000000010ec0f 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000009 
+Regs
+rbx:0000000000000009 
+rbx:0000000000000900 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:900 
+ReadEvent addr:000000000010ec0f n:0000000000000001 val:0000000000000039 
+Regs
+rbx:0000000000000900 
+rbx:0000000000000939 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:939 
+Regs
+rbx:0000000000000939 
+rbx:0000000000000909 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:909 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec0f 
+Regs
+rsi:000000000010ec0f 
+rsi:000000000010ec10 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:909 
+Regs
+rbx:0000000000000909 
+rbx:0000000000000990 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0990 
+Regs
+rbx:0000000000000990 
+rbx:0000000000000099 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:99 
+WriteEvent addr:000000000010ec07 n:0000000000000001 nval:0000000000000099 val:0000000000000031 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec07 
+Regs
+rdi:000000000010ec07 
+rdi:000000000010ec08 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000009 
+rcx:0000000000000008 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000099 
+ReadEvent addr:000000000010ec10 n:0000000000000001 val:0000000000000064 
+Regs
+rbx:0000000000000099 
+rbx:0000000000000064 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:64 
+Regs
+rbx:0000000000000064 
+rbx:0000000000000034 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:34 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755a: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:34 
+Regs
+rbx:0000000000000034 
+rbx:0000000000000023 
+
+
+0x10f338cf755d: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755f: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:23 
+Regs
+
+
+
+
+0x10f338cf7562: jb 0x10f338cf756e 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7564: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:23 
+Regs
+rbx:0000000000000023 
+rbx:0000000000000003 
+
+
+0x10f338cf7567: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7569: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:03 
+Regs
+
+
+
+
+0x10f338cf756c: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf756e: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:03 
+Regs
+rbx:0000000000000003 
+rbx:000000000000000d 
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec10 
+Regs
+rsi:000000000010ec10 
+rsi:000000000010ec11 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000000d 
+Regs
+rbx:000000000000000d 
+rbx:0000000000000d00 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d00 
+ReadEvent addr:000000000010ec11 n:0000000000000001 val:0000000000000035 
+Regs
+rbx:0000000000000d00 
+rbx:0000000000000d35 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d35 
+Regs
+rbx:0000000000000d35 
+rbx:0000000000000d05 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d05 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec11 
+Regs
+rsi:000000000010ec11 
+rsi:000000000010ec12 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d05 
+Regs
+rbx:0000000000000d05 
+rbx:0000000000000d50 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0d50 
+Regs
+rbx:0000000000000d50 
+rbx:00000000000000d5 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:d5 
+WriteEvent addr:000000000010ec08 n:0000000000000001 nval:00000000000000d5 val:0000000000000064 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec08 
+Regs
+rdi:000000000010ec08 
+rdi:000000000010ec09 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000008 
+rcx:0000000000000007 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:000000d5 
+ReadEvent addr:000000000010ec12 n:0000000000000001 val:0000000000000034 
+Regs
+rbx:00000000000000d5 
+rbx:0000000000000034 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:34 
+Regs
+rbx:0000000000000034 
+rbx:0000000000000004 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:04 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec12 
+Regs
+rsi:000000000010ec12 
+rsi:000000000010ec13 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000004 
+Regs
+rbx:0000000000000004 
+rbx:0000000000000400 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:400 
+ReadEvent addr:000000000010ec13 n:0000000000000001 val:0000000000000065 
+Regs
+rbx:0000000000000400 
+rbx:0000000000000465 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:465 
+Regs
+rbx:0000000000000465 
+rbx:0000000000000435 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:435 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7583: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:435 
+Regs
+rbx:0000000000000435 
+rbx:0000000000000424 
+
+
+0x10f338cf7586: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7588: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:424 
+Regs
+
+
+
+
+0x10f338cf758b: jb 0x10f338cf7597 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf758d: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:424 
+Regs
+rbx:0000000000000424 
+rbx:0000000000000404 
+
+
+0x10f338cf7590: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7592: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:404 
+Regs
+
+
+
+
+0x10f338cf7595: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7597: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:404 
+Regs
+rbx:0000000000000404 
+rbx:000000000000040e 
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec13 
+Regs
+rsi:000000000010ec13 
+rsi:000000000010ec14 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:40e 
+Regs
+rbx:000000000000040e 
+rbx:00000000000004e0 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:04e0 
+Regs
+rbx:00000000000004e0 
+rbx:000000000000004e 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:4e 
+WriteEvent addr:000000000010ec09 n:0000000000000001 nval:000000000000004e val:0000000000000034 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec09 
+Regs
+rdi:000000000010ec09 
+rdi:000000000010ec0a 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000007 
+rcx:0000000000000006 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000004e 
+ReadEvent addr:000000000010ec14 n:0000000000000001 val:0000000000000063 
+Regs
+rbx:000000000000004e 
+rbx:0000000000000063 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:63 
+Regs
+rbx:0000000000000063 
+rbx:0000000000000033 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:33 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755a: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:33 
+Regs
+rbx:0000000000000033 
+rbx:0000000000000022 
+
+
+0x10f338cf755d: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755f: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:22 
+Regs
+
+
+
+
+0x10f338cf7562: jb 0x10f338cf756e 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7564: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:22 
+Regs
+rbx:0000000000000022 
+rbx:0000000000000002 
+
+
+0x10f338cf7567: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7569: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:02 
+Regs
+
+
+
+
+0x10f338cf756c: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf756e: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:02 
+Regs
+rbx:0000000000000002 
+rbx:000000000000000c 
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec14 
+Regs
+rsi:000000000010ec14 
+rsi:000000000010ec15 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000000c 
+Regs
+rbx:000000000000000c 
+rbx:0000000000000c00 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:c00 
+ReadEvent addr:000000000010ec15 n:0000000000000001 val:0000000000000030 
+Regs
+rbx:0000000000000c00 
+rbx:0000000000000c30 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:c30 
+Regs
+rbx:0000000000000c30 
+rbx:0000000000000c00 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:c00 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec15 
+Regs
+rsi:000000000010ec15 
+rsi:000000000010ec16 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:c00 
+Regs
+
+
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0c00 
+Regs
+rbx:0000000000000c00 
+rbx:00000000000000c0 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:c0 
+WriteEvent addr:000000000010ec0a n:0000000000000001 nval:00000000000000c0 val:0000000000000064 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec0a 
+Regs
+rdi:000000000010ec0a 
+rdi:000000000010ec0b 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000006 
+rcx:0000000000000005 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:000000c0 
+ReadEvent addr:000000000010ec16 n:0000000000000001 val:0000000000000038 
+Regs
+rbx:00000000000000c0 
+rbx:0000000000000038 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:38 
+Regs
+rbx:0000000000000038 
+rbx:0000000000000008 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:08 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec16 
+Regs
+rsi:000000000010ec16 
+rsi:000000000010ec17 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000008 
+Regs
+rbx:0000000000000008 
+rbx:0000000000000800 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:800 
+ReadEvent addr:000000000010ec17 n:0000000000000001 val:0000000000000063 
+Regs
+rbx:0000000000000800 
+rbx:0000000000000863 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:863 
+Regs
+rbx:0000000000000863 
+rbx:0000000000000833 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:833 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7583: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:833 
+Regs
+rbx:0000000000000833 
+rbx:0000000000000822 
+
+
+0x10f338cf7586: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7588: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:822 
+Regs
+
+
+
+
+0x10f338cf758b: jb 0x10f338cf7597 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf758d: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:822 
+Regs
+rbx:0000000000000822 
+rbx:0000000000000802 
+
+
+0x10f338cf7590: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7592: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:802 
+Regs
+
+
+
+
+0x10f338cf7595: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7597: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:802 
+Regs
+rbx:0000000000000802 
+rbx:000000000000080c 
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec17 
+Regs
+rsi:000000000010ec17 
+rsi:000000000010ec18 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:80c 
+Regs
+rbx:000000000000080c 
+rbx:00000000000008c0 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:08c0 
+Regs
+rbx:00000000000008c0 
+rbx:000000000000008c 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:8c 
+WriteEvent addr:000000000010ec0b n:0000000000000001 nval:000000000000008c val:0000000000000036 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec0b 
+Regs
+rdi:000000000010ec0b 
+rdi:000000000010ec0c 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000005 
+rcx:0000000000000004 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000008c 
+ReadEvent addr:000000000010ec18 n:0000000000000001 val:0000000000000038 
+Regs
+rbx:000000000000008c 
+rbx:0000000000000038 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:38 
+Regs
+rbx:0000000000000038 
+rbx:0000000000000008 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:08 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec18 
+Regs
+rsi:000000000010ec18 
+rsi:000000000010ec19 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000008 
+Regs
+rbx:0000000000000008 
+rbx:0000000000000800 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:800 
+ReadEvent addr:000000000010ec19 n:0000000000000001 val:0000000000000039 
+Regs
+rbx:0000000000000800 
+rbx:0000000000000839 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:839 
+Regs
+rbx:0000000000000839 
+rbx:0000000000000809 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:809 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec19 
+Regs
+rsi:000000000010ec19 
+rsi:000000000010ec1a 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:809 
+Regs
+rbx:0000000000000809 
+rbx:0000000000000890 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0890 
+Regs
+rbx:0000000000000890 
+rbx:0000000000000089 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:89 
+WriteEvent addr:000000000010ec0c n:0000000000000001 nval:0000000000000089 val:0000000000000038 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec0c 
+Regs
+rdi:000000000010ec0c 
+rdi:000000000010ec0d 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000004 
+rcx:0000000000000003 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000089 
+ReadEvent addr:000000000010ec1a n:0000000000000001 val:0000000000000033 
+Regs
+rbx:0000000000000089 
+rbx:0000000000000033 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:33 
+Regs
+rbx:0000000000000033 
+rbx:0000000000000003 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:03 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec1a 
+Regs
+rsi:000000000010ec1a 
+rsi:000000000010ec1b 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000003 
+Regs
+rbx:0000000000000003 
+rbx:0000000000000300 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:300 
+ReadEvent addr:000000000010ec1b n:0000000000000001 val:0000000000000034 
+Regs
+rbx:0000000000000300 
+rbx:0000000000000334 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:334 
+Regs
+rbx:0000000000000334 
+rbx:0000000000000304 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:304 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec1b 
+Regs
+rsi:000000000010ec1b 
+rsi:000000000010ec1c 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:304 
+Regs
+rbx:0000000000000304 
+rbx:0000000000000340 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0340 
+Regs
+rbx:0000000000000340 
+rbx:0000000000000034 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:34 
+WriteEvent addr:000000000010ec0d n:0000000000000001 nval:0000000000000034 val:0000000000000063 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec0d 
+Regs
+rdi:000000000010ec0d 
+rdi:000000000010ec0e 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000003 
+rcx:0000000000000002 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000034 
+ReadEvent addr:000000000010ec1c n:0000000000000001 val:0000000000000031 
+Regs
+rbx:0000000000000034 
+rbx:0000000000000031 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:31 
+Regs
+rbx:0000000000000031 
+rbx:0000000000000001 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:01 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec1c 
+Regs
+rsi:000000000010ec1c 
+rsi:000000000010ec1d 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:00000001 
+Regs
+rbx:0000000000000001 
+rbx:0000000000000100 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:100 
+ReadEvent addr:000000000010ec1d n:0000000000000001 val:0000000000000062 
+Regs
+rbx:0000000000000100 
+rbx:0000000000000162 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:162 
+Regs
+rbx:0000000000000162 
+rbx:0000000000000132 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:132 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7583: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:132 
+Regs
+rbx:0000000000000132 
+rbx:0000000000000121 
+
+
+0x10f338cf7586: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7588: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:121 
+Regs
+
+
+
+
+0x10f338cf758b: jb 0x10f338cf7597 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf758d: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:121 
+Regs
+rbx:0000000000000121 
+rbx:0000000000000101 
+
+
+0x10f338cf7590: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7592: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:101 
+Regs
+
+
+
+
+0x10f338cf7595: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7597: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:101 
+Regs
+rbx:0000000000000101 
+rbx:000000000000010b 
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec1d 
+Regs
+rsi:000000000010ec1d 
+rsi:000000000010ec1e 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:10b 
+Regs
+rbx:000000000000010b 
+rbx:00000000000001b0 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:01b0 
+Regs
+rbx:00000000000001b0 
+rbx:000000000000001b 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:1b 
+WriteEvent addr:000000000010ec0e n:0000000000000001 nval:000000000000001b val:0000000000000039 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec0e 
+Regs
+rdi:000000000010ec0e 
+rdi:000000000010ec0f 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000002 
+rcx:0000000000000001 
+
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000001b 
+ReadEvent addr:000000000010ec1e n:0000000000000001 val:0000000000000065 
+Regs
+rbx:000000000000001b 
+rbx:0000000000000065 
+
+
+0x10f338cf7550: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:65 
+Regs
+rbx:0000000000000065 
+rbx:0000000000000035 
+
+
+0x10f338cf7553: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7555: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:35 
+Regs
+
+
+
+
+0x10f338cf7558: jb 0x10f338cf7571 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755a: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:35 
+Regs
+rbx:0000000000000035 
+rbx:0000000000000024 
+
+
+0x10f338cf755d: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf755f: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:24 
+Regs
+
+
+
+
+0x10f338cf7562: jb 0x10f338cf756e 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7564: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:24 
+Regs
+rbx:0000000000000024 
+rbx:0000000000000004 
+
+
+0x10f338cf7567: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7569: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:04 
+Regs
+
+
+
+
+0x10f338cf756c: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf756e: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:04 
+Regs
+rbx:0000000000000004 
+rbx:000000000000000e 
+
+
+0x10f338cf7571: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec1e 
+Regs
+rsi:000000000010ec1e 
+rsi:000000000010ec1f 
+
+
+0x10f338cf7574: shl ebx, 8 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:0000000e 
+Regs
+rbx:000000000000000e 
+rbx:0000000000000e00 
+
+
+0x10f338cf7577: mov bl, byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:e00 
+ReadEvent addr:000000000010ec1f n:0000000000000001 val:0000000000000063 
+Regs
+rbx:0000000000000e00 
+rbx:0000000000000e63 
+
+
+0x10f338cf7579: sub bl, 0x30 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:e63 
+Regs
+rbx:0000000000000e63 
+rbx:0000000000000e33 
+
+
+0x10f338cf757c: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf757e: cmp bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:e33 
+Regs
+
+
+
+
+0x10f338cf7581: jb 0x10f338cf759a 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7583: sub bl, 0x11 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:e33 
+Regs
+rbx:0000000000000e33 
+rbx:0000000000000e22 
+
+
+0x10f338cf7586: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7588: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:e22 
+Regs
+
+
+
+
+0x10f338cf758b: jb 0x10f338cf7597 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf758d: sub bl, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:e22 
+Regs
+rbx:0000000000000e22 
+rbx:0000000000000e02 
+
+
+0x10f338cf7590: jb 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7592: cmp bl, 6 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:e02 
+Regs
+
+
+
+
+0x10f338cf7595: jae 0x10f338cf75ac 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x10f338cf7597: add bl, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:e02 
+Regs
+rbx:0000000000000e02 
+rbx:0000000000000e0c 
+
+
+0x10f338cf759a: inc rsi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec1f 
+Regs
+rsi:000000000010ec1f 
+rsi:000000000010ec20 
+
+
+0x10f338cf759d: shl bl, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:e0c 
+Regs
+rbx:0000000000000e0c 
+rbx:0000000000000ec0 
+
+
+0x10f338cf75a0: shr bx, 4 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bx:0ec0 
+Regs
+rbx:0000000000000ec0 
+rbx:00000000000000ec 
+
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg bl:ec 
+WriteEvent addr:000000000010ec0f n:0000000000000001 nval:00000000000000ec val:0000000000000039 
+Regs
+
+
+
+
+0x10f338cf75a6: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec0f 
+Regs
+rdi:000000000010ec0f 
+rdi:000000000010ec10 
+
+
+0x10f338cf75a9: loop 0x10f338cf754d 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000001 
+rcx:0000000000000000 
+
+
+0x10f338cf75ab: ret  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ebf8 n:0000000000000008 val:000051466a42e759 
+Regs
+rsp:000000000010ebf8 
+rsp:000000000010ec00 
+
+
+0x51466a42e759: movabs rbx, 0x43abdb4a000c 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:00000000000000ec 
+Regs
+rbx:00000000000000ec 
+rbx:000043abdb4a000c 
+
+
+0x51466a42e763: jmp rbx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:000043abdb4a000c 
+Regs
+
+
+
+
+0x43abdb4a000c: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000029 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000029 
+Regs
+
+
+
+
+0x43abdb4a0aee: nop  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x43abdb4a0aef: movabs rbx, 0x43abdb4a0b0b 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:000043abdb4a000c 
+Regs
+rbx:000043abdb4a000c 
+rbx:000043abdb4a0b0b 
+
+
+0x43abdb4a0af9: cmp byte ptr [rsp], 0x29 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000029 
+Regs
+
+
+
+
+0x43abdb4a0afd: jne 0x43abdb4a0b09 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x43abdb4a0aff: movabs rbx, 0x4a170682000c 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:000043abdb4a0b0b 
+Regs
+rbx:000043abdb4a0b0b 
+rbx:00004a170682000c 
+
+
+0x43abdb4a0b09: jmp rbx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:00004a170682000c 
+Regs
+
+
+
+
+0x4a170682000c: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000029 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000029 
+Regs
+
+
+
+
+0x4a170682ede0: nop  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x4a170682ede1: cmp word ptr [rsp + 2], 0xd17e 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec02 n:0000000000000002 val:000000000000d17e 
+Regs
+
+
+
+
+0x4a170682ede8: movabs rbx, 0x6f4b0e0000c 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:00004a170682000c 
+Regs
+rbx:00004a170682000c 
+rbx:000006f4b0e0000c 
+
+
+0x4a170682edf2: movabs r14, 0x4a170682ee02 		 <<<< TRACEVENT, rax=0010ec00
+OpReg r14:0000000000000000 
+Regs
+r14:0000000000000000 
+r14:00004a170682ee02 
+
+
+0x4a170682edfc: cmovne rbx, r14 		 <<<< TRACEVENT, rax=0010ec00
+OpReg r14:00004a170682ee02 rbx:000006f4b0e0000c 
+Regs
+
+
+
+
+0x4a170682ee00: jmp rbx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:000006f4b0e0000c 
+Regs
+
+
+
+
+0x6f4b0e0000c: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000029 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000029 
+Regs
+
+
+
+
+0x6f4b0e0f370: cmp byte ptr [rsp + 0xb], 0x8c 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec0b n:0000000000000001 val:000000000000008c 
+Regs
+
+
+
+
+0x6f4b0e0f375: movabs rbx, 0x6f4b0e0f38f 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:000006f4b0e0000c 
+Regs
+rbx:000006f4b0e0000c 
+rbx:000006f4b0e0f38f 
+
+
+0x6f4b0e0f37f: movabs r14, 0x49e7e541000c 		 <<<< TRACEVENT, rax=0010ec00
+OpReg r14:00004a170682ee02 
+Regs
+r14:00004a170682ee02 
+r14:000049e7e541000c 
+
+
+0x6f4b0e0f389: cmove rbx, r14 		 <<<< TRACEVENT, rax=0010ec00
+OpReg r14:000049e7e541000c rbx:000006f4b0e0f38f 
+Regs
+rbx:000006f4b0e0f38f 
+rbx:000049e7e541000c 
+
+
+0x6f4b0e0f38d: jmp rbx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:000049e7e541000c 
+Regs
+
+
+
+
+0x49e7e541000c: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000029 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000029 
+Regs
+
+
+
+
+0x49e7e541be18: nop  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x49e7e541be19: push rax 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rax:000000000010ec00 
+WriteEvent addr:000000000010ebf8 n:0000000000000008 nval:000000000010ec00 val:000051466a42e759 
+Regs
+rsp:000000000010ec00 
+rsp:000000000010ebf8 
+
+
+0x49e7e541be1a: lea rax, qword ptr [rsp + 0x10b] 		 <<<< TRACEVENT, rax=0010ed03
+OpReg rax:000000000010ec00 
+Regs
+rax:000000000010ec00 
+rax:000000000010ed03 
+
+
+0x49e7e541be22: movzx rbx, byte ptr [rsp + 9] 		 <<<< TRACEVENT, rax=0010ed03
+OpReg rbx:000049e7e541000c 
+ReadEvent addr:000000000010ec01 n:0000000000000001 val:0000000000000089 
+Regs
+rbx:000049e7e541000c 
+rbx:0000000000000089 
+
+
+0x49e7e541be28: mov byte ptr [rax], 0 		 <<<< TRACEVENT, rax=0010ed03
+WriteEvent addr:000000000010ed03 n:0000000000000001 nval:0000000000000000 val:0000000000000000 
+Regs
+
+
+
+
+0x49e7e541be2b: lea rcx, qword ptr [rip + 6] 		 <<<< TRACEVENT, rax=0010ed03
+OpReg rcx:0000000000000000 
+Regs
+rcx:0000000000000000 
+rcx:000049e7e541be38 
+
+
+0x49e7e541be32: lea rcx, qword ptr [rcx + rbx*2] 		 <<<< TRACEVENT, rax=0010ed03
+OpReg rcx:000049e7e541be38 
+Regs
+rcx:000049e7e541be38 
+rcx:000049e7e541bf4a 
+
+
+0x49e7e541be36: jmp rcx 		 <<<< TRACEVENT, rax=0010ed03
+OpReg rcx:000049e7e541bf4a 
+Regs
+
+
+
+
+0x49e7e541bf4a: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ed03
+OpReg al:10ed03 
+ReadEvent addr:000000000010ed03 n:0000000000000001 val:0000000000000000 
+WriteEvent addr:000000000010ed03 n:0000000000000001 nval:0000000000000003 val:0000000000000000 
+Regs
+
+
+
+
+0x49e7e541c038: cmp byte ptr [rax], 0x65 		 <<<< TRACEVENT, rax=0010ed03
+ReadEvent addr:000000000010ed03 n:0000000000000001 val:0000000000000065 
+Regs
+
+
+
+
+0x49e7e541c03b: movabs rbx, 0x352845ab000c 		 <<<< TRACEVENT, rax=0010ed03
+OpReg rbx:0000000000000089 
+Regs
+rbx:0000000000000089 
+rbx:0000352845ab000c 
+
+
+0x49e7e541c045: movabs r14, 0x49e7e541c056 		 <<<< TRACEVENT, rax=0010ed03
+OpReg r14:000049e7e541000c 
+Regs
+r14:000049e7e541000c 
+r14:000049e7e541c056 
+
+
+0x49e7e541c04f: cmovne rbx, r14 		 <<<< TRACEVENT, rax=0010ed03
+OpReg r14:000049e7e541c056 rbx:0000352845ab000c 
+Regs
+
+
+
+
+0x49e7e541c053: pop rax 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rax:000000000010ed03 
+ReadEvent addr:000000000010ebf8 n:0000000000000008 val:000000000010ec00 
+Regs
+rsp:000000000010ebf8 rax:000000000010ed03 
+rsp:000000000010ec00 rax:000000000010ec00 
+
+
+0x49e7e541c054: jmp rbx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:0000352845ab000c 
+Regs
+
+
+
+
+0x352845ab000c: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000029 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000029 
+Regs
+
+
+
+
+0x352845ab3bce: lea rbx, qword ptr [rip] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:0000352845ab000c 
+Regs
+rbx:0000352845ab000c 
+rbx:0000352845ab3bd5 
+
+
+0x352845ab3bd5: xor ebx, dword ptr [rsp + 0xc] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:352845ab3bd5 
+ReadEvent addr:000000000010ec0c n:0000000000000004 val:00000000ec1b3489 
+Regs
+rbx:0000352845ab3bd5 
+rbx:00000000a9b00f5c 
+
+
+0x352845ab3bd9: cmp ebx, 0xa9b00f5c 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:a9b00f5c 
+Regs
+
+
+
+
+0x352845ab3bdf: movabs rbx, 0x352845ab3bf9 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:00000000a9b00f5c 
+Regs
+rbx:00000000a9b00f5c 
+rbx:0000352845ab3bf9 
+
+
+0x352845ab3be9: movabs r14, 0x59cb440c000c 		 <<<< TRACEVENT, rax=0010ec00
+OpReg r14:000049e7e541c056 
+Regs
+r14:000049e7e541c056 
+r14:000059cb440c000c 
+
+
+0x352845ab3bf3: cmove rbx, r14 		 <<<< TRACEVENT, rax=0010ec00
+OpReg r14:000059cb440c000c rbx:0000352845ab3bf9 
+Regs
+rbx:0000352845ab3bf9 
+rbx:000059cb440c000c 
+
+
+0x352845ab3bf7: jmp rbx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:000059cb440c000c 
+Regs
+
+
+
+
+0x59cb440c000c: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000029 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000029 
+Regs
+
+
+
+
+0x59cb440c4524: movabs rbx, 0x59cbc8cc0b83 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:000059cb440c000c 
+Regs
+rbx:000059cb440c000c 
+rbx:000059cbc8cc0b83 
+
+
+0x59cb440c452e: mov rcx, qword ptr [rip + 0x19] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rcx:000049e7e541bf4a 
+ReadEvent addr:000059cb440c454e n:0000000000000008 val:000059cb440c4556 
+Regs
+rcx:000049e7e541bf4a 
+rcx:000059cb440c4556 
+
+
+0x59cb440c4535: push rax 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rax:000000000010ec00 
+WriteEvent addr:000000000010ebf8 n:0000000000000008 nval:000000000010ec00 val:000000000010ec00 
+Regs
+rsp:000000000010ec00 
+rsp:000000000010ebf8 
+
+
+0x59cb440c4536: mov eax, dword ptr [rsp + 0x10] 		 <<<< TRACEVENT, rax=8cc04ed5
+OpReg eax:0010ec00 
+ReadEvent addr:000000000010ec08 n:0000000000000004 val:000000008cc04ed5 
+Regs
+rax:000000000010ec00 
+rax:000000008cc04ed5 
+
+
+0x59cb440c453a: xor rax, rbx 		 <<<< TRACEVENT, rax=59cb440c4556
+OpReg rax:000000008cc04ed5 rbx:000059cbc8cc0b83 
+Regs
+rax:000000008cc04ed5 
+rax:000059cb440c4556 
+
+
+0x59cb440c453d: movabs rbx, 0x2a7ee24a000c 		 <<<< TRACEVENT, rax=59cb440c4556
+OpReg rbx:000059cbc8cc0b83 
+Regs
+rbx:000059cbc8cc0b83 
+rbx:00002a7ee24a000c 
+
+
+0x59cb440c4547: cmpxchg rcx, rbx 		 <<<< TRACEVENT, rax=59cb440c4556
+OpReg rbx:00002a7ee24a000c rcx:000059cb440c4556 
+Regs
+rcx:000059cb440c4556 
+rcx:00002a7ee24a000c 
+
+
+0x59cb440c454b: pop rax 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rax:000059cb440c4556 
+ReadEvent addr:000000000010ebf8 n:0000000000000008 val:000000000010ec00 
+Regs
+rsp:000000000010ebf8 rax:000059cb440c4556 
+rsp:000000000010ec00 rax:000000000010ec00 
+
+
+0x59cb440c454c: jmp rcx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rcx:00002a7ee24a000c 
+Regs
+
+
+
+
+0x2a7ee24a000c: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000029 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000029 
+Regs
+
+
+
+
+0x2a7ee24aae24: nop  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2a7ee24aae25: push rax 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rax:000000000010ec00 
+WriteEvent addr:000000000010ebf8 n:0000000000000008 nval:000000000010ec00 val:000000000010ec00 
+Regs
+rsp:000000000010ec00 
+rsp:000000000010ebf8 
+
+
+0x2a7ee24aae26: lea rdi, qword ptr [rsp + 0x18] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec10 
+Regs
+
+
+
+
+0x2a7ee24aae2b: lea rsi, qword ptr [rip + 0x42] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rsi:000000000010ec20 
+Regs
+rsi:000000000010ec20 
+rsi:00002a7ee24aae74 
+
+
+0x2a7ee24aae32: mov ecx, 0xa 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ecx:2a7ee24a000c 
+Regs
+rcx:00002a7ee24a000c 
+rcx:000000000000000a 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002a7ee24aae74 n:0000000000000001 val:00000000000000cb 
+WriteEvent addr:000000000010ec10 n:0000000000000001 nval:00000000000000cb val:0000000000000064 
+Regs
+rcx:000000000000000a rsi:00002a7ee24aae74 rdi:000000000010ec10 
+rcx:0000000000000009 rsi:00002a7ee24aae75 rdi:000000000010ec11 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002a7ee24aae75 n:0000000000000001 val:000000000000006d 
+WriteEvent addr:000000000010ec11 n:0000000000000001 nval:000000000000006d val:0000000000000035 
+Regs
+rcx:0000000000000009 rsi:00002a7ee24aae75 rdi:000000000010ec11 
+rcx:0000000000000008 rsi:00002a7ee24aae76 rdi:000000000010ec12 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002a7ee24aae76 n:0000000000000001 val:0000000000000071 
+WriteEvent addr:000000000010ec12 n:0000000000000001 nval:0000000000000071 val:0000000000000034 
+Regs
+rcx:0000000000000008 rsi:00002a7ee24aae76 rdi:000000000010ec12 
+rcx:0000000000000007 rsi:00002a7ee24aae77 rdi:000000000010ec13 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002a7ee24aae77 n:0000000000000001 val:000000000000001e 
+WriteEvent addr:000000000010ec13 n:0000000000000001 nval:000000000000001e val:0000000000000065 
+Regs
+rcx:0000000000000007 rsi:00002a7ee24aae77 rdi:000000000010ec13 
+rcx:0000000000000006 rsi:00002a7ee24aae78 rdi:000000000010ec14 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002a7ee24aae78 n:0000000000000001 val:0000000000000038 
+WriteEvent addr:000000000010ec14 n:0000000000000001 nval:0000000000000038 val:0000000000000063 
+Regs
+rcx:0000000000000006 rsi:00002a7ee24aae78 rdi:000000000010ec14 
+rcx:0000000000000005 rsi:00002a7ee24aae79 rdi:000000000010ec15 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002a7ee24aae79 n:0000000000000001 val:0000000000000078 
+WriteEvent addr:000000000010ec15 n:0000000000000001 nval:0000000000000078 val:0000000000000030 
+Regs
+rcx:0000000000000005 rsi:00002a7ee24aae79 rdi:000000000010ec15 
+rcx:0000000000000004 rsi:00002a7ee24aae7a rdi:000000000010ec16 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002a7ee24aae7a n:0000000000000001 val:00000000000000b8 
+WriteEvent addr:000000000010ec16 n:0000000000000001 nval:00000000000000b8 val:0000000000000038 
+Regs
+rcx:0000000000000004 rsi:00002a7ee24aae7a rdi:000000000010ec16 
+rcx:0000000000000003 rsi:00002a7ee24aae7b rdi:000000000010ec17 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002a7ee24aae7b n:0000000000000001 val:0000000000000024 
+WriteEvent addr:000000000010ec17 n:0000000000000001 nval:0000000000000024 val:0000000000000063 
+Regs
+rcx:0000000000000003 rsi:00002a7ee24aae7b rdi:000000000010ec17 
+rcx:0000000000000002 rsi:00002a7ee24aae7c rdi:000000000010ec18 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002a7ee24aae7c n:0000000000000001 val:00000000000000fe 
+WriteEvent addr:000000000010ec18 n:0000000000000001 nval:00000000000000fe val:0000000000000038 
+Regs
+rcx:0000000000000002 rsi:00002a7ee24aae7c rdi:000000000010ec18 
+rcx:0000000000000001 rsi:00002a7ee24aae7d rdi:000000000010ec19 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002a7ee24aae7d n:0000000000000001 val:000000000000003f 
+WriteEvent addr:000000000010ec19 n:0000000000000001 nval:000000000000003f val:0000000000000039 
+Regs
+rcx:0000000000000001 rsi:00002a7ee24aae7d rdi:000000000010ec19 
+rcx:0000000000000000 rsi:00002a7ee24aae7e rdi:000000000010ec1a 
+
+
+0x2a7ee24aae37: rep movsb byte ptr [rdi], byte ptr [rsi] 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2a7ee24aae39: mov ebx, dword ptr [rsp + 0xc] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:2a7ee24a000c 
+ReadEvent addr:000000000010ec04 n:0000000000000004 val:00000000998cd6d4 
+Regs
+rbx:00002a7ee24a000c 
+rbx:00000000998cd6d4 
+
+
+0x2a7ee24aae3d: xor dword ptr [rsp + 0x1c], ebx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ebx:998cd6d4 
+ReadEvent addr:000000000010ec14 n:0000000000000004 val:0000000024b87838 
+WriteEvent addr:000000000010ec14 n:0000000000000004 nval:00000000bd34aeec val:0000000024b87838 
+Regs
+
+
+
+
+0x2a7ee24aae41: wait  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2a7ee24aae42: fnclex  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2a7ee24aae44: fld xword ptr [rsp + 0x18] 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2a7ee24aae48: fld st(0) 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2a7ee24aae4a: fcos  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2a7ee24aae4c: fcompp  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2a7ee24aae4e: wait  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2a7ee24aae4f: fnstsw ax 		 <<<< TRACEVENT, rax=00100000
+OpReg ax:10ec00 
+Regs
+rax:000000000010ec00 
+rax:0000000000100000 
+
+
+0x2a7ee24aae51: and ax, 0xffdf 		 <<<< TRACEVENT, rax=00004000
+OpReg ax:100000 
+Regs
+rax:0000000000100000 
+rax:0000000000004000 
+
+
+0x2a7ee24aae55: cmp ax, 0x4000 		 <<<< TRACEVENT, rax=00004000
+OpReg ax:4000 
+Regs
+
+
+
+
+0x2a7ee24aae59: movabs rbx, 0x99a3805000c 		 <<<< TRACEVENT, rax=00004000
+OpReg rbx:00000000998cd6d4 
+Regs
+rbx:00000000998cd6d4 
+rbx:0000099a3805000c 
+
+
+0x2a7ee24aae63: movabs r14, 0x2a7ee24aae7e 		 <<<< TRACEVENT, rax=00004000
+OpReg r14:000059cb440c000c 
+Regs
+r14:000059cb440c000c 
+r14:00002a7ee24aae7e 
+
+
+0x2a7ee24aae6d: cmovne rbx, r14 		 <<<< TRACEVENT, rax=00004000
+OpReg r14:00002a7ee24aae7e rbx:0000099a3805000c 
+Regs
+
+
+
+
+0x2a7ee24aae71: pop rax 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rax:0000000000004000 
+ReadEvent addr:000000000010ebf8 n:0000000000000008 val:000000000010ec00 
+Regs
+rsp:000000000010ebf8 rax:0000000000004000 
+rsp:000000000010ec00 rax:000000000010ec00 
+
+
+0x2a7ee24aae72: jmp rbx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:0000099a3805000c 
+Regs
+
+
+
+
+0x99a3805000c: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000029 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000029 
+Regs
+
+
+
+
+0x99a380575a6: nop  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x99a380575a7: movdqa xmm0, xmmword ptr [rsp] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec00 n:0000000000000008 val:998cd6d4d17e8929 :addr:000000000010ec08 n:0000000000000008 val:ec1b34898cc04ed5 
+Regs
+
+
+
+
+0x99a380575ac: movdqa xmm1, xmmword ptr [rip + 0x6c] 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:0000099a38057620 n:0000000000000008 val:2be6a9b2c5cbfdcc :addr:0000099a38057628 n:0000000000000008 val:194f2e0e37877e0d 
+Regs
+
+
+
+
+0x99a380575b4: pxor xmm0, xmm1 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x99a380575b8: mov rdi, rsp 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec1a rsp:000000000010ec00 
+Regs
+rdi:000000000010ec1a 
+rdi:000000000010ec00 
+
+
+0x99a380575bb: movabs rbx, 0x2c7affef000c 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:0000099a3805000c 
+Regs
+rbx:0000099a3805000c 
+rbx:00002c7affef000c 
+
+
+0x99a380575c5: call rbx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:00002c7affef000c 
+WriteEvent addr:000000000010ebf8 n:0000000000000008 nval:0000099a380575c7 val:000000000010ec00 
+Regs
+rsp:000000000010ec00 
+rsp:000000000010ebf8 
+
+
+0x2c7affef000c: add byte ptr [rax], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000029 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000029 
+Regs
+
+
+
+
+0x2c7affef62ac: nop  		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2c7affef62ad: movdqa xmm1, xmm0 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2c7affef62b1: psrlw xmm1, 4 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2c7affef62b6: xor edx, edx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg edx:00000400 
+Regs
+rdx:0000000000000400 
+rdx:0000000000000000 
+
+
+0x2c7affef62b8: xor ecx, ecx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ecx:00000000 
+Regs
+
+
+
+
+0x2c7affef62ba: mov dl, 0xf 		 <<<< TRACEVENT, rax=0010ec00
+OpReg dl:00 
+Regs
+rdx:0000000000000000 
+rdx:000000000000000f 
+
+
+0x2c7affef62bc: mov cl, dl 		 <<<< TRACEVENT, rax=0010ec00
+OpReg cl:00 dl:0f 
+Regs
+rcx:0000000000000000 
+rcx:000000000000000f 
+
+
+0x2c7affef62be: xchg cl, dh 		 <<<< TRACEVENT, rax=0010ec00
+OpReg cl:0f dh:0f 
+Regs
+rdx:000000000000000f rcx:000000000000000f 
+rdx:0000000000000f0f rcx:0000000000000000 
+
+
+0x2c7affef62c0: mov cx, dx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg cx:0000 dx:0f0f 
+Regs
+rcx:0000000000000000 
+rcx:0000000000000f0f 
+
+
+0x2c7affef62c3: bswap ecx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ecx:00000f0f 
+Regs
+rcx:0000000000000f0f 
+rcx:000000000f0f0000 
+
+
+0x2c7affef62c5: or edx, ecx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ecx:0f0f0000 edx:00000f0f 
+Regs
+rdx:0000000000000f0f 
+rdx:000000000f0f0f0f 
+
+
+0x2c7affef62c7: movd xmm2, edx 		 <<<< TRACEVENT, rax=0010ec00
+OpReg edx:0f0f0f0f 
+Regs
+
+
+
+
+0x2c7affef62cb: pshufd xmm2, xmm2, 0 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2c7affef62d0: pand xmm0, xmm2 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2c7affef62d4: pand xmm1, xmm2 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2c7affef62d8: movdqa xmm2, xmm1 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2c7affef62dc: punpcklbw xmm1, xmm0 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2c7affef62e0: punpckhbw xmm2, xmm0 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+
+
+
+
+0x2c7affef62e4: movdqa xmmword ptr [rdi], xmm1 		 <<<< TRACEVENT, rax=0010ec00
+WriteEvent addr:000000000010ec00 n:0000000000000008 nval:0401050b0407050e val:998cd6d4d17e8929 :addr:000000000010ec08 n:0000000000000008 nval:020b0a060f070606 val:ec1b34898cc04ed5 
+Regs
+
+
+
+
+0x2c7affef62e8: movdqa xmmword ptr [rdi + 0x10], xmm2 		 <<<< TRACEVENT, rax=0010ec00
+WriteEvent addr:000000000010ec10 n:0000000000000008 nval:0b0b07040003080d val:bd34aeec1e716dcb :addr:000000000010ec18 n:0000000000000008 nval:050f04050a010708 val:6365623134333ffe 
+Regs
+
+
+
+
+0x2c7affef62ed: movabs rbx, 0x2c7affef630a 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rbx:00002c7affef000c 
+Regs
+rbx:00002c7affef000c 
+rbx:00002c7affef630a 
+
+
+0x2c7affef62f7: mov ecx, 0x20 		 <<<< TRACEVENT, rax=0010ec00
+OpReg ecx:0f0f0000 
+Regs
+rcx:000000000f0f0000 
+rcx:0000000000000020 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec0e
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:000000000000000e 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec0e 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:00002c7affef6318 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec0e 
+rax:000000000010ec07 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:000000000000000e 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:000000000000003e val:000000000000000e 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:000000000000003e 
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000045 val:000000000000003e 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec07
+OpReg rdi:000000000010ec00 
+Regs
+rdi:000000000010ec00 
+rdi:000000000010ec01 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec07
+Regs
+rcx:0000000000000020 
+rcx:000000000000001f 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec05
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec01 n:0000000000000001 val:0000000000000005 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec05 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630f n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec05 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec01 n:0000000000000001 val:0000000000000005 
+WriteEvent addr:000000000010ec01 n:0000000000000001 nval:0000000000000035 val:0000000000000005 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec01 n:0000000000000001 val:0000000000000035 
+WriteEvent addr:000000000010ec01 n:0000000000000001 nval:0000000000000035 val:0000000000000035 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec01 
+Regs
+rdi:000000000010ec01 
+rdi:000000000010ec02 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000001f 
+rcx:000000000000001e 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec02 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec07 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef6311 n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec02 n:0000000000000001 val:0000000000000007 
+WriteEvent addr:000000000010ec02 n:0000000000000001 nval:0000000000000037 val:0000000000000007 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec02 n:0000000000000001 val:0000000000000037 
+WriteEvent addr:000000000010ec02 n:0000000000000001 nval:0000000000000037 val:0000000000000037 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec02 
+Regs
+rdi:000000000010ec02 
+rdi:000000000010ec03 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000001e 
+rcx:000000000000001d 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec04
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec03 n:0000000000000001 val:0000000000000004 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec04 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630e n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec04 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec03 n:0000000000000001 val:0000000000000004 
+WriteEvent addr:000000000010ec03 n:0000000000000001 nval:0000000000000034 val:0000000000000004 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec03 n:0000000000000001 val:0000000000000034 
+WriteEvent addr:000000000010ec03 n:0000000000000001 nval:0000000000000034 val:0000000000000034 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec03 
+Regs
+rdi:000000000010ec03 
+rdi:000000000010ec04 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000001d 
+rcx:000000000000001c 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec0b
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec04 n:0000000000000001 val:000000000000000b 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec0b 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:00002c7affef6315 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec0b 
+rax:000000000010ec07 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:000000000010ec04 n:0000000000000001 val:000000000000000b 
+WriteEvent addr:000000000010ec04 n:0000000000000001 nval:000000000000003b val:000000000000000b 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec04 n:0000000000000001 val:000000000000003b 
+WriteEvent addr:000000000010ec04 n:0000000000000001 nval:0000000000000042 val:000000000000003b 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec07
+OpReg rdi:000000000010ec04 
+Regs
+rdi:000000000010ec04 
+rdi:000000000010ec05 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec07
+Regs
+rcx:000000000000001c 
+rcx:000000000000001b 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec05
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec05 n:0000000000000001 val:0000000000000005 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec05 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630f n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec05 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec05 n:0000000000000001 val:0000000000000005 
+WriteEvent addr:000000000010ec05 n:0000000000000001 nval:0000000000000035 val:0000000000000005 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec05 n:0000000000000001 val:0000000000000035 
+WriteEvent addr:000000000010ec05 n:0000000000000001 nval:0000000000000035 val:0000000000000035 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec05 
+Regs
+rdi:000000000010ec05 
+rdi:000000000010ec06 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000001b 
+rcx:000000000000001a 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec01
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec06 n:0000000000000001 val:0000000000000001 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec01 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630b n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec01 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec06 n:0000000000000001 val:0000000000000001 
+WriteEvent addr:000000000010ec06 n:0000000000000001 nval:0000000000000031 val:0000000000000001 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec06 n:0000000000000001 val:0000000000000031 
+WriteEvent addr:000000000010ec06 n:0000000000000001 nval:0000000000000031 val:0000000000000031 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec06 
+Regs
+rdi:000000000010ec06 
+rdi:000000000010ec07 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000001a 
+rcx:0000000000000019 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec04
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec07 n:0000000000000001 val:0000000000000004 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec04 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630e n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec04 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec07 n:0000000000000001 val:0000000000000004 
+WriteEvent addr:000000000010ec07 n:0000000000000001 nval:0000000000000034 val:0000000000000004 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec07 n:0000000000000001 val:0000000000000034 
+WriteEvent addr:000000000010ec07 n:0000000000000001 nval:0000000000000034 val:0000000000000034 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec07 
+Regs
+rdi:000000000010ec07 
+rdi:000000000010ec08 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000019 
+rcx:0000000000000018 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec06
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec08 n:0000000000000001 val:0000000000000006 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec06 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef6310 n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec06 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec08 n:0000000000000001 val:0000000000000006 
+WriteEvent addr:000000000010ec08 n:0000000000000001 nval:0000000000000036 val:0000000000000006 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec08 n:0000000000000001 val:0000000000000036 
+WriteEvent addr:000000000010ec08 n:0000000000000001 nval:0000000000000036 val:0000000000000036 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec08 
+Regs
+rdi:000000000010ec08 
+rdi:000000000010ec09 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000018 
+rcx:0000000000000017 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec06
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec09 n:0000000000000001 val:0000000000000006 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec06 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef6310 n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec06 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec09 n:0000000000000001 val:0000000000000006 
+WriteEvent addr:000000000010ec09 n:0000000000000001 nval:0000000000000036 val:0000000000000006 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec09 n:0000000000000001 val:0000000000000036 
+WriteEvent addr:000000000010ec09 n:0000000000000001 nval:0000000000000036 val:0000000000000036 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec09 
+Regs
+rdi:000000000010ec09 
+rdi:000000000010ec0a 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000017 
+rcx:0000000000000016 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec0a n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec07 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef6311 n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec0a n:0000000000000001 val:0000000000000007 
+WriteEvent addr:000000000010ec0a n:0000000000000001 nval:0000000000000037 val:0000000000000007 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec0a n:0000000000000001 val:0000000000000037 
+WriteEvent addr:000000000010ec0a n:0000000000000001 nval:0000000000000037 val:0000000000000037 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec0a 
+Regs
+rdi:000000000010ec0a 
+rdi:000000000010ec0b 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000016 
+rcx:0000000000000015 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec0f
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec0b n:0000000000000001 val:000000000000000f 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec0f 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:00002c7affef6319 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec0f 
+rax:000000000010ec07 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:000000000010ec0b n:0000000000000001 val:000000000000000f 
+WriteEvent addr:000000000010ec0b n:0000000000000001 nval:000000000000003f val:000000000000000f 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec0b n:0000000000000001 val:000000000000003f 
+WriteEvent addr:000000000010ec0b n:0000000000000001 nval:0000000000000046 val:000000000000003f 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec07
+OpReg rdi:000000000010ec0b 
+Regs
+rdi:000000000010ec0b 
+rdi:000000000010ec0c 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec07
+Regs
+rcx:0000000000000015 
+rcx:0000000000000014 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec06
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec0c n:0000000000000001 val:0000000000000006 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec06 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef6310 n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec06 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec0c n:0000000000000001 val:0000000000000006 
+WriteEvent addr:000000000010ec0c n:0000000000000001 nval:0000000000000036 val:0000000000000006 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec0c n:0000000000000001 val:0000000000000036 
+WriteEvent addr:000000000010ec0c n:0000000000000001 nval:0000000000000036 val:0000000000000036 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec0c 
+Regs
+rdi:000000000010ec0c 
+rdi:000000000010ec0d 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000014 
+rcx:0000000000000013 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec0a
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec0d n:0000000000000001 val:000000000000000a 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec0a 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:00002c7affef6314 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec0a 
+rax:000000000010ec07 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:000000000010ec0d n:0000000000000001 val:000000000000000a 
+WriteEvent addr:000000000010ec0d n:0000000000000001 nval:000000000000003a val:000000000000000a 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec0d n:0000000000000001 val:000000000000003a 
+WriteEvent addr:000000000010ec0d n:0000000000000001 nval:0000000000000041 val:000000000000003a 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec07
+OpReg rdi:000000000010ec0d 
+Regs
+rdi:000000000010ec0d 
+rdi:000000000010ec0e 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec07
+Regs
+rcx:0000000000000013 
+rcx:0000000000000012 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec0b
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec0e n:0000000000000001 val:000000000000000b 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec0b 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:00002c7affef6315 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec0b 
+rax:000000000010ec07 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:000000000010ec0e n:0000000000000001 val:000000000000000b 
+WriteEvent addr:000000000010ec0e n:0000000000000001 nval:000000000000003b val:000000000000000b 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec0e n:0000000000000001 val:000000000000003b 
+WriteEvent addr:000000000010ec0e n:0000000000000001 nval:0000000000000042 val:000000000000003b 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec07
+OpReg rdi:000000000010ec0e 
+Regs
+rdi:000000000010ec0e 
+rdi:000000000010ec0f 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec07
+Regs
+rcx:0000000000000012 
+rcx:0000000000000011 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec02
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec0f n:0000000000000001 val:0000000000000002 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec02 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630c n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec02 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec0f n:0000000000000001 val:0000000000000002 
+WriteEvent addr:000000000010ec0f n:0000000000000001 nval:0000000000000032 val:0000000000000002 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec0f n:0000000000000001 val:0000000000000032 
+WriteEvent addr:000000000010ec0f n:0000000000000001 nval:0000000000000032 val:0000000000000032 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec0f 
+Regs
+rdi:000000000010ec0f 
+rdi:000000000010ec10 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000011 
+rcx:0000000000000010 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec0d
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec10 n:0000000000000001 val:000000000000000d 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec0d 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:00002c7affef6317 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec0d 
+rax:000000000010ec07 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:000000000010ec10 n:0000000000000001 val:000000000000000d 
+WriteEvent addr:000000000010ec10 n:0000000000000001 nval:000000000000003d val:000000000000000d 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec10 n:0000000000000001 val:000000000000003d 
+WriteEvent addr:000000000010ec10 n:0000000000000001 nval:0000000000000044 val:000000000000003d 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec07
+OpReg rdi:000000000010ec10 
+Regs
+rdi:000000000010ec10 
+rdi:000000000010ec11 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec07
+Regs
+rcx:0000000000000010 
+rcx:000000000000000f 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec08
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec11 n:0000000000000001 val:0000000000000008 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec08 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef6312 n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec08 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec11 n:0000000000000001 val:0000000000000008 
+WriteEvent addr:000000000010ec11 n:0000000000000001 nval:0000000000000038 val:0000000000000008 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec11 n:0000000000000001 val:0000000000000038 
+WriteEvent addr:000000000010ec11 n:0000000000000001 nval:0000000000000038 val:0000000000000038 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec11 
+Regs
+rdi:000000000010ec11 
+rdi:000000000010ec12 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000f 
+rcx:000000000000000e 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec03
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec12 n:0000000000000001 val:0000000000000003 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec03 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630d n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec03 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec12 n:0000000000000001 val:0000000000000003 
+WriteEvent addr:000000000010ec12 n:0000000000000001 nval:0000000000000033 val:0000000000000003 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec12 n:0000000000000001 val:0000000000000033 
+WriteEvent addr:000000000010ec12 n:0000000000000001 nval:0000000000000033 val:0000000000000033 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec12 
+Regs
+rdi:000000000010ec12 
+rdi:000000000010ec13 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000e 
+rcx:000000000000000d 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec13 n:0000000000000001 val:0000000000000000 
+Regs
+
+
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630a n:0000000000000001 val:0000000000000000 
+Regs
+
+
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec13 n:0000000000000001 val:0000000000000000 
+WriteEvent addr:000000000010ec13 n:0000000000000001 nval:0000000000000030 val:0000000000000000 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec13 n:0000000000000001 val:0000000000000030 
+WriteEvent addr:000000000010ec13 n:0000000000000001 nval:0000000000000030 val:0000000000000030 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec13 
+Regs
+rdi:000000000010ec13 
+rdi:000000000010ec14 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000d 
+rcx:000000000000000c 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec04
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec14 n:0000000000000001 val:0000000000000004 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec04 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630e n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec04 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec14 n:0000000000000001 val:0000000000000004 
+WriteEvent addr:000000000010ec14 n:0000000000000001 nval:0000000000000034 val:0000000000000004 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec14 n:0000000000000001 val:0000000000000034 
+WriteEvent addr:000000000010ec14 n:0000000000000001 nval:0000000000000034 val:0000000000000034 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec14 
+Regs
+rdi:000000000010ec14 
+rdi:000000000010ec15 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000c 
+rcx:000000000000000b 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec15 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec07 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef6311 n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec15 n:0000000000000001 val:0000000000000007 
+WriteEvent addr:000000000010ec15 n:0000000000000001 nval:0000000000000037 val:0000000000000007 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec15 n:0000000000000001 val:0000000000000037 
+WriteEvent addr:000000000010ec15 n:0000000000000001 nval:0000000000000037 val:0000000000000037 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec15 
+Regs
+rdi:000000000010ec15 
+rdi:000000000010ec16 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:000000000000000b 
+rcx:000000000000000a 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec0b
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec16 n:0000000000000001 val:000000000000000b 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec0b 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:00002c7affef6315 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec0b 
+rax:000000000010ec07 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:000000000010ec16 n:0000000000000001 val:000000000000000b 
+WriteEvent addr:000000000010ec16 n:0000000000000001 nval:000000000000003b val:000000000000000b 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec16 n:0000000000000001 val:000000000000003b 
+WriteEvent addr:000000000010ec16 n:0000000000000001 nval:0000000000000042 val:000000000000003b 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec07
+OpReg rdi:000000000010ec16 
+Regs
+rdi:000000000010ec16 
+rdi:000000000010ec17 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec07
+Regs
+rcx:000000000000000a 
+rcx:0000000000000009 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec0b
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec17 n:0000000000000001 val:000000000000000b 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec0b 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:00002c7affef6315 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec0b 
+rax:000000000010ec07 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:000000000010ec17 n:0000000000000001 val:000000000000000b 
+WriteEvent addr:000000000010ec17 n:0000000000000001 nval:000000000000003b val:000000000000000b 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec17 n:0000000000000001 val:000000000000003b 
+WriteEvent addr:000000000010ec17 n:0000000000000001 nval:0000000000000042 val:000000000000003b 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec07
+OpReg rdi:000000000010ec17 
+Regs
+rdi:000000000010ec17 
+rdi:000000000010ec18 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec07
+Regs
+rcx:0000000000000009 
+rcx:0000000000000008 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec08
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec18 n:0000000000000001 val:0000000000000008 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec08 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef6312 n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec08 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec18 n:0000000000000001 val:0000000000000008 
+WriteEvent addr:000000000010ec18 n:0000000000000001 nval:0000000000000038 val:0000000000000008 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec18 n:0000000000000001 val:0000000000000038 
+WriteEvent addr:000000000010ec18 n:0000000000000001 nval:0000000000000038 val:0000000000000038 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec18 
+Regs
+rdi:000000000010ec18 
+rdi:000000000010ec19 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000008 
+rcx:0000000000000007 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec19 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec07 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef6311 n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec19 n:0000000000000001 val:0000000000000007 
+WriteEvent addr:000000000010ec19 n:0000000000000001 nval:0000000000000037 val:0000000000000007 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec19 n:0000000000000001 val:0000000000000037 
+WriteEvent addr:000000000010ec19 n:0000000000000001 nval:0000000000000037 val:0000000000000037 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec19 
+Regs
+rdi:000000000010ec19 
+rdi:000000000010ec1a 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000007 
+rcx:0000000000000006 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec01
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec1a n:0000000000000001 val:0000000000000001 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec01 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630b n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec01 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec1a n:0000000000000001 val:0000000000000001 
+WriteEvent addr:000000000010ec1a n:0000000000000001 nval:0000000000000031 val:0000000000000001 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec1a n:0000000000000001 val:0000000000000031 
+WriteEvent addr:000000000010ec1a n:0000000000000001 nval:0000000000000031 val:0000000000000031 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec1a 
+Regs
+rdi:000000000010ec1a 
+rdi:000000000010ec1b 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000006 
+rcx:0000000000000005 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec0a
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec1b n:0000000000000001 val:000000000000000a 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec0a 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:00002c7affef6314 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec0a 
+rax:000000000010ec07 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:000000000010ec1b n:0000000000000001 val:000000000000000a 
+WriteEvent addr:000000000010ec1b n:0000000000000001 nval:000000000000003a val:000000000000000a 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec1b n:0000000000000001 val:000000000000003a 
+WriteEvent addr:000000000010ec1b n:0000000000000001 nval:0000000000000041 val:000000000000003a 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec07
+OpReg rdi:000000000010ec1b 
+Regs
+rdi:000000000010ec1b 
+rdi:000000000010ec1c 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec07
+Regs
+rcx:0000000000000005 
+rcx:0000000000000004 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec05
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec1c n:0000000000000001 val:0000000000000005 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec05 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630f n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec05 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec1c n:0000000000000001 val:0000000000000005 
+WriteEvent addr:000000000010ec1c n:0000000000000001 nval:0000000000000035 val:0000000000000005 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec1c n:0000000000000001 val:0000000000000035 
+WriteEvent addr:000000000010ec1c n:0000000000000001 nval:0000000000000035 val:0000000000000035 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec1c 
+Regs
+rdi:000000000010ec1c 
+rdi:000000000010ec1d 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000004 
+rcx:0000000000000003 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec04
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec1d n:0000000000000001 val:0000000000000004 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec04 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630e n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec04 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec1d n:0000000000000001 val:0000000000000004 
+WriteEvent addr:000000000010ec1d n:0000000000000001 nval:0000000000000034 val:0000000000000004 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec1d n:0000000000000001 val:0000000000000034 
+WriteEvent addr:000000000010ec1d n:0000000000000001 nval:0000000000000034 val:0000000000000034 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec1d 
+Regs
+rdi:000000000010ec1d 
+rdi:000000000010ec1e 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000003 
+rcx:0000000000000002 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec0f
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec1e n:0000000000000001 val:000000000000000f 
+Regs
+rax:000000000010ec00 
+rax:000000000010ec0f 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:00002c7affef6319 n:0000000000000001 val:0000000000000007 
+Regs
+rax:000000000010ec0f 
+rax:000000000010ec07 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec07
+ReadEvent addr:000000000010ec1e n:0000000000000001 val:000000000000000f 
+WriteEvent addr:000000000010ec1e n:0000000000000001 nval:000000000000003f val:000000000000000f 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec07
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec1e n:0000000000000001 val:000000000000003f 
+WriteEvent addr:000000000010ec1e n:0000000000000001 nval:0000000000000046 val:000000000000003f 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec07
+OpReg rdi:000000000010ec1e 
+Regs
+rdi:000000000010ec1e 
+rdi:000000000010ec1f 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec07
+Regs
+rcx:0000000000000002 
+rcx:0000000000000001 
+
+
+0x2c7affef62fc: mov al, byte ptr [rdi] 		 <<<< TRACEVENT, rax=0010ec05
+OpReg al:10ec07 
+ReadEvent addr:000000000010ec1f n:0000000000000001 val:0000000000000005 
+Regs
+rax:000000000010ec07 
+rax:000000000010ec05 
+
+
+0x2c7affef62fe: xlatb  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:00002c7affef630f n:0000000000000001 val:0000000000000000 
+Regs
+rax:000000000010ec05 
+rax:000000000010ec00 
+
+
+0x2c7affef62ff: add byte ptr [rdi], 0x30 		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec1f n:0000000000000001 val:0000000000000005 
+WriteEvent addr:000000000010ec1f n:0000000000000001 nval:0000000000000035 val:0000000000000005 
+Regs
+
+
+
+
+0x2c7affef6302: add byte ptr [rdi], al 		 <<<< TRACEVENT, rax=0010ec00
+OpReg al:10ec00 
+ReadEvent addr:000000000010ec1f n:0000000000000001 val:0000000000000035 
+WriteEvent addr:000000000010ec1f n:0000000000000001 nval:0000000000000035 val:0000000000000035 
+Regs
+
+
+
+
+0x2c7affef6304: inc rdi 		 <<<< TRACEVENT, rax=0010ec00
+OpReg rdi:000000000010ec1f 
+Regs
+rdi:000000000010ec1f 
+rdi:000000000010ec20 
+
+
+0x2c7affef6307: loop 0x2c7affef62fc 		 <<<< TRACEVENT, rax=0010ec00
+Regs
+rcx:0000000000000001 
+rcx:0000000000000000 
+
+
+0x2c7affef6309: ret  		 <<<< TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ebf8 n:0000000000000008 val:0000099a380575c7 
+Regs
+rsp:000000000010ebf8 
+rsp:000000000010ec00 
+
+
+0x99a380575c7: xor rax, rax 		 <<<< TRACEVENT, rax=00000000
+OpReg rax:000000000010ec00 
+Regs
+rax:000000000010ec00 
+rax:0000000000000000 
+
+
+0x99a380575ca: inc rax 		 <<<< TRACEVENT, rax=00000001
+OpReg rax:0000000000000000 
+Regs
+rax:0000000000000000 
+rax:0000000000000001 
+
+
+0x99a380575cd: xor rdi, rdi 		 <<<< TRACEVENT, rax=00000001
+OpReg rdi:000000000010ec20 
+Regs
+rdi:000000000010ec20 
+rdi:0000000000000000 
+
+
+0x99a380575d0: inc rdi 		 <<<< TRACEVENT, rax=00000001
+OpReg rdi:0000000000000000 
+Regs
+rdi:0000000000000000 
+rdi:0000000000000001 
+
+
+0x99a380575d3: movabs rsi, 0x5a48156509d2 		 <<<< TRACEVENT, rax=00000001
+OpReg rsi:00002a7ee24aae7e 
+Regs
+rsi:00002a7ee24aae7e 
+rsi:00005a48156509d2 
+
+
+0x99a380575dd: mov edx, 0xc 		 <<<< TRACEVENT, rax=00000001
+OpReg edx:0f0f0f0f 
+Regs
+rdx:000000000f0f0f0f 
+rdx:000000000000000c 
+
+
+0x99a380575e2: syscall  		 <<<< TRACEVENT, rax=00000001
+Regs
+
+
+
+
+0x99a380575e4: xor rax, rax 		 <<<< TRACEVENT, rax=00000000
+OpReg rax:0000000000000001 
+Regs
+rax:0000000000000001 
+rax:0000000000000000 
+
+
+0x99a380575e7: inc rax 		 <<<< TRACEVENT, rax=00000001
+OpReg rax:0000000000000000 
+Regs
+rax:0000000000000000 
+rax:0000000000000001 
+
+
+0x99a380575ea: lea rsi, qword ptr [rsp] 		 <<<< TRACEVENT, rax=00000001
+OpReg rsi:00005a48156509d2 
+Regs
+rsi:00005a48156509d2 
+rsi:000000000010ec00 
+
+
+0x99a380575ee: mov edx, 0x20 		 <<<< TRACEVENT, rax=00000001
+OpReg edx:0000000c 
+Regs
+rdx:000000000000000c 
+rdx:0000000000000020 
+
+
+0x99a380575f3: syscall  		 <<<< TRACEVENT, rax=00000001
+Regs
+
+
+
+
+0x99a380575f5: mov byte ptr [rsp], 0xa 		 <<<< TRACEVENT, rax=00000001
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:000000000000000a val:0000000000000045 
+Regs
+
+
+
+
+0x99a380575f9: xor rax, rax 		 <<<< TRACEVENT, rax=00000000
+OpReg rax:0000000000000001 
+Regs
+rax:0000000000000001 
+rax:0000000000000000 
+
+
+0x99a380575fc: inc rax 		 <<<< TRACEVENT, rax=00000001
+OpReg rax:0000000000000000 
+Regs
+rax:0000000000000000 
+rax:0000000000000001 
+
+
+0x99a380575ff: mov edx, 1 		 <<<< TRACEVENT, rax=00000001
+OpReg edx:00000020 
+Regs
+rdx:0000000000000020 
+rdx:0000000000000001 
+
+
+0x99a38057604: syscall  		 <<<< TRACEVENT, rax=00000001
+Regs
+
+
+
+
+0x99a38057606: mov eax, 0x3c 		 <<<< TRACEVENT, rax=0000003c
+OpReg eax:00000001 
+Regs
+rax:0000000000000001 
+rax:000000000000003c 
+
+
+0x99a3805760b: xor dil, dil 		 <<<< TRACEVENT, rax=0000003c
+Regs
+rdi:0000000000000001 
+rdi:0000000000000000 
+
+
+0x99a3805760e: syscall  		 <<<< TRACEVENT, rax=0000003c
+Regs
+
+
+
+
+0x10f338cf0000: movabs rbx, 0x42021da9000c 		 <<<< TRACEVENT, rax=0000003c
+OpReg rbx:00002c7affef630a 
+Regs
+rbx:00002c7affef630a 
+rbx:000042021da9000c 
+
+
+0x10f338cf000a: jmp rbx 		 <<<< TRACEVENT, rax=0000003c
+OpReg rbx:000042021da9000c 
+Regs
+
+
+
+

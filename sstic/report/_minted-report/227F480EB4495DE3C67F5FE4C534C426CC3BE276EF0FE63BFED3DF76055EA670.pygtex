@@ -1,0 +1,38 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+0x2a7ee24aae3d: xor dword ptr [rsp + 0x1c], ebx 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+OpReg ebx:aaaaaaaa
+ReadEvent addr:000000000010ec14 n:0000000000000004 val:0000000024b87838
+WriteEvent addr:000000000010ec14 n:0000000000000004 nval:000000008e12d292 val:0000000024b87838
+Regs
+
+0x2a7ee24aae41: wait  		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+Regs
+
+0x2a7ee24aae42: fnclex  		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+Regs
+
+Content of [rsp+0x18] b\PYGZsq{}cb6d711eecae34bdfe3f333431626563\PYGZsq{}
+0x2a7ee24aae44: fld xword ptr [rsp + 0x18] 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+Regs
+
+CODE at  0x2a7ee24aae44 b\PYGZsq{}db6c2418\PYGZsq{}
+0x2a7ee24aae44:	fld	xword ptr [rsp + 0x18]
+
+0x2a7ee24aae48: fld st(0) 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+Regs
+
+0x2a7ee24aae4a: fcos  		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+Regs
+
+0x2a7ee24aae4c: fcompp  		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+Regs
+
+0x2a7ee24aae4e: wait  		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+Regs
+
+0x2a7ee24aae4f: fnstsw ax 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=00100000
+OpReg ax:10ec00
+Regs
+rax:000000000010ec00
+rax:0000000000100000
+\end{Verbatim}

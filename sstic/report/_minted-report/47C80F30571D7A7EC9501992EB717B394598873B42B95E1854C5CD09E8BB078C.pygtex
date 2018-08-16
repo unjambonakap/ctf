@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} unzip OVMF\PYGZhy{}X64\PYGZhy{}r15214.zip
+\PYGZdl{} mkdir hda\PYGZhy{}contents
+\PYGZdl{} cp foo.efi ./hda\PYGZhy{}contents
+\PYGZdl{} qemu\PYGZhy{}system\PYGZhy{}x86\PYGZus{}64 \PYGZhy{}L . \PYGZhy{}hda fat:hda\PYGZhy{}contents \PYGZhy{}bios OVMF.fd
+  \PYG{c+c1}{\PYGZsh{} trying to boot on the network, mkay}
+  Shell \PYGZgt{} fs0:
+  FS0:\PYG{l+s+se}{\PYGZbs{}\PYGZgt{}} f00.efi aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  UEFI checker
+  Sorry :\PYG{o}{(}
+\end{Verbatim}

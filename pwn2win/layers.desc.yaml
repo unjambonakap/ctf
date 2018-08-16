@@ -1,0 +1,4 @@
+metal_connect: [49, 51, 62 ,31]
+gate: 46
+nwell: 42
+n_or_p_layer: 43

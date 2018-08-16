@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+Lbl 2
+\PYGZdq{} \PYGZdq{}\PYGZhy{}\PYGZgt{}Str1
+Repeat not(A
+A/2\PYGZhy{}\PYGZgt{}A
+sub(\PYGZdq{}01\PYGZdq{},1+not(not(fPart(Ans))),1)+Str1\PYGZhy{}\PYGZgt{}Str1
+iPart(A\PYGZhy{}\PYGZgt{}A
+End
+sub(Str1,1,length(Str1)\PYGZhy{}1)\PYGZhy{}\PYGZgt{}Str1
+While length(Str1)\PYGZlt{}32
+\PYGZdq{}0\PYGZdq{}+Str1\PYGZhy{}\PYGZgt{}Str1
+End
+Goto 0
+\end{Verbatim}

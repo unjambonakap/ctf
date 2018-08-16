@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} file Huge
+Huge: ELF 64\PYGZhy{}bit LSB executable, x86\PYGZhy{}64, version \PYG{l+m}{1} \PYG{o}{(}SYSV\PYG{o}{)}, statically linked, corrupted section header size
+\PYGZdl{} readelf \PYGZhy{}\PYGZhy{}segments Huge
+Elf file \PYG{n+nb}{type} is EXEC \PYG{o}{(}Executable file\PYG{o}{)}
+Entry point 0x51466a42e705
+There are \PYG{l+m}{3} program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset             VirtAddr           PhysAddr
+                 FileSiz            MemSiz              Flags  Align
+  LOAD           0x0000000000001000 0x00002b0000000000 0x00002b0000000000
+                 0x00001ef000000000 0x00001ef000000000  R E    1000
+  LOAD           0x00002afffffe1000 0x000049f000000000 0x000049f000000000
+                 0x0000161000000000 0x0000161000000000  R E    1000
+  LOAD           0x000049effffe1000 0x0000000000020000 0x0000000000020000
+                 0x00002afffffe0000 0x00002afffffe0000  R E    1000
+\end{Verbatim}

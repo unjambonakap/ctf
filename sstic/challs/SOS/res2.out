@@ -1,0 +1,287 @@
+Warning Legacy Module gh0st_decode!
+Starting ChopShop (Created by MITRE)
+Initializing Modules ...
+	Initializing module 'gh0st_decode'
+SAVE FILES >> (1)
+Carving enabled.
+Running Modules ...
+TOKEN: LOGIN: SSTIC-PC1: Windows 7 No service pack - Build: 7600 - Clock: 2500 Mhz - IP: 10.100.96.21 Webcam: yes
+COMMAND: ACTIVED
+COMMAND: SYSTEM
+TOKEN: PSLIST
+PID	EXE		PROC NAME
+272	smss.exe		\SystemRoot\System32\smss.exe
+344	csrss.exe		\SystemRoot\System32\csrss.exe
+352	SearchIndexer.exe		C:\Windows\system32\SearchIndexer.exe
+392	winit.exe		winit.exe
+404	winlogon.exe		winlogon.exe
+492	services.exe		C:\Windows\system32\services.exe
+500	lsass.exe		C:\Windows\system32\lsass.exe
+508	lsm.exe		C:\Windows\system32\lsm.exe
+608	svchost.exe		C:\Windows\system32\svchost.exe -k DcomLaunch
+724	svchost.exe		C:\Windows\system32\svchost.exe -k RPCSS
+816	svchost.exe		C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted
+860	svchost.exe		C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted
+884	svchost.exe		C:\Windows\system32\svchost.exe -k netsvcs
+1048	svchost.exe		C:\Windows\system32\svchost.exe -k LocalService
+1152	svchost.exe		C:\Windows\system32\svchost.exe -k NetworkService
+1296	spoolsv.exe		spoolsv.exe
+1536	dwm.exe		C:\Windows\system32\Dwm.exe
+1552	explorer.exe		C:\Windows\Explorer.EXE
+1641	conhost.exe		C:\Windows\system32\conhost.exe
+1664	brasseur.exe		C:\tmp\brasseur.exe
+1702	vlc.exe		C:\Program Files\vlc\vlc.exe
+1778	iexplore.exe		iexplore.exe
+1785	thunderbird.exe		C:\Program Files\Mozilla\Thunderbird\thunderbird.exe
+1852	notepad.exe		notepad.exe
+COMMAND: KEYBOARD
+TOKEN: KEYBOARD START (OFFLINE)
+COMMAND: NEXT
+TOKEN: KEYBOARD DATA
+[2016/02/27 - 23:14] New message: [SSTIC 2016/Challenge] Stage 1
+TOKEN: KEYBOARD DATA
+Sal
+TOKEN: KEYBOARD DATA
+ut ! C
+TOKEN: KEYBOARD DATA
+omme p
+TOKEN: KEYBOARD DATA
+is voic
+TOKEN: KEYBOARD DATA
+i la
+TOKEN: KEYBOARD DATA
+ clef p
+TOKEN: KEYBOARD DATA
+ou
+TOKEN: KEYBOARD DATA
+r l
+TOKEN: KEYBOARD DATA
+e sta
+TOKEN: KEYBOARD DATA
+ge 1
+TOKEN: KEYBOARD DATA
+ ! L
+TOKEN: KEYBOARD DATA
+e mo
+TOKEN: KEYBOARD DATA
+t de p
+TOKEN: KEYBOARD DATA
+ass
+TOKEN: KEYBOARD DATA
+e de
+TOKEN: KEYBOARD DATA
+ l'a
+TOKEN: KEYBOARD DATA
+rch
+TOKEN: KEYBOARD DATA
+ive res
+TOKEN: KEYBOARD DATA
+te ce
+TOKEN: KEYBOARD DATA
+ui conv
+TOKEN: KEYBOARD DATA
+enu en
+TOKEN: KEYBOARD DATA
+sem
+TOKEN: KEYBOARD DATA
+ble.
+TOKEN: KEYBOARD DATA
+[2016/02/27 - 23:15] sstic2016-stage1-solution.zip - Saisir mot de passe
+TOKEN: KEYBOARD DATA
+C
+TOKEN: KEYBOARD DATA
+y
+TOKEN: KEYBOARD DATA
+b
+TOKEN: KEYBOARD DATA
+3
+TOKEN: KEYBOARD DATA
+r
+TOKEN: KEYBOARD DATA
+S
+TOKEN: KEYBOARD DATA
+S
+TOKEN: KEYBOARD DATA
+T
+TOKEN: KEYBOARD DATA
+I
+TOKEN: KEYBOARD DATA
+C
+TOKEN: KEYBOARD DATA
+_
+TOKEN: KEYBOARD DATA
+2
+TOKEN: KEYBOARD DATA
+0
+TOKEN: KEYBOARD DATA
+1
+TOKEN: KEYBOARD DATA
+6
+COMMAND: LIST DRIVE
+TOKEN: DRIVE LIST
+DRIVE	TOTAL	FREE	FILESYSTEM	DESCRIPTION
+C	10228	8171	NTFS	Local Disk
+D	0	0		CD Drive
+COMMAND: LIST FILES (C:\)
+TOKEN: FILE LIST
+TYPE	NAME	SIZE	WRITE TIME
+FILE	autoexec.bat	0	1438353600
+FILE	config.sys	0	1438353600
+DIR	PerfLogs	0	1438353600
+DIR	Program Files	0	1438353600
+DIR	Users	0	1438353600
+DIR	Windows	0	1438353600
+COMMAND: LIST FILES (C:\Users\)
+TOKEN: FILE LIST
+TYPE	NAME	SIZE	WRITE TIME
+DIR	Public	0	1438353600
+DIR	sstic	0	1438353600
+COMMAND: LIST FILES (C:\Users\sstic\)
+TOKEN: FILE LIST
+TYPE	NAME	SIZE	WRITE TIME
+FILE	Contacts	0	1438353600
+FILE	Desktop	0	1438353600
+FILE	Documents	0	1438353600
+FILE	Downloads	0	1438353600
+FILE	Favorites	0	1438353600
+FILE	Links	0	1438353600
+FILE	Music	0	1438353600
+DIR	Pictures	0	1438353600
+DIR	Saved Games	0	1438353600
+DIR	Searches	0	1438353600
+DIR	Videos	0	1438353600
+COMMAND: LIST FILES (C:\Users\sstic\Documents\)
+TOKEN: FILE LIST
+TYPE	NAME	SIZE	WRITE TIME
+FILE	Challenge SSTIC 2016	0	1438353600
+COMMAND: LIST FILES (C:\Users\sstic\Documents\Challenge SSTIC 2016\)
+TOKEN: FILE LIST
+TYPE	NAME	SIZE	WRITE TIME
+FILE	how_to_rule_the_world.txt	2759	1451606340
+DIR	Stage 1	0	1453797600
+DIR	visio_stage2.mp4	1374020	1454960220
+COMMAND: DOWN FILES (C:\Users\sstic\Documents\Challenge SSTIC 2016\how_to_rule_the_world.txt)
+C__Users_sstic_Documents_Challenge SSTIC 2016_how_to_rule_the_world.txt
+TOKEN: FILE SIZE (C:\Users\sstic\Documents\Challenge SSTIC 2016\how_to_rule_the_world.txt: 2759)
+COMMAND: CONTINUE
+COMMAND: FILE DATA (2759)
+SAVE FILES >> (1)
+Wrote 2759 of 2759 to C__Users_sstic_Documents_Challenge SSTIC 2016_how_to_rule_the_world.txt
+COMMAND: CONTINUE
+COMMAND: DOWN FILES (C:\Users\sstic\Documents\Challenge SSTIC 2016\visio_stage2.mp4)
+C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+TOKEN: FILE SIZE (C:\Users\sstic\Documents\Challenge SSTIC 2016\visio_stage2.mp4: 193968)
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 8183 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 16366 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 24549 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 32732 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 40915 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 49098 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 57281 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 65464 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 73647 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 81830 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 90013 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 98196 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 106379 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 114562 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 122745 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 130928 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 139111 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 147294 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 155477 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 163660 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 171843 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 180026 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (8183)
+SAVE FILES >> (1)
+Wrote 188209 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: FILE DATA (5759)
+SAVE FILES >> (1)
+Wrote 193968 of 193968 to C__Users_sstic_Documents_Challenge SSTIC 2016_visio_stage2.mp4
+COMMAND: CONTINUE
+COMMAND: LIST FILES (C:\Users\sstic\Documents\Challenge SSTIC 2016\Stage 1\)
+TOKEN: FILE LIST
+TYPE	NAME	SIZE	WRITE TIME
+DIR	sstic2016-stage1-solution.zip	207	1456614900
+COMMAND: DOWN FILES (C:\Users\sstic\Documents\Challenge SSTIC 2016\Stage 1\sstic2016-stage1-solution.zip)
+C__Users_sstic_Documents_Challenge SSTIC 2016_Stage 1_sstic2016-stage1-solution.zip
+TOKEN: FILE SIZE (C:\Users\sstic\Documents\Challenge SSTIC 2016\Stage 1\sstic2016-stage1-solution.zip: 234)
+COMMAND: CONTINUE
+COMMAND: FILE DATA (234)
+SAVE FILES >> (1)
+Wrote 234 of 234 to C__Users_sstic_Documents_Challenge SSTIC 2016_Stage 1_sstic2016-stage1-solution.zip
+COMMAND: CONTINUE
+COMMAND: LIST DRIVE
+Shutting Down Modules ...
+	Shutting Down gh0st_decode
+Module Shutdown Complete ...
+ChopShop Complete

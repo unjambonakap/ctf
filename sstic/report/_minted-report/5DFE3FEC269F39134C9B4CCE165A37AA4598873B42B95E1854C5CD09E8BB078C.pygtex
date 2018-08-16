@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} tar xvf huge.tar
+Huge
+tar: Huge: Cannot seek to 25297854992384: Invalid argument
+tar: Exiting with failure status due to previous errors
+\PYGZdl{} \PYG{c+c1}{\PYGZsh{} wut, j\PYGZsq{}ai jamais vu cette erreur. Listons le contenu de l\PYGZsq{}archive}
+\PYGZdl{} tar \PYGZhy{}tvf huge.tar
+\PYGZhy{}rwxr\PYGZhy{}xr\PYGZhy{}x 0/0 \PYG{l+m}{128574140715008} 1970\PYGZhy{}01\PYGZhy{}01 01:00 Huge
+\PYGZdl{} \PYG{c+c1}{\PYGZsh{} besoin d\PYGZsq{}un nombre pair de \PYGZbs{}\PYGZdl{} pour vim :)}
+\end{Verbatim}

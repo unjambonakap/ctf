@@ -1,0 +1,6 @@
+- fix zip with winrar
+- unzip 'keep broken files' (commandline flag: -kb)
+- repair .exe with pe-explorer e.g. (SizeOfRawData of Section .idata)
+- start .exe:
+
+The Key is: 183808af

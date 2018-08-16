@@ -1,0 +1,259 @@
+     1                                  BITS 64
+     2                                  extern memcpy
+     3                                  extern exit
+     4                                  
+     5                                  global main2
+     6                                  global init_rc5
+     7                                  global decrypt_rc5
+     8                                  
+     9                                  
+    10                                  %define var_1D8   -1D8h
+    11                                  %define var_1D4   -1D4h
+    12                                  %define var_108   -108h
+    13                                  %define var_8   -8
+    14                                  %define arg_0   8
+    15                                  %define arg_8   10h
+    16                                  
+    17                                  section .data
+    18 00000000 353531433230313642-     a551c2016b00b5f db "551C2016B00B5F00"
+    19 00000009 30304235463030     
+    20                                  alignb 16
+    21 00000010 00<rept>                s_buf: times 1000 db 0
+    22 000003F8 <res 00000008>          alignb 16
+    23          ******************       warning: uninitialized space declared in non-BSS section `.data': zeroing
+    24 00000400 00<rept>                res_buf: times 1000 db 0
+    25 000007E8 <res 00000008>          alignb 16
+    26          ******************       warning: uninitialized space declared in non-BSS section `.data': zeroing
+    27                                  
+    28                                  ;test_buf: db `\x83\x56\x26\x91\xfc\x37\xd2\x85\x07\xa4\xbc\xef\x45\x46\x60\xd7`
+    29 000007F0 7CC90ED95DC8135493-     test_buf: db `|\xc9\x0e\xd9]\xc8\x13T\x93\xbc\xc4W\xab8\x03\xb2L\x84\x06\xa7u\xe6\xdb\x8c\x93\x8c\xadq)"{\x08`
+    30 000007F9 BCC457AB3803B24C84-
+    31 00000802 06A775E6DB8C938CAD-
+    32 0000080B 7129227B08         
+    33                                  alignb 16
+    34                                  
+    35                                  
+    36                                  section .text
+    37                                  
+    38                                  main2:
+    39 00000000 48B9-                   mov rcx, s_buf
+    40 00000002 [1000000000000000] 
+    41 0000000A E832000000              call init_rc5
+    42 0000000F 48B9-                   mov rcx, s_buf
+    43 00000011 [1000000000000000] 
+    44 00000019 48BA-                   mov rdx, test_buf
+    45 0000001B [F007000000000000] 
+    46 00000023 49B8-                   mov r8, res_buf
+    47 00000025 [0004000000000000] 
+    48 0000002D E861010000              call decrypt_rc5
+    49 00000032 E800000000              call end
+    50                                  
+    51                                  end:
+    52 00000037 BF00000000              mov edi, 0
+    53 0000003C E8(00000000)            call exit
+    54                                  
+    55                                  init_rc5:
+    56 00000041 4881EC00010000          sub rsp, 100h
+    57 00000048 48895C2408              mov     [rsp+arg_0], rbx
+    58 0000004D 4889742410              mov     [rsp+arg_8], rsi
+    59 00000052 56                      push rsi
+    60 00000053 52                      push rdx
+    61 00000054 57                      push rdi
+    62 00000055 51                      push rcx
+    63 00000056 53                      push rbx
+    64 00000057 4150                    push r8
+    65 00000059 4151                    push r9
+    66 0000005B 4152                    push r10
+    67 0000005D 4889F9                  mov rcx, rdi
+    68 00000060 4881ECF0010000          sub rsp, 1F0h
+    69 00000067 4889CB                  mov rbx, rcx
+    70 0000006A 4531C0                  xor r8d, r8d
+    71 0000006D 31C9                    xor ecx, ecx
+    72 0000006F 31D2                    xor edx, edx
+    73 00000071 49BA-                   mov r10, a551c2016b00b5f ; "551C2016B00B5F00"
+    74 00000073 [0000000000000000] 
+    75 0000007B 4C8D8C24F0000000        lea r9, [rsp+1F8h+var_108]
+    76                                  ..@loc_11E3F:       ; CODE XREF: looks_liek_rc5_init+4Dj
+    77 00000083 410FB602                movzx eax, byte [r10]
+    78 00000087 C1E208                  shl edx, 8
+    79 0000008A FFC1                    inc ecx
+    80 0000008C 09C2                    or  edx, eax
+    81 0000008E 49FFC2                  inc r10
+    82 00000091 F6C103                  test  cl, 3
+    83 00000094 750C                    jnz short ..@loc_11E5E
+    84 00000096 418911                  mov [r9], edx
+    85 00000099 41FFC0                  inc r8d
+    86 0000009C 4983C104                add r9, 4
+    87 000000A0 31D2                    xor edx, edx
+    88                                  
+    89                                  ..@loc_11E5E:       ; CODE XREF: looks_liek_rc5_init+3Cj
+    90 000000A2 83F910                  cmp ecx, 10h
+    91 000000A5 72DC                    jb  short ..@loc_11E3F
+    92 000000A7 C74424206351E1B7        mov dword [rsp+1F8h+var_1D8], 0B7E15163h
+    93 000000AF 488D4C2424              lea rcx, [rsp+1F8h+var_1D4]
+    94 000000B4 BA2B000000              mov edx, 2Bh
+    95                                  
+    96                                  ..@loc_11E75:       ; CODE XREF: looks_liek_rc5_init+73j
+    97 000000B9 8B41FC                  mov eax, [rcx-4]
+    98 000000BC 2D4786C861              sub eax, 61C88647h
+    99 000000C1 8901                    mov [rcx], eax
+   100 000000C3 4883C104                add rcx, 4
+   101 000000C7 4883EA01                sub rdx, 1
+   102 000000CB 75EC                    jnz short ..@loc_11E75
+   103 000000CD 8D4A2C                  lea ecx, [rdx+2Ch]
+   104 000000D0 4489C0                  mov eax, r8d
+   105 000000D3 4139C8                  cmp r8d, ecx
+   106 000000D6 0F42C1                  cmovb eax, ecx
+   107 000000D9 31F6                    xor esi, esi
+   108 000000DB 4531DB                  xor r11d, r11d
+   109 000000DE 8D0C40                  lea ecx, [rax+rax*2]
+   110 000000E1 4531C9                  xor r9d, r9d
+   111 000000E4 31FF                    xor edi, edi
+   112 000000E6 85C9                    test  ecx, ecx
+   113 000000E8 7455                    jz  short ..@loc_11EFB
+   114 000000EA 4189CA                  mov r10d, ecx
+   115                                  
+   116                                  ..@loc_11EA9:       ; CODE XREF: looks_liek_rc5_init+E5j
+   117 000000ED 428B449C20              mov eax, [rsp+r11*4+1F8h+var_1D8]
+   118 000000F2 4401C8                  add eax, r9d
+   119 000000F5 01C7                    add edi, eax
+   120 000000F7 89F0                    mov eax, esi
+   121 000000F9 C1CF03                  ror edi, 3
+   122 000000FC 42897C9C20              mov [rsp+r11*4+1F8h+var_1D8], edi
+   123 00000101 418D0C39                lea ecx, [r9+rdi]
+   124 00000105 4101F9                  add r9d, edi
+   125 00000108 44038C84F0000000        add r9d, [rsp+rax*4+1F8h+var_108]
+   126 00000110 41FFC3                  inc r11d
+   127 00000113 41D3C9                  ror r9d, cl
+   128 00000116 44898C84F0000000        mov [rsp+rax*4+1F8h+var_108], r9d
+   129 0000011E B8A38B2EBA              mov eax, 0BA2E8BA3h
+   130 00000123 41F7E3                  mul r11d
+   131 00000126 C1EA05                  shr edx, 5
+   132 00000129 8D4601                  lea eax, [rsi+1]
+   133 0000012C 6BD22C                  imul  edx, 2Ch
+   134 0000012F 4129D3                  sub r11d, edx
+   135 00000132 31D2                    xor edx, edx
+   136 00000134 41F7F0                  div r8d
+   137 00000137 4983EA01                sub r10, 1
+   138 0000013B 89D6                    mov esi, edx
+   139 0000013D 75AE                    jnz short ..@loc_11EA9
+   140                                  
+   141                                  ..@loc_11EFB:       ; CODE XREF: looks_liek_rc5_init+90j
+   142 0000013F 488D742420              lea rsi, [rsp+1F8h+var_1D8]
+   143 00000144 BAB0000000              mov rdx, 0B0h
+   144 00000149 4889DF                  mov rdi, rbx
+   145 0000014C E8(00000000)            call memcpy
+   146 00000151 83A3B000000000          and dword [rbx+0B0h], 0
+   147 00000158 83A3B400000000          and dword [rbx+0B4h], 0
+   148 0000015F 83A3B800000000          and dword [rbx+0B8h], 0
+   149 00000166 83A3BC00000000          and dword [rbx+0BCh], 0
+   150 0000016D 4C8D9C24F0010000        lea r11, [rsp+1F8h+var_8]
+   151 00000175 498B5B10                mov rbx, [r11+10h]
+   152 00000179 498B7318                mov rsi, [r11+18h]
+   153 0000017D 4C89DC                  mov rsp, r11
+   154 00000180 4152                    push r10
+   155 00000182 4151                    push r9
+   156 00000184 4150                    push r8
+   157 00000186 5B                      pop rbx
+   158 00000187 59                      pop rcx
+   159 00000188 5F                      pop rdi
+   160 00000189 5A                      pop rdx
+   161 0000018A 5E                      pop rsi
+   162 0000018B 4881C400010000          add rsp, 100h
+   163 00000192 C3                      retn
+   164                                  
+   165                                  decrypt_rc5:
+   166                                  ; DATA XREF: .pdata:00000000002160CCo
+   167                                  
+   168                                  %define arg_0   8
+   169                                  %define arg_8   10h
+   170                                  %define arg_10    18h
+   171                                  %define arg_18    20h
+   172                                  
+   173 00000193 4881EC00010000          sub rsp, 100h
+   174 0000019A 4889E0                  mov rax, rsp
+   175 0000019D 48895808                mov [rax+8], rbx
+   176 000001A1 48896810                mov [rax+10h], rbp
+   177 000001A5 48897018                mov [rax+18h], rsi
+   178 000001A9 48897820                mov [rax+20h], rdi
+   179 000001AD 55                      push rbp
+   180 000001AE 53                      push rbx
+   181 000001AF 51                      push rcx
+   182 000001B0 52                      push rdx
+   183 000001B1 4150                    push  r8
+   184 000001B3 4151                    push  r9
+   185 000001B5 4154                    push  r12
+   186 000001B7 4155                    push  r13
+   187 000001B9 4156                    push  r14
+   188 000001BB 4157                    push  r15
+   189 000001BD 4889F9                  mov rcx, rdi
+   190 000001C0 4889F2                  mov rdx, rsi
+   191 000001C3 4989F0                  mov r8, rsi
+   192 000001C6 448B12                  mov r10d, [rdx]
+   193 000001C9 448B5A08                mov r11d, [rdx+8]
+   194 000001CD 8B5A0C                  mov ebx, [rdx+0Ch]
+   195 000001D0 4C89C7                  mov rdi, r8
+   196 000001D3 448B4204                mov r8d, [rdx+4]
+   197 000001D7 4489D6                  mov esi, r10d
+   198 000001DA 442B91A8000000          sub r10d, [rcx+0A8h]
+   199 000001E1 4589DC                  mov r12d, r11d
+   200 000001E4 442B99AC000000          sub r11d, [rcx+0ACh]
+   201 000001EB 4989C9                  mov r9, rcx
+   202 000001EE 4489C5                  mov ebp, r8d
+   203 000001F1 4189DD                  mov r13d, ebx
+   204 000001F4 41BF13000000            mov r15d, 13h
+   205 000001FA 4C8DB1A0000000          lea r14, [rcx+0A0h]
+   206                                  
+   207                                  loc_1208E:        ; CODE XREF: decrypt_rc5+99j
+   208 00000201 89D8                    mov eax, ebx
+   209 00000203 4489DB                  mov ebx, r11d
+   210 00000206 4589C3                  mov r11d, r8d
+   211 00000209 452B5E04                sub r11d, [r14+4]
+   212 0000020D 4589D0                  mov r8d, r10d
+   213 00000210 4189C2                  mov r10d, eax
+   214 00000213 452B16                  sub r10d, [r14]
+   215 00000216 438D540001              lea edx, [r8+r8+1]
+   216 0000021B 8D441B01                lea eax, [rbx+rbx+1]
+   217 0000021F 410FAFD0                imul  edx, r8d
+   218 00000223 C1CA05                  ror edx, 5
+   219 00000226 0FAFC3                  imul  eax, ebx
+   220 00000229 C1C805                  ror eax, 5
+   221 0000022C 89D1                    mov ecx, edx
+   222 0000022E 4983EE08                sub r14, 8
+   223 00000232 41D3C3                  rol r11d, cl
+   224 00000235 89C1                    mov ecx, eax
+   225 00000237 4131C3                  xor r11d, eax
+   226 0000023A 41D3C2                  rol r10d, cl
+   227 0000023D 4131D2                  xor r10d, edx
+   228 00000240 4983EF01                sub r15, 1
+   229 00000244 79BB                    jns short loc_1208E
+   230 00000246 453391B0000000          xor r10d, [r9+0B0h]
+   231 0000024D 453399B8000000          xor r11d, [r9+0B8h]
+   232 00000254 452B01                  sub r8d, [r9]
+   233 00000257 453381B4000000          xor r8d, [r9+0B4h]
+   234 0000025E 412B5904                sub ebx, [r9+4]
+   235 00000262 4189B1B0000000          mov [r9+0B0h], esi
+   236 00000269 413399BC000000          xor ebx, [r9+0BCh]
+   237 00000270 488B742438              mov rsi, [rsp+20h+arg_10]
+   238 00000275 4189A9B4000000          mov [r9+0B4h], ebp
+   239 0000027C 488B6C2430              mov rbp, [rsp+20h+arg_8]
+   240 00000281 895F0C                  mov [rdi+0Ch], ebx
+   241 00000284 488B5C2428              mov rbx, [rsp+20h+arg_0]
+   242 00000289 448917                  mov [rdi], r10d
+   243 0000028C 44894704                mov [rdi+4], r8d
+   244 00000290 44895F08                mov [rdi+8], r11d
+   245 00000294 488B7C2440              mov rdi, [rsp+20h+arg_18]
+   246 00000299 4589A1B8000000          mov [r9+0B8h], r12d
+   247 000002A0 4589A9BC000000          mov [r9+0BCh], r13d
+   248 000002A7 415F                    pop r15
+   249 000002A9 415E                    pop r14
+   250 000002AB 415D                    pop r13
+   251 000002AD 415C                    pop r12
+   252 000002AF 4159                    pop r9
+   253 000002B1 4158                    pop r8
+   254 000002B3 5A                      pop rdx
+   255 000002B4 59                      pop rcx
+   256 000002B5 5B                      pop rbx
+   257 000002B6 5D                      pop rbp
+   258 000002B7 4881C400010000          add rsp, 100h
+   259 000002BE C3                      retn

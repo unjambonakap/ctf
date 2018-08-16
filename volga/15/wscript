@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+
+
+from waflib.Task import Task
+from waflib.Node import Node
+import waflib.Utils
+import chdrft.waf.clang_compilation_database as wafClang
+from chdrft.waf.utils import add_clangdb_elem, add_kernel_module, SrcManagement
+import os
+import sys
+from chdrft.utils.misc import Dict, failsafe, change_extension, normalize_path
+from chdrft.waf.opa import opa_waf
+
+
+deps = 'opa cpkc'
+
+def options(ctx):
+    opa_waf.options(ctx)
+    ctx.recurse(deps)
+
+
+def configure(ctx):
+    opa_waf.configure(ctx)
+    ctx.recurse(deps)
+
+
+def build(ctx):
+    opa_waf.build(ctx)
+    ctx.recurse(deps)

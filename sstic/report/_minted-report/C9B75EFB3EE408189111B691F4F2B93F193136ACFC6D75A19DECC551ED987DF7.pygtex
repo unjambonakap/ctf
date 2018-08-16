@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{MyDirectDraw} \PYG{n}{g\PYGZus{}draw}\PYG{p}{;}
+
+\PYG{n}{HRESULT} \PYG{n}{WINAPI} \PYG{n+nf}{DirectDrawCreate}\PYG{p}{(}
+    \PYG{n}{\PYGZus{}In\PYGZus{}}  \PYG{n}{GUID} \PYG{n}{FAR}         \PYG{o}{*}\PYG{n}{lpGUID}\PYG{p}{,}
+    \PYG{n}{\PYGZus{}Out\PYGZus{}} \PYG{n}{LPDIRECTDRAW} \PYG{n}{FAR} \PYG{o}{*}\PYG{n}{lplpDD}\PYG{p}{,}
+    \PYG{n}{\PYGZus{}In\PYGZus{}}  \PYG{n}{IUnknown} \PYG{n}{FAR}     \PYG{o}{*}\PYG{n}{pUnkOuter}
+    \PYG{p}{)\PYGZob{}}
+  \PYG{n}{log\PYGZus{}file} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{l+s}{\PYGZdq{}KAPPA\PYGZdq{}}\PYG{p}{;}
+  \PYG{n}{log\PYGZus{}file}\PYG{p}{.}\PYG{n}{flush}\PYG{p}{();}
+  \PYG{o}{*}\PYG{n}{lplpDD} \PYG{o}{=} \PYG{o}{\PYGZam{}}\PYG{n}{g\PYGZus{}draw}\PYG{p}{;}
+  \PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{is\PYGZus{}activate} \PYG{o}{=} \PYG{p}{(}\PYG{k+kt}{int}\PYG{o}{*}\PYG{p}{)}\PYG{l+m+mh}{0x0040F0E0}\PYG{p}{;}
+  \PYG{o}{*}\PYG{n}{is\PYGZus{}activate} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;}
+
+
+  \PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

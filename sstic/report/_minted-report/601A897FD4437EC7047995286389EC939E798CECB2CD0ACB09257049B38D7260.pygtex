@@ -1,0 +1,189 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}include \PYGZdq{}lib.h\PYGZdq{}}
+\PYG{c+c1}{\PYGZsh{}include \PYGZdq{}test\PYGZus{}Export.h\PYGZdq{}}
+\PYG{c+c1}{\PYGZsh{}include \PYGZlt{}cstdio\PYGZgt{}}
+\PYG{c+c1}{\PYGZsh{}include \PYGZlt{}cstdlib\PYGZgt{}}
+\PYG{c+c1}{\PYGZsh{}include \PYGZlt{}iostream\PYGZgt{}}
+\PYG{c+c1}{\PYGZsh{}include \PYGZlt{}fstream\PYGZgt{}}
+\PYG{c+c1}{\PYGZsh{}include \PYGZdq{}WinBase.h\PYGZdq{}}
+\PYG{c+c1}{\PYGZsh{}include \PYGZdq{}lodepng.h\PYGZdq{}}
+\PYG{c+c1}{\PYGZsh{}include \PYGZlt{}cassert\PYGZgt{}}
+\PYG{c+c1}{\PYGZsh{}include \PYGZlt{}string\PYGZgt{}}
+
+\PYG{c+c1}{\PYGZsh{}include \PYGZlt{}ntddkbd.h\PYGZgt{}}
+\PYG{c+c1}{\PYGZsh{}include \PYGZlt{}ntddk.h\PYGZgt{}}
+
+int \PYG{n+nv}{a} \PYG{o}{=} IRP\PYGZus{}MJ\PYGZus{}WRITE\PYG{p}{;}
+int \PYG{n+nv}{x} \PYG{o}{=} UserMode\PYG{p}{;}
+
+
+using namespace std\PYG{p}{;}
+ofstream log\PYGZus{}file\PYG{o}{(}\PYG{l+s+s2}{\PYGZdq{}log.out\PYGZdq{}}, std::ofstream::binary\PYG{o}{)}\PYG{p}{;}
+
+const int \PYG{n+nv}{w} \PYG{o}{=} 1280\PYG{p}{;}
+const int \PYG{n+nv}{h} \PYG{o}{=} 720\PYG{p}{;}
+char surface\PYGZus{}buf\PYG{o}{[}w*h * 3\PYG{o}{]}\PYG{p}{;}
+
+test\PYGZus{}EXPORT void test\PYG{o}{()\PYGZob{}}
+  printf\PYG{o}{(}\PYG{l+s+s2}{\PYGZdq{}bonjour\PYGZbs{}n\PYGZdq{}}\PYG{o}{)}\PYG{p}{;}
+\PYG{o}{\PYGZcb{}}
+void WINAPI GetLocalTime\PYG{o}{(}\PYGZus{}Out\PYGZus{} LPSYSTEMTIME lpSystemTime\PYG{o}{)\PYGZob{}}
+  log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{} FUUU\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush;}
+\PYG{l+s}{  exit(0);}
+
+\PYG{l+s}{\PYGZcb{}}
+
+
+\PYG{l+s}{DDPIXELFORMAT g\PYGZus{}pixel\PYGZus{}fmt;}
+
+\PYG{l+s}{class MyDirectDrawSurface : public IDirectDrawSurface}
+\PYG{l+s}{\PYGZob{}}
+\PYG{l+s}{  public:}
+\PYG{l+s}{    /*** IUnknown methods ***/}
+\PYG{l+s}{    STDMETHOD(QueryInterface) (THIS\PYGZus{} REFIID riid, LPVOID FAR * ppvObj) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface QueryInterface XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYGZus{}\PYG{o}{(}ULONG, AddRef\PYG{o}{)} \PYG{o}{(}THIS\PYG{o}{)\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface KXX\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD\PYGZus{}(ULONG, Release) (THIS)\PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface KXX\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    /*** IDirectDrawSurface methods ***/
+    STDMETHOD\PYG{o}{(}AddAttachedSurface\PYG{o}{)(}THIS\PYGZus{} LPDIRECTDRAWSURFACE\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface AddAttachedSurface XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(AddOverlayDirtyRect)(THIS\PYGZus{} LPRECT) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface AddOverlayDirtyRect XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}Blt\PYG{o}{)(}THIS\PYGZus{} LPRECT, LPDIRECTDRAWSURFACE, LPRECT, DWORD, LPDDBLTFX\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface Blt XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(BltBatch)(THIS\PYGZus{} LPDDBLTBATCH, DWORD, DWORD) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface BltBatch XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}BltFast\PYG{o}{)(}THIS\PYGZus{} DWORD, DWORD, LPDIRECTDRAWSURFACE, LPRECT, DWORD\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface BltFast XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(DeleteAttachedSurface)(THIS\PYGZus{} DWORD, LPDIRECTDRAWSURFACE) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface DeleteAttachedSurface XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}EnumAttachedSurfaces\PYG{o}{)(}THIS\PYGZus{} LPVOID, LPDDENUMSURFACESCALLBACK\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface EnumAttachedSurfaces XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(EnumOverlayZOrders)(THIS\PYGZus{} DWORD, LPVOID, LPDDENUMSURFACESCALLBACK) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface EnumOverlayZOrders XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}Flip\PYG{o}{)(}THIS\PYGZus{} LPDIRECTDRAWSURFACE, DWORD\PYG{o}{)} \PYG{o}{\PYGZob{}}
+      \PYG{k}{if} \PYG{o}{(}0\PYG{o}{)\PYGZob{}}
+        typedef int\PYG{o}{(}*checkit\PYG{o}{)()}\PYG{p}{;}
+        checkit \PYG{n+nv}{t1} \PYG{o}{=} \PYG{o}{(}checkit\PYG{o}{)(}0x403750\PYG{o}{)}\PYG{p}{;}
+        SYSTEMTIME time\PYG{p}{;}
+        GetSystemTime\PYG{o}{(}\PYG{p}{\PYGZam{}}\PYG{n+nb}{time}\PYG{o}{)}\PYG{p}{;}
+
+        \PYG{k}{for} \PYG{o}{(}int \PYG{n+nv}{t} \PYG{o}{=} 0\PYG{p}{;} t \PYGZlt{} \PYG{l+m}{24} * \PYG{l+m}{60} * 60\PYG{p}{;} ++t\PYG{o}{)\PYGZob{}}
+          int \PYG{n+nv}{curt} \PYG{o}{=} t\PYG{p}{;}
+          time.wSecond \PYG{o}{=} curt \PYGZpc{} 60\PYG{p}{;}
+          curt /\PYG{o}{=} 60\PYG{p}{;}
+          time.wMinute \PYG{o}{=} curt \PYGZpc{} 60\PYG{p}{;}
+          curt /\PYG{o}{=} 60\PYG{p}{;}
+          time.wHour \PYG{o}{=} curt\PYG{p}{;}
+
+          //SetSystemTime\PYG{o}{(}\PYG{p}{\PYGZam{}}\PYG{n+nb}{time}\PYG{o}{)}\PYG{p}{;}
+          int \PYG{n+nv}{res} \PYG{o}{=} t1\PYG{o}{()}\PYG{p}{;}
+          char buf\PYG{o}{[}200\PYG{o}{]}\PYG{p}{;}
+          sprintf\PYG{o}{(}buf, \PYG{l+s+s2}{\PYGZdq{}res \PYGZgt{}\PYGZgt{} \PYGZpc{}02d:\PYGZpc{}02d:\PYGZpc{}02d \PYGZgt{}\PYGZgt{} \PYGZpc{}d\PYGZdq{}}, time.wHour, time.wMinute, time.wSecond, res\PYG{o}{)}\PYG{p}{;}
+          Sleep\PYG{o}{(}1\PYG{o}{)}\PYG{p}{;}
+
+        \PYG{o}{\PYGZcb{}}
+        exit\PYG{o}{(}0\PYG{o}{)}\PYG{p}{;}
+      \PYG{o}{\PYGZcb{}}
+      do\PYGZus{}dump\PYG{o}{()}\PYG{p}{;}
+      log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface Flip XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0;}
+\PYG{l+s}{    \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(GetAttachedSurface)(THIS\PYGZus{} LPDDSCAPS, LPDIRECTDRAWSURFACE FAR * out\PYGZus{}surf) \PYGZob{} *out\PYGZus{}surf = this; log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface GetAttachedSurface XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}GetBltStatus\PYG{o}{)(}THIS\PYGZus{} DWORD\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface GetBltStatus XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(GetCaps)(THIS\PYGZus{} LPDDSCAPS) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface GetCaps XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}GetClipper\PYG{o}{)(}THIS\PYGZus{} LPDIRECTDRAWCLIPPER FAR*\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface GetClipper XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(GetColorKey)(THIS\PYGZus{} DWORD, LPDDCOLORKEY) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface GetColorKey XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}GetDC\PYG{o}{)(}THIS\PYGZus{} HDC FAR *\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface GetDC XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(GetFlipStatus)(THIS\PYGZus{} DWORD) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface GetFlipStatus XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}GetOverlayPosition\PYG{o}{)(}THIS\PYGZus{} LPLONG, LPLONG\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface GetOverlayPosition XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(GetPalette)(THIS\PYGZus{} LPDIRECTDRAWPALETTE FAR*) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface GetPalette XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}GetPixelFormat\PYG{o}{)(}THIS\PYGZus{} LPDDPIXELFORMAT out\PYGZus{}fmt\PYG{o}{)} \PYG{o}{\PYGZob{}}
+      log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface GetPixelFormat XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush;}
+\PYG{l+s}{      out\PYGZus{}fmt\PYGZhy{}\PYGZgt{}dwSize = 3;}
+\PYG{l+s}{      out\PYGZus{}fmt\PYGZhy{}\PYGZgt{}dwFlags = 0x40; //required, DD\PYGZus{}RGB}
+\PYG{l+s}{      out\PYGZus{}fmt\PYGZhy{}\PYGZgt{}dwFourCC = 0x789;}
+\PYG{l+s}{      out\PYGZus{}fmt\PYGZhy{}\PYGZgt{}dwRGBBitCount = 24;}
+\PYG{l+s}{      out\PYGZus{}fmt\PYGZhy{}\PYGZgt{}dwRBitMask = 0xff;}
+\PYG{l+s}{      out\PYGZus{}fmt\PYGZhy{}\PYGZgt{}dwGBitMask = 0xff00;}
+\PYG{l+s}{      out\PYGZus{}fmt\PYGZhy{}\PYGZgt{}dwBBitMask = 0xff0000;}
+
+
+
+\PYG{l+s}{      return 0;}
+\PYG{l+s}{    \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(GetSurfaceDesc)(THIS\PYGZus{} LPDDSURFACEDESC) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface GetSurfaceDesc XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}Initialize\PYG{o}{)(}THIS\PYGZus{} LPDIRECTDRAW, LPDDSURFACEDESC\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface Initialize XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(IsLost)(THIS)\PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface IsLost XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}Lock\PYG{o}{)(}THIS\PYGZus{} LPRECT, LPDDSURFACEDESC io\PYGZus{}surf, DWORD, HANDLE\PYG{o}{)} \PYG{o}{\PYGZob{}}
+      io\PYGZus{}surf\PYGZhy{}\PYGZgt{}lPitch \PYG{o}{=} w * 3\PYG{p}{;}
+      io\PYGZus{}surf\PYGZhy{}\PYGZgt{}lpSurface \PYG{o}{=} surface\PYGZus{}buf\PYG{p}{;}
+      io\PYGZus{}surf\PYGZhy{}\PYGZgt{}dwWidth \PYG{o}{=} w\PYG{p}{;}
+      io\PYGZus{}surf\PYGZhy{}\PYGZgt{}dwHeight \PYG{o}{=} h\PYG{p}{;}
+      log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface Lock XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0;}
+\PYG{l+s}{    \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(ReleaseDC)(THIS\PYGZus{} HDC) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface ReleaseDC XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}Restore\PYG{o}{)(}THIS\PYG{o}{)\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface Restore XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(SetClipper)(THIS\PYGZus{} LPDIRECTDRAWCLIPPER) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface SetClipper XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}SetColorKey\PYG{o}{)(}THIS\PYGZus{} DWORD, LPDDCOLORKEY\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface SetColorKey XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(SetOverlayPosition)(THIS\PYGZus{} LONG, LONG) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface SetOverlayPosition XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}SetPalette\PYG{o}{)(}THIS\PYGZus{} LPDIRECTDRAWPALETTE\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface SetPalette XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(Unlock)(THIS\PYGZus{} LPVOID) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface Unlock XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}UpdateOverlay\PYG{o}{)(}THIS\PYGZus{} LPRECT, LPDIRECTDRAWSURFACE, LPRECT, DWORD, LPDDOVERLAYFX\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface UpdateOverlay XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(UpdateOverlayDisplay)(THIS\PYGZus{} DWORD) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}DirectDrawSurface UpdateOverlayDisplay XX \PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}UpdateOverlayZOrder\PYG{o}{)(}THIS\PYGZus{} DWORD, LPDIRECTDRAWSURFACE\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DirectDrawSurface UpdateOverlayZOrder XX \PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+
+\PYG{l+s}{  private:}
+\PYG{l+s}{    void do\PYGZus{}dump()\PYGZob{}}
+\PYG{l+s}{      char filename[200];}
+\PYG{l+s}{      if (blit\PYGZus{}count \PYGZpc{} 1 == 0)\PYGZob{}}
+\PYG{l+s}{        sprintf(filename, \PYGZdq{}out/res\PYGZus{}\PYGZpc{}04d.png\PYGZdq{}, blit\PYGZus{}count);}
+\PYG{l+s}{        unsigned int err = lodepng::encode(string(filename), (const unsigned char*)surface\PYGZus{}buf, w, h, LodePNGColorType::LCT\PYGZus{}RGB);}
+\PYG{l+s}{        assert(err == 0);}
+\PYG{l+s}{      \PYGZcb{}}
+\PYG{l+s}{      blit\PYGZus{}count += 1;}
+\PYG{l+s}{      if (blit\PYGZus{}count == 400)}
+\PYG{l+s}{        exit(0);}
+
+
+\PYG{l+s}{    \PYGZcb{}}
+\PYG{l+s}{    int blit\PYGZus{}count = 0;}
+\PYG{l+s}{\PYGZcb{};}
+
+\PYG{l+s}{MyDirectDrawSurface g\PYGZus{}surface;}
+
+\PYG{l+s}{class MyDirectDraw : public IDirectDraw \PYGZob{}}
+\PYG{l+s}{  public:}
+\PYG{l+s}{    STDMETHOD(QueryInterface) (THIS\PYGZus{} REFIID riid, LPVOID FAR * ppvObj) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}On QueryInterface\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYGZus{}\PYG{o}{(}ULONG, AddRef\PYG{o}{)} \PYG{o}{(}THIS\PYG{o}{)\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}AddRef\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD\PYGZus{}(ULONG, Release) (THIS)\PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}AddRef\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    /*** IDirectDraw methods ***/
+    STDMETHOD\PYG{o}{(}Compact\PYG{o}{)(}THIS\PYG{o}{)\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}Compact\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(CreateClipper)(THIS\PYGZus{} DWORD, LPDIRECTDRAWCLIPPER FAR*, IUnknown FAR *) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}CreateClipper\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}CreatePalette\PYG{o}{)(}THIS\PYGZus{} DWORD, LPPALETTEENTRY, LPDIRECTDRAWPALETTE FAR*, IUnknown FAR *\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}CreatePalette\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(CreateSurface)(THIS\PYGZus{}  LPDDSURFACEDESC desc, LPDIRECTDRAWSURFACE FAR *surface, IUnknown FAR *) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}CreateSurface\PYGZdq{} \PYGZlt{}\PYGZlt{}  desc\PYGZhy{}\PYGZgt{}dwWidth \PYGZlt{}\PYGZlt{} \PYGZsq{} \PYGZsq{} \PYGZlt{}\PYGZlt{} desc\PYGZhy{}\PYGZgt{}dwHeight \PYGZlt{}\PYGZlt{} \PYGZsq{} \PYGZsq{}\PYGZlt{}\PYGZlt{} desc\PYGZhy{}\PYGZgt{}lPitch \PYGZlt{}\PYGZlt{} \PYGZsq{} \PYGZsq{} \PYGZlt{}\PYGZlt{} desc\PYGZhy{}\PYGZgt{}ddpfPixelFormat.dwRGBBitCount \PYGZlt{}\PYGZlt{} \PYGZdq{}\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{}flush}\PYG{p}{;} *surface \PYG{o}{=} \PYG{p}{\PYGZam{}}g\PYGZus{}surface\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}DuplicateSurface\PYG{o}{)(}THIS\PYGZus{} LPDIRECTDRAWSURFACE, LPDIRECTDRAWSURFACE FAR *\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}DuplicateSurface\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(EnumDisplayModes)(THIS\PYGZus{} DWORD, LPDDSURFACEDESC, LPVOID, LPDDENUMMODESCALLBACK) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}EnumDisplayModes\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}EnumSurfaces\PYG{o}{)(}THIS\PYGZus{} DWORD, LPDDSURFACEDESC, LPVOID, LPDDENUMSURFACESCALLBACK\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}EnumSurfaces\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(FlipToGDISurface)(THIS)\PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}FlipToGDISurface\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}GetCaps\PYG{o}{)(}THIS\PYGZus{} LPDDCAPS, LPDDCAPS\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}GetCaps\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(GetDisplayMode)(THIS\PYGZus{} LPDDSURFACEDESC) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}GetDisplayMode\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}GetFourCCCodes\PYG{o}{)(}THIS\PYGZus{}  LPDWORD, LPDWORD\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}GetFourCCCodes\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(GetGDISurface)(THIS\PYGZus{} LPDIRECTDRAWSURFACE FAR *) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}GetGDISurface\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}GetMonitorFrequency\PYG{o}{)(}THIS\PYGZus{} LPDWORD\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}GetMonitorFrequency\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(GetScanLine)(THIS\PYGZus{} LPDWORD) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}GetScanLine\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}GetVerticalBlankStatus\PYG{o}{)(}THIS\PYGZus{} LPBOOL\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}GetVertiacalBlankStatus\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(Initialize)(THIS\PYGZus{} GUID FAR *) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}Initialize\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}RestoreDisplayMode\PYG{o}{)(}THIS\PYG{o}{)\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}RestoreDisplayMode\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(SetCooperativeLevel)(THIS\PYGZus{} HWND, DWORD) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}SetCooperativeLevel\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+    STDMETHOD\PYG{o}{(}SetDisplayMode\PYG{o}{)(}THIS\PYGZus{} DWORD, DWORD, DWORD\PYG{o}{)} \PYG{o}{\PYGZob{}} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}SetDisplayMode\PYGZbs{}n\PYGZdq{}} \PYG{l+s}{\PYGZlt{}\PYGZlt{} flush; return 0; \PYGZcb{}}
+\PYG{l+s}{    STDMETHOD(WaitForVerticalBlank)(THIS\PYGZus{} DWORD, HANDLE) \PYGZob{} log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYGZdq{}WaitForVerticalBlank\PYGZbs{}n\PYGZdq{} \PYGZlt{}\PYGZlt{} flush}\PYG{p}{;} \PYG{k}{return} 0\PYG{p}{;} \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}\PYG{p}{;}
+
+MyDirectDraw g\PYGZus{}draw\PYG{p}{;}
+
+HRESULT WINAPI DirectDrawCreate\PYG{o}{(}
+    \PYGZus{}In\PYGZus{}  GUID FAR         *lpGUID,
+    \PYGZus{}Out\PYGZus{} LPDIRECTDRAW FAR *lplpDD,
+    \PYGZus{}In\PYGZus{}  IUnknown FAR     *pUnkOuter
+    \PYG{o}{)\PYGZob{}}
+  log\PYGZus{}file \PYGZlt{}\PYGZlt{} \PYG{l+s+s2}{\PYGZdq{}KAPPA\PYGZdq{}}\PYG{p}{;}
+  log\PYGZus{}file.flush\PYG{o}{()}\PYG{p}{;}
+  *lplpDD \PYG{o}{=} \PYG{p}{\PYGZam{}}g\PYGZus{}draw\PYG{p}{;}
+  int *is\PYGZus{}activate \PYG{o}{=} \PYG{o}{(}int*\PYG{o}{)}0x0040F0E0\PYG{p}{;}
+  *is\PYGZus{}activate \PYG{o}{=} 1\PYG{p}{;}
+
+
+  \PYG{k}{return} 0\PYG{p}{;}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

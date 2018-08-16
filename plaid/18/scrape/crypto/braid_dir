@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+ 
+<!--
+     Pleasant Apache directory listings courtesy of Indices:
+     http://antisleep.com/software/indices
+--> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+    <title>index of /</title> 
+ 
+    <style type="text/css"> 
+    <!--
+        /*
+  Indices styles: javascript-free version
+    This does its magic using a bunch of CSS2 selectors.  These won't
+    work in IE, so you'll miss some styling, and the hiding of certain
+    rows and columns.
+ 
+  Indices: http://antisleep.com/software/indices
+*/
+ 
+/*===========================================================================*/
+ 
+body {
+    font-family: verdana, helvetica, arial, sans-serif;
+    margin: 10px 10px 10px 10px;
+    font-size: 11px;
+}
+ 
+a {
+	text-decoration:none;
+    color: black;
+	font-weight: bold;
+}
+ 
+a:hover {
+    background: #dddddd;
+}
+ 
+img {
+    border: 0;
+}
+ 
+/* HEADER STYLING ===========================================================*/
+ 
+.header {
+    width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+/* gets rid of visual glitch from hover color */
+.header img {
+    vertical-align: bottom;
+}
+ 
+.header a {
+    font-weight: bold;
+}
+ 
+.readme {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ 
+.path {
+    text-align: left;
+    font-size: 9px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+ 
+.credits {
+    text-align: right;
+    font-size: 9px;
+    font-style: italic;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.credits a {
+    text-decoration: underline;
+}
+ 
+/* TABLE STYLING ============================================================*/
+ 
+table {
+   background-color: white;
+   border: solid 1px #888888;
+ 
+   padding: 0px;
+ 
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+}
+ 
+tr,td,th {
+    padding: 0;
+    border: 0;
+}
+ 
+/* rollover effect for table rows, header cells */
+tr:hover, th:hover {
+    background: #dddddd;
+}
+ 
+th {
+    background: #f3f3f3;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+}
+ 
+th a {
+    font: 10px Verdana, Arial, Helvetica,   sans-serif;
+    color: #333333;
+}
+ 
+ 
+/* All file links are bold */
+td a {
+    font-weight: bold;
+}
+ 
+ 
+/* ICON header cell */
+th:first-child {
+    border-left: 1px solid #e0e0e0;
+    padding: 0px 0px 0px 1px;
+}
+ 
+/* all cells in ICON column */
+td:first-child {
+    text-align: center;
+    width: 24px;
+}
+ 
+/* NAME header */
+th:first-child + th {
+    text-align: left;
+    padding-left: 5px;
+    width: 350px;
+}
+ 
+/* all other NAME cells */
+td:first-child + td {
+    text-align: left;
+    padding-left: 5px;
+}
+ 
+/* LAST MODIFIED header */
+th:first-child + th + th {
+    text-align: right;
+    padding-right: 5px;
+}
+ 
+/* all other LAST MODIFIED cells */
+td:first-child + td + td {
+    padding-right: 5px;
+}
+ 
+/* SIZE header */
+th:first-child + th + th + th {
+    border-right: 1px solid #e0e0e0;
+    text-align: right;
+    padding-right: 5px;
+}
+ 
+/* all other SIZE cells */
+td:first-child + td + td + td {
+    padding-right: 5px;
+}
+ 
+/* DESCRIPTION header */
+th:first-child + th + th + th + th {
+    display: none;
+}
+ 
+/* all other DESCRIPTION cells */
+td:first-child + td + td + td + td {
+    display: none;
+}
+    -->
+    </style> 
+ 
+    <script type="text/javascript"> 
+    <!--
+            -->
+    </script> 
+</head> 
+ 
+<body> 
+    <div id="pagecontainer"> 
+        <script> 
+        <!--
+                -->
+        </script> 
+ 
+        <div class='header'> 
+                        <div class='path'></div>                    </div> 
+
+
+
+<pre>
+Braid
+2 days ago
+Crypto (350 pts)
+Braids are fun!
+</pre>
+
+
+  <table>
+   <tr><th valign="top"><img src="/indices/icons/blank.gif" alt="[ICO]" width="16" height="16" /></th><th>Name</th><th>Last modified</th><th>Size</th><th>Description</th></tr>
+<tr><td valign="top"><img src="/indices/icons/back.png" alt="[PARENTDIR]" width="16" height="16" /></td><td><a href="/2018/plaidctf/crypto/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/indices/icons/compressed.gif" alt="[   ]" width="16" height="16" /></td><td><a href="handout-462ae529ac90cf1e54dd95318b8b36bd73c2c2cd.tgz">handout-462ae529ac90cf1e54dd95318b8b36bd73c2c2cd.tgz</a></td><td align="right">2018-05-06 16:17  </td><td align="right"> 19K</td><td>&nbsp;</td></tr>
+</table>
+    <div class="credits">
+        <a href="http://antisleep.com/software/indices">Indices</a> 1.1
+    </div>
+</div>
+</body>
+</html>

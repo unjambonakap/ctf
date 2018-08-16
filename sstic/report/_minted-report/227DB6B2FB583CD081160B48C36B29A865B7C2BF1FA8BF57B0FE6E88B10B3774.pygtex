@@ -1,0 +1,34 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Hooker}\PYG{p}{(}\PYG{n}{idaapi}\PYG{o}{.}\PYG{n}{DBG\PYGZus{}Hooks}\PYG{p}{):}
+  \PYG{k}{def} \PYG{n+nf}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{data}\PYG{p}{):}
+    \PYG{n+nb}{super}\PYG{p}{(}\PYG{n}{Hooker}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{p}{)}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{()}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{done} \PYG{o}{=} \PYG{n+nb+bp}{False}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{exited} \PYG{o}{=} \PYG{n+nb+bp}{False}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{data} \PYG{o}{=} \PYG{n}{data}
+
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{test\PYGZus{}time\PYGZus{}func} \PYG{o}{=} \PYG{n}{idc}\PYG{o}{.}\PYG{n}{LocByName}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}should\PYGZus{}exfiltrate\PYGZsq{}}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{test\PYGZus{}time\PYGZus{}start} \PYG{o}{=} \PYG{n}{idc}\PYG{o}{.}\PYG{n}{LocByName}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}loc\PYGZus{}403E61\PYGZsq{}}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{test\PYGZus{}time\PYGZus{}end}\PYG{o}{=}\PYG{l+m+mh}{0x00403E66}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{test\PYGZus{}time\PYGZus{}mod}\PYG{o}{=}\PYG{l+m+mh}{0x00403767}
+  \PYG{k}{def} \PYG{n+nf}{dbg\PYGZus{}bpt}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{tid}\PYG{p}{,} \PYG{n}{ea}\PYG{p}{):}
+    \PYG{k}{elif} \PYG{n}{ea}\PYG{o}{==}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{test\PYGZus{}time\PYGZus{}end}\PYG{p}{:}
+      \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{time}\PYG{o}{\PYGZgt{}=}\PYG{l+m+mi}{3600}\PYG{o}{*}\PYG{l+m+mi}{24}\PYG{p}{:}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{done}\PYG{o}{=}\PYG{l+m+mi}{1}
+        \PYG{c+c1}{\PYGZsh{}entre 23h et 1h}
+      \PYG{k}{else}\PYG{p}{:}
+        \PYG{n}{idautils}\PYG{o}{.}\PYG{n}{cpu}\PYG{o}{.}\PYG{n}{eip}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{test\PYGZus{}time\PYGZus{}start}
+        \PYG{n}{resv}\PYG{o}{=}\PYG{n}{idautils}\PYG{o}{.}\PYG{n}{cpu}\PYG{o}{.}\PYG{n}{eax}
+        \PYG{n}{h}\PYG{p}{,}\PYG{n}{m}\PYG{p}{,}\PYG{n}{s}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}time}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{time}\PYG{p}{)}
+        \PYG{k}{print} \PYG{l+s+s1}{\PYGZsq{}REsult: }\PYG{l+s+si}{\PYGZpc{}d}\PYG{l+s+s1}{:}\PYG{l+s+si}{\PYGZpc{}d}\PYG{l+s+s1}{:}\PYG{l+s+si}{\PYGZpc{}d}\PYG{l+s+s1}{ \PYGZgt{}\PYGZgt{} }\PYG{l+s+si}{\PYGZpc{}d}\PYG{l+s+s1}{\PYGZsq{}}\PYG{o}{\PYGZpc{}}\PYG{p}{(}\PYG{n}{h}\PYG{p}{,}\PYG{n}{m}\PYG{p}{,}\PYG{n}{s}\PYG{p}{,}\PYG{n}{resv}\PYG{p}{)}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{time}\PYG{o}{+=}\PYG{l+m+mi}{60}
+
+    \PYG{k}{elif} \PYG{n}{ea}\PYG{o}{==}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{test\PYGZus{}time\PYGZus{}mod}\PYG{p}{:}
+      \PYG{n}{h}\PYG{p}{,}\PYG{n}{m}\PYG{p}{,}\PYG{n}{s}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}time}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{time}\PYG{p}{)}
+      \PYG{n}{addr}\PYG{o}{=}\PYG{n}{idautils}\PYG{o}{.}\PYG{n}{cpu}\PYG{o}{.}\PYG{n}{ebx}
+      \PYG{n}{write\PYGZus{}u16}\PYG{p}{(}\PYG{n}{addr}\PYG{o}{+}\PYG{l+m+mi}{4}\PYG{o}{*}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{h}\PYG{p}{)}
+      \PYG{n}{write\PYGZus{}u16}\PYG{p}{(}\PYG{n}{addr}\PYG{o}{+}\PYG{l+m+mi}{5}\PYG{o}{*}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{m}\PYG{p}{)}
+      \PYG{n}{write\PYGZus{}u16}\PYG{p}{(}\PYG{n}{addr}\PYG{o}{+}\PYG{l+m+mi}{6}\PYG{o}{*}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{s}\PYG{p}{)}
+
+  \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}time}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{t}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n}{t}\PYG{o}{/}\PYG{l+m+mi}{3600}\PYG{p}{,} \PYG{n}{t}\PYG{o}{/}\PYG{l+m+mi}{60}\PYG{o}{\PYGZpc{}}\PYG{l+m+mi}{60}\PYG{p}{,} \PYG{n}{t}\PYG{o}{\PYGZpc{}}\PYG{l+m+mi}{60}
+\end{Verbatim}

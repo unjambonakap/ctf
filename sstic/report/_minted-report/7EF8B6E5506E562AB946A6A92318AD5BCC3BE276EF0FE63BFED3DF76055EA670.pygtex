@@ -1,0 +1,38 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+CODE at  0x51466a42e731 b\PYGZsq{}0f05\PYGZsq{}
+0x51466a42e731:	syscall	 bytearray(b\PYGZsq{}\PYGZbs{}x0f\PYGZbs{}x05\PYGZsq{})
+[1, 99265643088311, 27] \PYGZsh{}rdi, rsi, rdx
+GOT HOOK \PYGZgt{}\PYGZgt{}  write
+WRITING \PYGZgt{}\PYGZgt{}  bytearray(b\PYGZsq{}Please enter the password: \PYGZsq{})
+
+...
+
+
+CODE at  0x51466a42e741 b\PYGZsq{}0f05\PYGZsq{}
+0x51466a42e741:	syscall	 bytearray(b\PYGZsq{}\PYGZbs{}x0f\PYGZbs{}x05\PYGZsq{})
+[0, 1108992, 1024]
+GOT HOOK \PYGZgt{}\PYGZgt{}  read
+\PYGZsh{} note: ici on écrit ce qu\PYGZsq{}on veut
+
+... Lecture de notre buffer
+
+0x10f338cf754d: movzx ebx, byte ptr [rsi]      \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+OpReg ebx:00000000
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:0000000000000032
+Regs
+rbx:0000000000000000
+rbx:0000000000000032
+
+0x10f338cf7550: sub bl, 0x30     \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+OpReg bl:32
+Regs
+rbx:0000000000000032
+rbx:0000000000000002
+
+... On réécrit dans le même buffer le unhexlify
+
+0x10f338cf75a4: mov byte ptr [rdi], bl 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+OpReg bl:29
+WriteEvent addr:000000000010ec00 n:0000000000000001 nval:0000000000000029 val:0000000000000032
+Regs
+\end{Verbatim}

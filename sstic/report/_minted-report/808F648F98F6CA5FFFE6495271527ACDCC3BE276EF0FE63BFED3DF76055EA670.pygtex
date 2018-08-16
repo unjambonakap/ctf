@@ -1,0 +1,46 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZhy{}\PYGZhy{} Fifth check:
+0x352845ab3bd5: xor ebx, dword ptr [rsp + 0xc] 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+OpReg ebx:352845ab3bd5
+ReadEvent addr:000000000010ec0c n:0000000000000004 val:00000000aaaaaaaa
+Regs
+rbx:0000352845ab3bd5
+rbx:00000000ef01917f
+
+0x352845ab3bd9: cmp ebx, 0xa9b00f5c 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+OpReg ebx:ef01917f
+Regs
+\PYGZhy{}\PYGZgt{} buf[0xc \PYGZhy{}\PYGZgt{} 0x10] = 0xec1b3489 = 0xa9b00f5c \PYGZca{} 0x45ab3bd5
+
+=======
+
+\PYGZhy{}\PYGZhy{} Sixth check:
+0x59cb440c4536: mov eax, dword ptr [rsp + 0x10] 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=8caaaaaa
+OpReg eax:0010ec00
+ReadEvent addr:000000000010ec08 n:0000000000000004 val:000000008caaaaaa
+Regs
+rax:000000000010ec00
+rax:000000008caaaaaa
+
+
+0x59cb440c453a: xor rax, rbx 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=59cb4466a129
+OpReg rax:000000008caaaaaa rbx:000059cbc8cc0b83
+Regs
+rax:000000008caaaaaa
+rax:000059cb4466a129
+
+
+0x59cb440c453d: movabs rbx, 0x2a7ee24a000c 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=59cb4466a129
+OpReg rbx:000059cbc8cc0b83
+Regs
+rbx:000059cbc8cc0b83
+rbx:00002a7ee24a000c
+
+
+0x59cb440c4547: cmpxchg rcx, rbx 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=59cb440c4556
+OpReg rbx:00002a7ee24a000c rcx:000059cb440c4556
+Regs
+rax:000059cb4466a129
+rax:000059cb440c4556
+Want rax = rax \PYGZhy{}\PYGZgt{} buf[0x8] = 0xc8cc0b83 \PYGZca{} 0x440c4556  = 0x8cc04ed5
+\end{Verbatim}

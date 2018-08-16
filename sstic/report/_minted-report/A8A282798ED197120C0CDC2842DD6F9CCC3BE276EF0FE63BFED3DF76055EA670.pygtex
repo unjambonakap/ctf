@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+CODE at  0x99a380575e2 b\PYGZsq{}0f05\PYGZsq{}
+0x99a380575e2:	syscall	 bytearray(b\PYGZsq{}\PYGZbs{}x0f\PYGZbs{}x05\PYGZsq{})
+[1, 99265643088338, 12]
+GOT HOOK \PYGZgt{}\PYGZgt{}  write
+WRITING \PYGZgt{}\PYGZgt{}  bytearray(b\PYGZsq{}The key is: \PYGZsq{})
+
+ \PYGZhy{}\PYGZhy{}\PYGZhy{}
+
+CODE at  0x99a380575f3 b\PYGZsq{}0f05\PYGZsq{}
+0x99a380575f3:	syscall	 bytearray(b\PYGZsq{}\PYGZbs{}x0f\PYGZbs{}x05\PYGZsq{})
+[1, 1108992, 32]
+GOT HOOK \PYGZgt{}\PYGZgt{}  write
+WRITING \PYGZgt{}\PYGZgt{}       bytearray(b\PYGZsq{}E574B514667F6AB2D83047BB871A54F5\PYGZsq{})
+\end{Verbatim}

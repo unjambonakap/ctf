@@ -1,0 +1,42 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Bruteforcing of the key.}
+\PYG{n}{u32} \PYG{n}{tb}\PYG{p}{[]} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+  \PYG{l+m+mi}{0}\PYG{p}{,}          \PYG{l+m+mi}{1996959894}\PYG{p}{,} \PYG{l+m+mi}{3993919788}\PYG{p}{,} \PYG{l+m+mi}{2567524794}\PYG{p}{,} \PYG{l+m+mi}{124634137}\PYG{p}{,}  \PYG{l+m+mi}{1886057615}\PYG{p}{,}
+  \PYG{l+m+mi}{3915621685}\PYG{p}{,} \PYG{l+m+mi}{2657392035}\PYG{p}{,} \PYG{l+m+mi}{249268274}\PYG{p}{,}  \PYG{l+m+mi}{2044508324}\PYG{p}{,} \PYG{l+m+mi}{3772115230}\PYG{p}{,} \PYG{l+m+mi}{2547177864}\PYG{p}{,}
+\PYG{p}{..}
+\PYG{c+cm}{/* Edited for display*/}
+\PYG{p}{\PYGZcb{};}
+
+\PYG{k}{const} \PYG{n}{u32} \PYG{n}{resv} \PYG{o}{=} \PYG{l+m+mi}{3298472535}\PYG{p}{;}
+
+\PYG{n}{u32} \PYG{n+nf}{proc}\PYG{p}{(}\PYG{n}{u32} \PYG{n}{a}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+
+  \PYG{n}{u32} \PYG{n}{c0} \PYG{o}{=} \PYG{l+m+mi}{4294967295}\PYG{p}{;}
+  \PYG{n}{REP} \PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{n}{u32} \PYG{n}{ax} \PYG{o}{=} \PYG{n}{a} \PYG{o}{\PYGZgt{}\PYGZgt{}} \PYG{p}{(}\PYG{n}{n} \PYG{o}{*} \PYG{l+m+mi}{8}\PYG{p}{)} \PYG{o}{\PYGZam{}} \PYG{l+m+mh}{0xff}\PYG{p}{;}
+    \PYG{n}{u32} \PYG{n}{cx} \PYG{o}{=} \PYG{n}{ax} \PYG{o}{\PYGZca{}} \PYG{p}{(}\PYG{n}{c0} \PYG{o}{\PYGZam{}} \PYG{l+m+mh}{0xff}\PYG{p}{);}
+    \PYG{n}{c0} \PYG{o}{=} \PYG{n}{c0} \PYG{o}{\PYGZgt{}\PYGZgt{}} \PYG{l+m+mi}{8}\PYG{p}{;}
+    \PYG{n}{c0} \PYG{o}{=} \PYG{n}{tb}\PYG{p}{[}\PYG{n}{cx}\PYG{p}{]} \PYG{o}{\PYGZca{}} \PYG{n}{c0}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+  \PYG{n}{c0} \PYG{o}{=} \PYG{o}{\PYGZti{}}\PYG{n}{c0}\PYG{p}{;}
+  \PYG{k}{return} \PYG{n}{c0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{()} \PYG{p}{\PYGZob{}}
+  \PYG{k}{for} \PYG{p}{(}\PYG{n}{u32} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;;} \PYG{o}{++}\PYG{n}{i}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{n}{u32} \PYG{n}{res} \PYG{o}{=} \PYG{n}{proc}\PYG{p}{(}\PYG{n}{i}\PYG{p}{);}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n}{res} \PYG{o}{==} \PYG{n}{resv}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+      \PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}found at \PYGZpc{}u}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{i}\PYG{p}{);}
+      \PYG{k}{break}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{c+c1}{// res: c49ab257}
+
+    \PYG{k}{if} \PYG{p}{((}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{)}
+      \PYG{k}{break}\PYG{p}{;}
+    \PYG{c+c1}{// found at 89594902}
+    \PYG{c+c1}{// 57D9F82b49c1eb3993cb82d26e37f69c}
+  \PYG{p}{\PYGZcb{}}
+
+  \PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

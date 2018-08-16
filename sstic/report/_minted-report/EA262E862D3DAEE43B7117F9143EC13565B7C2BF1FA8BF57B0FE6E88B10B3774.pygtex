@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{idaapi}\PYG{o}{.}\PYG{n}{get\PYGZus{}fileregion\PYGZus{}offset}\PYG{p}{(}\PYG{l+m+mh}{0x10000976}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} 2422}
+\end{Verbatim}

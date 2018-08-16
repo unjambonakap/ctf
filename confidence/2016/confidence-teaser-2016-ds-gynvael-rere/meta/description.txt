@@ -1,0 +1,3 @@
+Just another Python 2.7 crackme. This one is colorful though.
+
+[Download sources]({{resource("rere.py")}})

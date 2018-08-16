@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+
+
+from waflib.Task import Task
+from waflib.Node import Node
+import chdrft.waf.clang_compilation_database as wafClang
+from chdrft.waf.utils import configure_wafclang
+import os
+from chdrft.utils.misc import Dict, failsafe, change_extension, normalize_path
+
+deps = 'distribute'
+
+
+def options(ctx):
+    ctx.recurse(deps)
+    ctx.load('compiler_cxx')
+
+
+def configure(ctx):
+    ctx.recurse(deps)
+    ctx.load('compiler_cxx')
+    ctx.load('compiler_cxx gcc')
+
+
+def build(ctx):
+    ctx.recurse(deps)
+    arch=ctx.options.arch
+
+
+    common_flags = ['-fPIC']
+    cxxflags = ['-std=c++11', '-O3'] + common_flags
+    libs = ['crypto', 'common']
+
+
+
+    if arch=='x86':
+        asflags = ['-D__ASSEMBLY__']+common_flags
+        srcs = [
+            './solve.cpp',
+            './trampoline.S',
+        ]
+        x = ctx.shlib(
+            features='cxx asm',
+            source=srcs,
+            target='gitzino',
+            use=libs,
+            cxxflags=cxxflags,
+            asflags=asflags,
+            )
+
+    srcs = ['./oracle.cpp']
+    x = ctx.program(
+        features='cxx',
+        source=srcs,
+        target='oracle',
+        use=libs,
+        cxxflags=cxxflags,
+        )
+
+    cxxflags = ['-std=c++11', '-O3'] + common_flags
+    srcs = ['./analyse.cpp']
+    libs += ['pthread']
+    x = ctx.program(
+        features='cxx',
+        source=srcs,
+        target='analyse',
+        use=libs,
+        cxxflags=cxxflags,
+        )

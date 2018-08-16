@@ -1,0 +1,504 @@
+
+
+filetype off                  " required!
+
+set nocompatible
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+"Bundle 'gmarik/vundle'
+Plugin 'vim-scripts/AnsiEsc.vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'phleet/vim-mercenary'
+"Plugin 'paradigm/vim-multicursor'
+"Bundle 'klen/python-mode'
+Bundle 'chrisbra/csv.vim'
+Plugin 'Chiel92/vim-autoformat'
+Plugin 'rhysd/vim-clang-format'
+Bundle 'JazzCore/ctrlp-cmatcher'
+Plugin 'terryma/vim-expand-region.git'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'sjl/gundo.vim'
+"Bundle 'hynek/vim-python-pep8-indent'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'Shougo/unite.vim'
+Plugin 'FelikZ/ctrlp-py-matcher.git'
+Plugin 'Shougo/vimproc.vim'
+Plugin 'altercation/vim-colors-solarized.git'
+Plugin 'ivanov/vim-ipython'
+
+
+let g:ycm_key_detailed_diagnostics=''
+let g:ycm_server_keep_logfiles = 1
+let g:ycm_add_preview_to_completeopt=0
+let g:ycm_confirm_extra_conf=0
+let g:ycm_show_diagnostics_ui = 1
+let g:ycm_server_log_level='debug'
+let g:ycm_autoclose_preview_window_after_completion=1
+nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap gi :YcmCompleter GoToInclude<CR>
+nnoremap gt :YcmCompleter GoTo<CR>
+nnoremap gk :YcmCompleter GetDoc<CR>
+
+"Plugin 'google/vim-maktaba'
+"Plugin 'google/vim-codefmt'
+"" Also add Glaive, which is used to configure codefmt's maktaba flags. See
+"" `:help :Glaive` for usage.
+"Plugin 'google/vim-glaive'
+
+"call glaive#Install()
+" Optional: Enable codefmt's default mappings on the <Leader>= prefix.
+"Glaive codefmt plugin[mappings]
+
+call vundle#end()
+
+set background=dark
+colorscheme solarized
+let g:solarized_termcolors=256
+
+filetype plugin on
+
+" Octave Syntax 
+" augroup filetypedetect 
+"      au! BufRead,BufNewFile *.m setfiletype octave 
+"      augroup END 
+" Modeline and Notes {
+"
+"
+"   vim: set foldmarker={,} foldlevel=0 spell:
+"
+"   This is my personal .vimrc, I don't recommend you copy it, just 
+"   use the "   pieces you want(and understand!).  When you copy a 
+"   .vimrc in its entirety, weird and unexpected things can happen.
+"
+"   If you find an obvious mistake hit me up at:
+"   http://robertmelton.com/contact (many forms of communication)
+" }
+
+" Basics {
+set nocompatible " explicitly get out of vi-compatible mode
+set noexrc " don't use local version of .(g)vimrc, .exrc
+set background=dark " we plan to use a dark background
+syntax on " syntax highlighting on
+
+" General {
+filetype plugin indent on " load filetype plugins/indent settings
+"set autochdir " always switch to the current file directory 
+set backspace=indent,eol,start " make backspace a more flexible
+set backup " make backup files
+set backupdir=~/.vim/backup " where to put backup files
+set directory=~/.vim/tmp " directory to place swap files in
+set fileformats=unix,dos,mac " support all three, in this order
+" (XXX: #VIM/tpope warns the line below could break things)
+"set iskeyword+=_,$,@,%,# " none of these are word dividers 
+"set mouse=a " use mouse everywhere
+set noerrorbells " don't make noise
+"set whichwrap=b,s,h,l,<,>,~,[,] " everything wraps
+"             | | | | | | | | |
+"             | | | | | | | | +-- "]" Insert and Replace
+"             | | | | | | | +-- "[" Insert and Replace
+"             | | | | | | +-- "~" Normal
+"             | | | | | +-- <Right> Normal and Visual
+"             | | | | +-- <Left> Normal and Visual
+"             | | | +-- "l" Normal and Visual (not recommended)
+"             | | +-- "h" Normal and Visual (not recommended)
+"             | +-- <Space> Normal and Visual
+"             +-- <BS> Normal and Visual
+
+" Vim UI {
+"set cursorcolumn " highlight the current column
+"set cursorline " highlight current line
+set incsearch " BUT do highlight as you type you 
+" search phrase
+set laststatus=2 " always show the status line
+set lazyredraw " do not redraw while running macros
+set linespace=0 " don't insert any extra pixel lines 
+" betweens rows
+"set list " we do what to show tabs, to ensure we get them 
+" out of my files
+"set listchars=tab:>-,trail:- " show tabs and trailing 
+set hlsearch " do not highlight searched for phrases
+set nostartofline " leave my cursor where it was
+set novisualbell " don't blink
+set number " turn on line numbers
+"set numberwidth=5 " We are good up to 99999 lines
+set report=0 " tell us when anything is changed via :...
+set ruler " Always show current positions along the bottom
+set scrolloff=5 " Keep 10 lines (top/bottom) for scope
+set shortmess=aOstT " shortens messages to avoid 
+" 'press a key' prompt
+set showcmd " show the command being typed
+"set showmatch " show matching brackets
+set sidescrolloff=10 " Keep 5 lines at the size
+"set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
+"              | | | | |  |   |      |  |     |    |
+"              | | | | |  |   |      |  |     |    + current 
+"              | | | | |  |   |      |  |     |       column
+"              | | | | |  |   |      |  |     +-- current line
+"              | | | | |  |   |      |  +-- current % into file
+"              | | | | |  |   |      +-- current syntax in 
+"              | | | | |  |   |          square brackets
+"              | | | | |  |   +-- current fileformat
+"              | | | | |  +-- number of lines
+"              | | | | +-- preview flag in square brackets
+"              | | | +-- help flag in square brackets
+"              | | +-- readonly flag in square brackets
+"              | +-- rodified flag in square brackets
+"              +-- full path to file in the buffer
+" }
+
+" set list on
+" }
+
+
+" Plugin Settings {
+"let b:match_ignorecase = 1 " case is stupid
+let perl_extended_vars=1 " highlight advanced perl vars 
+" inside strings
+
+
+:au FileType c,cpp setlocal comments-=:// comments+=f://
+:map . .`[
+let $PAGER=''
+
+
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+map <F1> <Esc>
+imap <F1> <Esc>
+:vnoremap <C-c> :w !xsel -i <CR><ESC>
+
+set showtabline=2               " File tabs allways visible
+:map <C-t> :tabnew<cr>
+
+map <F2> :NERDTreeToggle<CR>
+:command NE NERDTree
+nmap <c-h> <c-w>h<c-w><Bar>
+nmap <c-l> <c-w>l<c-w><Bar>
+set wmw=0
+nnoremap <S-h> gT
+nnoremap <S-l> gt
+set winminheight=0
+"set winheight=999
+nnoremap td  :tabclose<CR>
+nnoremap tn :tabnew<CR>
+
+
+set shortmess=a
+:set cmdheight=1
+
+autocmd BufNewFile,BufReadPost *.ino,*.pde set filetype=cpp
+
+
+set numberwidth=5
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
+
+
+command! -complete=shellcmd -nargs=+ Shell call s:RunShellCommand(<q-args>)
+function! s:RunShellCommand(cmdline)
+    echo a:cmdline
+    let expanded_cmdline = a:cmdline
+    for part in split(a:cmdline, ' ')
+        if part[0] =~ '\v[%#<]'
+            let expanded_part = fnameescape(expand(part))
+            let expanded_cmdline = substitute(expanded_cmdline, part, expanded_part, '')
+        endif
+    endfor
+    botright new
+    setlocal buftype=nofile bufhidden=wipe nobuflisted noswapfile nowrap
+    call setline(1, 'You entered:    ' . a:cmdline)
+    call setline(2, 'Expanded Form:  ' .expanded_cmdline)
+    call setline(3,substitute(getline(2),'.','=','g'))
+    execute '$read !'. expanded_cmdline
+    setlocal nomodifiable
+    1
+endfunction
+
+let NERDTreeShowHidden=1
+
+
+au BufNewFile,BufRead *.vs,*.fs,*.ps,*.glsl set syntax=glsl 
+
+imap <C-j> <down>
+imap <C-k> <up>
+
+"inoremap <expr> <C-j> ((pumvisible())?("\<C-n>"):("\<C-j>"))
+"inoremap <expr> <C-k> ((pumvisible())?("\<C-p>"):("\<C-k>"))
+
+set completeopt=longest,menuone
+
+set list
+
+"nnoremap <C-z>  :<c-u>call MultiCursorPlaceCursor()<cr>
+"nnoremap <C-m> :<c-u>call MultiCursorManual()<cr>
+"nnoremap <C-e> :<c-u>call MultiCursorRemoveCursors()<cr>
+"xnoremap <C-b> :<c-u>call MultiCursorVisual()<cr>
+"let g:multicursor_quit = "<C-k>"
+"nnoremap  :<c-u>call MultiCursorSearch('')<cr>
+"noremap {keys} :<c-u>call MultiCursorSearch('<c-r><c-w>')<cr>
+"noremap {keys} "*y<Esc>:call MultiCursorSearch('<c-r>=substitute(escape(@*, '\/.*$^~[]'), "\n", '\\n', "g")<cr>')<cr>
+
+au BufNewFile,BufRead *.gradle setf groovy
+autocmd FileType groovy set nocindent autoindent
+
+set listchars=tab:>-,trail:-
+set list
+
+
+
+" ex command for toggling hex mode - define mapping if desired
+command -bar Hexmode call ToggleHex()
+"nnoremap <leader>x :Hexmode<CR>
+"vnoremap <leader>x :<C-U>Hexmode<CR>
+
+" helper function to toggle hex mode
+function ToggleHex()
+  " hex mode should be considered a read-only operation
+  " save values for modified and read-only for restoration later,
+  " and clear the read-only flag for now
+  let l:modified=&mod
+  let l:oldreadonly=&readonly
+  let &readonly=0
+  let l:oldmodifiable=&modifiable
+  let &modifiable=1
+  if !exists("b:editHex") || !b:editHex
+    " save old options
+    let b:oldft=&ft
+    let b:oldbin=&bin
+    " set new options
+    setlocal binary " make sure it overrides any textwidth, etc.
+    let &ft="xxd"
+    " set status
+    let b:editHex=1
+    " switch to hex editor
+    %!xxd -g 4
+  else
+    " restore old options
+    let &ft=b:oldft
+    if !b:oldbin
+      setlocal nobinary
+    endif
+    " set status
+    let b:editHex=0
+    " return to normal editing
+    %!xxd -r
+  endif
+  " restore values for modified and read only state
+  let &mod=l:modified
+  let &readonly=l:oldreadonly
+  let &modifiable=l:oldmodifiable
+endfunction
+
+
+aug CSV_Editing
+    au!
+    au BufRead,BufWritePost *.csv :let b:csv_arrange_leftalign = 1
+    au BufRead,BufWritePost *.csv :%CSVArrangeColumn
+    au BufWritePre *.csv :%UnArrangeColumn
+aug end
+
+let g:pymode_folding = 0
+let g:pymode_lint_checkers = []
+let g:pymode_indent = 0
+let g:pyrope_code_completion = 0
+let g:pymode_rope_completion = 0
+let g:pymode_rope_lookup_project = 0
+let g:pymode_rope=0
+
+
+if &diff == 'nodiff'
+    :set shellcmdflag=-ic
+endif
+
+
+nnoremap <SPACE> <Nop>
+let mapleader = " "
+
+vmap v <Plug>(expand_region_expand)
+vmap <C-v> <Plug>(expand_region_shrink)
+
+call expand_region#custom_text_objects({
+      \ "\/\\n\\n\<CR>": 1,
+      \ 'a]' :1,
+      \ 'ab' :1,
+      \ 'aB' :1,
+      \ 'ii' :0,
+      \ 'ai' :0, 
+      \ })
+
+nnoremap <Leader>h :set hlsearch!<CR>
+
+let g:multi_cursor_use_default_mapping=0
+
+" Default mapping
+let g:multi_cursor_start_key='<Leader><Leader>'
+let g:multi_cursor_next_key='<C-n>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
+
+
+let g:airline_theme='powerlineish'
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+"let g:airline_section_z=''
+
+
+vnoremap y "zy
+vnoremap Y "zY
+vnoremap p "zp
+vnoremap P "zP
+
+vnoremap d "zd
+vnoremap D "zD
+vnoremap c "zc
+vnoremap C "zC
+
+vnoremap x "zx
+vnoremap X "zX
+
+nnoremap y "zy
+nnoremap Y "zY
+nnoremap p "zp
+nnoremap P "zP
+
+nnoremap x "zx
+nnoremap X "zX
+
+nnoremap d "zd
+nnoremap D "zD
+nnoremap c "zc
+nnoremap C "zC
+
+vnoremap <leader>d "Zd
+vnoremap <leader>D "ZD
+vnoremap <leader>y "Zy
+vnoremap <leader>Y "ZY
+nnoremap <leader>d "Zd
+nnoremap <leader>D "ZD
+nnoremap <leader>y "Zy
+nnoremap <leader>Y "ZY
+
+
+nmap <Leader>p :pu z<CR>
+nmap <Leader>P :pu! z<CR>
+
+nnoremap <Leader>w :silent :w<CR>
+nnoremap <Leader>y  "+y
+vnoremap <Leader>y  "+y
+
+nnoremap <C-p> :pu +<CR>
+vnoremap <C-S-p> :pu! +<CR>
+
+nnoremap <f1> <C-w><
+nnoremap <f2> <C-w>>
+nnoremap <f3> <C-w>-
+nnoremap <f4> <C-w>+
+
+autocmd FileType c,cpp,objc nnoremap <buffer><C-f> :<C-u>ClangFormat<CR>
+autocmd FileType c,cpp,objc vnoremap <buffer><C-f> :ClangFormat<CR>
+
+let g:clang_format#detect_style_file = 1
+
+
+let g:unite_data_directory='~/.vim/.cache/unite'
+let g:unite_enable_start_insert=1
+let g:unite_source_history_yank_enable=1
+let g:unite_prompt='» '
+let g:unite_split_rule = 'botright'
+
+if executable('ag')
+    let g:unite_source_grep_command='ag'
+    let g:unite_source_grep_default_opts='--nocolor --nogroup -S -C4 -U --follow'
+    let g:unite_source_grep_recursive_opt=''
+endif
+
+nnoremap <Leader>/ :Unite grep:.<cr>
+nnoremap <Leader>] :Unite history/yank<cr>
+let g:unite_source_find_default_opts = "-L"
+
+nnoremap <leader>n :Unite file_rec/async -default-action=tabopen<cr>
+"nnoremap <leader>t :Unite file_rec/async -default-action=tabopen<CR>
+""nnoremap <leader>h :Unite file_rec/async -default-action=split<CR>
+nnoremap <leader>v :Unite file_rec/async -default-action=vsplit<CR>
+nnoremap <leader>c :Unite file_rec/async<CR>
+
+call unite#filters#matcher_default#use(['matcher_fuzzy'])
+call unite#filters#sorter_default#use(['sorter_rank'])
+"call unite#custom#source('file_rec/async','sorters','sorter_rank', )
+nnoremap <C-s>f :call unite#filters#matcher_default#use(['matcher_fuzzy'])<CR><C-l>i
+nnoremap <C-s>e :call unite#filters#matcher_default#use(['matcher_regexp'])<CR><C-l>i
+inoremap <C-s>f <ESC>:call unite#filters#matcher_default#use(['matcher_fuzzy'])<CR>i
+inoremap <C-s>e <ESC>:call unite#filters#matcher_default#use(['matcher_regexp'])<CR>i
+
+nnoremap <F5> :GundoToggle<CR>
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+set hidden
+nmap <leader>T :enew<cr>
+nmap <C-l> :silent :bnext<CR>
+nmap <C-h> :silent :bprevious<CR>
+nmap <leader>bq :bp <BAR> bd #<CR>
+nmap <leader>bl :ls<CR>
+nmap <leader>q :bd<CR>
+
+"let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
+let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
+let g:ctrlp_user_command = 'X one list_ctrlp %s'
+
+
+let g:ctrlp_map = '<c-n>'
+let g:ctrlp_cmd = 'CtrlPMRU'
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_max_files = 10000
+let g:ctrlp_follow_symlinks = 1
+
+python << endpython
+import vim
+import os
+if not os.getcwd().endswith('build'):
+    vim.command("let g:ctrlp_custom_ignore = 'build/'")
+endpython
+
+let g:pymode_indent = 0
+
+
+set smartcase
+set ignorecase
+
+nnoremap <C-m> :CtrlPBuffer<CR>
+
+set statusline =%1*\ %n\ %*            "buffer number
+set statusline +=%5*%{&ff}%*            "file format
+set statusline +=%3*%y%*                "file type
+set statusline +=%4*\ %<%F%*            "full path
+set statusline +=%2*%m%*                "modified flag
+set statusline +=%1*%=%5l%*             "current line
+set statusline +=%2*/%L%*               "total lines
+set statusline +=%1*%4v\ %*             "virtual column number
+set statusline +=%2*0x%04B\ %*          "character under cursor
+
+autocmd FileType proto set nocindent autoindent
+autocmd FileType proto nnoremap <C-f> :FormatCode<Cr>
+autocmd FileType python nnoremap <C-f> :0,$!yapf --style=$HOME/.yapf<Cr>
+
+set expandtab " no real tabs please!
+set infercase " case inferred by default
+set shiftround " when at 3 spaces, and I hit > ... go to 4, not 5
+set shiftwidth=2 " auto-indent amount when using cindent, 
+set softtabstop=2 " when hitting tab or backspace, how many spaces 
+set tabstop=2 " real tabs should be 8, and they will show with 
+setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=8
+vnoremap // y/<C-R>"<CR>
+
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+"let g:ycm_python_binary_path = '/home/benoit/.virtualenvs/env3.5/bin/python3'
+"let g:ycm_path_to_python_interpreter = '/home/benoit/.virtualenvs/env3.5/bin/python3'
+:unmap <Enter>
+
+let g:vhdl_indent_genportmap = 0
+autocmd FileType python nnoremap <buffer> <F9> :exec '!clear; python' shellescape(@%, 1)<cr>

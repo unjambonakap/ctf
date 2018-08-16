@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} pdftk report.pdf unpack\PYGZus{}files
+\PYGZdl{} \PYG{c+c1}{\PYGZsh{}}
+\end{Verbatim}

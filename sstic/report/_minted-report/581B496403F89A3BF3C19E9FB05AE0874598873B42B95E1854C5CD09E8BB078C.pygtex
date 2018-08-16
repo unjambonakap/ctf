@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} file img
+img: DOS/MBR boot sector\PYG{p}{;} partition \PYG{l+m}{1} : \PYG{n+nv}{ID}\PYG{o}{=}0xb, start\PYGZhy{}CHS \PYG{o}{(}0x0,0,4\PYG{o}{)}, end\PYGZhy{}CHS \PYG{o}{(}0x88,233,5\PYG{o}{)}, startsector 3, \PYG{l+m}{2097152} sectors\PYG{p}{;} partition \PYG{l+m}{2} : \PYG{n+nv}{ID}\PYG{o}{=}0xb, start\PYGZhy{}CHS \PYG{o}{(}0x89,19,6\PYG{o}{)}, end\PYGZhy{}CHS \PYG{o}{(}0xcd,135,36\PYG{o}{)}, startsector 2099201, \PYG{l+m}{1048575} sectors\PYG{p}{;} partition \PYG{l+m}{3} : \PYG{n+nv}{ID}\PYG{o}{=}0xb, start\PYGZhy{}CHS \PYG{o}{(}0xcd,135,38\PYG{o}{)}, end\PYGZhy{}CHS \PYG{o}{(}0xce,218,57\PYG{o}{)}, startsector 3147777, \PYG{l+m}{20480} sectors\PYG{p}{;} partition \PYG{l+m}{4} : \PYG{n+nv}{ID}\PYG{o}{=}0xb, start\PYGZhy{}CHS \PYG{o}{(}0xce,218,58\PYG{o}{)}, end\PYGZhy{}CHS \PYG{o}{(}0x14,93,50\PYG{o}{)}, startsector 3168257, \PYG{l+m}{819199} sectors
+\PYGZdl{} \PYG{c+c1}{\PYGZsh{}}
+\end{Verbatim}

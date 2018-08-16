@@ -1,0 +1,56 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZhy{}\PYGZhy{} First check :
+0x43abdb4a0af9: cmp byte ptr [rsp], 0x29 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec00 n:0000000000000001 val:00000000000000aa
+\PYGZhy{}\PYGZgt{} 29XXXXXX
+
+======================
+
+\PYGZhy{}\PYGZhy{} Second check :
+0x4a170682ede1: cmp word ptr [rsp + 2], 0xd17e 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec02 n:0000000000000002 val:000000000000aaaa
+\PYGZhy{}\PYGZgt{} 29XX7ED1
+
+======================
+
+\PYGZhy{}\PYGZhy{} Third check :
+0x6f4b0e0f370: cmp byte ptr [rsp + 0xb], 0x8c 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ec00
+ReadEvent addr:000000000010ec0b n:0000000000000001 val:00000000000000aa
+\PYGZhy{}\PYGZgt{} buf[0xb] = 0x8c
+
+======================
+
+\PYGZhy{}\PYGZhy{} Fourth check:
+0x49e7e541be22: movzx rbx, byte ptr [rsp + 9]      \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ed03
+OpReg rbx:000049e7e541000c
+ReadEvent addr:000000000010ec01 n:0000000000000001 val:00000000000000aa
+rbx:000049e7e541000c
+rbx:00000000000000aa
+
+0x49e7e541be28: mov byte ptr [rax], 0 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ed03
+WriteEvent addr:000000000010ed03 n:0000000000000001 nval:0000000000000000 val:0000000000000000
+
+0x49e7e541be2b: lea rcx, qword ptr [rip + 6] 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ed03
+OpReg rcx:0000000000000000
+rcx:0000000000000000
+rcx:000049e7e541be38
+
+0x49e7e541be32: lea rcx, qword ptr [rcx + rbx*2] 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ed03
+OpReg rcx:000049e7e541be38
+rcx:000049e7e541be38
+rcx:000049e7e541bf8c
+
+0x49e7e541be36: jmp rcx 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ed03
+OpReg rcx:000049e7e541bf8c
+
+0x49e7e541bf8c: add byte ptr [rax], al 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ed03
+OpReg al:10ed03
+ReadEvent addr:000000000010ed03 n:0000000000000001 val:0000000000000000
+WriteEvent addr:000000000010ed03 n:0000000000000001 nval:0000000000000003 val:0000000000000000
++++++++++++++++++ Multiple iterations here
+
+0x49e7e541c038: cmp byte ptr [rax], 0x65 		 \PYGZlt{}\PYGZlt{}\PYGZlt{}\PYGZlt{} TRACEVENT, rax=0010ed03
+ReadEvent addr:000000000010ed03 n:0000000000000001 val:0000000000000002
+Regs
+\PYGZhy{}\PYGZgt{} buf[1] = 0x89
+\end{Verbatim}

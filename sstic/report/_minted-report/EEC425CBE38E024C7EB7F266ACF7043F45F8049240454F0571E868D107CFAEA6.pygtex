@@ -1,0 +1,109 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+ch}{\PYGZsh{}!/usr/bin/env python}
+
+\PYG{c+c1}{\PYGZsh{}screw you vim}
+\PYG{k+kn}{import} \PYG{n+nn}{binascii}
+
+
+\PYG{k}{def} \PYG{n+nf}{main}\PYG{p}{():}
+  \PYG{n}{obs} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}cyan purple cyan purple blue purple red blue black red blue cyan white yellow blue red black purple white green yellow black red yellow cyan white black cyan black green white yellow blue yellow blue purple blue purple black white blue cyan blue green blue white blue white red white green cyan red yellow cyan green blue red green cyan red yellow purple white green purple cyan yellow white black red cyan white black cyan black blue red white purple black green red purple\PYGZsq{}}
+  \PYG{c+c1}{\PYGZsh{}obs=\PYGZsq{}green black red purple black blue purple black green white red blue cyan\PYGZsq{}}
+
+  \PYG{n}{color\PYGZus{}map} \PYG{o}{=} \PYG{n+nb}{dict}\PYG{p}{(}\PYG{n}{black}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{,}
+                   \PYG{n}{white}\PYG{o}{=}\PYG{l+m+mh}{0xffffff}\PYG{p}{,}
+                   \PYG{n}{red}\PYG{o}{=}\PYG{l+m+mh}{0x0000ff}\PYG{p}{,}
+                   \PYG{n}{green}\PYG{o}{=}\PYG{l+m+mh}{0x00ff00}\PYG{p}{,}
+                   \PYG{n}{blue}\PYG{o}{=}\PYG{l+m+mh}{0xff0000}\PYG{p}{,}
+                   \PYG{n}{cyan}\PYG{o}{=}\PYG{l+m+mh}{0xffff00}\PYG{p}{,}
+                   \PYG{n}{purple}\PYG{o}{=}\PYG{l+m+mh}{0xff00ff}\PYG{p}{,}
+                   \PYG{n}{yellow}\PYG{o}{=}\PYG{l+m+mh}{0x00ffff}\PYG{p}{)}
+  \PYG{n}{color\PYGZus{}map} \PYG{o}{=} \PYG{n+nb}{dict}\PYG{p}{(}\PYG{n}{black}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{,}
+                   \PYG{n}{white}\PYG{o}{=}\PYG{l+m+mh}{0xffffff}\PYG{p}{,}
+                   \PYG{n}{red}\PYG{o}{=}\PYG{l+m+mh}{0xff0000}\PYG{p}{,}
+                   \PYG{n}{green}\PYG{o}{=}\PYG{l+m+mh}{0x00ff00}\PYG{p}{,}
+                   \PYG{n}{blue}\PYG{o}{=}\PYG{l+m+mh}{0x0000ff}\PYG{p}{,}
+                   \PYG{n}{cyan}\PYG{o}{=}\PYG{l+m+mh}{0x00ffff}\PYG{p}{,}
+                   \PYG{n}{purple}\PYG{o}{=}\PYG{l+m+mh}{0xff00ff}\PYG{p}{,}
+                   \PYG{n}{yellow}\PYG{o}{=}\PYG{l+m+mh}{0xffff00}\PYG{p}{)}
+  \PYG{n}{obs} \PYG{o}{=} \PYG{p}{[}\PYG{n}{color\PYGZus{}map}\PYG{p}{[}\PYG{n}{x}\PYG{p}{]} \PYG{k}{for} \PYG{n}{x} \PYG{o+ow}{in} \PYG{n}{obs}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{)]}
+  \PYG{n}{st} \PYG{o}{=} \PYG{l+m+mi}{0}
+
+  \PYG{n}{color\PYGZus{}list} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mh}{0x4F488EB3}\PYG{p}{,} \PYG{l+m+mh}{0x4FB771B3}\PYG{p}{,} \PYG{l+m+mh}{0x4F4871B3}\PYG{p}{,} \PYG{l+m+mh}{0x4FB78E4C}\PYG{p}{,} \PYG{l+m+mh}{0x4F488E4C}\PYG{p}{,} \PYG{l+m+mh}{0x4FB7714C}\PYG{p}{,} \PYG{l+m+mh}{0x4F48714C}\PYG{p}{,}
+                \PYG{l+m+mh}{0x4FB78EB3}\PYG{p}{]}
+  \PYG{n}{color\PYGZus{}list} \PYG{o}{=} \PYG{p}{[}\PYG{n}{x} \PYG{o}{\PYGZca{}} \PYG{l+m+mh}{0x4FB78EB3} \PYG{k}{for} \PYG{n}{x} \PYG{o+ow}{in} \PYG{n}{color\PYGZus{}list}\PYG{p}{]}
+  \PYG{n}{color\PYGZus{}map} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{n}{a}\PYG{p}{:} \PYG{n}{i} \PYG{k}{for} \PYG{n}{i}\PYG{p}{,} \PYG{n}{a} \PYG{o+ow}{in} \PYG{n+nb}{enumerate}\PYG{p}{(}\PYG{n}{color\PYGZus{}list}\PYG{p}{)\PYGZcb{}}
+
+  \PYG{n}{xorpad} \PYG{o}{=} \PYG{n}{binascii}\PYG{o}{.}\PYG{n}{unhexlify}\PYG{p}{(}
+      \PYG{l+s+s1}{\PYGZsq{}2830A43F6D280423362A32DCAD0BA04BE8201F64840AF4C4C78A8DC0A2C44019A143823814FD6C90E07E2A40DFD3F23E7238C4964D987C16\PYGZsq{}}\PYG{p}{)}
+
+  \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}hash}\PYG{p}{(}\PYG{n}{x}\PYG{p}{):}
+    \PYG{k}{return} \PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{o}{.}\PYG{n}{join}\PYG{p}{([}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n+nb}{int}\PYG{p}{(}\PYG{n}{a}\PYG{p}{))} \PYG{k}{for} \PYG{n}{a} \PYG{o+ow}{in} \PYG{n}{x}\PYG{p}{])}
+
+  \PYG{n}{mp} \PYG{o}{=} \PYG{p}{\PYGZob{}\PYGZcb{}}
+  \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}svals}\PYG{p}{(}\PYG{n}{v}\PYG{p}{):}
+    \PYG{n}{tb} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{k}{for} \PYG{n}{j} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+      \PYG{n}{tb}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{v} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{7} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{)}
+      \PYG{n}{v} \PYG{o}{=} \PYG{n}{v} \PYG{o}{//} \PYG{l+m+mi}{7} \PYG{o}{+} \PYG{l+m+mi}{1}
+    \PYG{k}{return} \PYG{n}{tb}
+
+  \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}smask}\PYG{p}{(}\PYG{n}{v}\PYG{p}{):}
+    \PYG{n}{tb} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{k}{for} \PYG{n}{j} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+      \PYG{n}{tb}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{v} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{7} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{)}
+      \PYG{n}{v} \PYG{o}{=} \PYG{n}{v} \PYG{o}{//} \PYG{l+m+mi}{7}
+    \PYG{k}{return} \PYG{n}{tb}
+
+  \PYG{k}{def} \PYG{n+nf}{do\PYGZus{}xor}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{):}
+    \PYG{k}{return} \PYG{p}{[}\PYG{n}{a} \PYG{o}{\PYGZca{}} \PYG{n}{b} \PYG{k}{for} \PYG{n}{a}\PYG{p}{,} \PYG{n}{b} \PYG{o+ow}{in} \PYG{n+nb}{zip}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{)]}
+
+  \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}cols}\PYG{p}{(}\PYG{n}{x}\PYG{p}{):}
+    \PYG{k}{return} \PYG{p}{[}\PYG{n}{color\PYGZus{}list}\PYG{p}{[}\PYG{n}{a}\PYG{p}{]} \PYG{k}{for} \PYG{n}{a} \PYG{o+ow}{in} \PYG{n}{x}\PYG{p}{]}
+
+
+  \PYG{c+c1}{\PYGZsh{} inititial data, hardcoded}
+  \PYG{n}{last} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{6}\PYG{p}{,} \PYG{l+m+mi}{6}\PYG{p}{]}
+  \PYG{n}{testv} \PYG{o}{=} \PYG{n}{obs}
+  \PYG{k}{print}\PYG{p}{([}\PYG{n+nb}{hex}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)} \PYG{k}{for} \PYG{n}{x} \PYG{o+ow}{in} \PYG{n}{testv}\PYG{p}{[:}\PYG{l+m+mi}{10}\PYG{p}{]])}
+  \PYG{n}{res} \PYG{o}{=} \PYG{p}{[]}
+  \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{testv}\PYG{p}{),} \PYG{l+m+mi}{3}\PYG{p}{):}
+    \PYG{n}{cnd} \PYG{o}{=} \PYG{n+nb+bp}{None}
+    \PYG{k}{for} \PYG{n}{v} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{256}\PYG{p}{):}
+      \PYG{n}{a} \PYG{o}{=} \PYG{n}{get\PYGZus{}svals}\PYG{p}{(}\PYG{n}{v}\PYG{p}{)}
+      \PYG{n}{b} \PYG{o}{=} \PYG{n}{get\PYGZus{}smask}\PYG{p}{(}\PYG{n}{v}\PYG{p}{)}
+      \PYG{n}{nlast} \PYG{o}{=} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n}{last}\PYG{p}{)}
+      \PYG{n}{tvals} \PYG{o}{=} \PYG{p}{[]}
+      \PYG{n}{tmask} \PYG{o}{=} \PYG{p}{[]}
+      \PYG{k}{for} \PYG{n}{j} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+        \PYG{n}{nlast}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{+=} \PYG{n}{a}\PYG{p}{[}\PYG{n}{j}\PYG{p}{]}
+        \PYG{n}{nlast}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+=} \PYG{n}{b}\PYG{p}{[}\PYG{n}{j}\PYG{p}{]}
+        \PYG{n}{nlast}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{\PYGZpc{}=} \PYG{l+m+mi}{8}
+        \PYG{n}{nlast}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZpc{}=} \PYG{l+m+mi}{8}
+        \PYG{n}{tvals}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{nlast}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{])}
+        \PYG{n}{tmask}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{nlast}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{])}
+
+      \PYG{c+c1}{\PYGZsh{} compute colors observed if we were to send this data}
+      \PYG{n}{tvals} \PYG{o}{=} \PYG{n}{get\PYGZus{}cols}\PYG{p}{(}\PYG{n}{tvals}\PYG{p}{)}
+      \PYG{n}{tmask} \PYG{o}{=} \PYG{n}{get\PYGZus{}cols}\PYG{p}{(}\PYG{n}{tmask}\PYG{p}{)}
+      \PYG{n}{exp\PYGZus{}mask} \PYG{o}{=} \PYG{n}{testv}\PYG{p}{[}\PYG{n}{i}\PYG{p}{:}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{3}\PYG{p}{]}
+      \PYG{n}{exp\PYGZus{}vals} \PYG{o}{=} \PYG{n}{testv}\PYG{p}{[}\PYG{n}{i}\PYG{p}{:}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{3}\PYG{p}{]}
+      \PYG{c+c1}{\PYGZsh{} check if this is what we observed}
+      \PYG{k}{if} \PYG{n}{tmask} \PYG{o}{==} \PYG{n}{exp\PYGZus{}vals} \PYG{o+ow}{and} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o+ow}{or} \PYG{n}{tmask} \PYG{o}{==} \PYG{n}{exp\PYGZus{}mask}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{} 1 or \PYGZhy{}\PYGZus{}\PYGZhy{}}
+        \PYG{k}{assert} \PYG{n}{cnd} \PYG{o+ow}{is} \PYG{n+nb+bp}{None}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}More than one candidate, bad\PYGZsq{}}
+        \PYG{n}{cnd} \PYG{o}{=} \PYG{n}{v}\PYG{p}{,} \PYG{n}{nlast}
+    \PYG{k}{assert} \PYG{n}{cnd} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{n+nb+bp}{None}\PYG{p}{,} \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{i}\PYG{p}{)}
+    \PYG{n}{v}\PYG{p}{,} \PYG{n}{last} \PYG{o}{=} \PYG{n}{cnd}
+    \PYG{c+c1}{\PYGZsh{} undo xorpad}
+    \PYG{n}{v2} \PYG{o}{=} \PYG{n}{xorpad}\PYG{p}{[}\PYG{n}{i} \PYG{o}{//} \PYG{l+m+mi}{3}\PYG{p}{]} \PYG{o}{\PYGZca{}} \PYG{n}{v}
+    \PYG{n}{res}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{v2}\PYG{p}{)}
+
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}for \PYGZsq{}}\PYG{p}{,} \PYG{n}{i}\PYG{p}{,} \PYG{n+nb}{hex}\PYG{p}{(}\PYG{n}{v2}\PYG{p}{),} \PYG{n+nb}{hex}\PYG{p}{(}\PYG{n}{v}\PYG{p}{))}
+  \PYG{n}{res} \PYG{o}{=} \PYG{n+nb}{bytes}\PYG{p}{(}\PYG{n}{res}\PYG{p}{)}
+  \PYG{n+nb}{open}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}/tmp/res.out\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}wb\PYGZsq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{res}\PYG{p}{[}\PYG{l+m+mi}{4}\PYG{p}{:])}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{binascii}\PYG{o}{.}\PYG{n}{hexlify}\PYG{p}{(}\PYG{n}{res}\PYG{p}{))}
+  \PYG{c+c1}{\PYGZsh{}1800000078da0b1634172bdac558f9cb6e6257f3be7b5b003250077e}
+
+
+\PYG{n}{main}\PYG{p}{()}
+\end{Verbatim}

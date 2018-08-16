@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+EXPORTS 
+DirectDrawCreate
+GetLocalTime
+\end{Verbatim}

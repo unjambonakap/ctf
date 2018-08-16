@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+edx = 1
+[ebp\PYGZhy{}607d] = 0
+[ebp\PYGZhy{}607E] = 1
+[ebp\PYGZhy{}6074] = 1
+[ebp\PYGZhy{}6078] = 0
+...
+col\PYGZus{}id\PYGZus{}from\PYGZus{}other\PYGZus{}thread aka A = [ebp\PYGZhy{}607c]
+ebx = 0 = ebx * [ebp\PYGZhy{}6078] // WUT, why not used??
+eax = 0 = eax *e bx
+eax \PYGZca{}= [ebp \PYGZhy{} 6070]
+eax = old\PYGZus{}eax = eax * [ebp\PYGZhy{}6074]
+screen\PYGZus{}buffer[\PYGZus{}] = old\PYGZus{}eax = eax \PYGZca{} ebx
+\end{Verbatim}

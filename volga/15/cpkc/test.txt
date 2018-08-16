@@ -1,0 +1,37 @@
+
+q prime 3072 bits
+f 3072/2 bits
+g 3072*3/8 bits
+f,g coprime
+h=f^-1*g mod q
+
+f,g,q private key
+h,q public key
+
+
+encrypt(m)
+m < 3072/2-2 bits
+r rand 3072/2 bits
+e = (r*h+m)%q = (r*if*g+m)%q
+
+
+
+decrypt(e)
+ifg*f+k*g=1
+a=f*e%q=(r*g+m*f)%q
+a -> no need to reduction mod q -> a=r*g+m*f
+
+b=ifg*a%g=(r*g*ifg+m*f*ifg)%g=m
+
+m probably small : < 20 bytes
+
+e*ih=(r+m*ih)%q
+    =(r+m*f*ig)%q
+    =x
+
+
+r not contributing for high digits of x
+>> find m s.t  (m*ih-x)%q >> 3072/2 == 0
+
+
+

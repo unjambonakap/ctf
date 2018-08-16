@@ -1,0 +1,44 @@
+#!/usr/bin/env python
+
+
+from waflib.Task import Task
+from waflib.Node import Node
+import chdrft.waf.clang_compilation_database as wafClang
+from chdrft.waf.utils import configure_wafclang
+import os
+from chdrft.utils.misc import Dict, failsafe, change_extension, normalize_path
+
+deps = ''
+
+
+def options(ctx):
+    ctx.recurse(deps)
+    ctx.load('compiler_cxx')
+
+
+def configure(ctx):
+    ctx.recurse(deps)
+    ctx.load('compiler_cxx')
+    ctx.load('compiler_cxx gcc')
+
+
+def build(ctx):
+    ctx.recurse(deps)
+    arch=ctx.options.arch
+
+
+    common_flags = ['-fPIC']
+    cxxflags = ['-std=c++11', '-O3'] + common_flags
+    libs = ['common', 'crypto', 'math', 'utils']
+
+
+
+    cxxflags = ['-std=c++11', '-O3'] + common_flags
+    srcs = ['./solve.cpp']
+    x = ctx.program(
+        features='cxx',
+        source=srcs,
+        target='crypto1_solve',
+        use=libs,
+        cxxflags=cxxflags,
+        )

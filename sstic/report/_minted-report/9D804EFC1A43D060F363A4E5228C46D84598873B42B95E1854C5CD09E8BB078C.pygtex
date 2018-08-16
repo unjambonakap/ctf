@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} python analyse.py
+...
+b\PYG{l+s+s1}{\PYGZsq{}1800000078da0b1634172bdac558f9cb6e6257f3be7b5b003250077e\PYGZsq{}}
+\PYGZdl{} file /tmp/res.out
+/tmp/res.out: zlib compressed data
+\PYGZdl{} \PYG{n+nb}{printf} \PYG{l+s+s2}{\PYGZdq{}\PYGZbs{}x1f\PYGZbs{}x8b\PYGZbs{}x08\PYGZbs{}x00\PYGZbs{}x00\PYGZbs{}x00\PYGZbs{}x00\PYGZbs{}x00\PYGZdq{}}  \PYG{p}{|} cat \PYGZhy{} /tmp/res.out \PYG{p}{|} zcat \PYGZhy{} \PYG{p}{|} xxd
+gzip: stdin: unexpected end of file
+00000000: \PYG{l+m}{5311} \PYG{l+m}{3716} 72ba \PYG{l+m}{0179} fa3e 918a 83be deb4  S.7.r..y.\PYGZgt{}......
+\PYGZdl{} \PYG{c+c1}{\PYGZsh{}}
+\end{Verbatim}

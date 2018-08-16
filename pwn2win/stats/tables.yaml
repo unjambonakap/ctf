@@ -1,0 +1,178 @@
+CNLZ:
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 0]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 1]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 0]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 1]
+  : 1
+CUWR:
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 1]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 1]
+  : 0
+DHEA:
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  : 0
+EUCC:
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  : 0
+KZBF:
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  : 1
+RGJP:
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 1]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 0]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 1]
+  : 0
+SSNP:
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  : 1
+TMRO:
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 0]
+  - !!python/tuple [C, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 0]
+  - !!python/tuple [C, 1]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 1]
+  - !!python/tuple [C, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 1]
+  - !!python/tuple [C, 1]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 0]
+  - !!python/tuple [C, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 0]
+  - !!python/tuple [C, 1]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 1]
+  - !!python/tuple [C, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 1]
+  - !!python/tuple [C, 1]
+  : 0
+TVEG:
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 0]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 1]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 1]
+  : 1
+ZAGR:
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 0]
+  - !!python/tuple [C, 0]
+  : 1
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 0]
+  - !!python/tuple [C, 1]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 1]
+  - !!python/tuple [C, 0]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 0]
+  - !!python/tuple [B, 1]
+  - !!python/tuple [C, 1]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 0]
+  - !!python/tuple [C, 0]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 0]
+  - !!python/tuple [C, 1]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 1]
+  - !!python/tuple [C, 0]
+  : 0
+  ? !!python/tuple
+  - !!python/tuple [A, 1]
+  - !!python/tuple [B, 1]
+  - !!python/tuple [C, 1]
+  : 0

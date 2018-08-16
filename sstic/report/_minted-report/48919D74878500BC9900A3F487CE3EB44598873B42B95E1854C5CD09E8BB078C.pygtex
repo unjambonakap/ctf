@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} chopshop \PYGZhy{}\PYGZhy{}savedir\PYG{o}{=}tmp/ \PYGZhy{}f SOS\PYGZhy{}Fant0me.pcap \PYG{l+s+s2}{\PYGZdq{}gh0st\PYGZus{}decode \PYGZhy{}\PYGZhy{}savefiles\PYGZdq{}}
+\PYGZdl{} unzip \PYG{l+s+s1}{\PYGZsq{}C\PYGZus{}\PYGZus{}Users\PYGZus{}sstic\PYGZus{}Documents\PYGZus{}Challenge SSTIC 2016\PYGZus{}Stage 1\PYGZus{}sstic2016\PYGZhy{}stage1\PYGZhy{}solution.zip\PYGZsq{}}
+\PYGZdl{} cat solution.txt
+368BE8C1CC7CC70C2245030934301C15
+\PYG{c+c1}{\PYGZsh{} \PYGZdl{}}
+\end{Verbatim}

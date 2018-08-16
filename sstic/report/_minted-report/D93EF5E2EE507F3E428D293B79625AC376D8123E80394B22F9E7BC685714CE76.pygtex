@@ -1,0 +1,64 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{package} \PYG{n+nx}{tar}
+
+\PYG{k+kn}{import} \PYG{p}{(}
+  \PYG{l+s}{\PYGZdq{}bytes\PYGZdq{}}
+  \PYG{l+s}{\PYGZdq{}fmt\PYGZdq{}}
+  \PYG{l+s}{\PYGZdq{}io\PYGZdq{}}
+  \PYG{l+s}{\PYGZdq{}io/ioutil\PYGZdq{}}
+  \PYG{l+s}{\PYGZdq{}log\PYGZdq{}}
+  \PYG{l+s}{\PYGZdq{}reflect\PYGZdq{}}
+\PYG{p}{)}
+
+\PYG{k+kn}{import} \PYG{l+s}{\PYGZdq{}encoding/json\PYGZdq{}}
+
+\PYG{k+kd}{func} \PYG{n+nx}{check}\PYG{p}{(}\PYG{n+nx}{e} \PYG{k+kt}{error}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+  \PYG{k}{if} \PYG{n+nx}{e} \PYG{o}{!=} \PYG{k+kc}{nil} \PYG{p}{\PYGZob{}}
+    \PYG{n+nb}{panic}\PYG{p}{(}\PYG{n+nx}{e}\PYG{p}{)}
+  \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{type} \PYG{n+nx}{Test1} \PYG{k+kd}{struct} \PYG{p}{\PYGZob{}}
+  \PYG{n+nx}{Data}   \PYG{p}{[]}\PYG{k+kt}{byte}
+  \PYG{n+nx}{Offset} \PYG{k+kt}{int64}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{func} \PYG{n+nx}{Example}\PYG{p}{()} \PYG{p}{\PYGZob{}}
+  \PYG{c+c1}{// Create a buffer to write our archive to.}
+  \PYG{n+nx}{dat}\PYG{p}{,} \PYG{n+nx}{err} \PYG{o}{:=} \PYG{n+nx}{ioutil}\PYG{p}{.}\PYG{n+nx}{ReadFile}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}./huge.tar\PYGZdq{}}\PYG{p}{)}
+  \PYG{n+nx}{check}\PYG{p}{(}\PYG{n+nx}{err}\PYG{p}{)}
+  \PYG{n+nx}{fmt}\PYG{p}{.}\PYG{n+nx}{Print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Contents of \PYGZpc{}d\PYGZbs{}n\PYGZdq{}}\PYG{p}{,} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n+nx}{dat}\PYG{p}{))}
+
+  \PYG{c+c1}{// Open the tar archive for reading.}
+  \PYG{n+nx}{r} \PYG{o}{:=} \PYG{n+nx}{bytes}\PYG{p}{.}\PYG{n+nx}{NewReader}\PYG{p}{(}\PYG{n+nx}{dat}\PYG{p}{)}
+  \PYG{n+nx}{tr} \PYG{o}{:=} \PYG{n+nx}{NewReader}\PYG{p}{(}\PYG{n+nx}{r}\PYG{p}{)}
+
+  \PYG{c+c1}{// Iterate through the files in the archive.}
+  \PYG{k+kd}{var} \PYG{n+nx}{entries} \PYG{p}{[]}\PYG{n+nx}{Test1}
+  \PYG{k}{for} \PYG{p}{\PYGZob{}}
+    \PYG{n+nx}{hdr}\PYG{p}{,} \PYG{n+nx}{err} \PYG{o}{:=} \PYG{n+nx}{tr}\PYG{p}{.}\PYG{n+nx}{Next}\PYG{p}{()}
+    \PYG{k}{if} \PYG{n+nx}{err} \PYG{o}{==} \PYG{n+nx}{io}\PYG{p}{.}\PYG{n+nx}{EOF} \PYG{p}{\PYGZob{}}
+      \PYG{c+c1}{// end of tar archive}
+      \PYG{k}{break}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{k}{if} \PYG{n+nx}{err} \PYG{o}{!=} \PYG{k+kc}{nil} \PYG{p}{\PYGZob{}}
+      \PYG{n+nx}{log}\PYG{p}{.}\PYG{n+nx}{Fatalln}\PYG{p}{(}\PYG{n+nx}{err}\PYG{p}{)}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{n+nx}{fmt}\PYG{p}{.}\PYG{n+nx}{Println}\PYG{p}{(}\PYG{n+nx}{reflect}\PYG{p}{.}\PYG{n+nx}{TypeOf}\PYG{p}{(}\PYG{n+nx}{hdr}\PYG{p}{))}
+    \PYG{n+nx}{fmt}\PYG{p}{.}\PYG{n+nx}{Println}\PYG{p}{(}\PYG{n+nx}{tr}\PYG{p}{.}\PYG{n+nx}{curr}\PYG{p}{)}
+    \PYG{n+nx}{entry} \PYG{o}{:=} \PYG{n+nx}{tr}\PYG{p}{.}\PYG{n+nx}{curr}\PYG{p}{.(}\PYG{o}{*}\PYG{n+nx}{sparseFileReader}\PYG{p}{)}
+
+    \PYG{k}{for} \PYG{n+nx}{index}\PYG{p}{,} \PYG{n+nx}{elem1} \PYG{o}{:=} \PYG{k}{range} \PYG{n+nx}{entry}\PYG{p}{.}\PYG{n+nx}{sp} \PYG{p}{\PYGZob{}}
+      \PYG{k+kd}{var} \PYG{n+nx}{s} \PYG{p}{=} \PYG{n+nb}{make}\PYG{p}{([]}\PYG{k+kt}{byte}\PYG{p}{,} \PYG{n+nx}{elem1}\PYG{p}{.}\PYG{n+nx}{numBytes}\PYG{p}{)}
+      \PYG{n+nx}{n}\PYG{p}{,} \PYG{n+nx}{err} \PYG{o}{:=} \PYG{n+nx}{entry}\PYG{p}{.}\PYG{n+nx}{rfr}\PYG{p}{.}\PYG{n+nx}{Read}\PYG{p}{(}\PYG{n+nx}{s}\PYG{p}{)}
+      \PYG{n+nx}{fmt}\PYG{p}{.}\PYG{n+nx}{Printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Got sp entry of idx=\PYGZpc{}d \PYGZpc{}s: \PYGZpc{}d \PYGZpc{}s \PYGZgt{}\PYGZgt{} \PYGZpc{}s\PYGZbs{}n\PYGZdq{}}\PYG{p}{,} 
+      \PYG{n+nx}{index}\PYG{p}{,} \PYG{n+nx}{elem1}\PYG{p}{,} \PYG{n+nx}{n}\PYG{p}{,} \PYG{n+nx}{err}\PYG{p}{,} \PYG{n+nx}{s}\PYG{p}{)}
+      \PYG{n+nx}{entries} \PYG{p}{=} \PYG{n+nb}{append}\PYG{p}{(}\PYG{n+nx}{entries}\PYG{p}{,} \PYG{n+nx}{Test1}\PYG{p}{\PYGZob{}}\PYG{n+nx}{Data}\PYG{p}{:} \PYG{n+nx}{s}\PYG{p}{,} \PYG{n+nx}{Offset}\PYG{p}{:} \PYG{n+nx}{elem1}\PYG{p}{.}\PYG{n+nx}{offset}\PYG{p}{\PYGZcb{})}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{n+nx}{res}\PYG{p}{,} \PYG{n+nx}{\PYGZus{}} \PYG{o}{:=} \PYG{n+nx}{json}\PYG{p}{.}\PYG{n+nx}{Marshal}\PYG{p}{(}\PYG{n+nx}{entries}\PYG{p}{)}
+    \PYG{n+nx}{err} \PYG{p}{=} \PYG{n+nx}{ioutil}\PYG{p}{.}\PYG{n+nx}{WriteFile}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}/tmp/dat1\PYGZdq{}}\PYG{p}{,} \PYG{n+nx}{res}\PYG{p}{,} \PYG{l+m+mo}{0644}\PYG{p}{)}
+    \PYG{n+nx}{check}\PYG{p}{(}\PYG{n+nx}{err}\PYG{p}{)}
+    \PYG{n+nx}{fmt}\PYG{p}{.}\PYG{n+nx}{Println}\PYG{p}{()}
+  \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

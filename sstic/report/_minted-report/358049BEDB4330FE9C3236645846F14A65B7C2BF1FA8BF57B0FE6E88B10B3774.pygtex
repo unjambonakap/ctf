@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mh}{0x10}\PYG{p}{):}
+  \PYG{n}{var\PYGZus{}2c} \PYG{o}{=} \PYG{n}{var\PYGZus{}2c} \PYG{o}{|} \PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{\PYGZca{}}\PYG{n}{checkval}\PYG{p}{[}\PYG{n}{i}\PYG{p}{])}
+\PYG{n}{R7} \PYG{o}{=} \PYG{l+m+mi}{2} \PYG{k}{if} \PYG{n}{var\PYGZus{}2c} \PYG{k}{else} \PYG{l+m+mi}{0}
+\PYG{c+c1}{\PYGZsh{} 0 for success}
+\end{Verbatim}

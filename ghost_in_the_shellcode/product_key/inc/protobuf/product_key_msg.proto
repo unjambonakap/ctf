@@ -1,0 +1,16 @@
+package product_key;
+
+message Init{
+}
+
+message Data{
+    required bytes bits=1;
+    required int32 round = 2;
+    required int32 pos = 3;
+    required int32 cx = 4;
+}
+
+message Res{
+    required bool found = 1;
+    optional string res = 2;
+}

@@ -1,0 +1,50 @@
+#!/usr/bin/python
+from collections import defaultdict as d
+from itertools import count as c
+from operator import mul as m
+
+_b, __b = [], d(list)
+
+def _a():
+    _c = 1
+    for a in c():
+        if a < len(_b): _c = _b[a]
+        else:
+            _c += 1
+            while _c in __b:
+                for b in __b[_c]: __b[_c+b]+=[b]
+                del __b[_c]
+                _c += 1
+            __b[_c+_c]+=[_c]
+            _b.append(_c)
+        yield _c
+
+def __a(n):
+    for _c in _a():
+        if _c > n: return
+        _d = 0
+        while n % _c == 0: _d, n = _d + 1, n / _c
+        if _d != 0: yield _c
+
+def main():
+    ___a = lambda n: int(reduce(m, (1 - 1.0 / p for p in __a(n)), n))
+    ____a = lambda x,y: ___a(x*y)==___a(y)*___a(x)
+    _____a = lambda i,j: ((1<<14)-(3*(1<<11))-(1<<8)+(1<<4)<i<1<<17>>1|1077<<5 and 2**6|9<<2<=j<=1023&39|31<<5)
+    try:
+        c = raw_input('Serial: ').split('-')
+        if len(c) != 6: raise
+        for x in range(0,6,2):
+            if not _____a(int(c[x]),int(c[x+1])) or (___a(int(c[x]))!=int(c[x])-1) or not ____a(int(c[x]),int(c[x+1])): raise
+            if len([y for y in c.__iter__() if y==c[x]])>>1 or len([z for z in c.__iter__() if z==c[x+1]])>>1: raise
+        c.reverse()
+        for k in range(7,10):
+            a,b = int(c.pop()),int(c.pop())
+            for x in [a+b*n for n in range(k)]:
+                y = [p for p in __a(x)]
+                if not (len(y)==1 and y[0]==x): raise
+        with open('flag.txt','r') as f:
+            print f.read()
+    except:
+        print 'Bzzt. Wrong!'
+
+if __name__ == '__main__': main()

@@ -1,0 +1,55 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{(}env3.5\PYG{o}{)}\PYG{o}{[}01\PYG{p}{;}32mbenoit@yyy\PYG{o}{[}00m:\PYG{o}{[}01\PYG{p}{;}34mfirst\PYGZus{}pcap\PYG{o}{[}00m:0\PYGZdl{} ls
+\PYG{o}{[}0m\PYG{o}{[}01\PYG{p}{;}34mAudio\PYG{o}{[}0m          \PYG{o}{[}01\PYG{p}{;}34mfancybox\PYG{o}{[}0m    \PYG{o}{[}01\PYG{p}{;}34mplugins\PYG{o}{[}0m  typescript
+\PYG{o}{[}01\PYG{p}{;}31mchallenge.zip\PYG{o}{[}0m  index.html  \PYG{o}{[}01\PYG{p}{;}34mrpgjs\PYG{o}{[}0m    \PYG{o}{[}01\PYG{p}{;}35mwood.png\PYG{o}{[}0m
+\PYG{o}{(}env3.5\PYG{o}{)}\PYG{o}{[}01\PYG{p}{;}32mbenoit@yyy\PYG{o}{[}00m:\PYG{o}{[}01\PYG{p}{;}34mfirst\PYGZus{}pcap\PYG{o}{[}00m:0\PYGZdl{} \PYG{n+nb}{exit}
+
+Script \PYG{k}{done} on Sun \PYG{l+m}{10} Apr \PYG{l+m}{2016} 03:46:38 PM CEST
+Script started on Sun \PYG{l+m}{10} Apr \PYG{l+m}{2016} 03:46:46 PM CEST
+\PYG{o}{(}env3.5\PYG{o}{)}\PYG{o}{[}01\PYG{p}{;}32mbenoit@yyy\PYG{o}{[}00m:\PYG{o}{[}01\PYG{p}{;}34mfirst\PYGZus{}pcap\PYG{o}{[}00m:0\PYGZdl{} ls
+\PYG{o}{[}0m\PYG{o}{[}01\PYG{p}{;}34mAudio\PYG{o}{[}0m          \PYG{o}{[}01\PYG{p}{;}34mfancybox\PYG{o}{[}0m    \PYG{o}{[}01\PYG{p}{;}34mplugins\PYG{o}{[}0m  typescript
+\PYG{o}{[}01\PYG{p}{;}31mchallenge.zip\PYG{o}{[}0m  index.html  \PYG{o}{[}01\PYG{p}{;}34mrpgjs\PYG{o}{[}0m    \PYG{o}{[}01\PYG{p}{;}35mwood.png\PYG{o}{[}0m
+\PYG{o}{(}env3.5\PYG{o}{)}\PYG{o}{[}01\PYG{p}{;}32mbenoit@yyy\PYG{o}{[}00m:\PYG{o}{[}01\PYG{p}{;}34mfirst\PYGZus{}pcap\PYG{o}{[}00m:0\PYGZdl{} file challenge.zip
+challenge.zip: Zip archive data, at least v2.0 to extract
+\PYG{o}{(}env3.5\PYG{o}{)}\PYG{o}{[}01\PYG{p}{;}32mbenoit@yyy\PYG{o}{[}00m:\PYG{o}{[}01\PYG{p}{;}34mfirst\PYGZus{}pcap\PYG{o}{[}00m:0\PYGZdl{} mkdir tmp
+\PYG{o}{(}env3.5\PYG{o}{)}\PYG{o}{[}01\PYG{p}{;}32mbenoit@yyy\PYG{o}{[}00m:\PYG{o}{[}01\PYG{p}{;}34mfirst\PYGZus{}pcap\PYG{o}{[}00m:0\PYGZdl{} \PYG{n+nb}{cd} tmp
+\PYG{o}{(}env3.5\PYG{o}{)}\PYG{o}{[}01\PYG{p}{;}32mbenoit@yyy\PYG{o}{[}00m:\PYG{o}{[}01\PYG{p}{;}34mtmp\PYG{o}{[}00m:0\PYGZdl{} mv ../challenge.zip  ./
+\PYG{o}{(}env3.5\PYG{o}{)}\PYG{o}{[}01\PYG{p}{;}32mbenoit@yyy\PYG{o}{[}00m:\PYG{o}{[}01\PYG{p}{;}34mtmp\PYG{o}{[}00m:0\PYGZdl{} un\PYG{o}{[}K\PYG{o}{[}Kfile\PYG{o}{[}Kfile challenge.zip
+challenge.zip: Zip archive data, at least v2.0 to extract
+\PYG{o}{(}env3.5\PYG{o}{)}\PYG{o}{[}01\PYG{p}{;}32mbenoit@yyy\PYG{o}{[}00m:\PYG{o}{[}01\PYG{p}{;}34mtmp\PYG{o}{[}00m:0\PYGZdl{} unzip challenge.zip
+Archive:  challenge.zip
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Gameover.js  
+  inflating: Audio/BGM/level\PYGZus{}1a\PYGZus{}24db\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: plugins/sham\PYGZhy{}data.js    
+   creating: fancybox/
+  inflating: plugins/bonus\PYGZhy{}data.js   
+   creating: plugins/Sham/
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Title.js  
+  inflating: fancybox/jquery.fancybox\PYGZhy{}1.3.4.css  
+   creating: plugins/Bonus/
+  inflating: wood.png                
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Map.js  
+  inflating: fancybox/jquery.fancybox\PYGZhy{}1.3.4.pack.js  
+  inflating: plugins/Sham/Game\PYGZus{}Sham.js  
+  inflating: rpgjs/rpgjs.min.js      
+  inflating: fancybox/jquery.js      
+  inflating: Audio/BGM/level\PYGZus{}2a\PYGZus{}24db\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Load.js  
+  inflating: index.html              
+  inflating: Audio/BGM/maison.ogg    
+  inflating: plugins/Bonus/Game\PYGZus{}Bonus.js  
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Menu.js  
+  inflating: Audio/BGM/level\PYGZus{}1b\PYGZus{}24db\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Generated.js  
+  inflating: plugins/sham.min.js     
+  inflating: Audio/BGM/level\PYGZus{}2b\PYGZus{}24db\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: plugins/Sham/Sprite\PYGZus{}Sham.js  
+  inflating: rpgjs/canvasengine.min.js  
+  inflating: plugins/fs\PYGZhy{}data.js      
+  inflating: Audio/BGM/final\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: rpgjs/core/scene/Scene\PYGZus{}Window.js  
+  inflating: plugins/soundmanager2\PYGZhy{}jsmin.js  
+  inflating: Audio/BGM/level\PYGZus{}3\PYGZus{}24db\PYGZus{}44100\PYGZus{}56k\PYGZus{}mono.ogg  
+  inflating: plugins/Bonus/Sprite\PYGZus{}Bonus.js  
+\PYG{o}{(}env3.5\PYG{o}{)}\PYG{o}{[}01\PYG{p}{;}32mbenoit@yyy\PYG{o}{[}00m:\PYG{o}{[}01\PYG{p}{;}34mtmp\PYG{o}{[}00m:0\PYGZdl{} ls\PYG{o}{[}K\PYG{o}{[}Kxdg\PYGZhy{}open index.html
+\end{Verbatim}

@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE pov SYSTEM "/usr/share/cgc-docs/replay.dtd">
+<cfepov>
+  <cbid>CROMU_00007</cbid>
+  <replay>
+      <negotiate>
+        <type1>
+          <ipmask>0xFEFEFEFE</ipmask>
+          <regmask>0xFEFEFEFE</regmask>
+          <regnum>2</regnum>
+        </type1>
+      </negotiate>
+    <read echo="ascii"><delim>\n</delim><match><data>1) Gimme Name\n</data></match></read>
+    <write>
+      <data>1\n</data>
+    </write>
+    <write>
+      <data>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n</data>
+    </write>
+  </replay>
+</cfepov>

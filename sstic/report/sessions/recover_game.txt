@@ -1,0 +1,41 @@
+$ unzip file challenge.zip
+challenge.zip: Zip archive data, at least v2.0 to extract
+$ md5sum challenge.zip
+431ff5610451ea120e693e5b1060dc46  challenge.zip
+$ unzip challenge.zip
+Archive:  challenge.zip
+  inflating: rpgjs/core/scene/Scene_Gameover.js  
+  inflating: Audio/BGM/level_1a_24db_44100_56k_mono.ogg  
+  inflating: plugins/sham-data.js    
+   creating: fancybox/
+  inflating: plugins/bonus-data.js   
+   creating: plugins/Sham/
+  inflating: rpgjs/core/scene/Scene_Title.js  
+  inflating: fancybox/jquery.fancybox-1.3.4.css  
+   creating: plugins/Bonus/
+  inflating: wood.png                
+  inflating: rpgjs/core/scene/Scene_Map.js  
+  inflating: fancybox/jquery.fancybox-1.3.4.pack.js  
+  inflating: plugins/Sham/Game_Sham.js  
+  inflating: rpgjs/rpgjs.min.js      
+  inflating: fancybox/jquery.js      
+  inflating: Audio/BGM/level_2a_24db_44100_56k_mono.ogg  
+  inflating: rpgjs/core/scene/Scene_Load.js  
+  inflating: index.html              
+  inflating: Audio/BGM/maison.ogg    
+  inflating: plugins/Bonus/Game_Bonus.js  
+  inflating: rpgjs/core/scene/Scene_Menu.js  
+  inflating: Audio/BGM/level_1b_24db_44100_56k_mono.ogg  
+  inflating: rpgjs/core/scene/Scene_Generated.js  
+  inflating: plugins/sham.min.js     
+  inflating: Audio/BGM/level_2b_24db_44100_56k_mono.ogg  
+  inflating: plugins/Sham/Sprite_Sham.js  
+  inflating: rpgjs/canvasengine.min.js  
+  inflating: plugins/fs-data.js      
+  inflating: Audio/BGM/final_44100_56k_mono.ogg  
+  inflating: rpgjs/core/scene/Scene_Window.js  
+  inflating: plugins/soundmanager2-jsmin.js  
+  inflating: Audio/BGM/level_3_24db_44100_56k_mono.ogg  
+  inflating: plugins/Bonus/Sprite_Bonus.js  
+$ xdg-open index.html
+

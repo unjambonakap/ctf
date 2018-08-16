@@ -1,0 +1,29 @@
+Bonjour, cher - quel est votre nom déjà ? - stagiaire...
+Voilà, notre officier de sécurité a été alerté qu'un rôdeur tournait autour de
+nos bâtiments et qu'il s'était arrêté plusieurs fois devant la fenêtre de
+notre centre hyper-sécurisé de génération des clés privées opérationnelles
+de 128 bits puis avait sorti son bazar pour la filmer.
+N'écoutant que son courage, il lui a envoyé nos agents de sécurité qui ont pu
+saisir le matériel de l'impétrant. Une vidéo a pu être extraite du support
+par notre expert fort en SICs : il filmait effectivement une fenêtre et ça y
+clignotait de façon louche.
+Notre stagiaire - l'autre - prétend que nous serions la cible d'une puissance
+cyber-plus-forte-que-nous, que notre réseau déconnecté serait compromis par
+une cousine de l'APT DuQu et que ses différents modules permettraient le vol
+et l'exfiltration de nos clés très-très privées.
+Selon lui, l'exfiltration serait réalisée à l'aide de l'économiseur d'écran,
+ce qui serait fâcheux car nous le distribuons aussi à notre client public chez
+qui un Centre de Création des Clés identique au nôtre a été installé.
+Il prétend aussi que notre clé privée principale, la mère de toutes les
+autres, aurait été exfiltrée.
+Nous ne pouvons laisser notre stagiaire - l'autre - semer la panique sans
+preuves chez le client qui nous fait vivre.
+Nous avons besoin qu'un nouvel expert étudie ce code soi-disant malicieux et
+nous prouve qu'il ne s'agit effectivement pas d'un dispositif d'exfiltration
+fonctionnel.
+Ainsi, pour mériter votre indemnité de stage, vous devez extraire de la vidéo
+ci-jointe, réalisée par Serge (notre expert communiquant) dans des conditions
+plus qu'idéales, notre clé maîtresse ou nous prouver que c'est infaisable.
+Enfin, soyez bien conscient(e) que toute fuite de ces informations dans un
+quelconque canard vous ferait perdre votre habilitation "CYBER SECRET".
+Capisci ?

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} xxd files/key
+00000000: \PYG{l+m}{0928} bde1 e3ed \PYG{l+m}{8969} \PYG{l+m}{8632} dbff 4a23 \PYG{l+m}{1138}  .\PYG{o}{(}.....i.2..J\PYGZsh{}.8
+\PYGZdl{} \PYG{c+c1}{\PYGZsh{}}
+\end{Verbatim}

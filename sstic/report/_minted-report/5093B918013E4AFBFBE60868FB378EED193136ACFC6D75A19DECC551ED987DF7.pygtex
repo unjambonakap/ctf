@@ -1,0 +1,37 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{()} \PYG{p}{\PYGZob{}}
+  \PYG{k}{for} \PYG{p}{(}\PYG{n}{u64} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{1ull} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{l+m+mi}{32}\PYG{p}{;} \PYG{o}{++}\PYG{n}{i}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{n}{u64} \PYG{n}{a} \PYG{o}{=} \PYG{l+m+mh}{0x1e716dcb} \PYG{o}{+} \PYG{p}{(}\PYG{n}{i} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{l+m+mi}{32}\PYG{p}{);}
+    \PYG{n}{u64} \PYG{n}{b} \PYG{o}{=} \PYG{l+m+mh}{0x6365623134333ffe}\PYG{p}{;}
+    \PYG{n}{u64} \PYG{n}{res}\PYG{p}{;}
+
+    \PYG{c+c1}{// ok at 3174346476}
+\PYG{c+c1}{//a=0xbd34aeec1e716dcbull;}
+\PYG{c+c1}{//b=0x6365623134333ffeull;}
+    \PYG{n}{\PYGZus{}\PYGZus{}asm\PYGZus{}\PYGZus{}} \PYG{k}{volatile}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}mov rax, \PYGZpc{}2}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}pushq rax}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}mov rax, \PYGZpc{}1}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}pushq rax}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}wait}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}fnclex}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}fld tbyte ptr [rsp]}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}fld st(0)}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}fcos}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}fcompp}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}wait}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}fnstsw ax}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}and rax, 0xffdf}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}mov \PYGZpc{}0, rax}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}popq rax}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{l+s}{\PYGZdq{}popq rax}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}
+                     \PYG{o}{:} \PYG{l+s}{\PYGZdq{}=r\PYGZdq{}}\PYG{p}{(}\PYG{n}{res}\PYG{p}{)}
+                     \PYG{o}{:} \PYG{l+s}{\PYGZdq{}r\PYGZdq{}}\PYG{p}{(}\PYG{n}{a}\PYG{p}{),} \PYG{l+s}{\PYGZdq{}r\PYGZdq{}}\PYG{p}{(}\PYG{n}{b}\PYG{p}{)}
+                     \PYG{o}{:} \PYG{l+s}{\PYGZdq{}\PYGZpc{}rax\PYGZdq{}}\PYG{p}{);}
+
+    \PYG{k}{if} \PYG{p}{(}\PYG{n}{res} \PYG{o}{==} \PYG{l+m+mh}{0x4000}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+      \PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}ok at \PYGZpc{}Lu}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{i}\PYG{p}{);}
+    \PYG{p}{\PYGZcb{}}
+  \PYG{p}{\PYGZcb{}}
+  \PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

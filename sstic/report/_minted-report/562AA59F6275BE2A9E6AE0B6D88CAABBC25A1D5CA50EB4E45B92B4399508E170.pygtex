@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{EFI\PYGZus{}STATUS}
+\PYG{n+nf}{efi\PYGZus{}main}\PYG{p}{(}\PYG{n}{EFI\PYGZus{}HANDLE} \PYG{n}{image}\PYG{p}{,} \PYG{n}{EFI\PYGZus{}SYSTEM\PYGZus{}TABLE} \PYG{o}{*}\PYG{n}{systab}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+  \PYG{n}{SIMPLE\PYGZus{}TEXT\PYGZus{}OUTPUT\PYGZus{}INTERFACE} \PYG{o}{*}\PYG{n}{conout}\PYG{p}{;}
+\end{Verbatim}

@@ -1,0 +1,28 @@
+NOTE:
+you need to install pyCrypto first:
+
+http://www.amk.ca/python/code/crypto.html
+win binaries:
+http://www.voidspace.org.uk/python/modules.shtml#pycrypto
+
+----
+
+brute.py is the one who is bruteforcing (decrypt) the crypted text.
+if it is done it will output the correct key.
+
+the other one (decrypt.py) is just to decrypt the crypted text itself with the key you found with brute.py
+
+i made two scripts because i decrypt not the whole text while bruteforcing (rather the 16 first bytes) for speed reasons.
+
+but.. for sure - you can join them if you want.
+
+
++---------+-----------------------------------------------vV
+| RESULTS |
++---------+
+
+brute.py:
+    FOUND RIGHT KEY!: wcwteseawxqgvaqg
+
+decrypt.py:
+    674e2ea5b6d8fcdb49a3cf70bf5679202a7776d-YOU-MADE-IT-12bb1bceee69532bc830cb2ff8fc93f6c2c2ea4e5e05d20f778736214bb814583a29ef0a4048

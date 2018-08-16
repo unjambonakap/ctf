@@ -1,0 +1,14 @@
+
+REGISTER : key=MapperAndChecker,id=0,uintptr_t(this)=12bc7e0,m_mp.size()=1,
+REGISTER : key=PatternChecker,id=1,uintptr_t(this)=12bc7e0,m_mp.size()=2,
+REGISTER : key=Sha256,id=2,uintptr_t(this)=12bc7e0,m_mp.size()=3,
+REGISTER : key=Sha512,id=3,uintptr_t(this)=12bc7e0,m_mp.size()=4,
+REGISTER : key=Sha1,id=4,uintptr_t(this)=12bc7e0,m_mp.size()=5,
+REGISTER : key=Md5,id=5,uintptr_t(this)=12bc7e0,m_mp.size()=6,
+Registering job : name=CloudyRegisterBase_Cracker,cur_id=0,
+factors >> : factors.size()=4,
+cnd=74310aa96247afe4,6c9a0ae0962b038f,,bob.get_h()=74310aa96247afe4,6c9a0ae0962b038f,,
+
+real	0m0.928s
+user	0m0.910s
+sys	0m0.003s

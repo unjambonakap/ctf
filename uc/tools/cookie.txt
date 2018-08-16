@@ -1,0 +1,5 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+microcorruption.com	FALSE	/	FALSE		_cpuctf_session	BAh7CkkiCXVzZXIGOgZFRmkC5DNJIg9zZXNzaW9uX2lkBjsARkkiJTY4ZWExMzJmNmVmNDVjYjYwMTkzYmZmZTQwNjUxYTJjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXdLOGNHdS8wZmdDUHFRWFRsS3hZMjVSRHRnK3R6dVB3dlNDL2dTcmV3VWM9BjsARkkiCGNwdQY7AEZJIjRtc3AuTm5nb2k0ZUVwTXFFX20yOUVLZ0psNllhdldoS2Z4dkw5TWxaVjhyQlVacwY7AFRJIhNiYWNrZW5kX3NlcnZlcgY7AEZJIhUyZGVjYzFmZmZmZTQ0YmY5BjsAVA%3D%3D--8973ec7b2767d4fd3c741feb9cf27e37bdf56937

@@ -1,0 +1,4739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.0">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name=".null"/>
+    <GlyphID id="2" name="nonmarkingreturn"/>
+    <GlyphID id="3" name="space"/>
+    <GlyphID id="4" name="plus"/>
+    <GlyphID id="5" name="slash"/>
+    <GlyphID id="6" name="zero"/>
+    <GlyphID id="7" name="one"/>
+    <GlyphID id="8" name="two"/>
+    <GlyphID id="9" name="three"/>
+    <GlyphID id="10" name="four"/>
+    <GlyphID id="11" name="five"/>
+    <GlyphID id="12" name="six"/>
+    <GlyphID id="13" name="seven"/>
+    <GlyphID id="14" name="eight"/>
+    <GlyphID id="15" name="nine"/>
+    <GlyphID id="16" name="equal"/>
+    <GlyphID id="17" name="question"/>
+    <GlyphID id="18" name="A"/>
+    <GlyphID id="19" name="B"/>
+    <GlyphID id="20" name="C"/>
+    <GlyphID id="21" name="D"/>
+    <GlyphID id="22" name="E"/>
+    <GlyphID id="23" name="F"/>
+    <GlyphID id="24" name="G"/>
+    <GlyphID id="25" name="H"/>
+    <GlyphID id="26" name="I"/>
+    <GlyphID id="27" name="J"/>
+    <GlyphID id="28" name="K"/>
+    <GlyphID id="29" name="L"/>
+    <GlyphID id="30" name="M"/>
+    <GlyphID id="31" name="N"/>
+    <GlyphID id="32" name="O"/>
+    <GlyphID id="33" name="P"/>
+    <GlyphID id="34" name="Q"/>
+    <GlyphID id="35" name="R"/>
+    <GlyphID id="36" name="S"/>
+    <GlyphID id="37" name="T"/>
+    <GlyphID id="38" name="U"/>
+    <GlyphID id="39" name="V"/>
+    <GlyphID id="40" name="W"/>
+    <GlyphID id="41" name="X"/>
+    <GlyphID id="42" name="Y"/>
+    <GlyphID id="43" name="Z"/>
+    <GlyphID id="44" name="a"/>
+    <GlyphID id="45" name="b"/>
+    <GlyphID id="46" name="c"/>
+    <GlyphID id="47" name="d"/>
+    <GlyphID id="48" name="e"/>
+    <GlyphID id="49" name="f"/>
+    <GlyphID id="50" name="g"/>
+    <GlyphID id="51" name="h"/>
+    <GlyphID id="52" name="i"/>
+    <GlyphID id="53" name="j"/>
+    <GlyphID id="54" name="k"/>
+    <GlyphID id="55" name="l"/>
+    <GlyphID id="56" name="m"/>
+    <GlyphID id="57" name="n"/>
+    <GlyphID id="58" name="o"/>
+    <GlyphID id="59" name="p"/>
+    <GlyphID id="60" name="q"/>
+    <GlyphID id="61" name="r"/>
+    <GlyphID id="62" name="s"/>
+    <GlyphID id="63" name="t"/>
+    <GlyphID id="64" name="u"/>
+    <GlyphID id="65" name="v"/>
+    <GlyphID id="66" name="w"/>
+    <GlyphID id="67" name="x"/>
+    <GlyphID id="68" name="y"/>
+    <GlyphID id="69" name="z"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="0.0"/>
+    <checkSumAdjustment value="0xc6f9c231"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00001011"/>
+    <unitsPerEm value="1000"/>
+    <created value="Thu Jan 21 09:22:01 2016"/>
+    <modified value="Thu Jan 21 09:22:01 2016"/>
+    <xMin value="-30"/>
+    <yMin value="-171"/>
+    <xMax value="614"/>
+    <yMax value="677"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="8"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="1.0"/>
+    <ascent value="661"/>
+    <descent value="-171"/>
+    <lineGap value="150"/>
+    <advanceWidthMax value="600"/>
+    <minLeftSideBearing value="-30"/>
+    <minRightSideBearing value="-14"/>
+    <xMaxExtent value="614"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="4"/>
+  </hhea>
+
+  <maxp>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="0x10000"/>
+    <numGlyphs value="70"/>
+    <maxPoints value="70"/>
+    <maxContours value="6"/>
+    <maxCompositePoints value="0"/>
+    <maxCompositeContours value="0"/>
+    <maxZones value="1"/>
+    <maxTwilightPoints value="0"/>
+    <maxStorage value="100"/>
+    <maxFunctionDefs value="2"/>
+    <maxInstructionDefs value="1"/>
+    <maxStackElements value="432"/>
+    <maxSizeOfInstructions value="653"/>
+    <maxComponentElements value="0"/>
+    <maxComponentDepth value="0"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="1"/>
+    <xAvgCharWidth value="600"/>
+    <usWeightClass value="5"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000000"/>
+    <ySubscriptXSize value="750"/>
+    <ySubscriptYSize value="750"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="200"/>
+    <ySuperscriptXSize value="750"/>
+    <ySuperscriptYSize value="750"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="300"/>
+    <yStrikeoutSize value="50"/>
+    <yStrikeoutPosition value="272"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="0"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="0"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange2 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="ATEC"/>
+    <fsSelection value="00000000 00000000"/>
+    <usFirstCharIndex value="32"/>
+    <usLastCharIndex value="122"/>
+    <sTypoAscender value="661"/>
+    <sTypoDescender value="-171"/>
+    <sTypoLineGap value="307"/>
+    <usWinAscent value="816"/>
+    <usWinDescent value="250"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+  </OS_2>
+
+  <hmtx>
+    <mtx name=".notdef" width="600" lsb="33"/>
+    <mtx name=".null" width="0" lsb="0"/>
+    <mtx name="A" width="600" lsb="-5"/>
+    <mtx name="B" width="600" lsb="29"/>
+    <mtx name="C" width="600" lsb="48"/>
+    <mtx name="D" width="600" lsb="16"/>
+    <mtx name="E" width="600" lsb="42"/>
+    <mtx name="F" width="600" lsb="53"/>
+    <mtx name="G" width="600" lsb="21"/>
+    <mtx name="H" width="600" lsb="25"/>
+    <mtx name="I" width="600" lsb="83"/>
+    <mtx name="J" width="600" lsb="42"/>
+    <mtx name="K" width="600" lsb="24"/>
+    <mtx name="L" width="600" lsb="42"/>
+    <mtx name="M" width="600" lsb="-4"/>
+    <mtx name="N" width="600" lsb="10"/>
+    <mtx name="O" width="600" lsb="26"/>
+    <mtx name="P" width="600" lsb="63"/>
+    <mtx name="Q" width="600" lsb="56"/>
+    <mtx name="R" width="600" lsb="29"/>
+    <mtx name="S" width="600" lsb="43"/>
+    <mtx name="T" width="600" lsb="44"/>
+    <mtx name="U" width="600" lsb="13"/>
+    <mtx name="V" width="600" lsb="-3"/>
+    <mtx name="W" width="600" lsb="-5"/>
+    <mtx name="X" width="600" lsb="16"/>
+    <mtx name="Y" width="600" lsb="19"/>
+    <mtx name="Z" width="600" lsb="65"/>
+    <mtx name="a" width="600" lsb="46"/>
+    <mtx name="b" width="600" lsb="3"/>
+    <mtx name="c" width="600" lsb="55"/>
+    <mtx name="d" width="600" lsb="39"/>
+    <mtx name="e" width="600" lsb="44"/>
+    <mtx name="eight" width="600" lsb="90"/>
+    <mtx name="equal" width="600" lsb="91"/>
+    <mtx name="f" width="600" lsb="81"/>
+    <mtx name="five" width="600" lsb="64"/>
+    <mtx name="four" width="600" lsb="55"/>
+    <mtx name="g" width="600" lsb="44"/>
+    <mtx name="h" width="600" lsb="23"/>
+    <mtx name="i" width="600" lsb="99"/>
+    <mtx name="j" width="600" lsb="52"/>
+    <mtx name="k" width="600" lsb="35"/>
+    <mtx name="l" width="600" lsb="82"/>
+    <mtx name="m" width="600" lsb="-4"/>
+    <mtx name="n" width="600" lsb="23"/>
+    <mtx name="nine" width="600" lsb="96"/>
+    <mtx name="nonmarkingreturn" width="600" lsb="0"/>
+    <mtx name="o" width="600" lsb="49"/>
+    <mtx name="one" width="600" lsb="92"/>
+    <mtx name="p" width="600" lsb="3"/>
+    <mtx name="plus" width="600" lsb="91"/>
+    <mtx name="q" width="600" lsb="38"/>
+    <mtx name="question" width="600" lsb="-30"/>
+    <mtx name="r" width="600" lsb="56"/>
+    <mtx name="s" width="600" lsb="72"/>
+    <mtx name="seven" width="600" lsb="88"/>
+    <mtx name="six" width="600" lsb="86"/>
+    <mtx name="slash" width="600" lsb="68"/>
+    <mtx name="space" width="600" lsb="0"/>
+    <mtx name="t" width="600" lsb="80"/>
+    <mtx name="three" width="600" lsb="93"/>
+    <mtx name="two" width="600" lsb="62"/>
+    <mtx name="u" width="600" lsb="16"/>
+    <mtx name="v" width="600" lsb="4"/>
+    <mtx name="w" width="600" lsb="-2"/>
+    <mtx name="x" width="600" lsb="11"/>
+    <mtx name="y" width="600" lsb="1"/>
+    <mtx name="z" width="600" lsb="85"/>
+    <mtx name="zero" width="600" lsb="93"/>
+  </hmtx>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x2b" name="plus"/><!-- PLUS SIGN -->
+      <map code="0x2f" name="slash"/><!-- SOLIDUS -->
+      <map code="0x30" name="zero"/><!-- DIGIT ZERO -->
+      <map code="0x31" name="one"/><!-- DIGIT ONE -->
+      <map code="0x32" name="two"/><!-- DIGIT TWO -->
+      <map code="0x33" name="three"/><!-- DIGIT THREE -->
+      <map code="0x34" name="four"/><!-- DIGIT FOUR -->
+      <map code="0x35" name="five"/><!-- DIGIT FIVE -->
+      <map code="0x36" name="six"/><!-- DIGIT SIX -->
+      <map code="0x37" name="seven"/><!-- DIGIT SEVEN -->
+      <map code="0x38" name="eight"/><!-- DIGIT EIGHT -->
+      <map code="0x39" name="nine"/><!-- DIGIT NINE -->
+      <map code="0x3d" name="equal"/><!-- EQUALS SIGN -->
+      <map code="0x3f" name="question"/><!-- QUESTION MARK -->
+      <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
+      <map code="0x42" name="B"/><!-- LATIN CAPITAL LETTER B -->
+      <map code="0x43" name="C"/><!-- LATIN CAPITAL LETTER C -->
+      <map code="0x44" name="D"/><!-- LATIN CAPITAL LETTER D -->
+      <map code="0x45" name="E"/><!-- LATIN CAPITAL LETTER E -->
+      <map code="0x46" name="F"/><!-- LATIN CAPITAL LETTER F -->
+      <map code="0x47" name="G"/><!-- LATIN CAPITAL LETTER G -->
+      <map code="0x48" name="H"/><!-- LATIN CAPITAL LETTER H -->
+      <map code="0x49" name="I"/><!-- LATIN CAPITAL LETTER I -->
+      <map code="0x4a" name="J"/><!-- LATIN CAPITAL LETTER J -->
+      <map code="0x4b" name="K"/><!-- LATIN CAPITAL LETTER K -->
+      <map code="0x4c" name="L"/><!-- LATIN CAPITAL LETTER L -->
+      <map code="0x4d" name="M"/><!-- LATIN CAPITAL LETTER M -->
+      <map code="0x4e" name="N"/><!-- LATIN CAPITAL LETTER N -->
+      <map code="0x4f" name="O"/><!-- LATIN CAPITAL LETTER O -->
+      <map code="0x50" name="P"/><!-- LATIN CAPITAL LETTER P -->
+      <map code="0x51" name="Q"/><!-- LATIN CAPITAL LETTER Q -->
+      <map code="0x52" name="R"/><!-- LATIN CAPITAL LETTER R -->
+      <map code="0x53" name="S"/><!-- LATIN CAPITAL LETTER S -->
+      <map code="0x54" name="T"/><!-- LATIN CAPITAL LETTER T -->
+      <map code="0x55" name="U"/><!-- LATIN CAPITAL LETTER U -->
+      <map code="0x56" name="V"/><!-- LATIN CAPITAL LETTER V -->
+      <map code="0x57" name="W"/><!-- LATIN CAPITAL LETTER W -->
+      <map code="0x58" name="X"/><!-- LATIN CAPITAL LETTER X -->
+      <map code="0x59" name="Y"/><!-- LATIN CAPITAL LETTER Y -->
+      <map code="0x5a" name="Z"/><!-- LATIN CAPITAL LETTER Z -->
+      <map code="0x61" name="a"/><!-- LATIN SMALL LETTER A -->
+      <map code="0x62" name="b"/><!-- LATIN SMALL LETTER B -->
+      <map code="0x63" name="c"/><!-- LATIN SMALL LETTER C -->
+      <map code="0x64" name="d"/><!-- LATIN SMALL LETTER D -->
+      <map code="0x65" name="e"/><!-- LATIN SMALL LETTER E -->
+      <map code="0x66" name="f"/><!-- LATIN SMALL LETTER F -->
+      <map code="0x67" name="g"/><!-- LATIN SMALL LETTER G -->
+      <map code="0x68" name="h"/><!-- LATIN SMALL LETTER H -->
+      <map code="0x69" name="i"/><!-- LATIN SMALL LETTER I -->
+      <map code="0x6a" name="j"/><!-- LATIN SMALL LETTER J -->
+      <map code="0x6b" name="k"/><!-- LATIN SMALL LETTER K -->
+      <map code="0x6c" name="l"/><!-- LATIN SMALL LETTER L -->
+      <map code="0x6d" name="m"/><!-- LATIN SMALL LETTER M -->
+      <map code="0x6e" name="n"/><!-- LATIN SMALL LETTER N -->
+      <map code="0x6f" name="o"/><!-- LATIN SMALL LETTER O -->
+      <map code="0x70" name="p"/><!-- LATIN SMALL LETTER P -->
+      <map code="0x71" name="q"/><!-- LATIN SMALL LETTER Q -->
+      <map code="0x72" name="r"/><!-- LATIN SMALL LETTER R -->
+      <map code="0x73" name="s"/><!-- LATIN SMALL LETTER S -->
+      <map code="0x74" name="t"/><!-- LATIN SMALL LETTER T -->
+      <map code="0x75" name="u"/><!-- LATIN SMALL LETTER U -->
+      <map code="0x76" name="v"/><!-- LATIN SMALL LETTER V -->
+      <map code="0x77" name="w"/><!-- LATIN SMALL LETTER W -->
+      <map code="0x78" name="x"/><!-- LATIN SMALL LETTER X -->
+      <map code="0x79" name="y"/><!-- LATIN SMALL LETTER Y -->
+      <map code="0x7a" name="z"/><!-- LATIN SMALL LETTER Z -->
+    </cmap_format_4>
+    <cmap_format_0 platformID="1" platEncID="0" language="0">
+      <map code="0x0" name=".null"/>
+      <map code="0x1" name=".notdef"/>
+      <map code="0x2" name=".notdef"/>
+      <map code="0x3" name=".notdef"/>
+      <map code="0x4" name=".notdef"/>
+      <map code="0x5" name=".notdef"/>
+      <map code="0x6" name=".notdef"/>
+      <map code="0x7" name=".notdef"/>
+      <map code="0x8" name=".null"/>
+      <map code="0x9" name="nonmarkingreturn"/>
+      <map code="0xa" name=".notdef"/>
+      <map code="0xb" name=".notdef"/>
+      <map code="0xc" name=".notdef"/>
+      <map code="0xd" name="nonmarkingreturn"/>
+      <map code="0xe" name=".notdef"/>
+      <map code="0xf" name=".notdef"/>
+      <map code="0x10" name=".notdef"/>
+      <map code="0x11" name=".notdef"/>
+      <map code="0x12" name=".notdef"/>
+      <map code="0x13" name=".notdef"/>
+      <map code="0x14" name=".notdef"/>
+      <map code="0x15" name=".notdef"/>
+      <map code="0x16" name=".notdef"/>
+      <map code="0x17" name=".notdef"/>
+      <map code="0x18" name=".notdef"/>
+      <map code="0x19" name=".notdef"/>
+      <map code="0x1a" name=".notdef"/>
+      <map code="0x1b" name=".notdef"/>
+      <map code="0x1c" name=".notdef"/>
+      <map code="0x1d" name=".null"/>
+      <map code="0x1e" name=".notdef"/>
+      <map code="0x1f" name=".notdef"/>
+      <map code="0x20" name="space"/>
+      <map code="0x21" name=".notdef"/>
+      <map code="0x22" name=".notdef"/>
+      <map code="0x23" name=".notdef"/>
+      <map code="0x24" name=".notdef"/>
+      <map code="0x25" name=".notdef"/>
+      <map code="0x26" name=".notdef"/>
+      <map code="0x27" name=".notdef"/>
+      <map code="0x28" name=".notdef"/>
+      <map code="0x29" name=".notdef"/>
+      <map code="0x2a" name=".notdef"/>
+      <map code="0x2b" name="plus"/>
+      <map code="0x2c" name=".notdef"/>
+      <map code="0x2d" name=".notdef"/>
+      <map code="0x2e" name=".notdef"/>
+      <map code="0x2f" name="slash"/>
+      <map code="0x30" name="zero"/>
+      <map code="0x31" name="one"/>
+      <map code="0x32" name="two"/>
+      <map code="0x33" name="three"/>
+      <map code="0x34" name="four"/>
+      <map code="0x35" name="five"/>
+      <map code="0x36" name="six"/>
+      <map code="0x37" name="seven"/>
+      <map code="0x38" name="eight"/>
+      <map code="0x39" name="nine"/>
+      <map code="0x3a" name=".notdef"/>
+      <map code="0x3b" name=".notdef"/>
+      <map code="0x3c" name=".notdef"/>
+      <map code="0x3d" name="equal"/>
+      <map code="0x3e" name=".notdef"/>
+      <map code="0x3f" name="question"/>
+      <map code="0x40" name=".notdef"/>
+      <map code="0x41" name="A"/>
+      <map code="0x42" name="B"/>
+      <map code="0x43" name="C"/>
+      <map code="0x44" name="D"/>
+      <map code="0x45" name="E"/>
+      <map code="0x46" name="F"/>
+      <map code="0x47" name="G"/>
+      <map code="0x48" name="H"/>
+      <map code="0x49" name="I"/>
+      <map code="0x4a" name="J"/>
+      <map code="0x4b" name="K"/>
+      <map code="0x4c" name="L"/>
+      <map code="0x4d" name="M"/>
+      <map code="0x4e" name="N"/>
+      <map code="0x4f" name="O"/>
+      <map code="0x50" name="P"/>
+      <map code="0x51" name="Q"/>
+      <map code="0x52" name="R"/>
+      <map code="0x53" name="S"/>
+      <map code="0x54" name="T"/>
+      <map code="0x55" name="U"/>
+      <map code="0x56" name="V"/>
+      <map code="0x57" name="W"/>
+      <map code="0x58" name="X"/>
+      <map code="0x59" name="Y"/>
+      <map code="0x5a" name="Z"/>
+      <map code="0x5b" name=".notdef"/>
+      <map code="0x5c" name=".notdef"/>
+      <map code="0x5d" name=".notdef"/>
+      <map code="0x5e" name=".notdef"/>
+      <map code="0x5f" name=".notdef"/>
+      <map code="0x60" name=".notdef"/>
+      <map code="0x61" name="a"/>
+      <map code="0x62" name="b"/>
+      <map code="0x63" name="c"/>
+      <map code="0x64" name="d"/>
+      <map code="0x65" name="e"/>
+      <map code="0x66" name="f"/>
+      <map code="0x67" name="g"/>
+      <map code="0x68" name="h"/>
+      <map code="0x69" name="i"/>
+      <map code="0x6a" name="j"/>
+      <map code="0x6b" name="k"/>
+      <map code="0x6c" name="l"/>
+      <map code="0x6d" name="m"/>
+      <map code="0x6e" name="n"/>
+      <map code="0x6f" name="o"/>
+      <map code="0x70" name="p"/>
+      <map code="0x71" name="q"/>
+      <map code="0x72" name="r"/>
+      <map code="0x73" name="s"/>
+      <map code="0x74" name="t"/>
+      <map code="0x75" name="u"/>
+      <map code="0x76" name="v"/>
+      <map code="0x77" name="w"/>
+      <map code="0x78" name="x"/>
+      <map code="0x79" name="y"/>
+      <map code="0x7a" name="z"/>
+      <map code="0x7b" name=".notdef"/>
+      <map code="0x7c" name=".notdef"/>
+      <map code="0x7d" name=".notdef"/>
+      <map code="0x7e" name=".notdef"/>
+      <map code="0x7f" name=".notdef"/>
+      <map code="0x80" name=".notdef"/>
+      <map code="0x81" name=".notdef"/>
+      <map code="0x82" name=".notdef"/>
+      <map code="0x83" name=".notdef"/>
+      <map code="0x84" name=".notdef"/>
+      <map code="0x85" name=".notdef"/>
+      <map code="0x86" name=".notdef"/>
+      <map code="0x87" name=".notdef"/>
+      <map code="0x88" name=".notdef"/>
+      <map code="0x89" name=".notdef"/>
+      <map code="0x8a" name=".notdef"/>
+      <map code="0x8b" name=".notdef"/>
+      <map code="0x8c" name=".notdef"/>
+      <map code="0x8d" name=".notdef"/>
+      <map code="0x8e" name=".notdef"/>
+      <map code="0x8f" name=".notdef"/>
+      <map code="0x90" name=".notdef"/>
+      <map code="0x91" name=".notdef"/>
+      <map code="0x92" name=".notdef"/>
+      <map code="0x93" name=".notdef"/>
+      <map code="0x94" name=".notdef"/>
+      <map code="0x95" name=".notdef"/>
+      <map code="0x96" name=".notdef"/>
+      <map code="0x97" name=".notdef"/>
+      <map code="0x98" name=".notdef"/>
+      <map code="0x99" name=".notdef"/>
+      <map code="0x9a" name=".notdef"/>
+      <map code="0x9b" name=".notdef"/>
+      <map code="0x9c" name=".notdef"/>
+      <map code="0x9d" name=".notdef"/>
+      <map code="0x9e" name=".notdef"/>
+      <map code="0x9f" name=".notdef"/>
+      <map code="0xa0" name=".notdef"/>
+      <map code="0xa1" name=".notdef"/>
+      <map code="0xa2" name=".notdef"/>
+      <map code="0xa3" name=".notdef"/>
+      <map code="0xa4" name=".notdef"/>
+      <map code="0xa5" name=".notdef"/>
+      <map code="0xa6" name=".notdef"/>
+      <map code="0xa7" name=".notdef"/>
+      <map code="0xa8" name=".notdef"/>
+      <map code="0xa9" name=".notdef"/>
+      <map code="0xaa" name=".notdef"/>
+      <map code="0xab" name=".notdef"/>
+      <map code="0xac" name=".notdef"/>
+      <map code="0xad" name=".notdef"/>
+      <map code="0xae" name=".notdef"/>
+      <map code="0xaf" name=".notdef"/>
+      <map code="0xb0" name=".notdef"/>
+      <map code="0xb1" name=".notdef"/>
+      <map code="0xb2" name=".notdef"/>
+      <map code="0xb3" name=".notdef"/>
+      <map code="0xb4" name=".notdef"/>
+      <map code="0xb5" name=".notdef"/>
+      <map code="0xb6" name=".notdef"/>
+      <map code="0xb7" name=".notdef"/>
+      <map code="0xb8" name=".notdef"/>
+      <map code="0xb9" name=".notdef"/>
+      <map code="0xba" name=".notdef"/>
+      <map code="0xbb" name=".notdef"/>
+      <map code="0xbc" name=".notdef"/>
+      <map code="0xbd" name=".notdef"/>
+      <map code="0xbe" name=".notdef"/>
+      <map code="0xbf" name=".notdef"/>
+      <map code="0xc0" name=".notdef"/>
+      <map code="0xc1" name=".notdef"/>
+      <map code="0xc2" name=".notdef"/>
+      <map code="0xc3" name=".notdef"/>
+      <map code="0xc4" name=".notdef"/>
+      <map code="0xc5" name=".notdef"/>
+      <map code="0xc6" name=".notdef"/>
+      <map code="0xc7" name=".notdef"/>
+      <map code="0xc8" name=".notdef"/>
+      <map code="0xc9" name=".notdef"/>
+      <map code="0xca" name=".notdef"/>
+      <map code="0xcb" name=".notdef"/>
+      <map code="0xcc" name=".notdef"/>
+      <map code="0xcd" name=".notdef"/>
+      <map code="0xce" name=".notdef"/>
+      <map code="0xcf" name=".notdef"/>
+      <map code="0xd0" name=".notdef"/>
+      <map code="0xd1" name=".notdef"/>
+      <map code="0xd2" name=".notdef"/>
+      <map code="0xd3" name=".notdef"/>
+      <map code="0xd4" name=".notdef"/>
+      <map code="0xd5" name=".notdef"/>
+      <map code="0xd6" name=".notdef"/>
+      <map code="0xd7" name=".notdef"/>
+      <map code="0xd8" name=".notdef"/>
+      <map code="0xd9" name=".notdef"/>
+      <map code="0xda" name=".notdef"/>
+      <map code="0xdb" name=".notdef"/>
+      <map code="0xdc" name=".notdef"/>
+      <map code="0xdd" name=".notdef"/>
+      <map code="0xde" name=".notdef"/>
+      <map code="0xdf" name=".notdef"/>
+      <map code="0xe0" name=".notdef"/>
+      <map code="0xe1" name=".notdef"/>
+      <map code="0xe2" name=".notdef"/>
+      <map code="0xe3" name=".notdef"/>
+      <map code="0xe4" name=".notdef"/>
+      <map code="0xe5" name=".notdef"/>
+      <map code="0xe6" name=".notdef"/>
+      <map code="0xe7" name=".notdef"/>
+      <map code="0xe8" name=".notdef"/>
+      <map code="0xe9" name=".notdef"/>
+      <map code="0xea" name=".notdef"/>
+      <map code="0xeb" name=".notdef"/>
+      <map code="0xec" name=".notdef"/>
+      <map code="0xed" name=".notdef"/>
+      <map code="0xee" name=".notdef"/>
+      <map code="0xef" name=".notdef"/>
+      <map code="0xf0" name=".notdef"/>
+      <map code="0xf1" name=".notdef"/>
+      <map code="0xf2" name=".notdef"/>
+      <map code="0xf3" name=".notdef"/>
+      <map code="0xf4" name=".notdef"/>
+      <map code="0xf5" name=".notdef"/>
+      <map code="0xf6" name=".notdef"/>
+      <map code="0xf7" name=".notdef"/>
+      <map code="0xf8" name=".notdef"/>
+      <map code="0xf9" name=".notdef"/>
+      <map code="0xfa" name=".notdef"/>
+      <map code="0xfb" name=".notdef"/>
+      <map code="0xfc" name=".notdef"/>
+      <map code="0xfd" name=".notdef"/>
+      <map code="0xfe" name=".notdef"/>
+      <map code="0xff" name=".notdef"/>
+    </cmap_format_0>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x2b" name="plus"/><!-- PLUS SIGN -->
+      <map code="0x2f" name="slash"/><!-- SOLIDUS -->
+      <map code="0x30" name="zero"/><!-- DIGIT ZERO -->
+      <map code="0x31" name="one"/><!-- DIGIT ONE -->
+      <map code="0x32" name="two"/><!-- DIGIT TWO -->
+      <map code="0x33" name="three"/><!-- DIGIT THREE -->
+      <map code="0x34" name="four"/><!-- DIGIT FOUR -->
+      <map code="0x35" name="five"/><!-- DIGIT FIVE -->
+      <map code="0x36" name="six"/><!-- DIGIT SIX -->
+      <map code="0x37" name="seven"/><!-- DIGIT SEVEN -->
+      <map code="0x38" name="eight"/><!-- DIGIT EIGHT -->
+      <map code="0x39" name="nine"/><!-- DIGIT NINE -->
+      <map code="0x3d" name="equal"/><!-- EQUALS SIGN -->
+      <map code="0x3f" name="question"/><!-- QUESTION MARK -->
+      <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
+      <map code="0x42" name="B"/><!-- LATIN CAPITAL LETTER B -->
+      <map code="0x43" name="C"/><!-- LATIN CAPITAL LETTER C -->
+      <map code="0x44" name="D"/><!-- LATIN CAPITAL LETTER D -->
+      <map code="0x45" name="E"/><!-- LATIN CAPITAL LETTER E -->
+      <map code="0x46" name="F"/><!-- LATIN CAPITAL LETTER F -->
+      <map code="0x47" name="G"/><!-- LATIN CAPITAL LETTER G -->
+      <map code="0x48" name="H"/><!-- LATIN CAPITAL LETTER H -->
+      <map code="0x49" name="I"/><!-- LATIN CAPITAL LETTER I -->
+      <map code="0x4a" name="J"/><!-- LATIN CAPITAL LETTER J -->
+      <map code="0x4b" name="K"/><!-- LATIN CAPITAL LETTER K -->
+      <map code="0x4c" name="L"/><!-- LATIN CAPITAL LETTER L -->
+      <map code="0x4d" name="M"/><!-- LATIN CAPITAL LETTER M -->
+      <map code="0x4e" name="N"/><!-- LATIN CAPITAL LETTER N -->
+      <map code="0x4f" name="O"/><!-- LATIN CAPITAL LETTER O -->
+      <map code="0x50" name="P"/><!-- LATIN CAPITAL LETTER P -->
+      <map code="0x51" name="Q"/><!-- LATIN CAPITAL LETTER Q -->
+      <map code="0x52" name="R"/><!-- LATIN CAPITAL LETTER R -->
+      <map code="0x53" name="S"/><!-- LATIN CAPITAL LETTER S -->
+      <map code="0x54" name="T"/><!-- LATIN CAPITAL LETTER T -->
+      <map code="0x55" name="U"/><!-- LATIN CAPITAL LETTER U -->
+      <map code="0x56" name="V"/><!-- LATIN CAPITAL LETTER V -->
+      <map code="0x57" name="W"/><!-- LATIN CAPITAL LETTER W -->
+      <map code="0x58" name="X"/><!-- LATIN CAPITAL LETTER X -->
+      <map code="0x59" name="Y"/><!-- LATIN CAPITAL LETTER Y -->
+      <map code="0x5a" name="Z"/><!-- LATIN CAPITAL LETTER Z -->
+      <map code="0x61" name="a"/><!-- LATIN SMALL LETTER A -->
+      <map code="0x62" name="b"/><!-- LATIN SMALL LETTER B -->
+      <map code="0x63" name="c"/><!-- LATIN SMALL LETTER C -->
+      <map code="0x64" name="d"/><!-- LATIN SMALL LETTER D -->
+      <map code="0x65" name="e"/><!-- LATIN SMALL LETTER E -->
+      <map code="0x66" name="f"/><!-- LATIN SMALL LETTER F -->
+      <map code="0x67" name="g"/><!-- LATIN SMALL LETTER G -->
+      <map code="0x68" name="h"/><!-- LATIN SMALL LETTER H -->
+      <map code="0x69" name="i"/><!-- LATIN SMALL LETTER I -->
+      <map code="0x6a" name="j"/><!-- LATIN SMALL LETTER J -->
+      <map code="0x6b" name="k"/><!-- LATIN SMALL LETTER K -->
+      <map code="0x6c" name="l"/><!-- LATIN SMALL LETTER L -->
+      <map code="0x6d" name="m"/><!-- LATIN SMALL LETTER M -->
+      <map code="0x6e" name="n"/><!-- LATIN SMALL LETTER N -->
+      <map code="0x6f" name="o"/><!-- LATIN SMALL LETTER O -->
+      <map code="0x70" name="p"/><!-- LATIN SMALL LETTER P -->
+      <map code="0x71" name="q"/><!-- LATIN SMALL LETTER Q -->
+      <map code="0x72" name="r"/><!-- LATIN SMALL LETTER R -->
+      <map code="0x73" name="s"/><!-- LATIN SMALL LETTER S -->
+      <map code="0x74" name="t"/><!-- LATIN SMALL LETTER T -->
+      <map code="0x75" name="u"/><!-- LATIN SMALL LETTER U -->
+      <map code="0x76" name="v"/><!-- LATIN SMALL LETTER V -->
+      <map code="0x77" name="w"/><!-- LATIN SMALL LETTER W -->
+      <map code="0x78" name="x"/><!-- LATIN SMALL LETTER X -->
+      <map code="0x79" name="y"/><!-- LATIN SMALL LETTER Y -->
+      <map code="0x7a" name="z"/><!-- LATIN SMALL LETTER Z -->
+    </cmap_format_4>
+  </cmap>
+
+  <prep>
+    <assembly>
+      PUSH[ ]	/* 1 value pushed */
+      511
+      SCANCTRL[ ]	/* ScanConversionControl */
+    </assembly>
+  </prep>
+
+  <cvt>
+    <cv index="0" value="454"/>
+    <cv index="1" value="574"/>
+    <cv index="2" value="1000"/>
+    <cv index="3" value="-3298"/>
+    <cv index="4" value="0"/>
+    <cv index="5" value="-18500"/>
+    <cv index="6" value="-17749"/>
+    <cv index="7" value="-16896"/>
+    <cv index="8" value="33"/>
+    <cv index="9" value="633"/>
+  </cvt>
+
+  <loca>
+    <!-- The 'loca' table will be calculated by the compiler -->
+  </loca>
+
+  <glyf>
+
+    <!-- The xMin, yMin, xMax and yMax values
+         will be recalculated by the compiler. -->
+
+    <TTGlyph name=".notdef" xMin="33" yMin="0" xMax="298" yMax="666">
+      <contour>
+        <pt x="33" y="0" on="1"/>
+        <pt x="33" y="666" on="1"/>
+        <pt x="298" y="666" on="1"/>
+        <pt x="298" y="0" on="1"/>
+      </contour>
+      <contour>
+        <pt x="66" y="33" on="1"/>
+        <pt x="265" y="33" on="1"/>
+        <pt x="265" y="633" on="1"/>
+        <pt x="66" y="633" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name=".null"/><!-- contains no outline data -->
+
+    <TTGlyph name="A" xMin="-5" yMin="0" xMax="604" yMax="574">
+      <contour>
+        <pt x="342" y="574" on="1"/>
+        <pt x="548" y="86" on="1"/>
+        <pt x="604" y="86" on="1"/>
+        <pt x="604" y="0" on="1"/>
+        <pt x="358" y="0" on="1"/>
+        <pt x="358" y="86" on="1"/>
+        <pt x="447" y="86" on="1"/>
+        <pt x="410" y="176" on="1"/>
+        <pt x="192" y="176" on="1"/>
+        <pt x="154" y="86" on="1"/>
+        <pt x="238" y="86" on="1"/>
+        <pt x="238" y="0" on="1"/>
+        <pt x="-5" y="0" on="1"/>
+        <pt x="-5" y="86" on="1"/>
+        <pt x="52" y="86" on="1"/>
+        <pt x="223" y="488" on="1"/>
+        <pt x="92" y="488" on="1"/>
+        <pt x="92" y="574" on="1"/>
+      </contour>
+      <contour>
+        <pt x="301" y="433" on="1"/>
+        <pt x="227" y="263" on="1"/>
+        <pt x="372" y="263" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          26
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="B" xMin="29" yMin="0" xMax="561" yMax="574">
+      <contour>
+        <pt x="472" y="305" on="1"/>
+        <pt x="516" y="282" on="0"/>
+        <pt x="561" y="211" on="0"/>
+        <pt x="561" y="165" on="1"/>
+        <pt x="561" y="122" on="0"/>
+        <pt x="518" y="49" on="0"/>
+        <pt x="480" y="29" on="1"/>
+        <pt x="476" y="27" on="0"/>
+        <pt x="469" y="23" on="0"/>
+        <pt x="466" y="22" on="1"/>
+        <pt x="438" y="8" on="0"/>
+        <pt x="370" y="0" on="0"/>
+        <pt x="309" y="0" on="1"/>
+        <pt x="29" y="0" on="1"/>
+        <pt x="29" y="86" on="1"/>
+        <pt x="109" y="86" on="1"/>
+        <pt x="109" y="488" on="1"/>
+        <pt x="29" y="488" on="1"/>
+        <pt x="29" y="574" on="1"/>
+        <pt x="317" y="574" on="1"/>
+        <pt x="323" y="573" on="0"/>
+        <pt x="334" y="573" on="0"/>
+        <pt x="340" y="572" on="1"/>
+        <pt x="409" y="568" on="0"/>
+        <pt x="524" y="497" on="0"/>
+        <pt x="524" y="415" on="1"/>
+        <pt x="524" y="382" on="0"/>
+        <pt x="498" y="327" on="0"/>
+        <pt x="472" y="304" on="1"/>
+      </contour>
+      <contour>
+        <pt x="203" y="86" on="1"/>
+        <pt x="307" y="86" on="1"/>
+        <pt x="395" y="85" on="0"/>
+        <pt x="463" y="122" on="0"/>
+        <pt x="463" y="169" on="1"/>
+        <pt x="463" y="217" on="0"/>
+        <pt x="394" y="255" on="0"/>
+        <pt x="307" y="255" on="1"/>
+        <pt x="203" y="256" on="1"/>
+      </contour>
+      <contour>
+        <pt x="203" y="488" on="1"/>
+        <pt x="203" y="342" on="1"/>
+        <pt x="315" y="342" on="1"/>
+        <pt x="371" y="341" on="0"/>
+        <pt x="426" y="377" on="0"/>
+        <pt x="426" y="414" on="1"/>
+        <pt x="426" y="451" on="0"/>
+        <pt x="371" y="487" on="0"/>
+        <pt x="315" y="487" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          27
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="C" xMin="48" yMin="-10" xMax="578" yMax="583">
+      <contour>
+        <pt x="481" y="575" on="1"/>
+        <pt x="572" y="558" on="1"/>
+        <pt x="556" y="462" on="1"/>
+        <pt x="573" y="359" on="1"/>
+        <pt x="481" y="340" on="1"/>
+        <pt x="472" y="410" on="0"/>
+        <pt x="416" y="497" on="0"/>
+        <pt x="333" y="497" on="1"/>
+        <pt x="250" y="497" on="0"/>
+        <pt x="146" y="381" on="0"/>
+        <pt x="146" y="288" on="1"/>
+        <pt x="146" y="195" on="0"/>
+        <pt x="250" y="76" on="0"/>
+        <pt x="331" y="76" on="1"/>
+        <pt x="384" y="76" on="0"/>
+        <pt x="477" y="130" on="0"/>
+        <pt x="517" y="162" on="1"/>
+        <pt x="517" y="163" on="0"/>
+        <pt x="519" y="164" on="0"/>
+        <pt x="520" y="165" on="1"/>
+        <pt x="578" y="94" on="1"/>
+        <pt x="524" y="50" on="0"/>
+        <pt x="402" y="-10" on="0"/>
+        <pt x="331" y="-10" on="1"/>
+        <pt x="207" y="-10" on="0"/>
+        <pt x="48" y="159" on="0"/>
+        <pt x="48" y="292" on="1"/>
+        <pt x="48" y="419" on="0"/>
+        <pt x="208" y="583" on="0"/>
+        <pt x="331" y="583" on="1"/>
+        <pt x="360" y="583" on="0"/>
+        <pt x="405" y="575" on="0"/>
+        <pt x="427" y="566" on="1"/>
+        <pt x="439" y="561" on="0"/>
+        <pt x="463" y="547" on="0"/>
+        <pt x="476" y="538" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          28
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="D" xMin="16" yMin="0" xMax="568" yMax="574">
+      <contour>
+        <pt x="97" y="86" on="1"/>
+        <pt x="97" y="488" on="1"/>
+        <pt x="16" y="488" on="1"/>
+        <pt x="16" y="574" on="1"/>
+        <pt x="285" y="574" on="1"/>
+        <pt x="358" y="573" on="0"/>
+        <pt x="437" y="553" on="0"/>
+        <pt x="470" y="527" on="1"/>
+        <pt x="519" y="488" on="0"/>
+        <pt x="564" y="375" on="0"/>
+        <pt x="567" y="315" on="1"/>
+        <pt x="568" y="310" on="0"/>
+        <pt x="568" y="299" on="0"/>
+        <pt x="568" y="294" on="1"/>
+        <pt x="568" y="152" on="0"/>
+        <pt x="427" y="0" on="0"/>
+        <pt x="282" y="0" on="1"/>
+        <pt x="16" y="0" on="1"/>
+        <pt x="16" y="86" on="1"/>
+      </contour>
+      <contour>
+        <pt x="191" y="488" on="1"/>
+        <pt x="191" y="86" on="1"/>
+        <pt x="282" y="86" on="1"/>
+        <pt x="385" y="85" on="0"/>
+        <pt x="470" y="195" on="0"/>
+        <pt x="470" y="293" on="1"/>
+        <pt x="470" y="326" on="0"/>
+        <pt x="459" y="380" on="0"/>
+        <pt x="447" y="405" on="1"/>
+        <pt x="424" y="453" on="0"/>
+        <pt x="357" y="487" on="0"/>
+        <pt x="286" y="487" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          29
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="E" xMin="42" yMin="0" xMax="557" yMax="574">
+      <contour>
+        <pt x="551" y="574" on="1"/>
+        <pt x="551" y="359" on="1"/>
+        <pt x="461" y="359" on="1"/>
+        <pt x="461" y="488" on="1"/>
+        <pt x="217" y="488" on="1"/>
+        <pt x="217" y="345" on="1"/>
+        <pt x="310" y="345" on="1"/>
+        <pt x="310" y="414" on="1"/>
+        <pt x="400" y="414" on="1"/>
+        <pt x="400" y="191" on="1"/>
+        <pt x="310" y="191" on="1"/>
+        <pt x="310" y="258" on="1"/>
+        <pt x="217" y="258" on="1"/>
+        <pt x="217" y="86" on="1"/>
+        <pt x="467" y="86" on="1"/>
+        <pt x="467" y="216" on="1"/>
+        <pt x="557" y="216" on="1"/>
+        <pt x="557" y="0" on="1"/>
+        <pt x="42" y="0" on="1"/>
+        <pt x="42" y="86" on="1"/>
+        <pt x="123" y="86" on="1"/>
+        <pt x="123" y="488" on="1"/>
+        <pt x="42" y="488" on="1"/>
+        <pt x="42" y="574" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          30
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="F" xMin="53" yMin="0" xMax="562" yMax="574">
+      <contour>
+        <pt x="562" y="574" on="1"/>
+        <pt x="562" y="359" on="1"/>
+        <pt x="472" y="359" on="1"/>
+        <pt x="472" y="488" on="1"/>
+        <pt x="228" y="488" on="1"/>
+        <pt x="228" y="345" on="1"/>
+        <pt x="319" y="345" on="1"/>
+        <pt x="319" y="415" on="1"/>
+        <pt x="409" y="415" on="1"/>
+        <pt x="409" y="191" on="1"/>
+        <pt x="319" y="191" on="1"/>
+        <pt x="319" y="258" on="1"/>
+        <pt x="228" y="258" on="1"/>
+        <pt x="228" y="86" on="1"/>
+        <pt x="352" y="86" on="1"/>
+        <pt x="352" y="0" on="1"/>
+        <pt x="53" y="0" on="1"/>
+        <pt x="53" y="86" on="1"/>
+        <pt x="134" y="86" on="1"/>
+        <pt x="134" y="488" on="1"/>
+        <pt x="53" y="488" on="1"/>
+        <pt x="53" y="574" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          31
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="G" xMin="21" yMin="-10" xMax="584" yMax="583">
+      <contour>
+        <pt x="297" y="278" on="1"/>
+        <pt x="584" y="278" on="1"/>
+        <pt x="584" y="191" on="1"/>
+        <pt x="538" y="191" on="1"/>
+        <pt x="538" y="42" on="1"/>
+        <pt x="486" y="17" on="0"/>
+        <pt x="377" y="-10" on="0"/>
+        <pt x="318" y="-10" on="1"/>
+        <pt x="183" y="-10" on="0"/>
+        <pt x="21" y="150" on="0"/>
+        <pt x="21" y="283" on="1"/>
+        <pt x="21" y="409" on="0"/>
+        <pt x="178" y="583" on="0"/>
+        <pt x="291" y="583" on="1"/>
+        <pt x="336" y="583" on="0"/>
+        <pt x="400" y="567" on="0"/>
+        <pt x="428" y="547" on="1"/>
+        <pt x="434" y="544" on="0"/>
+        <pt x="445" y="535" on="0"/>
+        <pt x="451" y="530" on="1"/>
+        <pt x="456" y="573" on="1"/>
+        <pt x="549" y="557" on="1"/>
+        <pt x="532" y="457" on="1"/>
+        <pt x="548" y="355" on="1"/>
+        <pt x="457" y="341" on="1"/>
+        <pt x="456" y="345" on="0"/>
+        <pt x="455" y="354" on="0"/>
+        <pt x="454" y="358" on="1"/>
+        <pt x="446" y="401" on="0"/>
+        <pt x="426" y="443" on="0"/>
+        <pt x="407" y="459" on="1"/>
+        <pt x="406" y="460" on="0"/>
+        <pt x="405" y="461" on="0"/>
+        <pt x="405" y="461" on="1"/>
+        <pt x="385" y="478" on="0"/>
+        <pt x="330" y="497" on="0"/>
+        <pt x="301" y="497" on="1"/>
+        <pt x="220" y="497" on="0"/>
+        <pt x="119" y="378" on="0"/>
+        <pt x="119" y="283" on="1"/>
+        <pt x="119" y="185" on="0"/>
+        <pt x="228" y="75" on="0"/>
+        <pt x="325" y="75" on="1"/>
+        <pt x="330" y="75" on="0"/>
+        <pt x="339" y="75" on="0"/>
+        <pt x="344" y="76" on="1"/>
+        <pt x="365" y="77" on="0"/>
+        <pt x="412" y="89" on="0"/>
+        <pt x="444" y="100" on="1"/>
+        <pt x="444" y="191" on="1"/>
+        <pt x="297" y="191" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          32
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="H" xMin="25" yMin="0" xMax="575" yMax="574">
+      <contour>
+        <pt x="190" y="488" on="1"/>
+        <pt x="190" y="340" on="1"/>
+        <pt x="411" y="340" on="1"/>
+        <pt x="411" y="488" on="1"/>
+        <pt x="341" y="488" on="1"/>
+        <pt x="341" y="574" on="1"/>
+        <pt x="575" y="574" on="1"/>
+        <pt x="575" y="488" on="1"/>
+        <pt x="505" y="488" on="1"/>
+        <pt x="505" y="86" on="1"/>
+        <pt x="575" y="86" on="1"/>
+        <pt x="575" y="0" on="1"/>
+        <pt x="341" y="0" on="1"/>
+        <pt x="341" y="86" on="1"/>
+        <pt x="411" y="86" on="1"/>
+        <pt x="411" y="253" on="1"/>
+        <pt x="190" y="253" on="1"/>
+        <pt x="190" y="86" on="1"/>
+        <pt x="261" y="86" on="1"/>
+        <pt x="261" y="0" on="1"/>
+        <pt x="25" y="0" on="1"/>
+        <pt x="25" y="86" on="1"/>
+        <pt x="96" y="86" on="1"/>
+        <pt x="96" y="488" on="1"/>
+        <pt x="25" y="488" on="1"/>
+        <pt x="25" y="574" on="1"/>
+        <pt x="261" y="574" on="1"/>
+        <pt x="261" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          33
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="I" xMin="83" yMin="0" xMax="518" yMax="574">
+      <contour>
+        <pt x="83" y="574" on="1"/>
+        <pt x="518" y="574" on="1"/>
+        <pt x="518" y="488" on="1"/>
+        <pt x="349" y="488" on="1"/>
+        <pt x="349" y="86" on="1"/>
+        <pt x="518" y="86" on="1"/>
+        <pt x="518" y="0" on="1"/>
+        <pt x="83" y="0" on="1"/>
+        <pt x="83" y="86" on="1"/>
+        <pt x="255" y="86" on="1"/>
+        <pt x="255" y="488" on="1"/>
+        <pt x="83" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          34
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="J" xMin="42" yMin="-10" xMax="585" yMax="574">
+      <contour>
+        <pt x="175" y="574" on="1"/>
+        <pt x="585" y="574" on="1"/>
+        <pt x="585" y="488" on="1"/>
+        <pt x="461" y="488" on="1"/>
+        <pt x="461" y="219" on="1"/>
+        <pt x="461" y="114" on="0"/>
+        <pt x="384" y="-10" on="0"/>
+        <pt x="264" y="-10" on="1"/>
+        <pt x="203" y="-10" on="0"/>
+        <pt x="89" y="33" on="0"/>
+        <pt x="42" y="73" on="1"/>
+        <pt x="42" y="293" on="1"/>
+        <pt x="132" y="293" on="1"/>
+        <pt x="132" y="130" on="1"/>
+        <pt x="154" y="102" on="0"/>
+        <pt x="220" y="75" on="0"/>
+        <pt x="264" y="75" on="1"/>
+        <pt x="326" y="75" on="0"/>
+        <pt x="367" y="130" on="0"/>
+        <pt x="367" y="215" on="1"/>
+        <pt x="367" y="488" on="1"/>
+        <pt x="175" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          35
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="K" xMin="24" yMin="0" xMax="595" yMax="574">
+      <contour>
+        <pt x="199" y="488" on="1"/>
+        <pt x="199" y="330" on="1"/>
+        <pt x="392" y="488" on="1"/>
+        <pt x="326" y="488" on="1"/>
+        <pt x="326" y="574" on="1"/>
+        <pt x="595" y="574" on="1"/>
+        <pt x="595" y="488" on="1"/>
+        <pt x="524" y="488" on="1"/>
+        <pt x="322" y="323" on="1"/>
+        <pt x="477" y="87" on="1"/>
+        <pt x="595" y="86" on="1"/>
+        <pt x="595" y="0" on="1"/>
+        <pt x="425" y="0" on="1"/>
+        <pt x="255" y="261" on="1"/>
+        <pt x="199" y="207" on="1"/>
+        <pt x="199" y="86" on="1"/>
+        <pt x="278" y="86" on="1"/>
+        <pt x="278" y="0" on="1"/>
+        <pt x="24" y="0" on="1"/>
+        <pt x="24" y="86" on="1"/>
+        <pt x="105" y="86" on="1"/>
+        <pt x="105" y="488" on="1"/>
+        <pt x="24" y="488" on="1"/>
+        <pt x="24" y="574" on="1"/>
+        <pt x="278" y="574" on="1"/>
+        <pt x="278" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          36
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="L" xMin="42" yMin="0" xMax="557" yMax="574">
+      <contour>
+        <pt x="234" y="488" on="1"/>
+        <pt x="234" y="86" on="1"/>
+        <pt x="467" y="86" on="1"/>
+        <pt x="467" y="277" on="1"/>
+        <pt x="557" y="277" on="1"/>
+        <pt x="557" y="0" on="1"/>
+        <pt x="42" y="0" on="1"/>
+        <pt x="42" y="86" on="1"/>
+        <pt x="140" y="86" on="1"/>
+        <pt x="140" y="488" on="1"/>
+        <pt x="42" y="488" on="1"/>
+        <pt x="42" y="574" on="1"/>
+        <pt x="353" y="574" on="1"/>
+        <pt x="353" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          37
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="M" xMin="-4" yMin="0" xMax="603" yMax="574">
+      <contour>
+        <pt x="181" y="574" on="1"/>
+        <pt x="295" y="269" on="1"/>
+        <pt x="409" y="574" on="1"/>
+        <pt x="603" y="574" on="1"/>
+        <pt x="603" y="488" on="1"/>
+        <pt x="539" y="488" on="1"/>
+        <pt x="539" y="86" on="1"/>
+        <pt x="603" y="86" on="1"/>
+        <pt x="603" y="0" on="1"/>
+        <pt x="340" y="0" on="1"/>
+        <pt x="340" y="86" on="1"/>
+        <pt x="445" y="86" on="1"/>
+        <pt x="445" y="439" on="1"/>
+        <pt x="327" y="131" on="1"/>
+        <pt x="262" y="131" on="1"/>
+        <pt x="145" y="439" on="1"/>
+        <pt x="145" y="86" on="1"/>
+        <pt x="249" y="86" on="1"/>
+        <pt x="249" y="0" on="1"/>
+        <pt x="-4" y="0" on="1"/>
+        <pt x="-4" y="86" on="1"/>
+        <pt x="51" y="86" on="1"/>
+        <pt x="51" y="488" on="1"/>
+        <pt x="-4" y="488" on="1"/>
+        <pt x="-4" y="574" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          38
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="N" xMin="10" yMin="-10" xMax="602" yMax="574">
+      <contour>
+        <pt x="193" y="574" on="1"/>
+        <pt x="437" y="164" on="1"/>
+        <pt x="437" y="488" on="1"/>
+        <pt x="333" y="488" on="1"/>
+        <pt x="333" y="574" on="1"/>
+        <pt x="602" y="574" on="1"/>
+        <pt x="602" y="488" on="1"/>
+        <pt x="531" y="488" on="1"/>
+        <pt x="531" y="-10" on="1"/>
+        <pt x="433" y="-10" on="1"/>
+        <pt x="184" y="409" on="1"/>
+        <pt x="184" y="86" on="1"/>
+        <pt x="289" y="86" on="1"/>
+        <pt x="289" y="0" on="1"/>
+        <pt x="10" y="0" on="1"/>
+        <pt x="10" y="86" on="1"/>
+        <pt x="90" y="86" on="1"/>
+        <pt x="90" y="488" on="1"/>
+        <pt x="10" y="488" on="1"/>
+        <pt x="10" y="574" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          39
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="O" xMin="26" yMin="-10" xMax="575" yMax="583">
+      <contour>
+        <pt x="26" y="287" on="1"/>
+        <pt x="26" y="415" on="0"/>
+        <pt x="181" y="583" on="0"/>
+        <pt x="300" y="583" on="1"/>
+        <pt x="420" y="583" on="0"/>
+        <pt x="575" y="415" on="0"/>
+        <pt x="575" y="286" on="1"/>
+        <pt x="575" y="157" on="0"/>
+        <pt x="420" y="-10" on="0"/>
+        <pt x="300" y="-10" on="1"/>
+        <pt x="181" y="-10" on="0"/>
+        <pt x="26" y="157" on="0"/>
+        <pt x="26" y="286" on="1"/>
+      </contour>
+      <contour>
+        <pt x="477" y="287" on="1"/>
+        <pt x="477" y="378" on="0"/>
+        <pt x="377" y="497" on="0"/>
+        <pt x="300" y="497" on="1"/>
+        <pt x="224" y="497" on="0"/>
+        <pt x="124" y="378" on="0"/>
+        <pt x="124" y="286" on="1"/>
+        <pt x="124" y="195" on="0"/>
+        <pt x="224" y="75" on="0"/>
+        <pt x="300" y="75" on="1"/>
+        <pt x="377" y="75" on="0"/>
+        <pt x="477" y="195" on="0"/>
+        <pt x="477" y="286" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          40
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="P" xMin="63" yMin="0" xMax="563" yMax="574">
+      <contour>
+        <pt x="238" y="209" on="1"/>
+        <pt x="238" y="86" on="1"/>
+        <pt x="383" y="86" on="1"/>
+        <pt x="383" y="0" on="1"/>
+        <pt x="63" y="0" on="1"/>
+        <pt x="63" y="86" on="1"/>
+        <pt x="144" y="86" on="1"/>
+        <pt x="144" y="488" on="1"/>
+        <pt x="63" y="488" on="1"/>
+        <pt x="63" y="574" on="1"/>
+        <pt x="311" y="574" on="1"/>
+        <pt x="370" y="573" on="0"/>
+        <pt x="439" y="561" on="0"/>
+        <pt x="467" y="546" on="1"/>
+        <pt x="511" y="523" on="0"/>
+        <pt x="563" y="437" on="0"/>
+        <pt x="563" y="387" on="1"/>
+        <pt x="563" y="342" on="0"/>
+        <pt x="519" y="263" on="0"/>
+        <pt x="482" y="241" on="1"/>
+        <pt x="475" y="237" on="0"/>
+        <pt x="463" y="231" on="0"/>
+        <pt x="457" y="228" on="1"/>
+        <pt x="429" y="216" on="0"/>
+        <pt x="354" y="208" on="0"/>
+        <pt x="271" y="208" on="1"/>
+      </contour>
+      <contour>
+        <pt x="238" y="488" on="1"/>
+        <pt x="238" y="295" on="1"/>
+        <pt x="272" y="295" on="1"/>
+        <pt x="346" y="294" on="0"/>
+        <pt x="404" y="301" on="0"/>
+        <pt x="424" y="312" on="1"/>
+        <pt x="442" y="322" on="0"/>
+        <pt x="465" y="364" on="0"/>
+        <pt x="465" y="389" on="1"/>
+        <pt x="465" y="442" on="0"/>
+        <pt x="395" y="487" on="0"/>
+        <pt x="312" y="487" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          41
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="Q" xMin="56" yMin="-140" xMax="605" yMax="583">
+      <contour>
+        <pt x="211" y="16" on="1"/>
+        <pt x="136" y="55" on="0"/>
+        <pt x="56" y="195" on="0"/>
+        <pt x="56" y="286" on="1"/>
+        <pt x="56" y="415" on="0"/>
+        <pt x="211" y="583" on="0"/>
+        <pt x="330" y="583" on="1"/>
+        <pt x="450" y="583" on="0"/>
+        <pt x="605" y="415" on="0"/>
+        <pt x="605" y="286" on="1"/>
+        <pt x="605" y="164" on="0"/>
+        <pt x="465" y="-1" on="0"/>
+        <pt x="354" y="-9" on="1"/>
+        <pt x="358" y="-12" on="0"/>
+        <pt x="367" y="-17" on="0"/>
+        <pt x="371" y="-20" on="1"/>
+        <pt x="387" y="-30" on="0"/>
+        <pt x="421" y="-47" on="0"/>
+        <pt x="439" y="-47" on="1"/>
+        <pt x="441" y="-47" on="0"/>
+        <pt x="444" y="-47" on="0"/>
+        <pt x="446" y="-47" on="1"/>
+        <pt x="459" y="-45" on="0"/>
+        <pt x="489" y="-32" on="0"/>
+        <pt x="515" y="-15" on="1"/>
+        <pt x="573" y="-82" on="1"/>
+        <pt x="541" y="-103" on="0"/>
+        <pt x="498" y="-125" on="0"/>
+        <pt x="479" y="-130" on="1"/>
+        <pt x="470" y="-131" on="0"/>
+        <pt x="453" y="-133" on="0"/>
+        <pt x="443" y="-133" on="1"/>
+        <pt x="422" y="-133" on="0"/>
+        <pt x="382" y="-121" on="0"/>
+        <pt x="363" y="-114" on="1"/>
+        <pt x="361" y="-113" on="0"/>
+        <pt x="358" y="-111" on="0"/>
+        <pt x="356" y="-111" on="1"/>
+        <pt x="338" y="-104" on="0"/>
+        <pt x="304" y="-94" on="0"/>
+        <pt x="285" y="-94" on="1"/>
+        <pt x="277" y="-94" on="0"/>
+        <pt x="263" y="-95" on="0"/>
+        <pt x="257" y="-96" on="1"/>
+        <pt x="241" y="-98" on="0"/>
+        <pt x="201" y="-117" on="0"/>
+        <pt x="159" y="-140" on="1"/>
+        <pt x="115" y="-67" on="1"/>
+        <pt x="135" y="-56" on="0"/>
+        <pt x="164" y="-38" on="0"/>
+        <pt x="175" y="-29" on="1"/>
+        <pt x="188" y="-19" on="0"/>
+        <pt x="205" y="2" on="0"/>
+        <pt x="211" y="15" on="1"/>
+      </contour>
+      <contour>
+        <pt x="507" y="287" on="1"/>
+        <pt x="507" y="378" on="0"/>
+        <pt x="407" y="497" on="0"/>
+        <pt x="330" y="497" on="1"/>
+        <pt x="254" y="497" on="0"/>
+        <pt x="154" y="378" on="0"/>
+        <pt x="154" y="286" on="1"/>
+        <pt x="154" y="195" on="0"/>
+        <pt x="254" y="75" on="0"/>
+        <pt x="330" y="75" on="1"/>
+        <pt x="407" y="75" on="0"/>
+        <pt x="507" y="195" on="0"/>
+        <pt x="507" y="286" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          42
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="R" xMin="29" yMin="0" xMax="595" yMax="574">
+      <contour>
+        <pt x="390" y="254" on="1"/>
+        <pt x="418" y="212" on="0"/>
+        <pt x="472" y="128" on="0"/>
+        <pt x="499" y="86" on="1"/>
+        <pt x="595" y="86" on="1"/>
+        <pt x="595" y="0" on="1"/>
+        <pt x="435" y="0" on="1"/>
+        <pt x="282" y="244" on="1"/>
+        <pt x="203" y="244" on="1"/>
+        <pt x="203" y="86" on="1"/>
+        <pt x="293" y="86" on="1"/>
+        <pt x="293" y="0" on="1"/>
+        <pt x="29" y="0" on="1"/>
+        <pt x="29" y="86" on="1"/>
+        <pt x="109" y="86" on="1"/>
+        <pt x="109" y="488" on="1"/>
+        <pt x="29" y="488" on="1"/>
+        <pt x="29" y="574" on="1"/>
+        <pt x="303" y="574" on="1"/>
+        <pt x="358" y="573" on="0"/>
+        <pt x="415" y="564" on="0"/>
+        <pt x="438" y="551" on="1"/>
+        <pt x="441" y="550" on="0"/>
+        <pt x="446" y="547" on="0"/>
+        <pt x="449" y="545" on="1"/>
+        <pt x="482" y="523" on="0"/>
+        <pt x="517" y="455" on="0"/>
+        <pt x="517" y="412" on="1"/>
+        <pt x="517" y="346" on="0"/>
+        <pt x="448" y="275" on="0"/>
+        <pt x="390" y="253" on="1"/>
+      </contour>
+      <contour>
+        <pt x="203" y="330" on="1"/>
+        <pt x="304" y="330" on="1"/>
+        <pt x="366" y="329" on="0"/>
+        <pt x="419" y="365" on="0"/>
+        <pt x="419" y="408" on="1"/>
+        <pt x="419" y="450" on="0"/>
+        <pt x="366" y="487" on="0"/>
+        <pt x="304" y="487" on="1"/>
+        <pt x="203" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          43
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="S" xMin="43" yMin="-14" xMax="531" yMax="588">
+      <contour>
+        <pt x="434" y="588" on="1"/>
+        <pt x="526" y="568" on="1"/>
+        <pt x="500" y="458" on="1"/>
+        <pt x="511" y="363" on="1"/>
+        <pt x="416" y="363" on="1"/>
+        <pt x="409" y="445" on="0"/>
+        <pt x="363" y="497" on="0"/>
+        <pt x="295" y="497" on="1"/>
+        <pt x="240" y="497" on="0"/>
+        <pt x="167" y="448" on="0"/>
+        <pt x="167" y="410" on="1"/>
+        <pt x="167" y="373" on="0"/>
+        <pt x="235" y="333" on="0"/>
+        <pt x="308" y="327" on="1"/>
+        <pt x="325" y="326" on="0"/>
+        <pt x="354" y="323" on="0"/>
+        <pt x="365" y="322" on="1"/>
+        <pt x="394" y="319" on="0"/>
+        <pt x="427" y="312" on="0"/>
+        <pt x="441" y="305" on="1"/>
+        <pt x="447" y="302" on="0"/>
+        <pt x="461" y="293" on="0"/>
+        <pt x="469" y="288" on="1"/>
+        <pt x="499" y="269" on="0"/>
+        <pt x="531" y="206" on="0"/>
+        <pt x="531" y="168" on="1"/>
+        <pt x="531" y="89" on="0"/>
+        <pt x="405" y="-10" on="0"/>
+        <pt x="305" y="-10" on="1"/>
+        <pt x="253" y="-10" on="0"/>
+        <pt x="178" y="8" on="0"/>
+        <pt x="150" y="29" on="1"/>
+        <pt x="144" y="-14" on="1"/>
+        <pt x="51" y="-1" on="1"/>
+        <pt x="65" y="91" on="1"/>
+        <pt x="43" y="197" on="1"/>
+        <pt x="134" y="214" on="1"/>
+        <pt x="149" y="138" on="0"/>
+        <pt x="215" y="75" on="0"/>
+        <pt x="294" y="75" on="1"/>
+        <pt x="360" y="75" on="0"/>
+        <pt x="433" y="122" on="0"/>
+        <pt x="433" y="164" on="1"/>
+        <pt x="433" y="208" on="0"/>
+        <pt x="357" y="232" on="0"/>
+        <pt x="305" y="237" on="1"/>
+        <pt x="293" y="238" on="0"/>
+        <pt x="269" y="241" on="0"/>
+        <pt x="257" y="242" on="1"/>
+        <pt x="237" y="245" on="0"/>
+        <pt x="198" y="253" on="0"/>
+        <pt x="180" y="260" on="1"/>
+        <pt x="134" y="278" on="0"/>
+        <pt x="69" y="357" on="0"/>
+        <pt x="69" y="408" on="1"/>
+        <pt x="69" y="482" on="0"/>
+        <pt x="197" y="583" on="0"/>
+        <pt x="291" y="583" on="1"/>
+        <pt x="329" y="583" on="0"/>
+        <pt x="396" y="567" on="0"/>
+        <pt x="427" y="550" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          44
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="T" xMin="44" yMin="0" xMax="557" yMax="574">
+      <contour>
+        <pt x="44" y="574" on="1"/>
+        <pt x="557" y="574" on="1"/>
+        <pt x="557" y="313" on="1"/>
+        <pt x="467" y="313" on="1"/>
+        <pt x="467" y="488" on="1"/>
+        <pt x="347" y="488" on="1"/>
+        <pt x="347" y="86" on="1"/>
+        <pt x="466" y="86" on="1"/>
+        <pt x="466" y="0" on="1"/>
+        <pt x="134" y="0" on="1"/>
+        <pt x="134" y="86" on="1"/>
+        <pt x="253" y="86" on="1"/>
+        <pt x="253" y="488" on="1"/>
+        <pt x="134" y="488" on="1"/>
+        <pt x="134" y="313" on="1"/>
+        <pt x="44" y="313" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          45
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="U" xMin="13" yMin="-10" xMax="597" yMax="574">
+      <contour>
+        <pt x="177" y="488" on="1"/>
+        <pt x="177" y="246" on="1"/>
+        <pt x="177" y="175" on="0"/>
+        <pt x="219" y="75" on="0"/>
+        <pt x="303" y="75" on="1"/>
+        <pt x="390" y="75" on="0"/>
+        <pt x="433" y="172" on="0"/>
+        <pt x="433" y="245" on="1"/>
+        <pt x="433" y="488" on="1"/>
+        <pt x="334" y="488" on="1"/>
+        <pt x="334" y="574" on="1"/>
+        <pt x="597" y="574" on="1"/>
+        <pt x="597" y="488" on="1"/>
+        <pt x="527" y="488" on="1"/>
+        <pt x="527" y="246" on="1"/>
+        <pt x="527" y="187" on="0"/>
+        <pt x="515" y="119" on="0"/>
+        <pt x="501" y="92" on="1"/>
+        <pt x="476" y="43" on="0"/>
+        <pt x="374" y="-10" on="0"/>
+        <pt x="308" y="-10" on="1"/>
+        <pt x="238" y="-10" on="0"/>
+        <pt x="132" y="43" on="0"/>
+        <pt x="109" y="92" on="1"/>
+        <pt x="108" y="94" on="0"/>
+        <pt x="106" y="98" on="0"/>
+        <pt x="105" y="100" on="1"/>
+        <pt x="93" y="127" on="0"/>
+        <pt x="84" y="190" on="0"/>
+        <pt x="84" y="245" on="1"/>
+        <pt x="84" y="488" on="1"/>
+        <pt x="13" y="488" on="1"/>
+        <pt x="13" y="574" on="1"/>
+        <pt x="276" y="574" on="1"/>
+        <pt x="276" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          46
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="V" xMin="-3" yMin="0" xMax="603" yMax="574">
+      <contour>
+        <pt x="166" y="488" on="1"/>
+        <pt x="308" y="114" on="1"/>
+        <pt x="445" y="488" on="1"/>
+        <pt x="356" y="488" on="1"/>
+        <pt x="356" y="574" on="1"/>
+        <pt x="603" y="574" on="1"/>
+        <pt x="603" y="488" on="1"/>
+        <pt x="545" y="488" on="1"/>
+        <pt x="354" y="0" on="1"/>
+        <pt x="255" y="0" on="1"/>
+        <pt x="66" y="488" on="1"/>
+        <pt x="-3" y="488" on="1"/>
+        <pt x="-3" y="574" on="1"/>
+        <pt x="250" y="574" on="1"/>
+        <pt x="250" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          47
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="W" xMin="-5" yMin="0" xMax="604" yMax="574">
+      <contour>
+        <pt x="139" y="488" on="1"/>
+        <pt x="177" y="192" on="1"/>
+        <pt x="259" y="448" on="1"/>
+        <pt x="343" y="448" on="1"/>
+        <pt x="422" y="194" on="1"/>
+        <pt x="461" y="488" on="1"/>
+        <pt x="363" y="488" on="1"/>
+        <pt x="363" y="574" on="1"/>
+        <pt x="604" y="574" on="1"/>
+        <pt x="604" y="488" on="1"/>
+        <pt x="556" y="488" on="1"/>
+        <pt x="486" y="0" on="1"/>
+        <pt x="393" y="0" on="1"/>
+        <pt x="300" y="313" on="1"/>
+        <pt x="202" y="0" on="1"/>
+        <pt x="111" y="0" on="1"/>
+        <pt x="45" y="488" on="1"/>
+        <pt x="-5" y="488" on="1"/>
+        <pt x="-5" y="574" on="1"/>
+        <pt x="232" y="574" on="1"/>
+        <pt x="232" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          48
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="X" xMin="16" yMin="0" xMax="583" yMax="574">
+      <contour>
+        <pt x="301" y="375" on="1"/>
+        <pt x="389" y="488" on="1"/>
+        <pt x="332" y="488" on="1"/>
+        <pt x="332" y="574" on="1"/>
+        <pt x="572" y="574" on="1"/>
+        <pt x="572" y="488" on="1"/>
+        <pt x="504" y="488" on="1"/>
+        <pt x="358" y="300" on="1"/>
+        <pt x="523" y="86" on="1"/>
+        <pt x="583" y="86" on="1"/>
+        <pt x="583" y="0" on="1"/>
+        <pt x="332" y="0" on="1"/>
+        <pt x="332" y="86" on="1"/>
+        <pt x="406" y="86" on="1"/>
+        <pt x="300" y="225" on="1"/>
+        <pt x="193" y="86" on="1"/>
+        <pt x="270" y="86" on="1"/>
+        <pt x="270" y="0" on="1"/>
+        <pt x="16" y="0" on="1"/>
+        <pt x="16" y="86" on="1"/>
+        <pt x="78" y="86" on="1"/>
+        <pt x="243" y="299" on="1"/>
+        <pt x="98" y="488" on="1"/>
+        <pt x="30" y="488" on="1"/>
+        <pt x="30" y="574" on="1"/>
+        <pt x="273" y="574" on="1"/>
+        <pt x="273" y="488" on="1"/>
+        <pt x="214" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          49
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="Y" xMin="19" yMin="0" xMax="582" yMax="574">
+      <contour>
+        <pt x="195" y="488" on="1"/>
+        <pt x="301" y="320" on="1"/>
+        <pt x="405" y="488" on="1"/>
+        <pt x="351" y="488" on="1"/>
+        <pt x="351" y="574" on="1"/>
+        <pt x="582" y="574" on="1"/>
+        <pt x="582" y="488" on="1"/>
+        <pt x="514" y="488" on="1"/>
+        <pt x="348" y="221" on="1"/>
+        <pt x="348" y="86" on="1"/>
+        <pt x="467" y="86" on="1"/>
+        <pt x="467" y="0" on="1"/>
+        <pt x="135" y="0" on="1"/>
+        <pt x="135" y="86" on="1"/>
+        <pt x="254" y="86" on="1"/>
+        <pt x="254" y="221" on="1"/>
+        <pt x="86" y="488" on="1"/>
+        <pt x="19" y="488" on="1"/>
+        <pt x="19" y="574" on="1"/>
+        <pt x="252" y="574" on="1"/>
+        <pt x="252" y="488" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          50
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="Z" xMin="65" yMin="0" xMax="535" yMax="574">
+      <contour>
+        <pt x="72" y="574" on="1"/>
+        <pt x="512" y="574" on="1"/>
+        <pt x="512" y="507" on="1"/>
+        <pt x="193" y="86" on="1"/>
+        <pt x="445" y="86" on="1"/>
+        <pt x="445" y="238" on="1"/>
+        <pt x="535" y="238" on="1"/>
+        <pt x="535" y="0" on="1"/>
+        <pt x="65" y="0" on="1"/>
+        <pt x="65" y="69" on="1"/>
+        <pt x="381" y="488" on="1"/>
+        <pt x="162" y="488" on="1"/>
+        <pt x="162" y="350" on="1"/>
+        <pt x="72" y="350" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          51
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="a" xMin="46" yMin="-10" xMax="575" yMax="463">
+      <contour>
+        <pt x="79" y="406" on="1"/>
+        <pt x="130" y="431" on="0"/>
+        <pt x="234" y="463" on="0"/>
+        <pt x="292" y="463" on="1"/>
+        <pt x="375" y="463" on="0"/>
+        <pt x="484" y="390" on="0"/>
+        <pt x="484" y="301" on="1"/>
+        <pt x="484" y="86" on="1"/>
+        <pt x="575" y="86" on="1"/>
+        <pt x="575" y="0" on="1"/>
+        <pt x="390" y="0" on="1"/>
+        <pt x="390" y="47" on="1"/>
+        <pt x="361" y="27" on="0"/>
+        <pt x="312" y="3" on="0"/>
+        <pt x="288" y="-2" on="1"/>
+        <pt x="273" y="-6" on="0"/>
+        <pt x="242" y="-10" on="0"/>
+        <pt x="226" y="-10" on="1"/>
+        <pt x="150" y="-10" on="0"/>
+        <pt x="46" y="77" on="0"/>
+        <pt x="46" y="141" on="1"/>
+        <pt x="46" y="185" on="0"/>
+        <pt x="102" y="260" on="0"/>
+        <pt x="151" y="281" on="1"/>
+        <pt x="179" y="292" on="0"/>
+        <pt x="251" y="303" on="0"/>
+        <pt x="303" y="303" on="1"/>
+        <pt x="319" y="303" on="0"/>
+        <pt x="350" y="300" on="0"/>
+        <pt x="365" y="298" on="1"/>
+        <pt x="371" y="297" on="0"/>
+        <pt x="384" y="296" on="0"/>
+        <pt x="390" y="295" on="1"/>
+        <pt x="390" y="344" on="0"/>
+        <pt x="342" y="377" on="0"/>
+        <pt x="292" y="377" on="1"/>
+        <pt x="285" y="377" on="0"/>
+        <pt x="272" y="376" on="0"/>
+        <pt x="265" y="376" on="1"/>
+        <pt x="231" y="372" on="0"/>
+        <pt x="159" y="348" on="0"/>
+        <pt x="115" y="325" on="1"/>
+      </contour>
+      <contour>
+        <pt x="390" y="210" on="1"/>
+        <pt x="358" y="212" on="0"/>
+        <pt x="320" y="215" on="0"/>
+        <pt x="303" y="216" on="1"/>
+        <pt x="299" y="216" on="0"/>
+        <pt x="291" y="216" on="0"/>
+        <pt x="287" y="216" on="1"/>
+        <pt x="220" y="216" on="0"/>
+        <pt x="144" y="176" on="0"/>
+        <pt x="144" y="139" on="1"/>
+        <pt x="144" y="111" on="0"/>
+        <pt x="192" y="75" on="0"/>
+        <pt x="229" y="75" on="1"/>
+        <pt x="242" y="75" on="0"/>
+        <pt x="266" y="79" on="0"/>
+        <pt x="278" y="83" on="1"/>
+        <pt x="303" y="91" on="0"/>
+        <pt x="356" y="129" on="0"/>
+        <pt x="389" y="161" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="b" xMin="3" yMin="-10" xMax="565" yMax="637">
+      <contour>
+        <pt x="3" y="637" on="1"/>
+        <pt x="178" y="637" on="1"/>
+        <pt x="178" y="413" on="1"/>
+        <pt x="196" y="425" on="0"/>
+        <pt x="228" y="443" on="0"/>
+        <pt x="244" y="449" on="1"/>
+        <pt x="263" y="457" on="0"/>
+        <pt x="302" y="463" on="0"/>
+        <pt x="325" y="463" on="1"/>
+        <pt x="426" y="463" on="0"/>
+        <pt x="565" y="326" on="0"/>
+        <pt x="565" y="226" on="1"/>
+        <pt x="565" y="128" on="0"/>
+        <pt x="429" y="-10" on="0"/>
+        <pt x="332" y="-10" on="1"/>
+        <pt x="306" y="-10" on="0"/>
+        <pt x="264" y="-3" on="0"/>
+        <pt x="243" y="4" on="1"/>
+        <pt x="228" y="10" on="0"/>
+        <pt x="196" y="28" on="0"/>
+        <pt x="178" y="41" on="1"/>
+        <pt x="178" y="0" on="1"/>
+        <pt x="3" y="0" on="1"/>
+        <pt x="3" y="87" on="1"/>
+        <pt x="84" y="87" on="1"/>
+        <pt x="84" y="550" on="1"/>
+        <pt x="3" y="550" on="1"/>
+      </contour>
+      <contour>
+        <pt x="323" y="378" on="1"/>
+        <pt x="262" y="377" on="0"/>
+        <pt x="178" y="289" on="0"/>
+        <pt x="178" y="226" on="1"/>
+        <pt x="178" y="163" on="0"/>
+        <pt x="262" y="76" on="0"/>
+        <pt x="323" y="76" on="1"/>
+        <pt x="383" y="76" on="0"/>
+        <pt x="467" y="163" on="0"/>
+        <pt x="467" y="226" on="1"/>
+        <pt x="467" y="289" on="0"/>
+        <pt x="383" y="377" on="0"/>
+        <pt x="323" y="377" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="c" xMin="55" yMin="-10" xMax="551" yMax="469">
+      <contour>
+        <pt x="448" y="469" on="1"/>
+        <pt x="542" y="453" on="1"/>
+        <pt x="524" y="365" on="1"/>
+        <pt x="541" y="271" on="1"/>
+        <pt x="448" y="259" on="1"/>
+        <pt x="441" y="320" on="0"/>
+        <pt x="379" y="377" on="0"/>
+        <pt x="316" y="377" on="1"/>
+        <pt x="245" y="377" on="0"/>
+        <pt x="153" y="292" on="0"/>
+        <pt x="153" y="225" on="1"/>
+        <pt x="153" y="161" on="0"/>
+        <pt x="243" y="75" on="0"/>
+        <pt x="311" y="75" on="1"/>
+        <pt x="365" y="75" on="0"/>
+        <pt x="460" y="127" on="0"/>
+        <pt x="498" y="163" on="1"/>
+        <pt x="551" y="91" on="1"/>
+        <pt x="499" y="47" on="0"/>
+        <pt x="377" y="-10" on="0"/>
+        <pt x="307" y="-10" on="1"/>
+        <pt x="198" y="-10" on="0"/>
+        <pt x="55" y="123" on="0"/>
+        <pt x="55" y="226" on="1"/>
+        <pt x="55" y="328" on="0"/>
+        <pt x="200" y="463" on="0"/>
+        <pt x="310" y="463" on="1"/>
+        <pt x="326" y="463" on="0"/>
+        <pt x="355" y="460" on="0"/>
+        <pt x="369" y="457" on="1"/>
+        <pt x="386" y="454" on="0"/>
+        <pt x="422" y="440" on="0"/>
+        <pt x="443" y="430" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          2
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="d" xMin="39" yMin="-10" xMax="597" yMax="637">
+      <contour>
+        <pt x="298" y="637" on="1"/>
+        <pt x="517" y="637" on="1"/>
+        <pt x="517" y="87" on="1"/>
+        <pt x="597" y="87" on="1"/>
+        <pt x="597" y="0" on="1"/>
+        <pt x="423" y="0" on="1"/>
+        <pt x="423" y="46" on="1"/>
+        <pt x="416" y="40" on="0"/>
+        <pt x="403" y="30" on="0"/>
+        <pt x="396" y="26" on="1"/>
+        <pt x="365" y="7" on="0"/>
+        <pt x="303" y="-10" on="0"/>
+        <pt x="268" y="-10" on="1"/>
+        <pt x="173" y="-10" on="0"/>
+        <pt x="39" y="128" on="0"/>
+        <pt x="39" y="226" on="1"/>
+        <pt x="39" y="326" on="0"/>
+        <pt x="176" y="464" on="0"/>
+        <pt x="276" y="464" on="1"/>
+        <pt x="296" y="464" on="0"/>
+        <pt x="329" y="460" on="0"/>
+        <pt x="345" y="455" on="1"/>
+        <pt x="362" y="450" on="0"/>
+        <pt x="399" y="430" on="0"/>
+        <pt x="423" y="414" on="1"/>
+        <pt x="423" y="550" on="1"/>
+        <pt x="298" y="550" on="1"/>
+      </contour>
+      <contour>
+        <pt x="279" y="77" on="1"/>
+        <pt x="341" y="76" on="0"/>
+        <pt x="421" y="162" on="0"/>
+        <pt x="421" y="226" on="1"/>
+        <pt x="421" y="291" on="0"/>
+        <pt x="341" y="377" on="0"/>
+        <pt x="279" y="377" on="1"/>
+        <pt x="218" y="377" on="0"/>
+        <pt x="137" y="291" on="0"/>
+        <pt x="137" y="226" on="1"/>
+        <pt x="137" y="162" on="0"/>
+        <pt x="218" y="76" on="0"/>
+        <pt x="279" y="76" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          3
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="e" xMin="44" yMin="-10" xMax="540" yMax="464">
+      <contour>
+        <pt x="483" y="150" on="1"/>
+        <pt x="526" y="70" on="1"/>
+        <pt x="477" y="32" on="0"/>
+        <pt x="372" y="-10" on="0"/>
+        <pt x="310" y="-10" on="1"/>
+        <pt x="190" y="-10" on="0"/>
+        <pt x="44" y="120" on="0"/>
+        <pt x="44" y="227" on="1"/>
+        <pt x="44" y="331" on="0"/>
+        <pt x="188" y="464" on="0"/>
+        <pt x="298" y="464" on="1"/>
+        <pt x="411" y="464" on="0"/>
+        <pt x="540" y="341" on="0"/>
+        <pt x="540" y="234" on="1"/>
+        <pt x="540" y="196" on="1"/>
+        <pt x="143" y="196" on="1"/>
+        <pt x="162" y="132" on="0"/>
+        <pt x="238" y="75" on="0"/>
+        <pt x="305" y="75" on="1"/>
+        <pt x="357" y="75" on="0"/>
+        <pt x="446" y="112" on="0"/>
+        <pt x="483" y="149" on="1"/>
+      </contour>
+      <contour>
+        <pt x="150" y="282" on="1"/>
+        <pt x="445" y="282" on="1"/>
+        <pt x="428" y="331" on="0"/>
+        <pt x="357" y="378" on="0"/>
+        <pt x="299" y="378" on="1"/>
+        <pt x="244" y="378" on="0"/>
+        <pt x="171" y="330" on="0"/>
+        <pt x="150" y="281" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          4
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="eight" xMin="90" yMin="-10" xMax="510" yMax="583">
+      <contour>
+        <pt x="432" y="294" on="1"/>
+        <pt x="473" y="263" on="0"/>
+        <pt x="510" y="200" on="0"/>
+        <pt x="510" y="160" on="1"/>
+        <pt x="510" y="85" on="0"/>
+        <pt x="392" y="-10" on="0"/>
+        <pt x="300" y="-10" on="1"/>
+        <pt x="209" y="-10" on="0"/>
+        <pt x="90" y="85" on="0"/>
+        <pt x="90" y="160" on="1"/>
+        <pt x="90" y="200" on="0"/>
+        <pt x="128" y="263" on="0"/>
+        <pt x="168" y="293" on="1"/>
+        <pt x="134" y="318" on="0"/>
+        <pt x="102" y="378" on="0"/>
+        <pt x="102" y="416" on="1"/>
+        <pt x="102" y="488" on="0"/>
+        <pt x="215" y="583" on="0"/>
+        <pt x="300" y="583" on="1"/>
+        <pt x="386" y="583" on="0"/>
+        <pt x="499" y="488" on="0"/>
+        <pt x="499" y="416" on="1"/>
+        <pt x="499" y="378" on="0"/>
+        <pt x="467" y="318" on="0"/>
+        <pt x="432" y="293" on="1"/>
+      </contour>
+      <contour>
+        <pt x="412" y="162" on="1"/>
+        <pt x="412" y="197" on="0"/>
+        <pt x="347" y="247" on="0"/>
+        <pt x="300" y="247" on="1"/>
+        <pt x="253" y="247" on="0"/>
+        <pt x="188" y="197" on="0"/>
+        <pt x="188" y="161" on="1"/>
+        <pt x="188" y="124" on="0"/>
+        <pt x="252" y="75" on="0"/>
+        <pt x="300" y="75" on="1"/>
+        <pt x="349" y="75" on="0"/>
+        <pt x="412" y="124" on="0"/>
+        <pt x="412" y="161" on="1"/>
+      </contour>
+      <contour>
+        <pt x="402" y="415" on="1"/>
+        <pt x="402" y="449" on="0"/>
+        <pt x="345" y="497" on="0"/>
+        <pt x="301" y="497" on="1"/>
+        <pt x="258" y="497" on="0"/>
+        <pt x="200" y="449" on="0"/>
+        <pt x="200" y="414" on="1"/>
+        <pt x="200" y="379" on="0"/>
+        <pt x="258" y="331" on="0"/>
+        <pt x="301" y="331" on="1"/>
+        <pt x="345" y="331" on="0"/>
+        <pt x="402" y="379" on="0"/>
+        <pt x="402" y="414" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          60
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="equal" xMin="91" yMin="174" xMax="509" yMax="416">
+      <contour>
+        <pt x="91" y="260" on="1"/>
+        <pt x="509" y="260" on="1"/>
+        <pt x="509" y="174" on="1"/>
+        <pt x="91" y="174" on="1"/>
+      </contour>
+      <contour>
+        <pt x="91" y="416" on="1"/>
+        <pt x="509" y="416" on="1"/>
+        <pt x="509" y="330" on="1"/>
+        <pt x="91" y="330" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="f" xMin="81" yMin="0" xMax="508" yMax="634">
+      <contour>
+        <pt x="189" y="434" on="1"/>
+        <pt x="189" y="535" on="0"/>
+        <pt x="247" y="634" on="0"/>
+        <pt x="364" y="634" on="1"/>
+        <pt x="391" y="634" on="0"/>
+        <pt x="438" y="629" on="0"/>
+        <pt x="461" y="624" on="1"/>
+        <pt x="473" y="621" on="0"/>
+        <pt x="496" y="614" on="0"/>
+        <pt x="508" y="610" on="1"/>
+        <pt x="508" y="525" on="1"/>
+        <pt x="463" y="538" on="0"/>
+        <pt x="391" y="550" on="0"/>
+        <pt x="358" y="550" on="1"/>
+        <pt x="319" y="550" on="0"/>
+        <pt x="283" y="524" on="0"/>
+        <pt x="283" y="495" on="1"/>
+        <pt x="283" y="434" on="1"/>
+        <pt x="491" y="434" on="1"/>
+        <pt x="491" y="348" on="1"/>
+        <pt x="283" y="348" on="1"/>
+        <pt x="283" y="86" on="1"/>
+        <pt x="491" y="86" on="1"/>
+        <pt x="491" y="0" on="1"/>
+        <pt x="85" y="0" on="1"/>
+        <pt x="85" y="86" on="1"/>
+        <pt x="189" y="86" on="1"/>
+        <pt x="189" y="348" on="1"/>
+        <pt x="81" y="348" on="1"/>
+        <pt x="81" y="434" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          5
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="five" xMin="64" yMin="-10" xMax="510" yMax="574">
+      <contour>
+        <pt x="105" y="574" on="1"/>
+        <pt x="481" y="574" on="1"/>
+        <pt x="481" y="488" on="1"/>
+        <pt x="199" y="488" on="1"/>
+        <pt x="199" y="365" on="1"/>
+        <pt x="213" y="369" on="0"/>
+        <pt x="240" y="375" on="0"/>
+        <pt x="253" y="376" on="1"/>
+        <pt x="263" y="378" on="0"/>
+        <pt x="284" y="379" on="0"/>
+        <pt x="295" y="379" on="1"/>
+        <pt x="389" y="379" on="0"/>
+        <pt x="510" y="270" on="0"/>
+        <pt x="510" y="186" on="1"/>
+        <pt x="510" y="97" on="0"/>
+        <pt x="381" y="-10" on="0"/>
+        <pt x="275" y="-10" on="1"/>
+        <pt x="219" y="-10" on="0"/>
+        <pt x="113" y="16" on="0"/>
+        <pt x="64" y="44" on="1"/>
+        <pt x="98" y="131" on="1"/>
+        <pt x="128" y="112" on="0"/>
+        <pt x="177" y="89" on="0"/>
+        <pt x="200" y="83" on="1"/>
+        <pt x="217" y="79" on="0"/>
+        <pt x="253" y="75" on="0"/>
+        <pt x="273" y="75" on="1"/>
+        <pt x="339" y="75" on="0"/>
+        <pt x="411" y="132" on="0"/>
+        <pt x="411" y="184" on="1"/>
+        <pt x="411" y="232" on="0"/>
+        <pt x="342" y="293" on="0"/>
+        <pt x="287" y="293" on="1"/>
+        <pt x="277" y="293" on="0"/>
+        <pt x="258" y="291" on="0"/>
+        <pt x="249" y="290" on="1"/>
+        <pt x="228" y="286" on="0"/>
+        <pt x="184" y="268" on="0"/>
+        <pt x="156" y="252" on="1"/>
+        <pt x="105" y="275" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          57
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="four" xMin="55" yMin="0" xMax="500" yMax="574">
+      <contour>
+        <pt x="410" y="574" on="1"/>
+        <pt x="410" y="211" on="1"/>
+        <pt x="500" y="211" on="1"/>
+        <pt x="500" y="128" on="1"/>
+        <pt x="410" y="128" on="1"/>
+        <pt x="410" y="86" on="1"/>
+        <pt x="500" y="86" on="1"/>
+        <pt x="500" y="0" on="1"/>
+        <pt x="198" y="0" on="1"/>
+        <pt x="198" y="86" on="1"/>
+        <pt x="316" y="86" on="1"/>
+        <pt x="316" y="128" on="1"/>
+        <pt x="55" y="128" on="1"/>
+        <pt x="55" y="205" on="1"/>
+        <pt x="307" y="574" on="1"/>
+      </contour>
+      <contour>
+        <pt x="316" y="211" on="1"/>
+        <pt x="316" y="438" on="1"/>
+        <pt x="163" y="211" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          56
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="g" xMin="44" yMin="-153" xMax="583" yMax="463">
+      <contour>
+        <pt x="409" y="454" on="1"/>
+        <pt x="583" y="454" on="1"/>
+        <pt x="583" y="367" on="1"/>
+        <pt x="503" y="367" on="1"/>
+        <pt x="503" y="70" on="1"/>
+        <pt x="503" y="-3" on="0"/>
+        <pt x="487" y="-69" on="0"/>
+        <pt x="462" y="-94" on="1"/>
+        <pt x="460" y="-96" on="0"/>
+        <pt x="453" y="-102" on="0"/>
+        <pt x="450" y="-105" on="1"/>
+        <pt x="421" y="-130" on="0"/>
+        <pt x="348" y="-153" on="0"/>
+        <pt x="298" y="-153" on="1"/>
+        <pt x="276" y="-153" on="0"/>
+        <pt x="237" y="-150" on="0"/>
+        <pt x="218" y="-147" on="1"/>
+        <pt x="188" y="-141" on="0"/>
+        <pt x="125" y="-120" on="0"/>
+        <pt x="84" y="-103" on="1"/>
+        <pt x="107" y="-17" on="1"/>
+        <pt x="136" y="-32" on="0"/>
+        <pt x="186" y="-52" on="0"/>
+        <pt x="211" y="-58" on="1"/>
+        <pt x="231" y="-63" on="0"/>
+        <pt x="272" y="-67" on="0"/>
+        <pt x="295" y="-67" on="1"/>
+        <pt x="381" y="-67" on="0"/>
+        <pt x="409" y="5" on="0"/>
+        <pt x="409" y="74" on="1"/>
+        <pt x="378" y="52" on="0"/>
+        <pt x="312" y="31" on="0"/>
+        <pt x="274" y="31" on="1"/>
+        <pt x="177" y="31" on="0"/>
+        <pt x="44" y="154" on="0"/>
+        <pt x="44" y="244" on="1"/>
+        <pt x="44" y="339" on="0"/>
+        <pt x="182" y="463" on="0"/>
+        <pt x="288" y="463" on="1"/>
+        <pt x="294" y="463" on="0"/>
+        <pt x="305" y="462" on="0"/>
+        <pt x="311" y="461" on="1"/>
+        <pt x="331" y="459" on="0"/>
+        <pt x="375" y="439" on="0"/>
+        <pt x="409" y="420" on="1"/>
+      </contour>
+      <contour>
+        <pt x="409" y="246" on="1"/>
+        <pt x="409" y="301" on="0"/>
+        <pt x="332" y="376" on="0"/>
+        <pt x="276" y="376" on="1"/>
+        <pt x="220" y="376" on="0"/>
+        <pt x="142" y="301" on="0"/>
+        <pt x="142" y="246" on="1"/>
+        <pt x="142" y="192" on="0"/>
+        <pt x="219" y="118" on="0"/>
+        <pt x="276" y="118" on="1"/>
+        <pt x="332" y="118" on="0"/>
+        <pt x="409" y="192" on="0"/>
+        <pt x="409" y="245" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="h" xMin="23" yMin="0" xMax="592" yMax="636">
+      <contour>
+        <pt x="23" y="636" on="1"/>
+        <pt x="198" y="636" on="1"/>
+        <pt x="198" y="410" on="1"/>
+        <pt x="214" y="421" on="0"/>
+        <pt x="246" y="439" on="0"/>
+        <pt x="261" y="445" on="1"/>
+        <pt x="283" y="454" on="0"/>
+        <pt x="328" y="463" on="0"/>
+        <pt x="353" y="463" on="1"/>
+        <pt x="398" y="463" on="0"/>
+        <pt x="469" y="429" on="0"/>
+        <pt x="488" y="398" on="1"/>
+        <pt x="489" y="396" on="0"/>
+        <pt x="491" y="392" on="0"/>
+        <pt x="492" y="391" on="1"/>
+        <pt x="503" y="371" on="0"/>
+        <pt x="511" y="325" on="0"/>
+        <pt x="511" y="285" on="1"/>
+        <pt x="511" y="86" on="1"/>
+        <pt x="592" y="86" on="1"/>
+        <pt x="592" y="0" on="1"/>
+        <pt x="337" y="0" on="1"/>
+        <pt x="337" y="86" on="1"/>
+        <pt x="417" y="86" on="1"/>
+        <pt x="417" y="282" on="1"/>
+        <pt x="417" y="337" on="0"/>
+        <pt x="389" y="377" on="0"/>
+        <pt x="348" y="377" on="1"/>
+        <pt x="334" y="377" on="0"/>
+        <pt x="307" y="373" on="0"/>
+        <pt x="293" y="369" on="1"/>
+        <pt x="271" y="363" on="0"/>
+        <pt x="225" y="336" on="0"/>
+        <pt x="198" y="315" on="1"/>
+        <pt x="198" y="86" on="1"/>
+        <pt x="278" y="86" on="1"/>
+        <pt x="278" y="0" on="1"/>
+        <pt x="23" y="0" on="1"/>
+        <pt x="23" y="86" on="1"/>
+        <pt x="104" y="86" on="1"/>
+        <pt x="104" y="550" on="1"/>
+        <pt x="23" y="550" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          7
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="i" xMin="99" yMin="0" xMax="533" yMax="661">
+      <contour>
+        <pt x="367" y="454" on="1"/>
+        <pt x="367" y="86" on="1"/>
+        <pt x="533" y="86" on="1"/>
+        <pt x="533" y="0" on="1"/>
+        <pt x="99" y="0" on="1"/>
+        <pt x="99" y="86" on="1"/>
+        <pt x="273" y="86" on="1"/>
+        <pt x="273" y="368" on="1"/>
+        <pt x="127" y="368" on="1"/>
+        <pt x="127" y="454" on="1"/>
+      </contour>
+      <contour>
+        <pt x="245" y="508" on="1"/>
+        <pt x="245" y="661" on="1"/>
+        <pt x="368" y="661" on="1"/>
+        <pt x="368" y="508" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          8
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="j" xMin="52" yMin="-153" xMax="417" yMax="661">
+      <contour>
+        <pt x="73" y="454" on="1"/>
+        <pt x="417" y="454" on="1"/>
+        <pt x="417" y="79" on="1"/>
+        <pt x="417" y="6" on="0"/>
+        <pt x="398" y="-69" on="0"/>
+        <pt x="373" y="-96" on="1"/>
+        <pt x="346" y="-125" on="0"/>
+        <pt x="267" y="-153" on="0"/>
+        <pt x="215" y="-153" on="1"/>
+        <pt x="196" y="-153" on="0"/>
+        <pt x="162" y="-150" on="0"/>
+        <pt x="146" y="-146" on="1"/>
+        <pt x="124" y="-142" on="0"/>
+        <pt x="80" y="-125" on="0"/>
+        <pt x="52" y="-112" on="1"/>
+        <pt x="74" y="-26" on="1"/>
+        <pt x="98" y="-40" on="0"/>
+        <pt x="136" y="-57" on="0"/>
+        <pt x="154" y="-61" on="1"/>
+        <pt x="167" y="-64" on="0"/>
+        <pt x="193" y="-67" on="0"/>
+        <pt x="208" y="-67" on="1"/>
+        <pt x="277" y="-67" on="0"/>
+        <pt x="323" y="-7" on="0"/>
+        <pt x="323" y="82" on="1"/>
+        <pt x="323" y="367" on="1"/>
+        <pt x="73" y="367" on="1"/>
+      </contour>
+      <contour>
+        <pt x="275" y="507" on="1"/>
+        <pt x="275" y="661" on="1"/>
+        <pt x="399" y="661" on="1"/>
+        <pt x="399" y="507" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          9
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="k" xMin="35" yMin="0" xMax="580" yMax="636">
+      <contour>
+        <pt x="35" y="636" on="1"/>
+        <pt x="210" y="636" on="1"/>
+        <pt x="210" y="265" on="1"/>
+        <pt x="374" y="374" on="1"/>
+        <pt x="298" y="374" on="1"/>
+        <pt x="298" y="454" on="1"/>
+        <pt x="556" y="454" on="1"/>
+        <pt x="556" y="368" on="1"/>
+        <pt x="474" y="368" on="1"/>
+        <pt x="317" y="263" on="1"/>
+        <pt x="498" y="87" on="1"/>
+        <pt x="580" y="86" on="1"/>
+        <pt x="580" y="0" on="1"/>
+        <pt x="320" y="0" on="1"/>
+        <pt x="320" y="86" on="1"/>
+        <pt x="374" y="86" on="1"/>
+        <pt x="241" y="210" on="1"/>
+        <pt x="210" y="187" on="1"/>
+        <pt x="210" y="0" on="1"/>
+        <pt x="35" y="0" on="1"/>
+        <pt x="35" y="86" on="1"/>
+        <pt x="116" y="86" on="1"/>
+        <pt x="116" y="550" on="1"/>
+        <pt x="35" y="550" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          10
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="l" xMin="82" yMin="0" xMax="518" yMax="636">
+      <contour>
+        <pt x="112" y="636" on="1"/>
+        <pt x="348" y="636" on="1"/>
+        <pt x="348" y="86" on="1"/>
+        <pt x="518" y="86" on="1"/>
+        <pt x="518" y="0" on="1"/>
+        <pt x="82" y="0" on="1"/>
+        <pt x="82" y="86" on="1"/>
+        <pt x="254" y="86" on="1"/>
+        <pt x="254" y="550" on="1"/>
+        <pt x="112" y="550" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          11
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="m" xMin="-4" yMin="0" xMax="605" yMax="464">
+      <contour>
+        <pt x="149" y="454" on="1"/>
+        <pt x="149" y="411" on="1"/>
+        <pt x="156" y="419" on="0"/>
+        <pt x="168" y="434" on="0"/>
+        <pt x="174" y="440" on="1"/>
+        <pt x="188" y="453" on="0"/>
+        <pt x="219" y="464" on="0"/>
+        <pt x="238" y="464" on="1"/>
+        <pt x="258" y="464" on="0"/>
+        <pt x="289" y="455" on="0"/>
+        <pt x="304" y="444" on="1"/>
+        <pt x="311" y="439" on="0"/>
+        <pt x="325" y="425" on="0"/>
+        <pt x="332" y="417" on="1"/>
+        <pt x="339" y="424" on="0"/>
+        <pt x="352" y="437" on="0"/>
+        <pt x="358" y="441" on="1"/>
+        <pt x="373" y="453" on="0"/>
+        <pt x="406" y="463" on="0"/>
+        <pt x="428" y="463" on="1"/>
+        <pt x="459" y="463" on="0"/>
+        <pt x="512" y="438" on="0"/>
+        <pt x="530" y="415" on="1"/>
+        <pt x="530" y="414" on="0"/>
+        <pt x="531" y="413" on="0"/>
+        <pt x="532" y="413" on="1"/>
+        <pt x="549" y="390" on="0"/>
+        <pt x="561" y="335" on="0"/>
+        <pt x="561" y="281" on="1"/>
+        <pt x="561" y="86" on="1"/>
+        <pt x="605" y="86" on="1"/>
+        <pt x="605" y="0" on="1"/>
+        <pt x="467" y="0" on="1"/>
+        <pt x="467" y="282" on="1"/>
+        <pt x="467" y="338" on="0"/>
+        <pt x="449" y="377" on="0"/>
+        <pt x="423" y="377" on="1"/>
+        <pt x="417" y="377" on="0"/>
+        <pt x="405" y="375" on="0"/>
+        <pt x="399" y="372" on="1"/>
+        <pt x="389" y="367" on="0"/>
+        <pt x="367" y="349" on="0"/>
+        <pt x="355" y="335" on="1"/>
+        <pt x="355" y="86" on="1"/>
+        <pt x="411" y="86" on="1"/>
+        <pt x="411" y="0" on="1"/>
+        <pt x="261" y="0" on="1"/>
+        <pt x="261" y="286" on="1"/>
+        <pt x="261" y="338" on="0"/>
+        <pt x="243" y="377" on="0"/>
+        <pt x="218" y="377" on="1"/>
+        <pt x="210" y="377" on="0"/>
+        <pt x="196" y="374" on="0"/>
+        <pt x="189" y="370" on="1"/>
+        <pt x="180" y="365" on="0"/>
+        <pt x="161" y="348" on="0"/>
+        <pt x="149" y="335" on="1"/>
+        <pt x="149" y="86" on="1"/>
+        <pt x="219" y="86" on="1"/>
+        <pt x="219" y="0" on="1"/>
+        <pt x="-4" y="0" on="1"/>
+        <pt x="-4" y="86" on="1"/>
+        <pt x="55" y="86" on="1"/>
+        <pt x="55" y="368" on="1"/>
+        <pt x="-4" y="368" on="1"/>
+        <pt x="-4" y="454" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          12
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="n" xMin="23" yMin="0" xMax="592" yMax="463">
+      <contour>
+        <pt x="23" y="454" on="1"/>
+        <pt x="198" y="454" on="1"/>
+        <pt x="198" y="410" on="1"/>
+        <pt x="213" y="420" on="0"/>
+        <pt x="242" y="437" on="0"/>
+        <pt x="256" y="443" on="1"/>
+        <pt x="281" y="454" on="0"/>
+        <pt x="331" y="463" on="0"/>
+        <pt x="360" y="463" on="1"/>
+        <pt x="400" y="463" on="0"/>
+        <pt x="469" y="428" on="0"/>
+        <pt x="488" y="398" on="1"/>
+        <pt x="488" y="397" on="0"/>
+        <pt x="489" y="396" on="0"/>
+        <pt x="490" y="395" on="1"/>
+        <pt x="502" y="375" on="0"/>
+        <pt x="511" y="327" on="0"/>
+        <pt x="511" y="285" on="1"/>
+        <pt x="511" y="86" on="1"/>
+        <pt x="592" y="86" on="1"/>
+        <pt x="592" y="0" on="1"/>
+        <pt x="337" y="0" on="1"/>
+        <pt x="337" y="86" on="1"/>
+        <pt x="417" y="86" on="1"/>
+        <pt x="417" y="282" on="1"/>
+        <pt x="417" y="337" on="0"/>
+        <pt x="389" y="377" on="0"/>
+        <pt x="348" y="377" on="1"/>
+        <pt x="334" y="377" on="0"/>
+        <pt x="307" y="373" on="0"/>
+        <pt x="293" y="369" on="1"/>
+        <pt x="271" y="363" on="0"/>
+        <pt x="225" y="336" on="0"/>
+        <pt x="198" y="315" on="1"/>
+        <pt x="198" y="86" on="1"/>
+        <pt x="278" y="86" on="1"/>
+        <pt x="278" y="0" on="1"/>
+        <pt x="23" y="0" on="1"/>
+        <pt x="23" y="86" on="1"/>
+        <pt x="104" y="86" on="1"/>
+        <pt x="104" y="368" on="1"/>
+        <pt x="23" y="368" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          13
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="nine" xMin="96" yMin="-9" xMax="514" yMax="592">
+      <contour>
+        <pt x="117" y="-6" on="1"/>
+        <pt x="111" y="82" on="1"/>
+        <pt x="114" y="81" on="0"/>
+        <pt x="121" y="79" on="0"/>
+        <pt x="125" y="79" on="1"/>
+        <pt x="131" y="78" on="0"/>
+        <pt x="145" y="76" on="0"/>
+        <pt x="152" y="75" on="1"/>
+        <pt x="162" y="74" on="0"/>
+        <pt x="183" y="72" on="0"/>
+        <pt x="193" y="72" on="1"/>
+        <pt x="207" y="72" on="0"/>
+        <pt x="241" y="78" on="0"/>
+        <pt x="259" y="83" on="1"/>
+        <pt x="281" y="89" on="0"/>
+        <pt x="323" y="107" on="0"/>
+        <pt x="337" y="116" on="1"/>
+        <pt x="369" y="137" on="0"/>
+        <pt x="402" y="200" on="0"/>
+        <pt x="413" y="261" on="1"/>
+        <pt x="387" y="237" on="0"/>
+        <pt x="324" y="213" on="0"/>
+        <pt x="284" y="213" on="1"/>
+        <pt x="204" y="213" on="0"/>
+        <pt x="96" y="322" on="0"/>
+        <pt x="96" y="402" on="1"/>
+        <pt x="96" y="483" on="0"/>
+        <pt x="209" y="592" on="0"/>
+        <pt x="294" y="592" on="1"/>
+        <pt x="393" y="592" on="0"/>
+        <pt x="514" y="440" on="0"/>
+        <pt x="514" y="316" on="1"/>
+        <pt x="514" y="163" on="0"/>
+        <pt x="337" y="-9" on="0"/>
+        <pt x="179" y="-9" on="1"/>
+        <pt x="176" y="-9" on="0"/>
+        <pt x="170" y="-9" on="0"/>
+        <pt x="168" y="-9" on="1"/>
+        <pt x="158" y="-9" on="0"/>
+        <pt x="135" y="-7" on="0"/>
+      </contour>
+      <contour>
+        <pt x="411" y="388" on="1"/>
+        <pt x="402" y="442" on="0"/>
+        <pt x="338" y="505" on="0"/>
+        <pt x="291" y="505" on="1"/>
+        <pt x="249" y="505" on="0"/>
+        <pt x="194" y="450" on="0"/>
+        <pt x="194" y="407" on="1"/>
+        <pt x="194" y="361" on="0"/>
+        <pt x="249" y="302" on="0"/>
+        <pt x="292" y="302" on="1"/>
+        <pt x="330" y="302" on="0"/>
+        <pt x="386" y="341" on="0"/>
+        <pt x="411" y="387" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          61
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="nonmarkingreturn"/><!-- contains no outline data -->
+
+    <TTGlyph name="o" xMin="49" yMin="-10" xMax="550" yMax="463">
+      <contour>
+        <pt x="49" y="227" on="1"/>
+        <pt x="49" y="330" on="0"/>
+        <pt x="190" y="463" on="0"/>
+        <pt x="300" y="463" on="1"/>
+        <pt x="410" y="463" on="0"/>
+        <pt x="550" y="330" on="0"/>
+        <pt x="550" y="226" on="1"/>
+        <pt x="550" y="123" on="0"/>
+        <pt x="410" y="-10" on="0"/>
+        <pt x="300" y="-10" on="1"/>
+        <pt x="191" y="-10" on="0"/>
+        <pt x="49" y="123" on="0"/>
+        <pt x="49" y="226" on="1"/>
+      </contour>
+      <contour>
+        <pt x="147" y="227" on="1"/>
+        <pt x="147" y="160" on="0"/>
+        <pt x="233" y="75" on="0"/>
+        <pt x="300" y="75" on="1"/>
+        <pt x="367" y="75" on="0"/>
+        <pt x="452" y="160" on="0"/>
+        <pt x="452" y="226" on="1"/>
+        <pt x="452" y="293" on="0"/>
+        <pt x="367" y="377" on="0"/>
+        <pt x="300" y="377" on="1"/>
+        <pt x="233" y="377" on="0"/>
+        <pt x="147" y="293" on="0"/>
+        <pt x="147" y="226" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          14
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="one" xMin="92" yMin="0" xMax="523" yMax="574">
+      <contour>
+        <pt x="92" y="495" on="1"/>
+        <pt x="299" y="574" on="1"/>
+        <pt x="356" y="574" on="1"/>
+        <pt x="356" y="86" on="1"/>
+        <pt x="523" y="86" on="1"/>
+        <pt x="523" y="0" on="1"/>
+        <pt x="92" y="0" on="1"/>
+        <pt x="92" y="86" on="1"/>
+        <pt x="263" y="86" on="1"/>
+        <pt x="263" y="470" on="1"/>
+        <pt x="117" y="414" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          53
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="p" xMin="3" yMin="-171" xMax="562" yMax="464">
+      <contour>
+        <pt x="330" y="-171" on="1"/>
+        <pt x="3" y="-171" on="1"/>
+        <pt x="3" y="-85" on="1"/>
+        <pt x="83" y="-85" on="1"/>
+        <pt x="84" y="368" on="1"/>
+        <pt x="4" y="368" on="1"/>
+        <pt x="4" y="454" on="1"/>
+        <pt x="178" y="454" on="1"/>
+        <pt x="178" y="409" on="1"/>
+        <pt x="186" y="414" on="0"/>
+        <pt x="202" y="425" on="0"/>
+        <pt x="210" y="430" on="1"/>
+        <pt x="239" y="448" on="0"/>
+        <pt x="299" y="464" on="0"/>
+        <pt x="333" y="464" on="1"/>
+        <pt x="428" y="464" on="0"/>
+        <pt x="562" y="325" on="0"/>
+        <pt x="562" y="227" on="1"/>
+        <pt x="562" y="127" on="0"/>
+        <pt x="425" y="-10" on="0"/>
+        <pt x="325" y="-10" on="1"/>
+        <pt x="305" y="-10" on="0"/>
+        <pt x="272" y="-6" on="0"/>
+        <pt x="256" y="-1" on="1"/>
+        <pt x="239" y="3" on="0"/>
+        <pt x="202" y="23" on="0"/>
+        <pt x="178" y="38" on="1"/>
+        <pt x="178" y="-85" on="1"/>
+        <pt x="330" y="-85" on="1"/>
+      </contour>
+      <contour>
+        <pt x="322" y="378" on="1"/>
+        <pt x="261" y="377" on="0"/>
+        <pt x="180" y="291" on="0"/>
+        <pt x="180" y="226" on="1"/>
+        <pt x="180" y="162" on="0"/>
+        <pt x="261" y="76" on="0"/>
+        <pt x="322" y="76" on="1"/>
+        <pt x="384" y="76" on="0"/>
+        <pt x="464" y="161" on="0"/>
+        <pt x="464" y="226" on="1"/>
+        <pt x="464" y="291" on="0"/>
+        <pt x="384" y="377" on="0"/>
+        <pt x="322" y="377" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          15
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="plus" xMin="91" yMin="99" xMax="509" yMax="490">
+      <contour>
+        <pt x="254" y="490" on="1"/>
+        <pt x="348" y="490" on="1"/>
+        <pt x="348" y="337" on="1"/>
+        <pt x="509" y="337" on="1"/>
+        <pt x="509" y="251" on="1"/>
+        <pt x="348" y="251" on="1"/>
+        <pt x="348" y="99" on="1"/>
+        <pt x="254" y="99" on="1"/>
+        <pt x="254" y="251" on="1"/>
+        <pt x="91" y="251" on="1"/>
+        <pt x="91" y="337" on="1"/>
+        <pt x="254" y="337" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          62
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="q" xMin="38" yMin="-171" xMax="597" yMax="464">
+      <contour>
+        <pt x="270" y="-171" on="1"/>
+        <pt x="270" y="-85" on="1"/>
+        <pt x="422" y="-85" on="1"/>
+        <pt x="422" y="39" on="1"/>
+        <pt x="398" y="23" on="0"/>
+        <pt x="361" y="3" on="0"/>
+        <pt x="344" y="-1" on="1"/>
+        <pt x="328" y="-6" on="0"/>
+        <pt x="295" y="-10" on="0"/>
+        <pt x="275" y="-10" on="1"/>
+        <pt x="175" y="-10" on="0"/>
+        <pt x="38" y="127" on="0"/>
+        <pt x="38" y="227" on="1"/>
+        <pt x="38" y="325" on="0"/>
+        <pt x="172" y="464" on="0"/>
+        <pt x="267" y="464" on="1"/>
+        <pt x="301" y="464" on="0"/>
+        <pt x="361" y="448" on="0"/>
+        <pt x="390" y="430" on="1"/>
+        <pt x="398" y="425" on="0"/>
+        <pt x="414" y="414" on="0"/>
+        <pt x="422" y="408" on="1"/>
+        <pt x="422" y="454" on="1"/>
+        <pt x="596" y="454" on="1"/>
+        <pt x="596" y="368" on="1"/>
+        <pt x="516" y="368" on="1"/>
+        <pt x="516" y="-85" on="1"/>
+        <pt x="597" y="-85" on="1"/>
+        <pt x="597" y="-171" on="1"/>
+      </contour>
+      <contour>
+        <pt x="278" y="378" on="1"/>
+        <pt x="217" y="377" on="0"/>
+        <pt x="136" y="291" on="0"/>
+        <pt x="136" y="226" on="1"/>
+        <pt x="136" y="162" on="0"/>
+        <pt x="217" y="76" on="0"/>
+        <pt x="278" y="76" on="1"/>
+        <pt x="340" y="76" on="0"/>
+        <pt x="420" y="161" on="0"/>
+        <pt x="420" y="226" on="1"/>
+        <pt x="420" y="291" on="0"/>
+        <pt x="340" y="377" on="0"/>
+        <pt x="278" y="377" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          16
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="question" xMin="-30" yMin="-10" xMax="614" yMax="645">
+      <contour>
+        <pt x="137" y="167" on="1"/>
+        <pt x="215" y="244" on="0"/>
+        <pt x="304" y="244" on="1"/>
+        <pt x="385" y="244" on="0"/>
+        <pt x="465" y="167" on="1"/>
+        <pt x="438" y="142" on="1"/>
+        <pt x="335" y="195" on="0"/>
+        <pt x="303" y="195" on="1"/>
+        <pt x="262" y="194" on="0"/>
+        <pt x="165" y="139" on="1"/>
+      </contour>
+      <contour>
+        <pt x="161" y="412" on="1"/>
+        <pt x="161" y="446" on="0"/>
+        <pt x="192" y="446" on="1"/>
+        <pt x="225" y="446" on="0"/>
+        <pt x="225" y="412" on="1"/>
+        <pt x="225" y="379" on="0"/>
+        <pt x="194" y="379" on="1"/>
+        <pt x="161" y="379" on="0"/>
+      </contour>
+      <contour>
+        <pt x="363" y="412" on="1"/>
+        <pt x="363" y="446" on="0"/>
+        <pt x="394" y="446" on="1"/>
+        <pt x="427" y="446" on="0"/>
+        <pt x="427" y="412" on="1"/>
+        <pt x="427" y="379" on="0"/>
+        <pt x="396" y="379" on="1"/>
+        <pt x="363" y="379" on="0"/>
+      </contour>
+      <contour>
+        <pt x="-30" y="312" on="1"/>
+        <pt x="-30" y="463" on="0"/>
+        <pt x="56" y="547" on="1"/>
+        <pt x="156" y="645" on="0"/>
+        <pt x="302" y="645" on="1"/>
+        <pt x="434" y="645" on="0"/>
+        <pt x="532" y="545" on="1"/>
+        <pt x="614" y="461" on="0"/>
+        <pt x="614" y="312" on="1"/>
+        <pt x="614" y="162" on="0"/>
+        <pt x="530" y="78" on="1"/>
+        <pt x="442" y="-10" on="0"/>
+        <pt x="305" y="-4" on="1"/>
+        <pt x="154" y="3" on="0"/>
+        <pt x="76" y="74" on="1"/>
+        <pt x="-30" y="171" on="0"/>
+        <pt x="-30" y="311" on="1"/>
+      </contour>
+      <contour>
+        <pt x="570" y="312" on="1"/>
+        <pt x="570" y="442" on="0"/>
+        <pt x="478" y="520" on="1"/>
+        <pt x="407" y="581" on="0"/>
+        <pt x="298" y="590" on="1"/>
+        <pt x="202" y="598" on="0"/>
+        <pt x="110" y="518" on="1"/>
+        <pt x="20" y="440" on="0"/>
+        <pt x="20" y="314" on="1"/>
+        <pt x="20" y="180" on="0"/>
+        <pt x="108" y="113" on="1"/>
+        <pt x="203" y="41" on="0"/>
+        <pt x="300" y="41" on="1"/>
+        <pt x="410" y="41" on="0"/>
+        <pt x="492" y="109" on="1"/>
+        <pt x="570" y="174" on="0"/>
+        <pt x="570" y="311" on="1"/>
+      </contour>
+      <contour>
+        <pt x="469" y="223" on="1"/>
+        <pt x="391" y="146" on="0"/>
+        <pt x="302" y="146" on="1"/>
+        <pt x="221" y="146" on="0"/>
+        <pt x="141" y="223" on="1"/>
+        <pt x="168" y="248" on="1"/>
+        <pt x="271" y="195" on="0"/>
+        <pt x="303" y="195" on="1"/>
+        <pt x="344" y="196" on="0"/>
+        <pt x="441" y="251" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 1 value pushed */
+          0
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          2
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          3
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          4
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          5
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          7
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          8
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          9
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          10
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          11
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          12
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          13
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          14
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          15
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          16
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          17
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          18
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          19
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          20
+          RS[ ]	/* ReadStore */
+          PUSH[ ]	/* 1 value pushed */
+          21
+          RS[ ]	/* ReadStore */
+          ROLL[ ]	/* RollTopThreeStack */
+          PUSH[ ]	/* 1 value pushed */
+          256
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          18
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          256
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          20
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          19
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          10
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          4
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          10
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          320
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          11
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          384
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          186
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          18
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          63
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          ROLL[ ]	/* RollTopThreeStack */
+          PUSH[ ]	/* 1 value pushed */
+          320
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          14
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          39
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          7
+          SUB[ ]	/* Subtract */
+          PUSH[ ]	/* 1 value pushed */
+          14
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          35
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          13
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          2
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          16
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          256
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          17
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          3
+          SUB[ ]	/* Subtract */
+          PUSH[ ]	/* 1 value pushed */
+          8
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          11
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          2
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          10
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          7
+          SUB[ ]	/* Subtract */
+          SWAP[ ]	/* SwapTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          4
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          8
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          263
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          16
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          26
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          7
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          7
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          9
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          28
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          7
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          192
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          8
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          2
+          SUB[ ]	/* Subtract */
+          PUSH[ ]	/* 1 value pushed */
+          12
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          SUB[ ]	/* Subtract */
+          PUSH[ ]	/* 1 value pushed */
+          10
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          21
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          13
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          5
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          9
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          53
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          SWAP[ ]	/* SwapTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          21
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          7
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          448
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          11
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          SUB[ ]	/* Subtract */
+          PUSH[ ]	/* 1 value pushed */
+          4
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          320
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          64
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          582
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          8
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          20
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          9
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          2
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          320
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          2
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          7
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          SUB[ ]	/* Subtract */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          1463
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          4
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          1415
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          5
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          SUB[ ]	/* Subtract */
+          ROLL[ ]	/* RollTopThreeStack */
+          PUSH[ ]	/* 1 value pushed */
+          70
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          3
+          SUB[ ]	/* Subtract */
+          SWAP[ ]	/* SwapTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          256
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          4
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          32
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          4
+          MINDEX[ ]	/* MoveXToTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          2
+          SUB[ ]	/* Subtract */
+          PUSH[ ]	/* 1 value pushed */
+          5
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          SWAP[ ]	/* SwapTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          5
+          ADD[ ]	/* Add */
+          PUSH[ ]	/* 1 value pushed */
+          6
+          SUB[ ]	/* Subtract */
+          ROLL[ ]	/* RollTopThreeStack */
+          PUSH[ ]	/* 1 value pushed */
+          90
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          64
+          MUL[ ]	/* Multiply */
+          SWAP[ ]	/* SwapTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          3
+          ADD[ ]	/* Add */
+          SWAP[ ]	/* SwapTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          3
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          256
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          2
+          SUB[ ]	/* Subtract */
+          PUSH[ ]	/* 1 value pushed */
+          320
+          MUL[ ]	/* Multiply */
+          PUSH[ ]	/* 1 value pushed */
+          1970
+          EQ[ ]	/* Equal */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          AND[ ]	/* LogicalAnd */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          SWAP[ ]	/* SwapTopStack */
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          99
+          RS[ ]	/* ReadStore */
+          IF[ ]	/* If */
+          PUSH[ ]	/* 10 values pushed */
+          0 1 2 3 4 5 6 7 8 9
+          ELSE[ ]	/* Else */
+          PUSH[ ]	/* 10 values pushed */
+          60 61 62 63 64 65 66 67 68 69
+          EIF[ ]	/* EndIf */
+          SVTCA[0]	/* SetFPVectorToAxis */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          SCFS[ ]	/* SetCoordFromStackFP */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          SCFS[ ]	/* SetCoordFromStackFP */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          SCFS[ ]	/* SetCoordFromStackFP */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          SCFS[ ]	/* SetCoordFromStackFP */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          SCFS[ ]	/* SetCoordFromStackFP */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          SCFS[ ]	/* SetCoordFromStackFP */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          SCFS[ ]	/* SetCoordFromStackFP */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          SCFS[ ]	/* SetCoordFromStackFP */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          SCFS[ ]	/* SetCoordFromStackFP */
+          PUSH[ ]	/* 1 value pushed */
+          0
+          SCFS[ ]	/* SetCoordFromStackFP */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="r" xMin="56" yMin="0" xMax="514" yMax="454">
+      <contour>
+        <pt x="274" y="454" on="1"/>
+        <pt x="274" y="370" on="1"/>
+        <pt x="309" y="410" on="0"/>
+        <pt x="399" y="453" on="0"/>
+        <pt x="448" y="453" on="1"/>
+        <pt x="456" y="453" on="0"/>
+        <pt x="477" y="452" on="0"/>
+        <pt x="487" y="452" on="1"/>
+        <pt x="494" y="452" on="0"/>
+        <pt x="508" y="451" on="0"/>
+        <pt x="514" y="450" on="1"/>
+        <pt x="514" y="344" on="1"/>
+        <pt x="489" y="347" on="0"/>
+        <pt x="455" y="351" on="0"/>
+        <pt x="450" y="351" on="1"/>
+        <pt x="443" y="351" on="0"/>
+        <pt x="428" y="350" on="0"/>
+        <pt x="421" y="349" on="1"/>
+        <pt x="379" y="343" on="0"/>
+        <pt x="300" y="299" on="0"/>
+        <pt x="274" y="267" on="1"/>
+        <pt x="274" y="86" on="1"/>
+        <pt x="460" y="86" on="1"/>
+        <pt x="460" y="0" on="1"/>
+        <pt x="56" y="0" on="1"/>
+        <pt x="56" y="86" on="1"/>
+        <pt x="180" y="86" on="1"/>
+        <pt x="180" y="368" on="1"/>
+        <pt x="61" y="368" on="1"/>
+        <pt x="61" y="454" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          17
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="s" xMin="72" yMin="-13" xMax="529" yMax="479">
+      <contour>
+        <pt x="423" y="479" on="1"/>
+        <pt x="511" y="460" on="1"/>
+        <pt x="496" y="385" on="1"/>
+        <pt x="510" y="305" on="1"/>
+        <pt x="418" y="289" on="1"/>
+        <pt x="416" y="336" on="0"/>
+        <pt x="356" y="377" on="0"/>
+        <pt x="288" y="377" on="1"/>
+        <pt x="243" y="377" on="0"/>
+        <pt x="187" y="347" on="0"/>
+        <pt x="187" y="324" on="1"/>
+        <pt x="187" y="292" on="0"/>
+        <pt x="262" y="275" on="0"/>
+        <pt x="313" y="271" on="1"/>
+        <pt x="324" y="270" on="0"/>
+        <pt x="347" y="268" on="0"/>
+        <pt x="358" y="267" on="1"/>
+        <pt x="422" y="260" on="0"/>
+        <pt x="529" y="212" on="0"/>
+        <pt x="529" y="137" on="1"/>
+        <pt x="529" y="73" on="0"/>
+        <pt x="411" y="-10" on="0"/>
+        <pt x="319" y="-10" on="1"/>
+        <pt x="290" y="-10" on="0"/>
+        <pt x="247" y="-5" on="0"/>
+        <pt x="227" y="1" on="1"/>
+        <pt x="215" y="5" on="0"/>
+        <pt x="188" y="17" on="0"/>
+        <pt x="173" y="26" on="1"/>
+        <pt x="169" y="-13" on="1"/>
+        <pt x="72" y="-1" on="1"/>
+        <pt x="91" y="80" on="1"/>
+        <pt x="79" y="163" on="1"/>
+        <pt x="170" y="176" on="1"/>
+        <pt x="176" y="123" on="0"/>
+        <pt x="242" y="76" on="0"/>
+        <pt x="311" y="76" on="1"/>
+        <pt x="367" y="76" on="0"/>
+        <pt x="431" y="110" on="0"/>
+        <pt x="431" y="138" on="1"/>
+        <pt x="431" y="162" on="0"/>
+        <pt x="387" y="178" on="0"/>
+        <pt x="314" y="181" on="1"/>
+        <pt x="297" y="182" on="0"/>
+        <pt x="259" y="185" on="0"/>
+        <pt x="239" y="188" on="1"/>
+        <pt x="183" y="198" on="0"/>
+        <pt x="89" y="257" on="0"/>
+        <pt x="89" y="322" on="1"/>
+        <pt x="89" y="386" on="0"/>
+        <pt x="200" y="464" on="0"/>
+        <pt x="291" y="464" on="1"/>
+        <pt x="321" y="464" on="0"/>
+        <pt x="365" y="457" on="0"/>
+        <pt x="385" y="449" on="1"/>
+        <pt x="393" y="446" on="0"/>
+        <pt x="409" y="439" on="0"/>
+        <pt x="417" y="434" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          18
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="seven" xMin="88" yMin="0" xMax="516" yMax="574">
+      <contour>
+        <pt x="88" y="574" on="1"/>
+        <pt x="516" y="574" on="1"/>
+        <pt x="516" y="506" on="1"/>
+        <pt x="321" y="0" on="1"/>
+        <pt x="222" y="0" on="1"/>
+        <pt x="405" y="488" on="1"/>
+        <pt x="182" y="488" on="1"/>
+        <pt x="182" y="410" on="1"/>
+        <pt x="88" y="410" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          59
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="six" xMin="86" yMin="-9" xMax="504" yMax="592">
+      <contour>
+        <pt x="483" y="590" on="1"/>
+        <pt x="489" y="502" on="1"/>
+        <pt x="482" y="502" on="0"/>
+        <pt x="469" y="504" on="0"/>
+        <pt x="462" y="505" on="1"/>
+        <pt x="458" y="505" on="0"/>
+        <pt x="451" y="506" on="0"/>
+        <pt x="448" y="507" on="1"/>
+        <pt x="438" y="508" on="0"/>
+        <pt x="417" y="510" on="0"/>
+        <pt x="407" y="510" on="1"/>
+        <pt x="393" y="510" on="0"/>
+        <pt x="359" y="504" on="0"/>
+        <pt x="341" y="499" on="1"/>
+        <pt x="319" y="493" on="0"/>
+        <pt x="277" y="475" on="0"/>
+        <pt x="263" y="466" on="1"/>
+        <pt x="232" y="445" on="0"/>
+        <pt x="198" y="382" on="0"/>
+        <pt x="187" y="321" on="1"/>
+        <pt x="213" y="345" on="0"/>
+        <pt x="276" y="368" on="0"/>
+        <pt x="316" y="368" on="1"/>
+        <pt x="396" y="368" on="0"/>
+        <pt x="504" y="260" on="0"/>
+        <pt x="504" y="180" on="1"/>
+        <pt x="504" y="99" on="0"/>
+        <pt x="391" y="-9" on="0"/>
+        <pt x="306" y="-9" on="1"/>
+        <pt x="207" y="-9" on="0"/>
+        <pt x="86" y="142" on="0"/>
+        <pt x="86" y="266" on="1"/>
+        <pt x="86" y="419" on="0"/>
+        <pt x="264" y="592" on="0"/>
+        <pt x="421" y="592" on="1"/>
+        <pt x="424" y="592" on="0"/>
+        <pt x="430" y="592" on="0"/>
+        <pt x="432" y="592" on="1"/>
+        <pt x="442" y="592" on="0"/>
+        <pt x="465" y="590" on="0"/>
+        <pt x="483" y="589" on="1"/>
+      </contour>
+      <contour>
+        <pt x="189" y="196" on="1"/>
+        <pt x="198" y="140" on="0"/>
+        <pt x="263" y="77" on="0"/>
+        <pt x="309" y="77" on="1"/>
+        <pt x="351" y="77" on="0"/>
+        <pt x="406" y="132" on="0"/>
+        <pt x="406" y="175" on="1"/>
+        <pt x="406" y="222" on="0"/>
+        <pt x="352" y="280" on="0"/>
+        <pt x="308" y="280" on="1"/>
+        <pt x="270" y="280" on="0"/>
+        <pt x="215" y="240" on="0"/>
+        <pt x="189" y="195" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          58
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="slash" xMin="68" yMin="-104" xMax="549" yMax="677">
+      <contour>
+        <pt x="452" y="677" on="1"/>
+        <pt x="549" y="677" on="1"/>
+        <pt x="164" y="-104" on="1"/>
+        <pt x="68" y="-104" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          63
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="space"/><!-- contains no outline data -->
+
+    <TTGlyph name="t" xMin="80" yMin="-10" xMax="544" yMax="574">
+      <contour>
+        <pt x="156" y="574" on="1"/>
+        <pt x="250" y="574" on="1"/>
+        <pt x="250" y="434" on="1"/>
+        <pt x="500" y="434" on="1"/>
+        <pt x="500" y="348" on="1"/>
+        <pt x="250" y="348" on="1"/>
+        <pt x="250" y="195" on="1"/>
+        <pt x="250" y="122" on="0"/>
+        <pt x="280" y="75" on="0"/>
+        <pt x="326" y="75" on="1"/>
+        <pt x="382" y="75" on="0"/>
+        <pt x="484" y="123" on="0"/>
+        <pt x="531" y="152" on="1"/>
+        <pt x="534" y="154" on="0"/>
+        <pt x="541" y="158" on="0"/>
+        <pt x="544" y="160" on="1"/>
+        <pt x="544" y="66" on="1"/>
+        <pt x="496" y="35" on="0"/>
+        <pt x="391" y="-10" on="0"/>
+        <pt x="332" y="-10" on="1"/>
+        <pt x="285" y="-10" on="0"/>
+        <pt x="207" y="23" on="0"/>
+        <pt x="185" y="52" on="1"/>
+        <pt x="181" y="58" on="0"/>
+        <pt x="174" y="68" on="0"/>
+        <pt x="171" y="73" on="1"/>
+        <pt x="161" y="90" on="0"/>
+        <pt x="156" y="137" on="0"/>
+        <pt x="156" y="192" on="1"/>
+        <pt x="156" y="348" on="1"/>
+        <pt x="80" y="348" on="1"/>
+        <pt x="80" y="434" on="1"/>
+        <pt x="156" y="434" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          19
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="three" xMin="93" yMin="-10" xMax="520" yMax="583">
+      <contour>
+        <pt x="107" y="506" on="1"/>
+        <pt x="150" y="539" on="0"/>
+        <pt x="244" y="583" on="0"/>
+        <pt x="300" y="583" on="1"/>
+        <pt x="379" y="583" on="0"/>
+        <pt x="487" y="496" on="0"/>
+        <pt x="487" y="432" on="1"/>
+        <pt x="487" y="405" on="0"/>
+        <pt x="477" y="366" on="0"/>
+        <pt x="465" y="348" on="1"/>
+        <pt x="459" y="339" on="0"/>
+        <pt x="444" y="322" on="0"/>
+        <pt x="435" y="313" on="1"/>
+        <pt x="476" y="290" on="0"/>
+        <pt x="520" y="218" on="0"/>
+        <pt x="520" y="173" on="1"/>
+        <pt x="520" y="91" on="0"/>
+        <pt x="396" y="-10" on="0"/>
+        <pt x="297" y="-10" on="1"/>
+        <pt x="271" y="-10" on="0"/>
+        <pt x="226" y="-5" on="0"/>
+        <pt x="204" y="0" on="1"/>
+        <pt x="178" y="7" on="0"/>
+        <pt x="125" y="32" on="0"/>
+        <pt x="93" y="51" on="1"/>
+        <pt x="130" y="130" on="1"/>
+        <pt x="174" y="106" on="0"/>
+        <pt x="234" y="82" on="0"/>
+        <pt x="262" y="78" on="1"/>
+        <pt x="270" y="77" on="0"/>
+        <pt x="288" y="76" on="0"/>
+        <pt x="297" y="76" on="1"/>
+        <pt x="354" y="76" on="0"/>
+        <pt x="423" y="129" on="0"/>
+        <pt x="423" y="172" on="1"/>
+        <pt x="423" y="216" on="0"/>
+        <pt x="358" y="262" on="0"/>
+        <pt x="298" y="262" on="1"/>
+        <pt x="291" y="262" on="0"/>
+        <pt x="266" y="261" on="0"/>
+        <pt x="249" y="260" on="1"/>
+        <pt x="249" y="345" on="1"/>
+        <pt x="326" y="345" on="0"/>
+        <pt x="388" y="382" on="0"/>
+        <pt x="388" y="426" on="1"/>
+        <pt x="388" y="457" on="0"/>
+        <pt x="338" y="497" on="0"/>
+        <pt x="297" y="497" on="1"/>
+        <pt x="263" y="497" on="0"/>
+        <pt x="191" y="467" on="0"/>
+        <pt x="152" y="435" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          55
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="two" xMin="62" yMin="0" xMax="493" yMax="583">
+      <contour>
+        <pt x="397" y="171" on="1"/>
+        <pt x="491" y="171" on="1"/>
+        <pt x="491" y="0" on="1"/>
+        <pt x="62" y="0" on="1"/>
+        <pt x="62" y="78" on="1"/>
+        <pt x="115" y="146" on="0"/>
+        <pt x="252" y="252" on="0"/>
+        <pt x="324" y="301" on="1"/>
+        <pt x="327" y="303" on="0"/>
+        <pt x="332" y="307" on="0"/>
+        <pt x="335" y="309" on="1"/>
+        <pt x="349" y="319" on="0"/>
+        <pt x="369" y="336" on="0"/>
+        <pt x="376" y="344" on="1"/>
+        <pt x="386" y="357" on="0"/>
+        <pt x="395" y="384" on="0"/>
+        <pt x="395" y="402" on="1"/>
+        <pt x="395" y="441" on="0"/>
+        <pt x="327" y="497" on="0"/>
+        <pt x="280" y="497" on="1"/>
+        <pt x="231" y="497" on="0"/>
+        <pt x="175" y="457" on="0"/>
+        <pt x="175" y="422" on="1"/>
+        <pt x="175" y="420" on="0"/>
+        <pt x="175" y="416" on="0"/>
+        <pt x="175" y="414" on="1"/>
+        <pt x="175" y="412" on="0"/>
+        <pt x="176" y="408" on="0"/>
+        <pt x="176" y="406" on="1"/>
+        <pt x="79" y="407" on="1"/>
+        <pt x="79" y="493" on="1"/>
+        <pt x="120" y="536" on="0"/>
+        <pt x="223" y="583" on="0"/>
+        <pt x="283" y="583" on="1"/>
+        <pt x="371" y="583" on="0"/>
+        <pt x="493" y="477" on="0"/>
+        <pt x="493" y="400" on="1"/>
+        <pt x="493" y="360" on="0"/>
+        <pt x="454" y="285" on="0"/>
+        <pt x="421" y="261" on="1"/>
+        <pt x="285" y="163" on="1"/>
+        <pt x="278" y="156" on="0"/>
+        <pt x="262" y="143" on="0"/>
+        <pt x="255" y="137" on="1"/>
+        <pt x="240" y="124" on="0"/>
+        <pt x="210" y="99" on="0"/>
+        <pt x="195" y="85" on="1"/>
+        <pt x="397" y="86" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          54
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="u" xMin="16" yMin="-10" xMax="584" yMax="454">
+      <contour>
+        <pt x="190" y="454" on="1"/>
+        <pt x="190" y="182" on="1"/>
+        <pt x="190" y="125" on="0"/>
+        <pt x="230" y="75" on="0"/>
+        <pt x="276" y="75" on="1"/>
+        <pt x="285" y="75" on="0"/>
+        <pt x="302" y="78" on="0"/>
+        <pt x="311" y="80" on="1"/>
+        <pt x="338" y="88" on="0"/>
+        <pt x="389" y="126" on="0"/>
+        <pt x="409" y="153" on="1"/>
+        <pt x="409" y="368" on="1"/>
+        <pt x="330" y="368" on="1"/>
+        <pt x="330" y="454" on="1"/>
+        <pt x="503" y="454" on="1"/>
+        <pt x="503" y="87" on="1"/>
+        <pt x="584" y="87" on="1"/>
+        <pt x="584" y="0" on="1"/>
+        <pt x="410" y="0" on="1"/>
+        <pt x="410" y="39" on="1"/>
+        <pt x="377" y="13" on="0"/>
+        <pt x="309" y="-10" on="0"/>
+        <pt x="271" y="-10" on="1"/>
+        <pt x="231" y="-10" on="0"/>
+        <pt x="162" y="15" on="0"/>
+        <pt x="139" y="38" on="1"/>
+        <pt x="138" y="39" on="0"/>
+        <pt x="136" y="41" on="0"/>
+        <pt x="135" y="42" on="1"/>
+        <pt x="113" y="66" on="0"/>
+        <pt x="97" y="123" on="0"/>
+        <pt x="97" y="178" on="1"/>
+        <pt x="97" y="368" on="1"/>
+        <pt x="16" y="368" on="1"/>
+        <pt x="16" y="454" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          20
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="v" xMin="4" yMin="0" xMax="596" yMax="454">
+      <contour>
+        <pt x="190" y="368" on="1"/>
+        <pt x="303" y="128" on="1"/>
+        <pt x="417" y="368" on="1"/>
+        <pt x="352" y="368" on="1"/>
+        <pt x="352" y="454" on="1"/>
+        <pt x="596" y="454" on="1"/>
+        <pt x="596" y="368" on="1"/>
+        <pt x="520" y="368" on="1"/>
+        <pt x="344" y="0" on="1"/>
+        <pt x="263" y="0" on="1"/>
+        <pt x="85" y="368" on="1"/>
+        <pt x="4" y="368" on="1"/>
+        <pt x="4" y="454" on="1"/>
+        <pt x="255" y="454" on="1"/>
+        <pt x="255" y="368" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          21
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="w" xMin="-2" yMin="0" xMax="603" yMax="454">
+      <contour>
+        <pt x="143" y="368" on="1"/>
+        <pt x="201" y="171" on="1"/>
+        <pt x="270" y="379" on="1"/>
+        <pt x="339" y="379" on="1"/>
+        <pt x="407" y="172" on="1"/>
+        <pt x="465" y="368" on="1"/>
+        <pt x="397" y="368" on="1"/>
+        <pt x="397" y="454" on="1"/>
+        <pt x="603" y="454" on="1"/>
+        <pt x="603" y="368" on="1"/>
+        <pt x="562" y="368" on="1"/>
+        <pt x="454" y="0" on="1"/>
+        <pt x="366" y="0" on="1"/>
+        <pt x="304" y="191" on="1"/>
+        <pt x="241" y="0" on="1"/>
+        <pt x="155" y="0" on="1"/>
+        <pt x="45" y="368" on="1"/>
+        <pt x="-2" y="368" on="1"/>
+        <pt x="-2" y="454" on="1"/>
+        <pt x="214" y="454" on="1"/>
+        <pt x="214" y="368" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          22
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="x" xMin="11" yMin="0" xMax="588" yMax="454">
+      <contour>
+        <pt x="297" y="301" on="1"/>
+        <pt x="365" y="368" on="1"/>
+        <pt x="324" y="368" on="1"/>
+        <pt x="324" y="454" on="1"/>
+        <pt x="566" y="454" on="1"/>
+        <pt x="566" y="368" on="1"/>
+        <pt x="494" y="368" on="1"/>
+        <pt x="362" y="237" on="1"/>
+        <pt x="516" y="86" on="1"/>
+        <pt x="588" y="86" on="1"/>
+        <pt x="588" y="0" on="1"/>
+        <pt x="337" y="0" on="1"/>
+        <pt x="337" y="86" on="1"/>
+        <pt x="388" y="86" on="1"/>
+        <pt x="298" y="174" on="1"/>
+        <pt x="209" y="86" on="1"/>
+        <pt x="260" y="86" on="1"/>
+        <pt x="260" y="0" on="1"/>
+        <pt x="11" y="0" on="1"/>
+        <pt x="11" y="86" on="1"/>
+        <pt x="79" y="86" on="1"/>
+        <pt x="233" y="238" on="1"/>
+        <pt x="100" y="368" on="1"/>
+        <pt x="28" y="368" on="1"/>
+        <pt x="28" y="454" on="1"/>
+        <pt x="269" y="454" on="1"/>
+        <pt x="269" y="368" on="1"/>
+        <pt x="228" y="368" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          23
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="y" xMin="1" yMin="-143" xMax="579" yMax="454">
+      <contour>
+        <pt x="179" y="368" on="1"/>
+        <pt x="299" y="143" on="1"/>
+        <pt x="411" y="368" on="1"/>
+        <pt x="354" y="368" on="1"/>
+        <pt x="354" y="454" on="1"/>
+        <pt x="579" y="454" on="1"/>
+        <pt x="579" y="368" on="1"/>
+        <pt x="511" y="368" on="1"/>
+        <pt x="248" y="-143" on="1"/>
+        <pt x="24" y="-143" on="1"/>
+        <pt x="24" y="-57" on="1"/>
+        <pt x="194" y="-57" on="1"/>
+        <pt x="245" y="50" on="1"/>
+        <pt x="74" y="368" on="1"/>
+        <pt x="1" y="368" on="1"/>
+        <pt x="1" y="454" on="1"/>
+        <pt x="238" y="454" on="1"/>
+        <pt x="238" y="368" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          24
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="z" xMin="85" yMin="0" xMax="514" yMax="454">
+      <contour>
+        <pt x="94" y="454" on="1"/>
+        <pt x="514" y="454" on="1"/>
+        <pt x="514" y="385" on="1"/>
+        <pt x="227" y="86" on="1"/>
+        <pt x="420" y="86" on="1"/>
+        <pt x="420" y="173" on="1"/>
+        <pt x="514" y="173" on="1"/>
+        <pt x="514" y="0" on="1"/>
+        <pt x="85" y="0" on="1"/>
+        <pt x="85" y="69" on="1"/>
+        <pt x="371" y="368" on="1"/>
+        <pt x="188" y="368" on="1"/>
+        <pt x="188" y="282" on="1"/>
+        <pt x="94" y="282" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          25
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="zero" xMin="93" yMin="-10" xMax="508" yMax="583">
+      <contour>
+        <pt x="508" y="287" on="1"/>
+        <pt x="508" y="143" on="0"/>
+        <pt x="401" y="-10" on="0"/>
+        <pt x="300" y="-10" on="1"/>
+        <pt x="201" y="-10" on="0"/>
+        <pt x="93" y="141" on="0"/>
+        <pt x="93" y="280" on="1"/>
+        <pt x="93" y="429" on="0"/>
+        <pt x="199" y="583" on="0"/>
+        <pt x="300" y="583" on="1"/>
+        <pt x="401" y="583" on="0"/>
+        <pt x="508" y="430" on="0"/>
+        <pt x="508" y="286" on="1"/>
+      </contour>
+      <contour>
+        <pt x="409" y="287" on="1"/>
+        <pt x="409" y="387" on="0"/>
+        <pt x="353" y="497" on="0"/>
+        <pt x="300" y="497" on="1"/>
+        <pt x="248" y="497" on="0"/>
+        <pt x="191" y="387" on="0"/>
+        <pt x="191" y="286" on="1"/>
+        <pt x="191" y="185" on="0"/>
+        <pt x="248" y="75" on="0"/>
+        <pt x="300" y="75" on="1"/>
+        <pt x="353" y="75" on="0"/>
+        <pt x="409" y="185" on="0"/>
+        <pt x="409" y="286" on="1"/>
+      </contour>
+      <instructions><assembly>
+          PUSH[ ]	/* 2 values pushed */
+          99 99
+          RS[ ]	/* ReadStore */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSH[ ]	/* 1 value pushed */
+          52
+          WS[ ]	/* WriteStore */
+          PUSH[ ]	/* 1 value pushed */
+          1
+          ADD[ ]	/* Add */
+          WS[ ]	/* WriteStore */
+        </assembly></instructions>
+    </TTGlyph>
+
+  </glyf>
+
+  <name>
+    <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      good luck
+    </namerecord>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      BizarroSSTIC
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      FontForge 2.0 : BizarroSSTIC : 21-1-2016
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      BizarroSSTIC
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Version 3.14159 
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      BizarroSSTIC
+    </namerecord>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      good luck
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      BizarroSSTIC
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      FontForge 2.0 : BizarroSSTIC : 21-1-2016
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      BizarroSSTIC
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 3.14159 
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      BizarroSSTIC
+    </namerecord>
+  </name>
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-130"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="1"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+    </extraNames>
+  </post>
+
+  <gasp>
+    <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="2"/>
+  </gasp>
+
+  <FFTM>
+    <!-- FontForge's timestamp, font source creation and modification dates -->
+    <version value="1"/>
+    <FFTimeStamp value="Thu Aug 27 01:10:29 2015"/>
+    <sourceCreated value="Thu Jan  1 00:00:00 1970"/>
+    <sourceModified value="Thu Jan 21 09:21:20 2016"/>
+  </FFTM>
+
+  <GDEF>
+    <Version value="1.0"/>
+    <LigCaretList>
+      <Coverage>
+      </Coverage>
+      <!-- LigGlyphCount=0 -->
+    </LigCaretList>
+    <MarkAttachClassDef>
+      <ClassDef glyph=".notdef" class="0"/>
+    </MarkAttachClassDef>
+  </GDEF>
+
+</ttFont>

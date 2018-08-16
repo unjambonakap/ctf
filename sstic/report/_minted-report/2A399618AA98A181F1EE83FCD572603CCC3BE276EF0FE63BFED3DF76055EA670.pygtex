@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+Lbl 19
+ClrHome
+If A=3298472535:Then
+Z\PYGZhy{}\PYGZgt{}rand
+21\PYGZhy{}\PYGZgt{}S
+1\PYGZhy{}\PYGZgt{}X
+4\PYGZhy{}\PYGZgt{}Y
+Output(3,7,\PYGZdq{}KEY:\PYGZdq{})
+Goto 21
+Else
+Output(3,6,\PYGZdq{}PERDU\PYGZdq{})
+End
+Goto X
+\end{Verbatim}

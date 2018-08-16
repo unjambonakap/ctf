@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+from chdrft.waf.opa import WafBuilder
+
+x = WafBuilder(globals())
+x.create_conf(x.typ.SAMPLE, 'pptp').update(
+    sources='./solve.cpp',
+    libs=[x.libs.Common_N, x.libs.Crypto_N, x.libs.Threading_N
+          ],
+    binary=True)
+x.setup()

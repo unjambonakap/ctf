@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{color\PYGZus{}tb}\PYG{o}{=}\PYG{n}{something} \PYG{c+c1}{\PYGZsh{} static data, taille 8}
+\PYG{n}{cur\PYGZus{}idx}\PYG{o}{=}\PYG{n}{something\PYGZus{}else} \PYG{c+c1}{\PYGZsh{} pour premier char, 6}
+  \PYG{n}{reg\PYGZus{}char}\PYG{o}{=}\PYG{n}{read}\PYG{p}{()} \PYG{o}{\PYGZca{}} \PYG{n}{xorpad}\PYG{p}{[}\PYG{n}{cur\PYGZus{}step}\PYG{p}{]} \PYG{c+c1}{\PYGZsh{} xorpad en static data}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+  \PYG{n}{cur\PYGZus{}idx} \PYG{o}{+=} \PYG{n}{reg\PYGZus{}char} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{7} \PYG{o}{+} \PYG{l+m+mi}{1}
+  \PYG{n}{reg\PYGZus{}char} \PYG{o}{=} \PYG{n}{reg\PYGZus{}char} \PYG{o}{//} \PYG{l+m+mi}{7} \PYG{o}{+} \PYG{l+m+mi}{1}
+  \PYG{n}{push}\PYG{p}{(}\PYG{n}{color\PYGZus{}tb}\PYG{p}{[}\PYG{n}{cur\PYGZus{}idx}\PYG{p}{])} \PYG{c+c1}{\PYGZsh{} envoyer données au thread principal}
+\end{Verbatim}

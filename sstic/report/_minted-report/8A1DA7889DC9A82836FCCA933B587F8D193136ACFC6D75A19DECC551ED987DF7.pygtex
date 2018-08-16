@@ -1,0 +1,58 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{()} \PYG{p}{\PYGZob{}}
+  \PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{n}{pair}\PYG{o}{\PYGZlt{}}\PYG{n}{u64}\PYG{p}{,} \PYG{n}{u64}\PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZgt{}} \PYG{n}{blocks}\PYG{p}{;}
+  \PYG{n}{blocks}\PYG{p}{.}\PYG{n}{pb}\PYG{p}{(}\PYG{n}{MP}\PYG{p}{(}\PYG{n}{blk\PYGZus{}size} \PYG{o}{*} \PYG{l+m+mi}{1} \PYG{o}{+} \PYG{l+m+mi}{64}\PYG{p}{,} \PYG{n}{blk\PYGZus{}size} \PYG{o}{*} \PYG{l+m+mi}{2} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{64}\PYG{p}{));}
+  \PYG{n}{blocks}\PYG{p}{.}\PYG{n}{pb}\PYG{p}{(}\PYG{n}{MP}\PYG{p}{(}\PYG{n}{blk\PYGZus{}size} \PYG{o}{*} \PYG{l+m+mi}{2097155}\PYG{p}{,} \PYG{n}{blk\PYGZus{}size} \PYG{o}{*} \PYG{l+m+mo}{02046}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{64}\PYG{p}{));}
+  \PYG{c+c1}{//blocks.pb(MP(blk\PYGZus{}size * 0x0003147776, blk\PYGZus{}size * 1));}
+
+  \PYG{k+kt}{int} \PYG{n}{len} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+  \PYG{k}{for} \PYG{p}{(}\PYG{k}{auto} \PYG{o}{\PYGZam{}}\PYG{n+nl}{a} \PYG{p}{:} \PYG{n}{blocks}\PYG{p}{)}
+    \PYG{n}{len} \PYG{o}{+=} \PYG{n}{a}\PYG{p}{.}\PYG{n}{ND}\PYG{p}{;}
+
+  \PYG{n}{u8} \PYG{o}{*}\PYG{n}{buf} \PYG{o}{=} \PYG{k}{new} \PYG{n}{u8}\PYG{p}{[}\PYG{n}{len}\PYG{p}{];}
+  \PYG{k+kt}{FILE} \PYG{o}{*}\PYG{n}{f} \PYG{o}{=} \PYG{n}{fopen}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}./img\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}rb\PYGZdq{}}\PYG{p}{);}
+  \PYG{n}{u64} \PYG{n}{buf\PYGZus{}pos} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+
+  \PYG{k}{for} \PYG{p}{(}\PYG{k}{auto} \PYG{o}{\PYGZam{}}\PYG{n+nl}{a} \PYG{p}{:} \PYG{n}{blocks}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{n}{fseeko}\PYG{p}{(}\PYG{n}{f}\PYG{p}{,} \PYG{n}{a}\PYG{p}{.}\PYG{n}{ST}\PYG{p}{,} \PYG{n}{SEEK\PYGZus{}SET}\PYG{p}{);}
+    \PYG{n}{fread}\PYG{p}{(}\PYG{n}{buf} \PYG{o}{+} \PYG{n}{buf\PYGZus{}pos}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{a}\PYG{p}{.}\PYG{n}{ND}\PYG{p}{,} \PYG{n}{f}\PYG{p}{);}
+    \PYG{n}{buf\PYGZus{}pos} \PYG{o}{+=} \PYG{n}{a}\PYG{p}{.}\PYG{n}{ND}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+
+  \PYG{k+kt}{char} \PYG{n}{ctx}\PYG{p}{[}\PYG{l+m+mi}{1000}\PYG{p}{];}
+  \PYG{n}{init\PYGZus{}rc5}\PYG{p}{(}\PYG{n}{ctx}\PYG{p}{);}
+
+  \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{len}\PYG{p}{;} \PYG{n}{i} \PYG{o}{+=} \PYG{l+m+mh}{0x10}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{n}{decrypt\PYGZus{}rc5}\PYG{p}{(}\PYG{n}{ctx}\PYG{p}{,} \PYG{n}{buf} \PYG{o}{+} \PYG{n}{i}\PYG{p}{);}
+  \PYG{p}{\PYGZcb{}}
+  \PYG{k}{struct} \PYG{n}{fileentry} \PYG{p}{\PYGZob{}}
+    \PYG{n}{u32} \PYG{n}{size}\PYG{p}{;}
+    \PYG{n}{u8} \PYG{n}{drand}\PYG{p}{[}\PYG{l+m+mh}{0x10}\PYG{p}{];}
+    \PYG{n}{u8} \PYG{n}{dhash}\PYG{p}{[}\PYG{l+m+mh}{0x10}\PYG{p}{];}
+    \PYG{k+kt}{char} \PYG{n}{content}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{];}
+  \PYG{p}{\PYGZcb{};}
+
+  \PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{n}{fileentry} \PYG{o}{*\PYGZgt{}} \PYG{n}{entries}\PYG{p}{;}
+  \PYG{k+kt}{int} \PYG{n}{pos} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+  \PYG{k+kt}{int} \PYG{n}{fileid}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}
+  \PYG{k}{while} \PYG{p}{(}\PYG{n+nb}{true}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n}{pos} \PYG{o}{\PYGZgt{}=} \PYG{n}{len}\PYG{p}{)}
+      \PYG{k}{break}\PYG{p}{;}
+    \PYG{n}{fileentry} \PYG{o}{*}\PYG{n}{cur}\PYG{o}{=}\PYG{p}{(}\PYG{n}{fileentry} \PYG{o}{*}\PYG{p}{)(}\PYG{n}{buf} \PYG{o}{+} \PYG{n}{pos}\PYG{p}{);}
+    \PYG{n}{entries}\PYG{p}{.}\PYG{n}{pb}\PYG{p}{(}\PYG{n}{cur}\PYG{p}{);}
+    \PYG{n}{pos} \PYG{o}{+=} \PYG{n}{cur}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{size}\PYG{o}{+}\PYG{l+m+mh}{0x24}\PYG{p}{;}
+    \PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}got entry \PYGZgt{}\PYGZgt{} \PYGZpc{}x, \PYGZpc{}x \PYGZpc{}x}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{cur}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{size}\PYG{p}{,} \PYG{n}{pos}\PYG{p}{,} \PYG{n}{len}\PYG{p}{);}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n}{pos}\PYG{o}{\PYGZlt{}=}\PYG{n}{len}\PYG{p}{)\PYGZob{}}
+      \PYG{k+kt}{char} \PYG{n}{fname}\PYG{p}{[}\PYG{l+m+mi}{100}\PYG{p}{];}
+      \PYG{n}{sprintf}\PYG{p}{(}\PYG{n}{fname}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}./files/res\PYGZus{}\PYGZpc{}02d.out\PYGZdq{}}\PYG{p}{,} \PYG{n}{fileid}\PYG{p}{);}
+      \PYG{n}{std}\PYG{o}{::}\PYG{n}{ofstream} \PYG{n}{ofs}\PYG{p}{(}\PYG{n}{fname}\PYG{p}{,} \PYG{n}{std}\PYG{o}{::}\PYG{n}{ofstream}\PYG{o}{::}\PYG{n}{binary}\PYG{p}{);}
+      \PYG{n}{ofs}\PYG{p}{.}\PYG{n}{write}\PYG{p}{((}\PYG{k}{const} \PYG{k+kt}{char}\PYG{o}{*}\PYG{p}{)}\PYG{n}{cur}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{drand}\PYG{p}{,} \PYG{l+m+mh}{0x10}\PYG{p}{);}
+      \PYG{n}{ofs}\PYG{p}{.}\PYG{n}{write}\PYG{p}{((}\PYG{k}{const} \PYG{k+kt}{char}\PYG{o}{*}\PYG{p}{)}\PYG{n}{cur}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{dhash}\PYG{p}{,} \PYG{l+m+mh}{0x10}\PYG{p}{);}
+      \PYG{n}{ofs}\PYG{p}{.}\PYG{n}{write}\PYG{p}{((}\PYG{k}{const} \PYG{k+kt}{char}\PYG{o}{*}\PYG{p}{)}\PYG{n}{cur}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{content}\PYG{p}{,} \PYG{n}{cur}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{size}\PYG{p}{);}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{o}{++}\PYG{n}{fileid}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+
+  \PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

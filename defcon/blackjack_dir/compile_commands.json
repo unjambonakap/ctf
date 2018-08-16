@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/benoit/programmation/hack/defcon/blackjack_dir",
+  "command": "gcc -m32 -fPIC -c random.c random_r.c",
+  "file": "/home/benoit/programmation/hack/defcon/blackjack_dir/random.c"
+}
+,
+{
+  "directory": "/home/benoit/programmation/hack/defcon/blackjack_dir",
+  "command": "g++ -m32 -shared -fPIC appServer.cpp random.o random_r.o trampoline.o -o appServer.so -I/home/benoit/opt32/include/python2.7 -L/home/benoit/opt32/lib/ -lpython2.7 -ldl -lpthread",
+  "file": "/home/benoit/programmation/hack/defcon/blackjack_dir/appServer.cpp"
+}
+]
