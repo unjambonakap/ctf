@@ -1,0 +1,163 @@
+SETTING m32 False
+SETTING m32 True
+SETTING m32 None
+SETTING m32 False
+user_regs_struct
+unsigned long long
+
+elf_prstatus
+elf_siginfo
+int
+short
+unsigned long
+timeval
+long
+unsigned long long [27]
+sigaction
+sigaction::(anonymous union at /usr/include/bits/sigaction.h:31:5)
+void (*)(int)
+void (int)
+void (*)(int, siginfo_t *, void *)
+void (int, siginfo_t *, void *)
+siginfo_t *
+siginfo_t
+siginfo_t::(anonymous union at /usr/include/bits/types/siginfo_t.h:51:5)
+int [28]
+siginfo_t::(anonymous struct at /usr/include/bits/types/siginfo_t.h:56:2)
+unsigned int
+siginfo_t::(anonymous struct at /usr/include/bits/types/siginfo_t.h:63:2)
+sigval
+void *
+void
+siginfo_t::(anonymous struct at /usr/include/bits/types/siginfo_t.h:71:2)
+siginfo_t::(anonymous struct at /usr/include/bits/types/siginfo_t.h:79:2)
+siginfo_t::(anonymous struct at /usr/include/bits/types/siginfo_t.h:89:2)
+siginfo_t::(anonymous union at /usr/include/bits/types/siginfo_t.h:94:6)
+siginfo_t::(anonymous struct at /usr/include/bits/types/siginfo_t.h:97:3)
+siginfo_t::(anonymous struct at /usr/include/bits/types/siginfo_t.h:108:2)
+siginfo_t::(anonymous struct at /usr/include/bits/types/siginfo_t.h:116:2)
+__sigset_t
+unsigned long [16]
+void (*)()
+void ()
+int (int, const sigaction *, sigaction *)
+const sigaction *
+const sigaction
+sigaction *
+const sigaction *__restrict
+sigaction *__restrict
+laaa 128
+GOT LE >>  True
+ pr_reg
+   - r15: 0x0
+   - r14: 0x0
+   - r13: 0x7fffffffcd40
+   - r12: 0x400ad0
+   - rbp: 0x403c30
+   - rbx: 0x0
+   - r11: 0x7ffff7dd8f10
+   - r10: 0xfffffffffffff5f6
+   - r9: 0x7ffff7f74be0
+   - r8: 0x7ffff7f74be0
+   - rax: 0x4038d4
+   - rcx: 0x7ffff7f73578
+   - rdx: 0x7fffffffcd58
+   - rsi: 0x7fffffffcd48
+   - rdi: 0x1
+   - orig_rax: 0xffffffffffffffff
+   - rip: 0x4038d4
+   - cs: 0x33
+   - eflags: 0x246
+   - rsp: 0x7fffffffcc68
+   - ss: 0x2b
+   - fs_base: 0x7ffff7f7a540
+   - gs_base: 0x0
+   - ds: 0x0
+   - es: 0x0
+   - fs: 0x55b800000000
+   - gs: 0x55b800000000
+-6916294210564036354
+-6916294210564036354
+-6916294210564036354
+-8528132815840748467
+-6916294210564036354
+inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+likehot ine  HfaceAh,thi ll .inrds owthege ofno w  bl yong  isinurthexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+aceeisAh,in.in gurllofng likno wtherfe ds  ine  Hhot thi blow  the yoxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+owe the acegng urf  ble inethino winhotds  HisllAh,lik yothew in rof.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+noethi. inofng inre     Huracell whot yothee g inowtheds f bllikAh,isxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+raa.gaaaaaaaaaaaaa a yo ble inatheaaaisaaaaaaaaa waaaaaaaaaaaaa Haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ON SRAND
+PUTS >>  b'Welcome to the ever changing magic mushroom!'
+printf >>  b'%d trials lie ahead of you!\n'
+printf >>  b'Challenge %d/%d. Enter key: '
+HOOK >>  bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+ON ROUND >>  0
+0 3 2 4197461 6312224
+ON POLYCHECK >>  1 1 3 2 0 0x400c55 0x605120 0x7fffffffcac0
+FOUND FOR b'ds ' 2 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'ds ')
+1 2 44 4202013 6312512
+ON POLYCHECK >>  1 1 2 44 1 0x401e1d 0x605240 0x7fffffffcac0
+FOUND FOR b'in' 44 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'in')
+2 1 16 4200046 6312800
+ON POLYCHECK >>  1 1 1 16 2 0x40166e 0x605360 0x7fffffffcac0
+FOUND FOR b'.' 16 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'.')
+3 3 7 4197920 6313088
+ON POLYCHECK >>  1 1 3 7 3 0x400e20 0x605480 0x7fffffffcac0
+FOUND FOR b'ng ' 7 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'ng ')
+4 1 63 4204455 6313376
+ON POLYCHECK >>  1 1 1 63 4 0x4027a7 0x6055a0 0x7fffffffcac0
+FOUND FOR b' ' 63 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b' ')
+5 3 57 4204004 6313664
+ON POLYCHECK >>  1 1 3 57 5 0x4025e4 0x6056c0 0x7fffffffcac0
+FOUND FOR b'hot' 57 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'hot')
+6 2 48 4202596 6313952
+ON POLYCHECK >>  1 1 2 48 6 0x402064 0x6057e0 0x7fffffffcac0
+FOUND FOR b'e ' 48 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'e ')
+7 3 30 4201012 6314240
+ON POLYCHECK >>  1 1 3 30 7 0x401a34 0x605900 0x7fffffffcac0
+FOUND FOR b'the' 30 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'the')
+8 1 10 4198686 6314528
+ON POLYCHECK >>  1 1 1 10 8 0x40111e 0x605a20 0x7fffffffcac0
+FOUND FOR b' ' 10 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b' ')
+9 3 60 4204331 6314816
+ON POLYCHECK >>  1 1 3 60 9 0x40272b 0x605b40 0x7fffffffcac0
+FOUND FOR b' in' 60 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b' in')
+10 1 13 4199576 6315104
+ON POLYCHECK >>  1 1 1 13 10 0x401498 0x605c60 0x7fffffffcac0
+FOUND FOR b'g' 13 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'g')
+11 1 43 4201686 6315392
+ON POLYCHECK >>  1 1 1 43 11 0x401cd6 0x605d80 0x7fffffffcac0
+FOUND FOR b' ' 43 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b' ')
+12 1 56 4203861 6315680
+ON POLYCHECK >>  1 1 1 56 12 0x402555 0x605ea0 0x7fffffffcac0
+FOUND FOR b'r' 56 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'r')
+13 2 18 4200349 6315968
+ON POLYCHECK >>  1 1 2 18 13 0x40179d 0x605fc0 0x7fffffffcac0
+FOUND FOR b'e ' 18 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'e ')
+14 1 17 4200225 6316256
+ON POLYCHECK >>  1 1 1 17 14 0x401721 0x6060e0 0x7fffffffcac0
+FOUND FOR b' ' 17 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b' ')
+15 3 66 4205588 6316544
+ON POLYCHECK >>  1 1 3 66 15 0x402c14 0x606200 0x7fffffffcac0
+FOUND FOR b'ace' 66 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'ace')
+16 3 40 4201562 6316832
+ON POLYCHECK >>  1 1 3 40 16 0x401c5a 0x606320 0x7fffffffcac0
+FOUND FOR b'lik' 40 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'lik')
+17 1 46 4202340 6317120
+ON POLYCHECK >>  1 1 1 46 17 0x401f64 0x606440 0x7fffffffcac0
+FOUND FOR b'e' 46 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'e')
+18 2 0 4197318 6317408
+ON POLYCHECK >>  0 1 2 0 18 0x400bc6 0x606560 0x7fffffffcac0
+FOUND FOR b'in' 0 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'in')
+19 2 11 4198810 6317696
+ON POLYCHECK >>  1 1 2 11 19 0x40119a 0x606680 0x7fffffffcac0
+FOUND FOR b'll' 11 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'll')
+20 2 38 4201430 6317984
+ON POLYCHECK >>  1 1 2 38 20 0x401bd6 0x6067a0 0x7fffffffcac0
+FOUND FOR b'no' 38 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b'no')
+21 2 20 4200481 6318272
+ON POLYCHECK >>  1 1 2 20 21 0x401821 0x6068c0 0x7fffffffcac0
+FOUND FOR b' H' 20 bytearray(b'inds isng  llg w. e  HthitheoftheAh,urnolik inefe  yo blrhot in owacexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') bytearray(b' H')
+22 3 50 4202923 6318560
+ON POLYCHECK >>  1 1 3 50 22 0x4021ab

@@ -1,0 +1,310 @@
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'generic/sdk_phone_armv7/generic:5.1/LKY45/1737576:eng/test-keys'
+Revision: '0'
+ABI: 'arm'
+pid: 1197, tid: 1197, name: a.out  >>> ./a.out <<<
+signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x203022d4
+    r0 beadabf4  r1 20302030  r2 00000010  r3 000002a4
+    r4 ffffe45c  r5 beadc790  r6 000002ff  r7 beadca90
+    r8 beadca90  r9 00000000  sl 00000000  fp beadcaec
+    ip 00000000  sp beadabd8  lr b6f10e85  pc b6f10e8a  cpsr 00000030
+    d0  0000000000000000  d1  0000000000000000
+    d2  0000000000000000  d3  0000000000000000
+    d4  0000000000000000  d5  0000000000000000
+    d6  0000000000000000  d7  0000000000000000
+    d8  0000000000000000  d9  0000000000000000
+    d10 0000000000000000  d11 0000000000000000
+    d12 0000000000000000  d13 0000000000000000
+    d14 0000000000000000  d15 0000000000000000
+    d16 0000000000000000  d17 0000000000000000
+    d18 0000000000000000  d19 0000000000000000
+    d20 0000000000000000  d21 0000000000000000
+    d22 0000000000000000  d23 0000000000000000
+    d24 0000000000000000  d25 0000000000000000
+    d26 0000000000000000  d27 0000000000000000
+    d28 0000000000000000  d29 0000000000000000
+    d30 0000000000000000  d31 0000000000000000
+    scr 00000000
+
+backtrace:
+    #00 pc 00000e8a  /data/local/libvalidate.so (Java_com_flareon_flare_ValidateActivity_validate+37)
+    #01 pc 00000563  /data/local/a.out (main+146)
+    #02 pc 00012dc9  /system/lib/libc.so (__libc_init+44)
+    #03 pc 00000414  /data/local/a.out (_start+88)
+
+stack:
+         beadab98  00000000  
+         beadab9c  00000000  
+         beadaba0  00000000  
+         beadaba4  00000000  
+         beadaba8  00000000  
+         beadabac  00000000  
+         beadabb0  beadc790  [stack]
+         beadabb4  000002ff  
+         beadabb8  beadca90  [stack]
+         beadabbc  beadca90  [stack]
+         beadabc0  00000000  
+         beadabc4  00000000  
+         beadabc8  beadcaec  [stack]
+         beadabcc  beadabf4  [stack]
+         beadabd0  ffffe45c  
+         beadabd4  b6f10e85  /data/local/libvalidate.so (Java_com_flareon_flare_ValidateActivity_validate+32)
+    #00  beadabd8  00000000  
+         beadabdc  00000000  
+         beadabe0  04ad4001  
+         beadabe4  00000000  
+         beadabe8  00000000  
+         beadabec  00000000  
+         beadabf0  00000000  
+         beadabf4  b6f3a5d0  /data/local/libvalidate.so
+         beadabf8  b6f38aa8  /data/local/libvalidate.so
+         beadabfc  b6f36f80  /data/local/libvalidate.so
+         beadac00  b6f35458  /data/local/libvalidate.so
+         beadac04  b6f33930  /data/local/libvalidate.so
+         beadac08  b6f31e08  /data/local/libvalidate.so
+         beadac0c  b6f302e0  /data/local/libvalidate.so
+         beadac10  b6f2e7b8  /data/local/libvalidate.so
+         beadac14  b6f2cc90  /data/local/libvalidate.so
+         ........  ........
+    #01  beadc790  20302030  
+         beadc794  20302030  
+         beadc798  20302030  
+         beadc79c  20302030  
+         beadc7a0  20302030  
+         beadc7a4  20302030  
+         beadc7a8  00302030  
+         beadc7ac  e38482ae  
+         beadc7b0  b6ef6f64  
+         beadc7b4  b6ef6f58  
+         beadc7b8  b6ecac8d  /system/lib/libc.so (je_jemalloc_prefork)
+         beadc7bc  b6ecacdd  /system/lib/libc.so (je_jemalloc_postfork_parent)
+         beadc7c0  b6808d00  [anon:libc_malloc]
+         beadc7c4  b6808d40  [anon:libc_malloc]
+         beadc7c8  b6ef3870  
+         beadc7cc  b6ef386c  
+         ........  ........
+    #02  beadcac0  beadcad8  [stack]
+         beadcac4  00000000  
+         beadcac8  00000000  
+         beadcacc  00000000  
+         beadcad0  00000000  
+         beadcad4  b6f53418  /data/local/a.out (_start+92)
+    #03  beadcad8  b6f54ec4  /data/local/a.out
+         beadcadc  b6f54eb4  /data/local/a.out
+         beadcae0  b6f54eac  /data/local/a.out
+         beadcae4  b6f54ebc  /data/local/a.out
+         beadcae8  00000000  
+         beadcaec  b6f44123  /system/bin/linker (__dl__ZN6soinfoD2Ev+20)
+         beadcaf0  00000001  
+         beadcaf4  beadcbfc  [stack]
+         beadcaf8  00000000  
+         beadcafc  beadcc04  [stack]
+         beadcb00  beadcc0e  [stack]
+         beadcb04  beadcc21  [stack]
+         beadcb08  beadcc35  [stack]
+         beadcb0c  beadcc4e  [stack]
+         beadcb10  beadcc59  [stack]
+         beadcb14  beadcc63  [stack]
+
+memory near r0:
+    beadabd4 b6f10e85 00000000 00000000 04ad4001  
+    beadabe4 00000000 00000000 00000000 00000000  
+    beadabf4 b6f3a5d0 b6f38aa8 b6f36f80 b6f35458  
+    beadac04 b6f33930 b6f31e08 b6f302e0 b6f2e7b8  
+    beadac14 b6f2cc90 b6f2b168 b6f29640 b6f27b18  
+    beadac24 b6f25ff0 b6f244c8 b6f229a0 b6f20e78  
+    beadac34 b6f1f350 b6f1d828 b6f1bd00 b6f1a1d8  
+    beadac44 b6f186b0 b6f16b88 b6f15060 00000000  
+    beadac54 00000000 00000000 00000000 00000000  
+    beadac64 00000000 00000000 00000000 00000000  
+    beadac74 00000000 00000000 00000000 00000000  
+    beadac84 00000000 00000000 00000000 00000000  
+    beadac94 00000000 00000000 00000000 00000000  
+    beadaca4 00000000 00000000 00000000 00000000  
+    beadacb4 00000000 00000000 00000000 00000000  
+    beadacc4 00000000 00000000 00000000 00000000  
+
+memory near r1:
+    20302010 -------- -------- -------- --------  
+    20302020 -------- -------- -------- --------  
+    20302030 -------- -------- -------- --------  
+    20302040 -------- -------- -------- --------  
+    20302050 -------- -------- -------- --------  
+    20302060 -------- -------- -------- --------  
+    20302070 -------- -------- -------- --------  
+    20302080 -------- -------- -------- --------  
+    20302090 -------- -------- -------- --------  
+    203020a0 -------- -------- -------- --------  
+    203020b0 -------- -------- -------- --------  
+    203020c0 -------- -------- -------- --------  
+    203020d0 -------- -------- -------- --------  
+    203020e0 -------- -------- -------- --------  
+    203020f0 -------- -------- -------- --------  
+    20302100 -------- -------- -------- --------  
+
+memory near r5:
+    beadc770 00000000 00000000 b6edc406 00000300  
+    beadc780 00000000 000002ff beadca90 b6f53567  
+    beadc790 20302030 20302030 20302030 20302030  
+    beadc7a0 20302030 20302030 00302030 e38482ae  
+    beadc7b0 b6ef6f64 b6ef6f58 b6ecac8d b6ecacdd  
+    beadc7c0 b6808d00 b6808d40 b6ef3870 b6ef386c  
+    beadc7d0 00000000 b6ec4cc1 b6ef6f50 00000000  
+    beadc7e0 00000000 b6ef6f24 b6ef39a1 00000001  
+    beadc7f0 00000000 b6ecb93f 00000000 b68000c0  
+    beadc800 b6e943bd b6f4cf73 b6eea600 b6f4d03a  
+    beadc810 00000007 b6e943dd 00000000 b6f4cf73  
+    beadc820 b6e943be b6f51714 b6e943bd b6f4cf73  
+    beadc830 b6f3f3f4 b6f4d03a 00000007 b6f445bf  
+    beadc840 00000000 00000003 00000000 00000007  
+    beadc850 00000018 b6f44695 b6f3f154 b6f10198  
+    beadc860 b6f51714 b6f51188 00000000 00000004  
+
+memory near r7:
+    beadca70 b6f4c498 000000d6 00000000 b6f43000  
+    beadca80 00000001 b6ef05a4 0000000c 00000000  
+    beadca90 beadc790 000002ff 0000029c 000002a8  
+    beadcaa0 000002a4 00000300 beadcaf4 beadcafc  
+    beadcab0 00000001 b6f534d1 00000000 b6e94dcb  
+    beadcac0 beadcad8 00000000 00000000 00000000  
+    beadcad0 00000000 b6f53418 b6f54ec4 b6f54eb4  
+    beadcae0 b6f54eac b6f54ebc 00000000 b6f44123  
+    beadcaf0 00000001 beadcbfc 00000000 beadcc04  
+    beadcb00 beadcc0e beadcc21 beadcc35 beadcc4e  
+    beadcb10 beadcc59 beadcc63 beadcc78 beadcc83  
+    beadcb20 beadcc98 beadccab beadccc6 beadce82  
+    beadcb30 beadce9c beadceb2 beadcec3 beadcee4  
+    beadcb40 beadcefd beadcf19 beadcf56 beadcfd5  
+    beadcb50 00000000 00000010 0008b0d7 00000006  
+    beadcb60 00001000 00000011 00000064 00000003  
+
+memory near r8:
+    beadca70 b6f4c498 000000d6 00000000 b6f43000  
+    beadca80 00000001 b6ef05a4 0000000c 00000000  
+    beadca90 beadc790 000002ff 0000029c 000002a8  
+    beadcaa0 000002a4 00000300 beadcaf4 beadcafc  
+    beadcab0 00000001 b6f534d1 00000000 b6e94dcb  
+    beadcac0 beadcad8 00000000 00000000 00000000  
+    beadcad0 00000000 b6f53418 b6f54ec4 b6f54eb4  
+    beadcae0 b6f54eac b6f54ebc 00000000 b6f44123  
+    beadcaf0 00000001 beadcbfc 00000000 beadcc04  
+    beadcb00 beadcc0e beadcc21 beadcc35 beadcc4e  
+    beadcb10 beadcc59 beadcc63 beadcc78 beadcc83  
+    beadcb20 beadcc98 beadccab beadccc6 beadce82  
+    beadcb30 beadce9c beadceb2 beadcec3 beadcee4  
+    beadcb40 beadcefd beadcf19 beadcf56 beadcfd5  
+    beadcb50 00000000 00000010 0008b0d7 00000006  
+    beadcb60 00001000 00000011 00000064 00000003  
+
+memory near fp:
+    beadcacc 00000000 00000000 b6f53418 b6f54ec4  
+    beadcadc b6f54eb4 b6f54eac b6f54ebc 00000000  
+    beadcaec b6f44123 00000001 beadcbfc 00000000  
+    beadcafc beadcc04 beadcc0e beadcc21 beadcc35  
+    beadcb0c beadcc4e beadcc59 beadcc63 beadcc78  
+    beadcb1c beadcc83 beadcc98 beadccab beadccc6  
+    beadcb2c beadce82 beadce9c beadceb2 beadcec3  
+    beadcb3c beadcee4 beadcefd beadcf19 beadcf56  
+    beadcb4c beadcfd5 00000000 00000010 0008b0d7  
+    beadcb5c 00000006 00001000 00000011 00000064  
+    beadcb6c 00000003 b6f53034 00000004 00000020  
+    beadcb7c 00000005 00000008 00000007 b6f43000  
+    beadcb8c 00000008 00000000 00000009 b6f533bc  
+    beadcb9c 0000000b 00000000 0000000c 00000000  
+    beadcbac 0000000d 00000000 0000000e 00000000  
+    beadcbbc 00000017 00000000 00000019 beadcbe8  
+
+memory near sp:
+    beadabb8 beadca90 beadca90 00000000 00000000  
+    beadabc8 beadcaec beadabf4 ffffe45c b6f10e85  
+    beadabd8 00000000 00000000 04ad4001 00000000  
+    beadabe8 00000000 00000000 00000000 b6f3a5d0  
+    beadabf8 b6f38aa8 b6f36f80 b6f35458 b6f33930  
+    beadac08 b6f31e08 b6f302e0 b6f2e7b8 b6f2cc90  
+    beadac18 b6f2b168 b6f29640 b6f27b18 b6f25ff0  
+    beadac28 b6f244c8 b6f229a0 b6f20e78 b6f1f350  
+    beadac38 b6f1d828 b6f1bd00 b6f1a1d8 b6f186b0  
+    beadac48 b6f16b88 b6f15060 00000000 00000000  
+    beadac58 00000000 00000000 00000000 00000000  
+    beadac68 00000000 00000000 00000000 00000000  
+    beadac78 00000000 00000000 00000000 00000000  
+    beadac88 00000000 00000000 00000000 00000000  
+    beadac98 00000000 00000000 00000000 00000000  
+    beadaca8 00000000 00000000 00000000 00000000  
+
+code around pc:
+    b6f10e68 21001c05 920244a5 4a4ea81e f848f001  
+    b6f10e78 225c494d 4479a807 f84af001 23a96829  
+    b6f10e88 58cb009b 99021c28 47982200 d0091e06  
+    b6f10e98 f846f001 d805282e 23012200 93039201  
+    b6f10ea8 e0429200 23aa6829 58cb009b 99021c28  
+    b6f10eb8 47981c32 493d682a 009b23a7 1c2858d3  
+    b6f10ec8 e0684479 a81e4a37 f0012100 9b00f819  
+    b6f10ed8 5cf22400 d12f42a2 27004935 91054479  
+    b6f10ee8 5aba9a05 1c209204 f0009904 0409f8ad  
+    b6f10ef8 d12f0c09 5afaab1e 99041c20 52fa3201  
+    b6f10f08 f862f000 0c240404 d8ec2c01 a91e9a01  
+    b6f10f18 aa070093 4a275898 f80af001 d01e2800  
+    b6f10f28 93032300 31029900 1c309100 fff8f000  
+    b6f10f38 42829a00 e016d3c6 785b18f3 2b001c14  
+    b6f10f48 0214d0ca 431c4a1c 42a22300 425b415b  
+    b6f10f58 e7c1401c 37024913 d1c1428f 9b01e7d6  
+
+code around lr:
+    b6f10e64 4c50b5f0 21001c05 920244a5 4a4ea81e  
+    b6f10e74 f848f001 225c494d 4479a807 f84af001  
+    b6f10e84 23a96829 58cb009b 99021c28 47982200  
+    b6f10e94 d0091e06 f846f001 d805282e 23012200  
+    b6f10ea4 93039201 e0429200 23aa6829 58cb009b  
+    b6f10eb4 99021c28 47981c32 493d682a 009b23a7  
+    b6f10ec4 1c2858d3 e0684479 a81e4a37 f0012100  
+    b6f10ed4 9b00f819 5cf22400 d12f42a2 27004935  
+    b6f10ee4 91054479 5aba9a05 1c209204 f0009904  
+    b6f10ef4 0409f8ad d12f0c09 5afaab1e 99041c20  
+    b6f10f04 52fa3201 f862f000 0c240404 d8ec2c01  
+    b6f10f14 a91e9a01 aa070093 4a275898 f80af001  
+    b6f10f24 d01e2800 93032300 31029900 1c309100  
+    b6f10f34 fff8f000 42829a00 e016d3c6 785b18f3  
+    b6f10f44 2b001c14 0214d0ca 431c4a1c 42a22300  
+    b6f10f54 425b415b e7c1401c 37024913 d1c1428f  
+
+memory map: (fault address prefixed with --->)
+--->Fault address falls at 203022d4 before any mapped regions
+    b6400000-b6bfffff rw-  8388608  [anon:libc_malloc]
+    b6e52000-b6e52fff r-x     4096  /system/lib/libnetd_client.so
+    b6e53000-b6e53fff ---     4096  
+    b6e54000-b6e54fff r--     4096  /system/lib/libnetd_client.so
+    b6e55000-b6e55fff rw-     4096  /system/lib/libnetd_client.so
+    b6e56000-b6e75fff r--   131072  /dev/__properties__
+    b6e76000-b6e77fff r-x     8192  /system/lib/libstdc++.so
+    b6e78000-b6e78fff r--     4096  /system/lib/libstdc++.so
+    b6e79000-b6e79fff rw-     4096  /system/lib/libstdc++.so
+    b6e7a000-b6e7afff r--     4096  
+    b6e7b000-b6e7ffff r-x    20480  /system/lib/liblog.so
+    b6e80000-b6e80fff r--     4096  /system/lib/liblog.so
+    b6e81000-b6e81fff rw-     4096  /system/lib/liblog.so
+    b6e82000-b6ee6fff r-x   413696  /system/lib/libc.so
+    b6ee7000-b6ee7fff ---     4096  
+    b6ee8000-b6eeafff r--    12288  /system/lib/libc.so
+    b6eeb000-b6eedfff rw-    12288  /system/lib/libc.so
+    b6eee000-b6ef6fff rw-    36864  
+    b6ef7000-b6f0dfff r-x    94208  /system/lib/libm.so
+    b6f0e000-b6f0efff r--     4096  /system/lib/libm.so
+    b6f0f000-b6f0ffff rw-     4096  /system/lib/libm.so
+    b6f10000-b6f13fff r-x    16384  /data/local/libvalidate.so
+    b6f14000-b6f14fff r--     4096  /data/local/libvalidate.so
+    b6f15000-b6f3cfff rw-   163840  /data/local/libvalidate.so
+    b6f3d000-b6f3dfff r--     4096  [anon:linker_alloc]
+    b6f3e000-b6f3efff rw-     4096  [anon:linker_alloc]
+    b6f3f000-b6f3ffff r--     4096  [anon:linker_alloc]
+    b6f40000-b6f40fff r--     4096  
+    b6f41000-b6f42fff rw-     8192  
+    b6f43000-b6f4ffff r-x    53248  /system/bin/linker
+    b6f50000-b6f50fff r--     4096  /system/bin/linker
+    b6f51000-b6f51fff rw-     4096  /system/bin/linker
+    b6f52000-b6f52fff rw-     4096  
+    b6f53000-b6f53fff r-x     4096  /data/local/a.out
+    b6f54000-b6f54fff r--     4096  /data/local/a.out
+    b6f55000-b6f55fff rw-     4096  /data/local/a.out
+    beabc000-beadcfff rw-   135168  [stack]
+    ffff0000-ffff0fff r-x     4096  [vectors]

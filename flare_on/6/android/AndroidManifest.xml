@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.flare_on.flare" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+    <application android:allowBackup="true" android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.flareon.flare.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_validate_email" android:name="com.flareon.flare.ValidateActivity" android:parentActivityName="com.flareon.flare.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.flareon.flare.MainActivity"/>
+        </activity>
+    </application>
+</manifest>

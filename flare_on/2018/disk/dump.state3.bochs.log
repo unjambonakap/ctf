@@ -1,0 +1,4234 @@
+Next at t=139915928
+(0) [0x0000000f5418] f000:5418 (unk. ctxt): mov ax, word ptr ss:[bp-6] ; 8b46fa
+<bochs:19>
+Next at t=139915929
+(0) [0x0000000f541b] f000:541b (unk. ctxt): cmp ax, word ptr ss:[bp-8] ; 3b46f8
+<bochs:20>
+Next at t=139915930
+(0) [0x0000000f541e] f000:541e (unk. ctxt): jz .+93 (0x000f547d)      ; 745d
+<bochs:21>
+Next at t=139915931
+(0) [0x0000000f547d] f000:547d (unk. ctxt): xor ax, ax                ; 31c0
+<bochs:22>
+Next at t=139915932
+(0) [0x0000000f547f] f000:547f (unk. ctxt): mov sp, bp                ; 89ec
+<bochs:23>
+Next at t=139915933
+(0) [0x0000000f5481] f000:5481 (unk. ctxt): pop bp                    ; 5d
+<bochs:24>
+Next at t=139915934
+(0) [0x0000000f5482] f000:5482 (unk. ctxt): ret                       ; c3
+<bochs:25>
+Next at t=139915935
+(0) [0x0000000f52f5] f000:52f5 (unk. ctxt): add sp, 0x0006            ; 83c406
+<bochs:26>
+Next at t=139915936
+(0) [0x0000000f52f8] f000:52f8 (unk. ctxt): test ax, ax               ; 85c0
+<bochs:27>
+Next at t=139915937
+(0) [0x0000000f52fa] f000:52fa (unk. ctxt): jnz .+12 (0x000f5308)     ; 750c
+<bochs:28>
+Next at t=139915938
+(0) [0x0000000f52fc] f000:52fc (unk. ctxt): mov ax, word ptr ss:[bp+20] ; 8b4614
+<bochs:29>
+Next at t=139915939
+(0) [0x0000000f52ff] f000:52ff (unk. ctxt): or al, 0x40               ; 0c40
+<bochs:30>
+Next at t=139915940
+(0) [0x0000000f5301] f000:5301 (unk. ctxt): mov word ptr ss:[bp+20], ax ; 894614
+<bochs:31>
+Next at t=139915941
+(0) [0x0000000f5304] f000:5304 (unk. ctxt): mov sp, bp                ; 89ec
+<bochs:32>
+Next at t=139915942
+(0) [0x0000000f5306] f000:5306 (unk. ctxt): pop bp                    ; 5d
+<bochs:33>
+Next at t=139915943
+(0) [0x0000000f5307] f000:5307 (unk. ctxt): ret                       ; c3
+<bochs:34>
+Next at t=139915944
+(0) [0x0000000fe842] f000:e842 (unk. ctxt): popa                      ; 61
+<bochs:35>
+Next at t=139915945
+(0) [0x0000000fe843] f000:e843 (unk. ctxt): popf                      ; 9d
+<bochs:36>
+Next at t=139915946
+(0) [0x0000000fe844] f000:e844 (unk. ctxt): pop ds                    ; 1f
+<bochs:37>
+Next at t=139915947
+(0) [0x0000000fe845] f000:e845 (unk. ctxt): jz .+9 (0x000fe850)       ; 7409
+<bochs:38>
+Next at t=139915948
+(0) [0x0000000fe850] f000:e850 (unk. ctxt): push bp                   ; 55
+<bochs:39>
+Next at t=139915949
+(0) [0x0000000fe851] f000:e851 (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:40>
+Next at t=139915950
+(0) [0x0000000fe853] f000:e853 (unk. ctxt): or byte ptr ss:[bp+6], 0x40 ; 804e0640
+<bochs:41>
+Next at t=139915951
+(0) [0x0000000fe857] f000:e857 (unk. ctxt): pop bp                    ; 5d
+<bochs:42>
+Next at t=139915952
+(0) [0x0000000fe858] f000:e858 (unk. ctxt): iret                      ; cf
+<bochs:43>
+Next at t=139915953
+(0) [0x000000000b09] 0070:0409 (unk. ctxt): pushf                     ; 9c
+<bochs:44>
+Next at t=139915954
+(0) [0x000000000b0a] 0070:040a (unk. ctxt): dec word ptr cs:0x044e    ; 2eff0e4e04
+<bochs:45>
+Next at t=139915955
+(0) [0x000000000b0f] 0070:040f (unk. ctxt): jnz .+1 (0x00000b12)      ; 7501
+<bochs:46>
+Next at t=139915956
+(0) [0x000000000b12] 0070:0412 (unk. ctxt): popf                      ; 9d
+<bochs:47>
+Next at t=139915957
+(0) [0x000000000b13] 0070:0413 (unk. ctxt): retf 0x0002               ; ca0200
+<bochs:48>
+Next at t=139915958
+(0) [0x00000010084a] ffff:085a (unk. ctxt): jnz .+4 (0x00100850)      ; 7504
+<bochs:49>
+Next at t=139915959
+(0) [0x00000010084c] ffff:085c (unk. ctxt): stc                       ; f9
+<bochs:50>
+Next at t=139915960
+(0) [0x00000010084d] ffff:085d (unk. ctxt): mov ah, 0x03              ; b403
+<bochs:51>
+Next at t=139915961
+(0) [0x00000010084f] ffff:085f (unk. ctxt): ret                       ; c3
+<bochs:52>
+Next at t=139915962
+(0) [0x000000100135] ffff:0145 (unk. ctxt): pop ds                    ; 1f
+<bochs:53>
+Next at t=139915963
+(0) [0x000000100136] ffff:0146 (unk. ctxt): jb .+2 (0x0010013a)       ; 7202
+<bochs:54>
+Next at t=139915964
+(0) [0x00000010013a] ffff:014a (unk. ctxt): lds bx, ds:0x0012         ; c51e1200
+<bochs:55>
+Next at t=139915965
+(0) [0x00000010013e] ffff:014e (unk. ctxt): mov word ptr ds:[bx+3], ax ; 894703
+<bochs:56>
+Next at t=139915966
+(0) [0x000000100141] ffff:0151 (unk. ctxt): pop es                    ; 07
+<bochs:57>
+Next at t=139915967
+(0) [0x000000100142] ffff:0152 (unk. ctxt): pop ds                    ; 1f
+<bochs:58>
+Next at t=139915968
+(0) [0x000000100143] ffff:0153 (unk. ctxt): popa                      ; 61
+<bochs:59>
+Next at t=139915969
+(0) [0x000000100144] ffff:0154 (unk. ctxt): add sp, 0x0002            ; 83c402
+<bochs:60>
+Next at t=139915970
+(0) [0x000000100147] ffff:0157 (unk. ctxt): retf                      ; cb
+<bochs:61>
+Next at t=139915971
+(0) [0x000000108894] ffff:88a4 (unk. ctxt): dec byte ptr ss:0x12b9    ; 36fe0eb912
+<bochs:62>
+Next at t=139915972
+(0) [0x000000108899] ffff:88a9 (unk. ctxt): cmp byte ptr cs:0x8607, 0x00 ; 2e803e078600
+<bochs:63>
+Next at t=139915973
+(0) [0x00000010889f] ffff:88af (unk. ctxt): jz .+5 (0x001088a6)       ; 7405
+<bochs:64>
+Next at t=139915974
+(0) [0x0000001088a6] ffff:88b6 (unk. ctxt): mov ax, 0x5770            ; b87057
+<bochs:65>
+Next at t=139915975
+(0) [0x0000001088a9] ffff:88b9 (unk. ctxt): test word ptr ds:[si+4], 0x8000 ; f744040080
+<bochs:66>
+Next at t=139915976
+(0) [0x0000001088ae] ffff:88be (unk. ctxt): jz .+10 (0x001088ba)      ; 740a
+<bochs:67>
+Next at t=139915977
+(0) [0x0000001088b0] ffff:88c0 (unk. ctxt): test word ptr ds:[si+4], 0x0003 ; f744040300
+<bochs:68>
+Next at t=139915978
+(0) [0x0000001088b5] ffff:88c5 (unk. ctxt): jz .+3 (0x001088ba)       ; 7403
+<bochs:69>
+Next at t=139915979
+(0) [0x0000001088b7] ffff:88c7 (unk. ctxt): mov ax, 0x5763            ; b86357
+<bochs:70>
+Next at t=139915980
+(0) [0x0000001088ba] ffff:88ca (unk. ctxt): call ax                   ; ffd0
+<bochs:71>
+Next at t=139915981
+(0) [0x000000105753] ffff:5763 (unk. ctxt): pushf                     ; 9c
+<bochs:72>
+Next at t=139915982
+(0) [0x000000105754] ffff:5764 (unk. ctxt): push ax                   ; 50
+<bochs:73>
+Next at t=139915983
+(0) [0x000000105755] ffff:5765 (unk. ctxt): xor ax, ax                ; 33c0
+<bochs:74>
+Next at t=139915984
+(0) [0x000000105757] ffff:5767 (unk. ctxt): cmp word ptr ss:0x1306, ax ; 3639060613
+<bochs:75>
+Next at t=139915985
+(0) [0x00000010575c] ffff:576c (unk. ctxt): jnz .-14 (0x00105750)     ; 75f2
+<bochs:76>
+Next at t=139915986
+(0) [0x00000010575e] ffff:576e (unk. ctxt): jmp .+11 (0x0010576b)     ; eb0b
+<bochs:77>
+Next at t=139915987
+(0) [0x00000010576b] ffff:577b (unk. ctxt): cmp byte ptr ss:0x0d65, al ; 363806650d
+<bochs:78>
+Next at t=139915988
+(0) [0x000000105770] ffff:5780 (unk. ctxt): jz .+5 (0x00105777)       ; 7405
+<bochs:79>
+Next at t=139915989
+(0) [0x000000105777] ffff:5787 (unk. ctxt): pop ax                    ; 58
+<bochs:80>
+Next at t=139915990
+(0) [0x000000105778] ffff:5788 (unk. ctxt): popf                      ; 9d
+<bochs:81>
+Next at t=139915991
+(0) [0x000000105779] ffff:5789 (unk. ctxt): ret                       ; c3
+<bochs:82>
+Next at t=139915992
+(0) [0x0000001088bc] ffff:88cc (unk. ctxt): ret                       ; c3
+<bochs:83>
+Next at t=139915993
+(0) [0x000000108f78] ffff:8f88 (unk. ctxt): pop ax                    ; 58
+<bochs:84>
+Next at t=139915994
+(0) [0x000000108f79] ffff:8f89 (unk. ctxt): test al, al               ; 84c0
+<bochs:85>
+Next at t=139915995
+(0) [0x000000108f7b] ffff:8f8b (unk. ctxt): pop ax                    ; 58
+<bochs:86>
+Next at t=139915996
+(0) [0x000000108f7c] ffff:8f8c (unk. ctxt): jnz .+7 (0x00108f85)      ; 7507
+<bochs:87>
+Next at t=139915997
+(0) [0x000000108f85] ffff:8f95 (unk. ctxt): push ss                   ; 16
+<bochs:88>
+Next at t=139915998
+(0) [0x000000108f86] ffff:8f96 (unk. ctxt): pop ds                    ; 1f
+<bochs:89>
+Next at t=139915999
+(0) [0x000000108f87] ffff:8f97 (unk. ctxt): test byte ptr ds:0x0396, 0x02 ; f606960302
+<bochs:90>
+Next at t=139916000
+(0) [0x000000108f8c] ffff:8f9c (unk. ctxt): jz .+8 (0x00108f96)       ; 7408
+<bochs:91>
+Next at t=139916001
+(0) [0x000000108f8e] ffff:8f9e (unk. ctxt): xor al, al                ; 32c0
+<bochs:92>
+Next at t=139916002
+(0) [0x000000108f90] ffff:8fa0 (unk. ctxt): pop si                    ; 5e
+<bochs:93>
+Next at t=139916003
+(0) [0x000000108f91] ffff:8fa1 (unk. ctxt): pop ds                    ; 1f
+<bochs:94>
+Next at t=139916004
+(0) [0x000000108f92] ffff:8fa2 (unk. ctxt): pop bx                    ; 5b
+<bochs:95>
+Next at t=139916005
+(0) [0x000000108f93] ffff:8fa3 (unk. ctxt): pop es                    ; 07
+<bochs:96>
+Next at t=139916006
+(0) [0x000000108f94] ffff:8fa4 (unk. ctxt): pop cx                    ; 59
+<bochs:97>
+Next at t=139916007
+(0) [0x000000108f95] ffff:8fa5 (unk. ctxt): ret                       ; c3
+<bochs:98>
+Next at t=139916008
+(0) [0x000000108fcf] ffff:8fdf (unk. ctxt): xor bx, bx                ; 33db
+<bochs:99>
+Next at t=139916009
+(0) [0x000000108fd1] ffff:8fe1 (unk. ctxt): call .-4775 (0x00107d2d)  ; e859ed
+<bochs:100>
+Next at t=139916010
+(0) [0x000000107d2d] ffff:7d3d (unk. ctxt): cmp byte ptr ss:0x0357, 0x00 ; 36803e570300
+<bochs:101>
+Next at t=139916011
+(0) [0x000000107d33] ffff:7d43 (unk. ctxt): jnz .+18 (0x00107d47)     ; 7512
+<bochs:102>
+Next at t=139916012
+(0) [0x000000107d47] ffff:7d57 (unk. ctxt): cmp bx, 0x0001            ; 83fb01
+<bochs:103>
+Next at t=139916013
+(0) [0x000000107d4a] ffff:7d5a (unk. ctxt): jnbe .-23 (0x00107d35)    ; 77e9
+<bochs:104>
+Next at t=139916014
+(0) [0x000000107d4c] ffff:7d5c (unk. ctxt): lds si, ss:0x05e6         ; 36c536e605
+<bochs:105>
+Next at t=139916015
+(0) [0x000000107d51] ffff:7d61 (unk. ctxt): clc                       ; f8
+<bochs:106>
+Next at t=139916016
+(0) [0x000000107d52] ffff:7d62 (unk. ctxt): ret                       ; c3
+<bochs:107>
+Next at t=139916017
+(0) [0x000000108fd4] ffff:8fe4 (unk. ctxt): jb .+58 (0x00109010)      ; 723a
+<bochs:108>
+Next at t=139916018
+(0) [0x000000108fd6] ffff:8fe6 (unk. ctxt): mov ah, 0x01              ; b401
+<bochs:109>
+Next at t=139916019
+(0) [0x000000108fd8] ffff:8fe8 (unk. ctxt): call .-2513 (0x0010860a)  ; e82ff6
+<bochs:110>
+Next at t=139916020
+(0) [0x00000010860a] ffff:861a (unk. ctxt): mov word ptr ss:0x038c, ss ; 368c168c03
+<bochs:111>
+Next at t=139916021
+(0) [0x00000010860f] ffff:861f (unk. ctxt): mov word ptr ss:0x038a, 0x03bc ; 36c7068a03bc03
+<bochs:112>
+Next at t=139916022
+(0) [0x000000108616] ffff:8626 (unk. ctxt): mov word ptr ss:0x038e, 0x0001 ; 36c7068e030100
+<bochs:113>
+Next at t=139916023
+(0) [0x00000010861d] ffff:862d (unk. ctxt): mov word ptr ss:0x03bc, ax ; 36a3bc03
+<bochs:114>
+Next at t=139916024
+(0) [0x000000108621] ffff:8631 (unk. ctxt): test byte ptr ds:[si+6], 0x80 ; f6440680
+<bochs:115>
+Next at t=139916025
+(0) [0x000000108625] ffff:8635 (unk. ctxt): jz .+3 (0x0010862a)       ; 7403
+<bochs:116>
+Next at t=139916026
+(0) [0x00000010862a] ffff:863a (unk. ctxt): test byte ptr ds:[si+5], 0x80 ; f6440580
+<bochs:117>
+Next at t=139916027
+(0) [0x00000010862e] ffff:863e (unk. ctxt): jnz .+3 (0x00108633)      ; 7503
+<bochs:118>
+Next at t=139916028
+(0) [0x000000108633] ffff:8643 (unk. ctxt): push es                   ; 06
+<bochs:119>
+Next at t=139916029
+(0) [0x000000108634] ffff:8644 (unk. ctxt): call .-17656 (0x0010413f) ; e808bb
+<bochs:120>
+Next at t=139916030
+(0) [0x00000010413f] ffff:414f (unk. ctxt): mov es, word ptr cs:0x3ea2 ; 2e8e06a23e
+<bochs:121>
+Next at t=139916031
+(0) [0x000000104144] ffff:4154 (unk. ctxt): pop word ptr es:0x05ee    ; 268f06ee05
+<bochs:122>
+Next at t=139916032
+(0) [0x000000104149] ffff:4159 (unk. ctxt): push ds                   ; 1e
+<bochs:123>
+Next at t=139916033
+(0) [0x00000010414a] ffff:415a (unk. ctxt): push bp                   ; 55
+<bochs:124>
+Next at t=139916034
+(0) [0x00000010414b] ffff:415b (unk. ctxt): push di                   ; 57
+<bochs:125>
+Next at t=139916035
+(0) [0x00000010414c] ffff:415c (unk. ctxt): push si                   ; 56
+<bochs:126>
+Next at t=139916036
+(0) [0x00000010414d] ffff:415d (unk. ctxt): push dx                   ; 52
+<bochs:127>
+Next at t=139916037
+(0) [0x00000010414e] ffff:415e (unk. ctxt): push cx                   ; 51
+<bochs:128>
+Next at t=139916038
+(0) [0x00000010414f] ffff:415f (unk. ctxt): push bx                   ; 53
+<bochs:129>
+Next at t=139916039
+(0) [0x000000104150] ffff:4160 (unk. ctxt): push ax                   ; 50
+<bochs:130>
+Next at t=139916040
+(0) [0x000000104151] ffff:4161 (unk. ctxt): push word ptr es:0x05ee   ; 26ff36ee05
+<bochs:131>
+Next at t=139916041
+(0) [0x000000104156] ffff:4166 (unk. ctxt): push bp                   ; 55
+<bochs:132>
+Next at t=139916042
+(0) [0x000000104157] ffff:4167 (unk. ctxt): mov bp, sp                ; 8bec
+<bochs:133>
+Next at t=139916043
+(0) [0x000000104159] ffff:4169 (unk. ctxt): mov es, word ptr ss:[bp+20] ; 8e4614
+<bochs:134>
+Next at t=139916044
+(0) [0x00000010415c] ffff:416c (unk. ctxt): pop bp                    ; 5d
+<bochs:135>
+Next at t=139916045
+(0) [0x00000010415d] ffff:416d (unk. ctxt): ret                       ; c3
+<bochs:136>
+Next at t=139916046
+(0) [0x000000108637] ffff:8647 (unk. ctxt): mov dx, ds                ; 8cda
+<bochs:137>
+Next at t=139916047
+(0) [0x000000108639] ffff:8649 (unk. ctxt): mov bx, ss                ; 8cd3
+<bochs:138>
+Next at t=139916048
+(0) [0x00000010863b] ffff:864b (unk. ctxt): mov ds, bx                ; 8edb
+<bochs:139>
+Next at t=139916049
+(0) [0x00000010863d] ffff:864d (unk. ctxt): mov es, bx                ; 8ec3
+<bochs:140>
+Next at t=139916050
+(0) [0x00000010863f] ffff:864f (unk. ctxt): xor bx, bx                ; 33db
+<bochs:141>
+Next at t=139916051
+(0) [0x000000108641] ffff:8651 (unk. ctxt): cmp ah, 0x05              ; 80fc05
+<bochs:142>
+Next at t=139916052
+(0) [0x000000108644] ffff:8654 (unk. ctxt): jnz .+4 (0x0010864a)      ; 7504
+<bochs:143>
+Next at t=139916053
+(0) [0x00000010864a] ffff:865a (unk. ctxt): mov word ptr ds:0x037f, bx ; 891e7f03
+<bochs:144>
+Next at t=139916054
+(0) [0x00000010864e] ffff:865e (unk. ctxt): xor bx, bx                ; 33db
+<bochs:145>
+Next at t=139916055
+(0) [0x000000108650] ffff:8660 (unk. ctxt): mov byte ptr ds:0x0389, bl ; 881e8903
+<bochs:146>
+Next at t=139916056
+(0) [0x000000108654] ffff:8664 (unk. ctxt): mov bl, ah                ; 8adc
+<bochs:147>
+Next at t=139916057
+(0) [0x000000108656] ffff:8666 (unk. ctxt): mov ah, byte ptr cs:[bx-31224] ; 2e8aa70886
+<bochs:148>
+Next at t=139916058
+(0) [0x00000010865b] ffff:866b (unk. ctxt): shl bx, 1                 ; d1e3
+<bochs:149>
+Next at t=139916059
+(0) [0x00000010865d] ffff:866d (unk. ctxt): mov cx, word ptr cs:[bx-31218] ; 2e8b8f0e86
+<bochs:150>
+Next at t=139916060
+(0) [0x000000108662] ffff:8672 (unk. ctxt): mov bx, 0x037c            ; bb7c03
+<bochs:151>
+Next at t=139916061
+(0) [0x000000108665] ffff:8675 (unk. ctxt): mov byte ptr ds:0x037c, ah ; 88267c03
+<bochs:152>
+Next at t=139916062
+(0) [0x000000108669] ffff:8679 (unk. ctxt): mov byte ptr ds:0x037e, ch ; 882e7e03
+<bochs:153>
+Next at t=139916063
+(0) [0x00000010866d] ffff:867d (unk. ctxt): mov ds, dx                ; 8eda
+<bochs:154>
+Next at t=139916064
+(0) [0x00000010866f] ffff:867f (unk. ctxt): call .+404 (0x00108806)   ; e89401
+<bochs:155>
+Next at t=139916065
+(0) [0x000000108806] ffff:8816 (unk. ctxt): lds si, ds:[si+7]         ; c57407
+<bochs:156>
+Next at t=139916066
+(0) [0x000000108809] ffff:8819 (unk. ctxt): mov ax, 0x5718            ; b81857
+<bochs:157>
+Next at t=139916067
+(0) [0x00000010880c] ffff:881c (unk. ctxt): test word ptr ds:[si+4], 0x8000 ; f744040080
+<bochs:158>
+Next at t=139916068
+(0) [0x000000108811] ffff:8821 (unk. ctxt): jz .+10 (0x0010881d)      ; 740a
+<bochs:159>
+Next at t=139916069
+(0) [0x000000108813] ffff:8823 (unk. ctxt): test word ptr ds:[si+4], 0x0003 ; f744040300
+<bochs:160>
+Next at t=139916070
+(0) [0x000000108818] ffff:8828 (unk. ctxt): jz .+3 (0x0010881d)       ; 7403
+<bochs:161>
+Next at t=139916071
+(0) [0x00000010881a] ffff:882a (unk. ctxt): mov ax, 0x570b            ; b80b57
+<bochs:162>
+Next at t=139916072
+(0) [0x00000010881d] ffff:882d (unk. ctxt): call ax                   ; ffd0
+<bochs:163>
+Next at t=139916073
+(0) [0x0000001056fb] ffff:570b (unk. ctxt): pushf                     ; 9c
+<bochs:164>
+Next at t=139916074
+(0) [0x0000001056fc] ffff:570c (unk. ctxt): push ax                   ; 50
+<bochs:165>
+Next at t=139916075
+(0) [0x0000001056fd] ffff:570d (unk. ctxt): xor ax, ax                ; 33c0
+<bochs:166>
+Next at t=139916076
+(0) [0x0000001056ff] ffff:570f (unk. ctxt): cmp word ptr ss:0x1306, ax ; 3639060613
+<bochs:167>
+Next at t=139916077
+(0) [0x000000105704] ffff:5714 (unk. ctxt): jnz .-23 (0x001056ef)     ; 75e9
+<bochs:168>
+Next at t=139916078
+(0) [0x000000105706] ffff:5716 (unk. ctxt): jmp .+11 (0x00105713)     ; eb0b
+<bochs:169>
+Next at t=139916079
+(0) [0x000000105713] ffff:5723 (unk. ctxt): cmp byte ptr ss:0x0d65, al ; 363806650d
+<bochs:170>
+Next at t=139916080
+(0) [0x000000105718] ffff:5728 (unk. ctxt): jz .+5 (0x0010571f)       ; 7405
+<bochs:171>
+Next at t=139916081
+(0) [0x00000010571f] ffff:572f (unk. ctxt): pop ax                    ; 58
+<bochs:172>
+Next at t=139916082
+(0) [0x000000105720] ffff:5730 (unk. ctxt): popf                      ; 9d
+<bochs:173>
+Next at t=139916083
+(0) [0x000000105721] ffff:5731 (unk. ctxt): ret                       ; c3
+<bochs:174>
+Next at t=139916084
+(0) [0x00000010881f] ffff:882f (unk. ctxt): test byte ptr ds:[si+5], 0x80 ; f6440580
+<bochs:175>
+Next at t=139916085
+(0) [0x000000108823] ffff:8833 (unk. ctxt): jnz .+77 (0x00108872)     ; 754d
+<bochs:176>
+Next at t=139916086
+(0) [0x000000108872] ffff:8882 (unk. ctxt): inc byte ptr ss:0x12b9    ; 36fe06b912
+<bochs:177>
+Next at t=139916087
+(0) [0x000000108877] ffff:8887 (unk. ctxt): mov ax, word ptr ds:[si+6] ; 8b4406
+<bochs:178>
+Next at t=139916088
+(0) [0x00000010887a] ffff:888a (unk. ctxt): mov word ptr ss:0x0378, ax ; 36a37803
+<bochs:179>
+Next at t=139916089
+(0) [0x00000010887e] ffff:888e (unk. ctxt): mov word ptr ss:0x037a, ds ; 368c1e7a03
+<bochs:180>
+Next at t=139916090
+(0) [0x000000108883] ffff:8893 (unk. ctxt): callf ss:0x0378           ; 36ff1e7803
+<bochs:181>
+Next at t=139916091
+(0) [0x000000000962] 0070:0262 (unk. ctxt): mov word ptr cs:0x0012, bx ; 2e891e1200
+<bochs:182>
+Next at t=139916092
+(0) [0x000000000967] 0070:0267 (unk. ctxt): mov word ptr cs:0x0014, es ; 2e8c061400
+<bochs:183>
+Next at t=139916093
+(0) [0x00000000096c] 0070:026c (unk. ctxt): retf                      ; cb
+<bochs:184>
+Next at t=139916094
+(0) [0x000000108888] ffff:8898 (unk. ctxt): mov ax, word ptr ds:[si+8] ; 8b4408
+<bochs:185>
+Next at t=139916095
+(0) [0x00000010888b] ffff:889b (unk. ctxt): mov word ptr ss:0x0378, ax ; 36a37803
+<bochs:186>
+Next at t=139916096
+(0) [0x00000010888f] ffff:889f (unk. ctxt): callf ss:0x0378           ; 36ff1e7803
+<bochs:187>
+Next at t=139916097
+(0) [0x000000000972] 0070:0272 (unk. ctxt): call .+54 (0x000009ab)    ; e83600
+<bochs:188>
+Next at t=139916098
+(0) [0x0000000009ab] 0070:02ab (unk. ctxt): jmpf cs:0x012e            ; 2eff2e2e01
+<bochs:189>
+Next at t=139916099
+(0) [0x0000001000c5] ffff:00d5 (unk. ctxt): pusha                     ; 60
+<bochs:190>
+Next at t=139916100
+(0) [0x0000001000c6] ffff:00d6 (unk. ctxt): push ds                   ; 1e
+<bochs:191>
+Next at t=139916101
+(0) [0x0000001000c7] ffff:00d7 (unk. ctxt): push es                   ; 06
+<bochs:192>
+Next at t=139916102
+(0) [0x0000001000c8] ffff:00d8 (unk. ctxt): mov bp, sp                ; 8bec
+<bochs:193>
+Next at t=139916103
+(0) [0x0000001000ca] ffff:00da (unk. ctxt): mov ds, word ptr cs:0x0054 ; 2e8e1e5400
+<bochs:194>
+Next at t=139916104
+(0) [0x0000001000cf] ffff:00df (unk. ctxt): mov bx, word ptr ss:[bp+20] ; 8b5e14
+<bochs:195>
+Next at t=139916105
+(0) [0x0000001000d2] ffff:00e2 (unk. ctxt): mov si, word ptr ds:[bx]  ; 8b37
+<bochs:196>
+Next at t=139916106
+(0) [0x0000001000d4] ffff:00e4 (unk. ctxt): cmp si, 0x07d5            ; 81fed507
+<bochs:197>
+Next at t=139916107
+(0) [0x0000001000d8] ffff:00e8 (unk. ctxt): jz .+12 (0x001000e6)      ; 740c
+<bochs:198>
+Next at t=139916108
+(0) [0x0000001000e6] ffff:00f6 (unk. ctxt): les bx, ds:0x0012         ; c41e1200
+<bochs:199>
+Next at t=139916109
+(0) [0x0000001000ea] ffff:00fa (unk. ctxt): mov al, byte ptr es:[bx+1] ; 268a4701
+<bochs:200>
+Next at t=139916110
+(0) [0x0000001000ee] ffff:00fe (unk. ctxt): mov ah, byte ptr es:[bx+13] ; 268a670d
+<bochs:201>
+Next at t=139916111
+(0) [0x0000001000f2] ffff:0102 (unk. ctxt): mov cx, word ptr es:[bx+18] ; 268b4f12
+<bochs:202>
+Next at t=139916112
+(0) [0x0000001000f6] ffff:0106 (unk. ctxt): mov dx, word ptr es:[bx+20] ; 268b5714
+<bochs:203>
+Next at t=139916113
+(0) [0x0000001000fa] ffff:010a (unk. ctxt): cmp si, 0x0cb2            ; 81feb20c
+<bochs:204>
+Next at t=139916114
+(0) [0x0000001000fe] ffff:010e (unk. ctxt): jnz .+25 (0x00100119)     ; 7519
+<bochs:205>
+Next at t=139916115
+(0) [0x000000100119] ffff:0129 (unk. ctxt): xchg di, ax               ; 97
+<bochs:206>
+Next at t=139916116
+(0) [0x00000010011a] ffff:012a (unk. ctxt): mov al, byte ptr es:[bx+2] ; 268a4702
+<bochs:207>
+Next at t=139916117
+(0) [0x00000010011e] ffff:012e (unk. ctxt): cmp al, byte ptr cs:[si]  ; 2e3a04
+<bochs:208>
+Next at t=139916118
+(0) [0x000000100121] ffff:0131 (unk. ctxt): jnb .-231 (0x0010003e)    ; 0f8319ff
+<bochs:209>
+Next at t=139916119
+(0) [0x000000100125] ffff:0135 (unk. ctxt): cbw                       ; 98
+<bochs:210>
+Next at t=139916120
+(0) [0x000000100126] ffff:0136 (unk. ctxt): shl ax, 1                 ; d1e0
+<bochs:211>
+Next at t=139916121
+(0) [0x000000100128] ffff:0138 (unk. ctxt): add si, ax                ; 03f0
+<bochs:212>
+Next at t=139916122
+(0) [0x00000010012a] ffff:013a (unk. ctxt): xchg di, ax               ; 97
+<bochs:213>
+Next at t=139916123
+(0) [0x00000010012b] ffff:013b (unk. ctxt): les di, es:[bx+14]        ; 26c47f0e
+<bochs:214>
+Next at t=139916124
+(0) [0x00000010012f] ffff:013f (unk. ctxt): cld                       ; fc
+<bochs:215>
+Next at t=139916125
+(0) [0x000000100130] ffff:0140 (unk. ctxt): push ds                   ; 1e
+<bochs:216>
+Next at t=139916126
+(0) [0x000000100131] ffff:0141 (unk. ctxt): call word ptr cs:[si+1]   ; 2eff5401
+<bochs:217>
+Next at t=139916127
+(0) [0x00000010083d] ffff:084d (unk. ctxt): mov al, byte ptr ds:0x0424 ; a02404
+<bochs:218>
+Next at t=139916128
+(0) [0x000000100840] ffff:0850 (unk. ctxt): or al, al                 ; 0ac0
+<bochs:219>
+Next at t=139916129
+(0) [0x000000100842] ffff:0852 (unk. ctxt): jnz .+51 (0x00100877)     ; 7533
+<bochs:220>
+Next at t=139916130
+(0) [0x000000100844] ffff:0854 (unk. ctxt): mov ah, byte ptr ds:0x00b2 ; 8a26b200
+<bochs:221>
+Next at t=139916131
+(0) [0x000000100848] ffff:0858 (unk. ctxt): int 0x16                  ; cd16
+<bochs:222>
+Next at t=139916132
+(0) [0x000000000af9] 0070:03f9 (unk. ctxt): sti                       ; fb
+<bochs:223>
+Next at t=139916133
+(0) [0x000000000afa] 0070:03fa (unk. ctxt): pushf                     ; 9c
+<bochs:224>
+Next at t=139916134
+(0) [0x000000000afb] 0070:03fb (unk. ctxt): test byte ptr cs:0x0009, 0x20 ; 2ef606090020
+<bochs:225>
+Next at t=139916135
+(0) [0x000000000b01] 0070:0401 (unk. ctxt): jnz .+19 (0x00000b16)     ; 7513
+<bochs:226>
+Next at t=139916136
+(0) [0x000000000b03] 0070:0403 (unk. ctxt): cli                       ; fa
+<bochs:227>
+Next at t=139916137
+(0) [0x000000000b04] 0070:0404 (unk. ctxt): callf cs:0x015e           ; 2eff1e5e01
+<bochs:228>
+Next at t=139916138
+(0) [0x0000000fe82e] f000:e82e (unk. ctxt): sti                       ; fb
+<bochs:229>
+Next at t=139916139
+(0) [0x0000000fe82f] f000:e82f (unk. ctxt): push ds                   ; 1e
+<bochs:230>
+Next at t=139916140
+(0) [0x0000000fe830] f000:e830 (unk. ctxt): pushf                     ; 9c
+<bochs:231>
+Next at t=139916141
+(0) [0x0000000fe831] f000:e831 (unk. ctxt): pusha                     ; 60
+<bochs:232>
+Next at t=139916142
+(0) [0x0000000fe832] f000:e832 (unk. ctxt): push 0x0040               ; 6a40
+<bochs:233>
+Next at t=139916143
+(0) [0x0000000fe834] f000:e834 (unk. ctxt): pop ds                    ; 1f
+<bochs:234>
+Next at t=139916144
+(0) [0x0000000fe835] f000:e835 (unk. ctxt): cmp ah, 0x00              ; 80fc00
+<bochs:235>
+Next at t=139916145
+(0) [0x0000000fe838] f000:e838 (unk. ctxt): jz .+31 (0x000fe859)      ; 741f
+<bochs:236>
+Next at t=139916146
+(0) [0x0000000fe83a] f000:e83a (unk. ctxt): cmp ah, 0x10              ; 80fc10
+<bochs:237>
+Next at t=139916147
+(0) [0x0000000fe83d] f000:e83d (unk. ctxt): jz .+26 (0x000fe859)      ; 741a
+<bochs:238>
+Next at t=139916148
+(0) [0x0000000fe83f] f000:e83f (unk. ctxt): call .+26566 (0x000f5008) ; e8c667
+<bochs:239>
+Next at t=139916149
+(0) [0x0000000f5008] f000:5008 (unk. ctxt): push bp                   ; 55
+<bochs:240>
+Next at t=139916150
+(0) [0x0000000f5009] f000:5009 (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:241>
+Next at t=139916151
+(0) [0x0000000f500b] f000:500b (unk. ctxt): add sp, 0xfff6            ; 83c4f6
+<bochs:242>
+Next at t=139916152
+(0) [0x0000000f500e] f000:500e (unk. ctxt): mov al, byte ptr ds:0x0017 ; a01700
+<bochs:243>
+Next at t=139916153
+(0) [0x0000000f5011] f000:5011 (unk. ctxt): mov byte ptr ss:[bp-3], al ; 8846fd
+<bochs:244>
+Next at t=139916154
+(0) [0x0000000f5014] f000:5014 (unk. ctxt): mov al, byte ptr ds:0x0097 ; a09700
+<bochs:245>
+Next at t=139916155
+(0) [0x0000000f5017] f000:5017 (unk. ctxt): mov byte ptr ss:[bp-4], al ; 8846fc
+<bochs:246>
+Next at t=139916156
+(0) [0x0000000f501a] f000:501a (unk. ctxt): mov al, byte ptr ss:[bp-4] ; 8a46fc
+<bochs:247>
+Next at t=139916157
+(0) [0x0000000f501d] f000:501d (unk. ctxt): and al, 0x07              ; 2407
+<bochs:248>
+Next at t=139916158
+(0) [0x0000000f501f] f000:501f (unk. ctxt): push ax                   ; 50
+<bochs:249>
+Next at t=139916159
+(0) [0x0000000f5020] f000:5020 (unk. ctxt): mov al, byte ptr ss:[bp-3] ; 8a46fd
+<bochs:250>
+Next at t=139916160
+(0) [0x0000000f5023] f000:5023 (unk. ctxt): xor ah, ah                ; 30e4
+<bochs:251>
+Next at t=139916161
+(0) [0x0000000f5025] f000:5025 (unk. ctxt): mov cl, 0x04              ; b104
+<bochs:252>
+Next at t=139916162
+(0) [0x0000000f5027] f000:5027 (unk. ctxt): shr ax, cl                ; d3e8
+<bochs:253>
+Next at t=139916163
+(0) [0x0000000f5029] f000:5029 (unk. ctxt): and al, 0x07              ; 2407
+<bochs:254>
+Next at t=139916164
+(0) [0x0000000f502b] f000:502b (unk. ctxt): xor al, byte ptr ss:[bp-12] ; 3246f4
+<bochs:255>
+Next at t=139916165
+(0) [0x0000000f502e] f000:502e (unk. ctxt): inc sp                    ; 44
+<bochs:256>
+Next at t=139916166
+(0) [0x0000000f502f] f000:502f (unk. ctxt): inc sp                    ; 44
+<bochs:257>
+Next at t=139916167
+(0) [0x0000000f5030] f000:5030 (unk. ctxt): test al, al               ; 84c0
+<bochs:258>
+Next at t=139916168
+(0) [0x0000000f5032] f000:5032 (unk. ctxt): jz .+149 (0x000f50cb)     ; 0f849500
+<bochs:259>
+Next at t=139916169
+(0) [0x0000000f50cb] f000:50cb (unk. ctxt): mov ax, word ptr ss:[bp+18] ; 8b4612
+<bochs:260>
+Next at t=139916170
+(0) [0x0000000f50ce] f000:50ce (unk. ctxt): mov al, ah                ; 88e0
+<bochs:261>
+Next at t=139916171
+(0) [0x0000000f50d0] f000:50d0 (unk. ctxt): xor ah, ah                ; 30e4
+<bochs:262>
+Next at t=139916172
+(0) [0x0000000f50d2] f000:50d2 (unk. ctxt): jmp .+727 (0x000f53ac)    ; e9d702
+<bochs:263>
+Next at t=139916173
+(0) [0x0000000f53ac] f000:53ac (unk. ctxt): sub ax, 0x0000            ; 2d0000
+<bochs:264>
+Next at t=139916174
+(0) [0x0000000f53af] f000:53af (unk. ctxt): jl .-29 (0x000f5394)      ; 7ce3
+<bochs:265>
+Next at t=139916175
+(0) [0x0000000f53b1] f000:53b1 (unk. ctxt): cmp ax, 0x0012            ; 3d1200
+<bochs:266>
+Next at t=139916176
+(0) [0x0000000f53b4] f000:53b4 (unk. ctxt): jnbe .+47 (0x000f53e5)    ; 772f
+<bochs:267>
+Next at t=139916177
+(0) [0x0000000f53b6] f000:53b6 (unk. ctxt): shl ax, 1                 ; d1e0
+<bochs:268>
+Next at t=139916178
+(0) [0x0000000f53b8] f000:53b8 (unk. ctxt): mov bx, ax                ; 89c3
+<bochs:269>
+Next at t=139916179
+(0) [0x0000000f53ba] f000:53ba (unk. ctxt): jmp word ptr cs:[bx+21439] ; 2effa7bf53
+<bochs:270>
+Next at t=139916180
+(0) [0x0000000f52e7] f000:52e7 (unk. ctxt): xor ax, ax                ; 31c0
+<bochs:271>
+Next at t=139916181
+(0) [0x0000000f52e9] f000:52e9 (unk. ctxt): push ax                   ; 50
+<bochs:272>
+Next at t=139916182
+(0) [0x0000000f52ea] f000:52ea (unk. ctxt): lea bx, word ptr ss:[bp-2] ; 8d5efe
+<bochs:273>
+Next at t=139916183
+(0) [0x0000000f52ed] f000:52ed (unk. ctxt): push bx                   ; 53
+<bochs:274>
+Next at t=139916184
+(0) [0x0000000f52ee] f000:52ee (unk. ctxt): lea bx, word ptr ss:[bp-1] ; 8d5eff
+<bochs:275>
+Next at t=139916185
+(0) [0x0000000f52f1] f000:52f1 (unk. ctxt): push bx                   ; 53
+<bochs:276>
+Next at t=139916186
+(0) [0x0000000f52f2] f000:52f2 (unk. ctxt): call .+261 (0x000f53fa)   ; e80501
+<bochs:277>
+Next at t=139916187
+(0) [0x0000000f53fa] f000:53fa (unk. ctxt): push bp                   ; 55
+<bochs:278>
+Next at t=139916188
+(0) [0x0000000f53fb] f000:53fb (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:279>
+Next at t=139916189
+(0) [0x0000000f53fd] f000:53fd (unk. ctxt): add sp, 0xfff6            ; 83c4f6
+<bochs:280>
+Next at t=139916190
+(0) [0x0000000f5400] f000:5400 (unk. ctxt): mov ax, word ptr ds:0x0080 ; a18000
+<bochs:281>
+Next at t=139916191
+(0) [0x0000000f5403] f000:5403 (unk. ctxt): mov word ptr ss:[bp-2], ax ; 8946fe
+<bochs:282>
+Next at t=139916192
+(0) [0x0000000f5406] f000:5406 (unk. ctxt): mov ax, word ptr ds:0x0082 ; a18200
+<bochs:283>
+Next at t=139916193
+(0) [0x0000000f5409] f000:5409 (unk. ctxt): mov word ptr ss:[bp-4], ax ; 8946fc
+<bochs:284>
+Next at t=139916194
+(0) [0x0000000f540c] f000:540c (unk. ctxt): mov ax, word ptr ds:0x001a ; a11a00
+<bochs:285>
+Next at t=139916195
+(0) [0x0000000f540f] f000:540f (unk. ctxt): mov word ptr ss:[bp-6], ax ; 8946fa
+<bochs:286>
+Next at t=139916196
+(0) [0x0000000f5412] f000:5412 (unk. ctxt): mov ax, word ptr ds:0x001c ; a11c00
+<bochs:287>
+Next at t=139916197
+(0) [0x0000000f5415] f000:5415 (unk. ctxt): mov word ptr ss:[bp-8], ax ; 8946f8
+<bochs:288>
+Next at t=139916198
+(0) [0x0000000f5418] f000:5418 (unk. ctxt): mov ax, word ptr ss:[bp-6] ; 8b46fa
+<bochs:289>
+Next at t=139916199
+(0) [0x0000000f541b] f000:541b (unk. ctxt): cmp ax, word ptr ss:[bp-8] ; 3b46f8
+<bochs:290>
+Next at t=139916200
+(0) [0x0000000f541e] f000:541e (unk. ctxt): jz .+93 (0x000f547d)      ; 745d
+<bochs:291>
+Next at t=139916201
+(0) [0x0000000f547d] f000:547d (unk. ctxt): xor ax, ax                ; 31c0
+<bochs:292>
+Next at t=139916202
+(0) [0x0000000f547f] f000:547f (unk. ctxt): mov sp, bp                ; 89ec
+<bochs:293>
+Next at t=139916203
+(0) [0x0000000f5481] f000:5481 (unk. ctxt): pop bp                    ; 5d
+<bochs:294>
+Next at t=139916204
+(0) [0x0000000f5482] f000:5482 (unk. ctxt): ret                       ; c3
+<bochs:295>
+Next at t=139916205
+(0) [0x0000000f52f5] f000:52f5 (unk. ctxt): add sp, 0x0006            ; 83c406
+<bochs:296>
+Next at t=139916206
+(0) [0x0000000f52f8] f000:52f8 (unk. ctxt): test ax, ax               ; 85c0
+<bochs:297>
+Next at t=139916207
+(0) [0x0000000f52fa] f000:52fa (unk. ctxt): jnz .+12 (0x000f5308)     ; 750c
+<bochs:298>
+Next at t=139916208
+(0) [0x0000000f52fc] f000:52fc (unk. ctxt): mov ax, word ptr ss:[bp+20] ; 8b4614
+<bochs:299>
+Next at t=139916209
+(0) [0x0000000f52ff] f000:52ff (unk. ctxt): or al, 0x40               ; 0c40
+<bochs:300>
+Next at t=139916210
+(0) [0x0000000f5301] f000:5301 (unk. ctxt): mov word ptr ss:[bp+20], ax ; 894614
+<bochs:301>
+Next at t=139916211
+(0) [0x0000000f5304] f000:5304 (unk. ctxt): mov sp, bp                ; 89ec
+<bochs:302>
+Next at t=139916212
+(0) [0x0000000f5306] f000:5306 (unk. ctxt): pop bp                    ; 5d
+<bochs:303>
+Next at t=139916213
+(0) [0x0000000f5307] f000:5307 (unk. ctxt): ret                       ; c3
+<bochs:304>
+Next at t=139916214
+(0) [0x0000000fe842] f000:e842 (unk. ctxt): popa                      ; 61
+<bochs:305>
+Next at t=139916215
+(0) [0x0000000fe843] f000:e843 (unk. ctxt): popf                      ; 9d
+<bochs:306>
+Next at t=139916216
+(0) [0x0000000fe844] f000:e844 (unk. ctxt): pop ds                    ; 1f
+<bochs:307>
+Next at t=139916217
+(0) [0x0000000fe845] f000:e845 (unk. ctxt): jz .+9 (0x000fe850)       ; 7409
+<bochs:308>
+Next at t=139916218
+(0) [0x0000000fe850] f000:e850 (unk. ctxt): push bp                   ; 55
+<bochs:309>
+Next at t=139916219
+(0) [0x0000000fe851] f000:e851 (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:310>
+Next at t=139916220
+(0) [0x0000000fe853] f000:e853 (unk. ctxt): or byte ptr ss:[bp+6], 0x40 ; 804e0640
+<bochs:311>
+Next at t=139916221
+(0) [0x0000000fe857] f000:e857 (unk. ctxt): pop bp                    ; 5d
+<bochs:312>
+Next at t=139916222
+(0) [0x0000000fe858] f000:e858 (unk. ctxt): iret                      ; cf
+<bochs:313>
+Next at t=139916223
+(0) [0x000000000b09] 0070:0409 (unk. ctxt): pushf                     ; 9c
+<bochs:314>
+Next at t=139916224
+(0) [0x000000000b0a] 0070:040a (unk. ctxt): dec word ptr cs:0x044e    ; 2eff0e4e04
+<bochs:315>
+Next at t=139916225
+(0) [0x000000000b0f] 0070:040f (unk. ctxt): jnz .+1 (0x00000b12)      ; 7501
+<bochs:316>
+Next at t=139916226
+(0) [0x000000000b12] 0070:0412 (unk. ctxt): popf                      ; 9d
+<bochs:317>
+Next at t=139916227
+(0) [0x000000000b13] 0070:0413 (unk. ctxt): retf 0x0002               ; ca0200
+<bochs:318>
+Next at t=139916228
+(0) [0x00000010084a] ffff:085a (unk. ctxt): jnz .+4 (0x00100850)      ; 7504
+<bochs:319>
+Next at t=139916229
+(0) [0x00000010084c] ffff:085c (unk. ctxt): stc                       ; f9
+<bochs:320>
+Next at t=139916230
+(0) [0x00000010084d] ffff:085d (unk. ctxt): mov ah, 0x03              ; b403
+<bochs:321>
+Next at t=139916231
+(0) [0x00000010084f] ffff:085f (unk. ctxt): ret                       ; c3
+<bochs:322>
+Next at t=139916232
+(0) [0x000000100135] ffff:0145 (unk. ctxt): pop ds                    ; 1f
+<bochs:323>
+Next at t=139916233
+(0) [0x000000100136] ffff:0146 (unk. ctxt): jb .+2 (0x0010013a)       ; 7202
+<bochs:324>
+Next at t=139916234
+(0) [0x00000010013a] ffff:014a (unk. ctxt): lds bx, ds:0x0012         ; c51e1200
+<bochs:325>
+Next at t=139916235
+(0) [0x00000010013e] ffff:014e (unk. ctxt): mov word ptr ds:[bx+3], ax ; 894703
+<bochs:326>
+Next at t=139916236
+(0) [0x000000100141] ffff:0151 (unk. ctxt): pop es                    ; 07
+<bochs:327>
+Next at t=139916237
+(0) [0x000000100142] ffff:0152 (unk. ctxt): pop ds                    ; 1f
+<bochs:328>
+Next at t=139916238
+(0) [0x000000100143] ffff:0153 (unk. ctxt): popa                      ; 61
+<bochs:329>
+Next at t=139916239
+(0) [0x000000100144] ffff:0154 (unk. ctxt): add sp, 0x0002            ; 83c402
+<bochs:330>
+Next at t=139916240
+(0) [0x000000100147] ffff:0157 (unk. ctxt): retf                      ; cb
+<bochs:331>
+Next at t=139916241
+(0) [0x000000108894] ffff:88a4 (unk. ctxt): dec byte ptr ss:0x12b9    ; 36fe0eb912
+<bochs:332>
+Next at t=139916242
+(0) [0x000000108899] ffff:88a9 (unk. ctxt): cmp byte ptr cs:0x8607, 0x00 ; 2e803e078600
+<bochs:333>
+Next at t=139916243
+(0) [0x00000010889f] ffff:88af (unk. ctxt): jz .+5 (0x001088a6)       ; 7405
+<bochs:334>
+Next at t=139916244
+(0) [0x0000001088a6] ffff:88b6 (unk. ctxt): mov ax, 0x5770            ; b87057
+<bochs:335>
+Next at t=139916245
+(0) [0x0000001088a9] ffff:88b9 (unk. ctxt): test word ptr ds:[si+4], 0x8000 ; f744040080
+<bochs:336>
+Next at t=139916246
+(0) [0x0000001088ae] ffff:88be (unk. ctxt): jz .+10 (0x001088ba)      ; 740a
+<bochs:337>
+Next at t=139916247
+(0) [0x0000001088b0] ffff:88c0 (unk. ctxt): test word ptr ds:[si+4], 0x0003 ; f744040300
+<bochs:338>
+Next at t=139916248
+(0) [0x0000001088b5] ffff:88c5 (unk. ctxt): jz .+3 (0x001088ba)       ; 7403
+<bochs:339>
+Next at t=139916249
+(0) [0x0000001088b7] ffff:88c7 (unk. ctxt): mov ax, 0x5763            ; b86357
+<bochs:340>
+Next at t=139916250
+(0) [0x0000001088ba] ffff:88ca (unk. ctxt): call ax                   ; ffd0
+<bochs:341>
+Next at t=139916251
+(0) [0x000000105753] ffff:5763 (unk. ctxt): pushf                     ; 9c
+<bochs:342>
+Next at t=139916252
+(0) [0x000000105754] ffff:5764 (unk. ctxt): push ax                   ; 50
+<bochs:343>
+Next at t=139916253
+(0) [0x000000105755] ffff:5765 (unk. ctxt): xor ax, ax                ; 33c0
+<bochs:344>
+Next at t=139916254
+(0) [0x000000105757] ffff:5767 (unk. ctxt): cmp word ptr ss:0x1306, ax ; 3639060613
+<bochs:345>
+Next at t=139916255
+(0) [0x00000010575c] ffff:576c (unk. ctxt): jnz .-14 (0x00105750)     ; 75f2
+<bochs:346>
+Next at t=139916256
+(0) [0x00000010575e] ffff:576e (unk. ctxt): jmp .+11 (0x0010576b)     ; eb0b
+<bochs:347>
+Next at t=139916257
+(0) [0x00000010576b] ffff:577b (unk. ctxt): cmp byte ptr ss:0x0d65, al ; 363806650d
+<bochs:348>
+Next at t=139916258
+(0) [0x000000105770] ffff:5780 (unk. ctxt): jz .+5 (0x00105777)       ; 7405
+<bochs:349>
+Next at t=139916259
+(0) [0x000000105777] ffff:5787 (unk. ctxt): pop ax                    ; 58
+<bochs:350>
+Next at t=139916260
+(0) [0x000000105778] ffff:5788 (unk. ctxt): popf                      ; 9d
+<bochs:351>
+Next at t=139916261
+(0) [0x000000105779] ffff:5789 (unk. ctxt): ret                       ; c3
+<bochs:352>
+Next at t=139916262
+(0) [0x0000001088bc] ffff:88cc (unk. ctxt): ret                       ; c3
+<bochs:353>
+Next at t=139916263
+(0) [0x000000108672] ffff:8682 (unk. ctxt): mov di, word ptr ss:0x037f ; 368b3e7f03
+<bochs:354>
+Next at t=139916264
+(0) [0x000000108677] ffff:8687 (unk. ctxt): and di, di                ; 23ff
+<bochs:355>
+Next at t=139916265
+(0) [0x000000108679] ffff:8689 (unk. ctxt): js .+52 (0x001086af)      ; 7834
+<bochs:356>
+Next at t=139916266
+(0) [0x00000010867b] ffff:868b (unk. ctxt): mov ax, ss                ; 8cd0
+<bochs:357>
+Next at t=139916267
+(0) [0x00000010867d] ffff:868d (unk. ctxt): mov ds, ax                ; 8ed8
+<bochs:358>
+Next at t=139916268
+(0) [0x00000010867f] ffff:868f (unk. ctxt): cmp ch, 0x05              ; 80fd05
+<bochs:359>
+Next at t=139916269
+(0) [0x000000108682] ffff:8692 (unk. ctxt): jnz .+6 (0x0010868a)      ; 7506
+<bochs:360>
+Next at t=139916270
+(0) [0x000000108684] ffff:8694 (unk. ctxt): mov al, byte ptr ds:0x0389 ; a08903
+<bochs:361>
+Next at t=139916271
+(0) [0x000000108687] ffff:8697 (unk. ctxt): mov byte ptr ds:0x03bc, al ; a2bc03
+<bochs:362>
+Next at t=139916272
+(0) [0x00000010868a] ffff:869a (unk. ctxt): mov ah, byte ptr ds:0x0380 ; 8a268003
+<bochs:363>
+Next at t=139916273
+(0) [0x00000010868e] ffff:869e (unk. ctxt): not ah                    ; f6d4
+<bochs:364>
+Next at t=139916274
+(0) [0x000000108690] ffff:86a0 (unk. ctxt): and ah, 0x02              ; 80e402
+<bochs:365>
+Next at t=139916275
+(0) [0x000000108693] ffff:86a3 (unk. ctxt): call .-17774 (0x00104128) ; e892ba
+<bochs:366>
+Next at t=139916276
+(0) [0x000000104128] ffff:4138 (unk. ctxt): mov es, word ptr cs:0x3ea2 ; 2e8e06a23e
+<bochs:367>
+Next at t=139916277
+(0) [0x00000010412d] ffff:413d (unk. ctxt): pop word ptr es:0x05ee    ; 268f06ee05
+<bochs:368>
+Next at t=139916278
+(0) [0x000000104132] ffff:4142 (unk. ctxt): pop ax                    ; 58
+<bochs:369>
+Next at t=139916279
+(0) [0x000000104133] ffff:4143 (unk. ctxt): pop bx                    ; 5b
+<bochs:370>
+Next at t=139916280
+(0) [0x000000104134] ffff:4144 (unk. ctxt): pop cx                    ; 59
+<bochs:371>
+Next at t=139916281
+(0) [0x000000104135] ffff:4145 (unk. ctxt): pop dx                    ; 5a
+<bochs:372>
+Next at t=139916282
+(0) [0x000000104136] ffff:4146 (unk. ctxt): pop si                    ; 5e
+<bochs:373>
+Next at t=139916283
+(0) [0x000000104137] ffff:4147 (unk. ctxt): pop di                    ; 5f
+<bochs:374>
+Next at t=139916284
+(0) [0x000000104138] ffff:4148 (unk. ctxt): pop bp                    ; 5d
+<bochs:375>
+Next at t=139916285
+(0) [0x000000104139] ffff:4149 (unk. ctxt): pop ds                    ; 1f
+<bochs:376>
+Next at t=139916286
+(0) [0x00000010413a] ffff:414a (unk. ctxt): jmp word ptr es:0x05ee    ; 26ff26ee05
+<bochs:377>
+Next at t=139916287
+(0) [0x000000108696] ffff:86a6 (unk. ctxt): pop es                    ; 07
+<bochs:378>
+Next at t=139916288
+(0) [0x000000108697] ffff:86a7 (unk. ctxt): pushf                     ; 9c
+<bochs:379>
+Next at t=139916289
+(0) [0x000000108698] ffff:86a8 (unk. ctxt): mov al, byte ptr ss:0x0083 ; 36a08300
+<bochs:380>
+Next at t=139916290
+(0) [0x00000010869c] ffff:86ac (unk. ctxt): cbw                       ; 98
+<bochs:381>
+Next at t=139916291
+(0) [0x00000010869d] ffff:86ad (unk. ctxt): cmp ax, 0xffff            ; 83f8ff
+<bochs:382>
+Next at t=139916292
+(0) [0x0000001086a0] ffff:86b0 (unk. ctxt): jnz .+7 (0x001086a9)      ; 7507
+<bochs:383>
+Next at t=139916293
+(0) [0x0000001086a9] ffff:86b9 (unk. ctxt): mov ax, word ptr ss:0x03bc ; 36a1bc03
+<bochs:384>
+Next at t=139916294
+(0) [0x0000001086ad] ffff:86bd (unk. ctxt): popf                      ; 9d
+<bochs:385>
+Next at t=139916295
+(0) [0x0000001086ae] ffff:86be (unk. ctxt): ret                       ; c3
+<bochs:386>
+Next at t=139916296
+(0) [0x000000108fdb] ffff:8feb (unk. ctxt): jz .-189 (0x00108f22)     ; 0f8443ff
+<bochs:387>
+Next at t=139916297
+(0) [0x000000108f22] ffff:8f32 (unk. ctxt): pop ax                    ; 58
+<bochs:388>
+Next at t=139916298
+(0) [0x000000108f23] ffff:8f33 (unk. ctxt): pop bx                    ; 5b
+<bochs:389>
+Next at t=139916299
+(0) [0x000000108f24] ffff:8f34 (unk. ctxt): pushf                     ; 9c
+<bochs:390>
+Next at t=139916300
+(0) [0x000000108f25] ffff:8f35 (unk. ctxt): cmp byte ptr ss:0x0358, 0x00 ; 36803e580300
+<bochs:391>
+Next at t=139916301
+(0) [0x000000108f2b] ffff:8f3b (unk. ctxt): jz .+20 (0x00108f41)      ; 7414
+<bochs:392>
+Next at t=139916302
+(0) [0x000000108f41] ffff:8f51 (unk. ctxt): popf                      ; 9d
+<bochs:393>
+Next at t=139916303
+(0) [0x000000108f42] ffff:8f52 (unk. ctxt): ret                       ; c3
+<bochs:394>
+Next at t=139916304
+(0) [0x0000001057ae] ffff:57be (unk. ctxt): jnz .+66 (0x001057f2)     ; 7542
+<bochs:395>
+Next at t=139916305
+(0) [0x0000001057b0] ffff:57c0 (unk. ctxt): cmp byte ptr ss:0x0aa0, 0x00 ; 36803ea00a00
+<bochs:396>
+Next at t=139916306
+(0) [0x0000001057b6] ffff:57c6 (unk. ctxt): jnz .+16 (0x001057c8)     ; 7510
+<bochs:397>
+Next at t=139916307
+(0) [0x0000001057b8] ffff:57c8 (unk. ctxt): mov ah, 0x05              ; b405
+<bochs:398>
+Next at t=139916308
+(0) [0x0000001057ba] ffff:57ca (unk. ctxt): call .+11853 (0x0010860a) ; e84d2e
+<bochs:399>
+Next at t=139916309
+(0) [0x00000010860a] ffff:861a (unk. ctxt): mov word ptr ss:0x038c, ss ; 368c168c03
+<bochs:400>
+Next at t=139916310
+(0) [0x00000010860f] ffff:861f (unk. ctxt): mov word ptr ss:0x038a, 0x03bc ; 36c7068a03bc03
+<bochs:401>
+Next at t=139916311
+(0) [0x000000108616] ffff:8626 (unk. ctxt): mov word ptr ss:0x038e, 0x0001 ; 36c7068e030100
+<bochs:402>
+Next at t=139916312
+(0) [0x00000010861d] ffff:862d (unk. ctxt): mov word ptr ss:0x03bc, ax ; 36a3bc03
+<bochs:403>
+Next at t=139916313
+(0) [0x000000108621] ffff:8631 (unk. ctxt): test byte ptr ds:[si+6], 0x80 ; f6440680
+<bochs:404>
+Next at t=139916314
+(0) [0x000000108625] ffff:8635 (unk. ctxt): jz .+3 (0x0010862a)       ; 7403
+<bochs:405>
+Next at t=139916315
+(0) [0x00000010862a] ffff:863a (unk. ctxt): test byte ptr ds:[si+5], 0x80 ; f6440580
+<bochs:406>
+Next at t=139916316
+(0) [0x00000010862e] ffff:863e (unk. ctxt): jnz .+3 (0x00108633)      ; 7503
+<bochs:407>
+Next at t=139916317
+(0) [0x000000108633] ffff:8643 (unk. ctxt): push es                   ; 06
+<bochs:408>
+Next at t=139916318
+(0) [0x000000108634] ffff:8644 (unk. ctxt): call .-17656 (0x0010413f) ; e808bb
+<bochs:409>
+Next at t=139916319
+(0) [0x00000010413f] ffff:414f (unk. ctxt): mov es, word ptr cs:0x3ea2 ; 2e8e06a23e
+<bochs:410>
+Next at t=139916320
+(0) [0x000000104144] ffff:4154 (unk. ctxt): pop word ptr es:0x05ee    ; 268f06ee05
+<bochs:411>
+Next at t=139916321
+(0) [0x000000104149] ffff:4159 (unk. ctxt): push ds                   ; 1e
+<bochs:412>
+Next at t=139916322
+(0) [0x00000010414a] ffff:415a (unk. ctxt): push bp                   ; 55
+<bochs:413>
+Next at t=139916323
+(0) [0x00000010414b] ffff:415b (unk. ctxt): push di                   ; 57
+<bochs:414>
+Next at t=139916324
+(0) [0x00000010414c] ffff:415c (unk. ctxt): push si                   ; 56
+<bochs:415>
+Next at t=139916325
+(0) [0x00000010414d] ffff:415d (unk. ctxt): push dx                   ; 52
+<bochs:416>
+Next at t=139916326
+(0) [0x00000010414e] ffff:415e (unk. ctxt): push cx                   ; 51
+<bochs:417>
+Next at t=139916327
+(0) [0x00000010414f] ffff:415f (unk. ctxt): push bx                   ; 53
+<bochs:418>
+Next at t=139916328
+(0) [0x000000104150] ffff:4160 (unk. ctxt): push ax                   ; 50
+<bochs:419>
+Next at t=139916329
+(0) [0x000000104151] ffff:4161 (unk. ctxt): push word ptr es:0x05ee   ; 26ff36ee05
+<bochs:420>
+Next at t=139916330
+(0) [0x000000104156] ffff:4166 (unk. ctxt): push bp                   ; 55
+<bochs:421>
+Next at t=139916331
+(0) [0x000000104157] ffff:4167 (unk. ctxt): mov bp, sp                ; 8bec
+<bochs:422>
+Next at t=139916332
+(0) [0x000000104159] ffff:4169 (unk. ctxt): mov es, word ptr ss:[bp+20] ; 8e4614
+<bochs:423>
+Next at t=139916333
+(0) [0x00000010415c] ffff:416c (unk. ctxt): pop bp                    ; 5d
+<bochs:424>
+Next at t=139916334
+(0) [0x00000010415d] ffff:416d (unk. ctxt): ret                       ; c3
+<bochs:425>
+Next at t=139916335
+(0) [0x000000108637] ffff:8647 (unk. ctxt): mov dx, ds                ; 8cda
+<bochs:426>
+Next at t=139916336
+(0) [0x000000108639] ffff:8649 (unk. ctxt): mov bx, ss                ; 8cd3
+<bochs:427>
+Next at t=139916337
+(0) [0x00000010863b] ffff:864b (unk. ctxt): mov ds, bx                ; 8edb
+<bochs:428>
+Next at t=139916338
+(0) [0x00000010863d] ffff:864d (unk. ctxt): mov es, bx                ; 8ec3
+<bochs:429>
+Next at t=139916339
+(0) [0x00000010863f] ffff:864f (unk. ctxt): xor bx, bx                ; 33db
+<bochs:430>
+Next at t=139916340
+(0) [0x000000108641] ffff:8651 (unk. ctxt): cmp ah, 0x05              ; 80fc05
+<bochs:431>
+Next at t=139916341
+(0) [0x000000108644] ffff:8654 (unk. ctxt): jnz .+4 (0x0010864a)      ; 7504
+<bochs:432>
+Next at t=139916342
+(0) [0x000000108646] ffff:8656 (unk. ctxt): or bx, 0x0400             ; 81cb0004
+<bochs:433>
+Next at t=139916343
+(0) [0x00000010864a] ffff:865a (unk. ctxt): mov word ptr ds:0x037f, bx ; 891e7f03
+<bochs:434>
+Next at t=139916344
+(0) [0x00000010864e] ffff:865e (unk. ctxt): xor bx, bx                ; 33db
+<bochs:435>
+Next at t=139916345
+(0) [0x000000108650] ffff:8660 (unk. ctxt): mov byte ptr ds:0x0389, bl ; 881e8903
+<bochs:436>
+Next at t=139916346
+(0) [0x000000108654] ffff:8664 (unk. ctxt): mov bl, ah                ; 8adc
+<bochs:437>
+Next at t=139916347
+(0) [0x000000108656] ffff:8666 (unk. ctxt): mov ah, byte ptr cs:[bx-31224] ; 2e8aa70886
+<bochs:438>
+Next at t=139916348
+(0) [0x00000010865b] ffff:866b (unk. ctxt): shl bx, 1                 ; d1e3
+<bochs:439>
+Next at t=139916349
+(0) [0x00000010865d] ffff:866d (unk. ctxt): mov cx, word ptr cs:[bx-31218] ; 2e8b8f0e86
+<bochs:440>
+Next at t=139916350
+(0) [0x000000108662] ffff:8672 (unk. ctxt): mov bx, 0x037c            ; bb7c03
+<bochs:441>
+Next at t=139916351
+(0) [0x000000108665] ffff:8675 (unk. ctxt): mov byte ptr ds:0x037c, ah ; 88267c03
+<bochs:442>
+Next at t=139916352
+(0) [0x000000108669] ffff:8679 (unk. ctxt): mov byte ptr ds:0x037e, ch ; 882e7e03
+<bochs:443>
+Next at t=139916353
+(0) [0x00000010866d] ffff:867d (unk. ctxt): mov ds, dx                ; 8eda
+<bochs:444>
+Next at t=139916354
+(0) [0x00000010866f] ffff:867f (unk. ctxt): call .+404 (0x00108806)   ; e89401
+<bochs:445>
+Next at t=139916355
+(0) [0x000000108806] ffff:8816 (unk. ctxt): lds si, ds:[si+7]         ; c57407
+<bochs:446>
+Next at t=139916356
+(0) [0x000000108809] ffff:8819 (unk. ctxt): mov ax, 0x5718            ; b81857
+<bochs:447>
+Next at t=139916357
+(0) [0x00000010880c] ffff:881c (unk. ctxt): test word ptr ds:[si+4], 0x8000 ; f744040080
+<bochs:448>
+Next at t=139916358
+(0) [0x000000108811] ffff:8821 (unk. ctxt): jz .+10 (0x0010881d)      ; 740a
+<bochs:449>
+Next at t=139916359
+(0) [0x000000108813] ffff:8823 (unk. ctxt): test word ptr ds:[si+4], 0x0003 ; f744040300
+<bochs:450>
+Next at t=139916360
+(0) [0x000000108818] ffff:8828 (unk. ctxt): jz .+3 (0x0010881d)       ; 7403
+<bochs:451>
+Next at t=139916361
+(0) [0x00000010881a] ffff:882a (unk. ctxt): mov ax, 0x570b            ; b80b57
+<bochs:452>
+Next at t=139916362
+(0) [0x00000010881d] ffff:882d (unk. ctxt): call ax                   ; ffd0
+<bochs:453>
+Next at t=139916363
+(0) [0x0000001056fb] ffff:570b (unk. ctxt): pushf                     ; 9c
+<bochs:454>
+Next at t=139916364
+(0) [0x0000001056fc] ffff:570c (unk. ctxt): push ax                   ; 50
+<bochs:455>
+Next at t=139916365
+(0) [0x0000001056fd] ffff:570d (unk. ctxt): xor ax, ax                ; 33c0
+<bochs:456>
+Next at t=139916366
+(0) [0x0000001056ff] ffff:570f (unk. ctxt): cmp word ptr ss:0x1306, ax ; 3639060613
+<bochs:457>
+Next at t=139916367
+(0) [0x000000105704] ffff:5714 (unk. ctxt): jnz .-23 (0x001056ef)     ; 75e9
+<bochs:458>
+Next at t=139916368
+(0) [0x000000105706] ffff:5716 (unk. ctxt): jmp .+11 (0x00105713)     ; eb0b
+<bochs:459>
+Next at t=139916369
+(0) [0x000000105713] ffff:5723 (unk. ctxt): cmp byte ptr ss:0x0d65, al ; 363806650d
+<bochs:460>
+Next at t=139916370
+(0) [0x000000105718] ffff:5728 (unk. ctxt): jz .+5 (0x0010571f)       ; 7405
+<bochs:461>
+Next at t=139916371
+(0) [0x00000010571f] ffff:572f (unk. ctxt): pop ax                    ; 58
+<bochs:462>
+Next at t=139916372
+(0) [0x000000105720] ffff:5730 (unk. ctxt): popf                      ; 9d
+<bochs:463>
+Next at t=139916373
+(0) [0x000000105721] ffff:5731 (unk. ctxt): ret                       ; c3
+<bochs:464>
+Next at t=139916374
+(0) [0x00000010881f] ffff:882f (unk. ctxt): test byte ptr ds:[si+5], 0x80 ; f6440580
+<bochs:465>
+Next at t=139916375
+(0) [0x000000108823] ffff:8833 (unk. ctxt): jnz .+77 (0x00108872)     ; 754d
+<bochs:466>
+Next at t=139916376
+(0) [0x000000108872] ffff:8882 (unk. ctxt): inc byte ptr ss:0x12b9    ; 36fe06b912
+<bochs:467>
+Next at t=139916377
+(0) [0x000000108877] ffff:8887 (unk. ctxt): mov ax, word ptr ds:[si+6] ; 8b4406
+<bochs:468>
+Next at t=139916378
+(0) [0x00000010887a] ffff:888a (unk. ctxt): mov word ptr ss:0x0378, ax ; 36a37803
+<bochs:469>
+Next at t=139916379
+(0) [0x00000010887e] ffff:888e (unk. ctxt): mov word ptr ss:0x037a, ds ; 368c1e7a03
+<bochs:470>
+Next at t=139916380
+(0) [0x000000108883] ffff:8893 (unk. ctxt): callf ss:0x0378           ; 36ff1e7803
+<bochs:471>
+Next at t=139916381
+(0) [0x000000000962] 0070:0262 (unk. ctxt): mov word ptr cs:0x0012, bx ; 2e891e1200
+<bochs:472>
+Next at t=139916382
+(0) [0x000000000967] 0070:0267 (unk. ctxt): mov word ptr cs:0x0014, es ; 2e8c061400
+<bochs:473>
+Next at t=139916383
+(0) [0x00000000096c] 0070:026c (unk. ctxt): retf                      ; cb
+<bochs:474>
+Next at t=139916384
+(0) [0x000000108888] ffff:8898 (unk. ctxt): mov ax, word ptr ds:[si+8] ; 8b4408
+<bochs:475>
+Next at t=139916385
+(0) [0x00000010888b] ffff:889b (unk. ctxt): mov word ptr ss:0x0378, ax ; 36a37803
+<bochs:476>
+Next at t=139916386
+(0) [0x00000010888f] ffff:889f (unk. ctxt): callf ss:0x0378           ; 36ff1e7803
+<bochs:477>
+Next at t=139916387
+(0) [0x000000000972] 0070:0272 (unk. ctxt): call .+54 (0x000009ab)    ; e83600
+<bochs:478>
+Next at t=139916388
+(0) [0x0000000009ab] 0070:02ab (unk. ctxt): jmpf cs:0x012e            ; 2eff2e2e01
+<bochs:479>
+Next at t=139916389
+(0) [0x0000001000c5] ffff:00d5 (unk. ctxt): pusha                     ; 60
+<bochs:480>
+Next at t=139916390
+(0) [0x0000001000c6] ffff:00d6 (unk. ctxt): push ds                   ; 1e
+<bochs:481>
+Next at t=139916391
+(0) [0x0000001000c7] ffff:00d7 (unk. ctxt): push es                   ; 06
+<bochs:482>
+Next at t=139916392
+(0) [0x0000001000c8] ffff:00d8 (unk. ctxt): mov bp, sp                ; 8bec
+<bochs:483>
+Next at t=139916393
+(0) [0x0000001000ca] ffff:00da (unk. ctxt): mov ds, word ptr cs:0x0054 ; 2e8e1e5400
+<bochs:484>
+Next at t=139916394
+(0) [0x0000001000cf] ffff:00df (unk. ctxt): mov bx, word ptr ss:[bp+20] ; 8b5e14
+<bochs:485>
+Next at t=139916395
+(0) [0x0000001000d2] ffff:00e2 (unk. ctxt): mov si, word ptr ds:[bx]  ; 8b37
+<bochs:486>
+Next at t=139916396
+(0) [0x0000001000d4] ffff:00e4 (unk. ctxt): cmp si, 0x07d5            ; 81fed507
+<bochs:487>
+Next at t=139916397
+(0) [0x0000001000d8] ffff:00e8 (unk. ctxt): jz .+12 (0x001000e6)      ; 740c
+<bochs:488>
+Next at t=139916398
+(0) [0x0000001000e6] ffff:00f6 (unk. ctxt): les bx, ds:0x0012         ; c41e1200
+<bochs:489>
+Next at t=139916399
+(0) [0x0000001000ea] ffff:00fa (unk. ctxt): mov al, byte ptr es:[bx+1] ; 268a4701
+<bochs:490>
+Next at t=139916400
+(0) [0x0000001000ee] ffff:00fe (unk. ctxt): mov ah, byte ptr es:[bx+13] ; 268a670d
+<bochs:491>
+Next at t=139916401
+(0) [0x0000001000f2] ffff:0102 (unk. ctxt): mov cx, word ptr es:[bx+18] ; 268b4f12
+<bochs:492>
+Next at t=139916402
+(0) [0x0000001000f6] ffff:0106 (unk. ctxt): mov dx, word ptr es:[bx+20] ; 268b5714
+<bochs:493>
+Next at t=139916403
+(0) [0x0000001000fa] ffff:010a (unk. ctxt): cmp si, 0x0cb2            ; 81feb20c
+<bochs:494>
+Next at t=139916404
+(0) [0x0000001000fe] ffff:010e (unk. ctxt): jnz .+25 (0x00100119)     ; 7519
+<bochs:495>
+Next at t=139916405
+(0) [0x000000100119] ffff:0129 (unk. ctxt): xchg di, ax               ; 97
+<bochs:496>
+Next at t=139916406
+(0) [0x00000010011a] ffff:012a (unk. ctxt): mov al, byte ptr es:[bx+2] ; 268a4702
+<bochs:497>
+Next at t=139916407
+(0) [0x00000010011e] ffff:012e (unk. ctxt): cmp al, byte ptr cs:[si]  ; 2e3a04
+<bochs:498>
+Next at t=139916408
+(0) [0x000000100121] ffff:0131 (unk. ctxt): jnb .-231 (0x0010003e)    ; 0f8319ff
+<bochs:499>
+Next at t=139916409
+(0) [0x000000100125] ffff:0135 (unk. ctxt): cbw                       ; 98
+<bochs:500>
+Next at t=139916410
+(0) [0x000000100126] ffff:0136 (unk. ctxt): shl ax, 1                 ; d1e0
+<bochs:501>
+Next at t=139916411
+(0) [0x000000100128] ffff:0138 (unk. ctxt): add si, ax                ; 03f0
+<bochs:502>
+Next at t=139916412
+(0) [0x00000010012a] ffff:013a (unk. ctxt): xchg di, ax               ; 97
+<bochs:503>
+Next at t=139916413
+(0) [0x00000010012b] ffff:013b (unk. ctxt): les di, es:[bx+14]        ; 26c47f0e
+<bochs:504>
+Next at t=139916414
+(0) [0x00000010012f] ffff:013f (unk. ctxt): cld                       ; fc
+<bochs:505>
+Next at t=139916415
+(0) [0x000000100130] ffff:0140 (unk. ctxt): push ds                   ; 1e
+<bochs:506>
+Next at t=139916416
+(0) [0x000000100131] ffff:0141 (unk. ctxt): call word ptr cs:[si+1]   ; 2eff5401
+<bochs:507>
+Next at t=139916417
+(0) [0x00000010083d] ffff:084d (unk. ctxt): mov al, byte ptr ds:0x0424 ; a02404
+<bochs:508>
+Next at t=139916418
+(0) [0x000000100840] ffff:0850 (unk. ctxt): or al, al                 ; 0ac0
+<bochs:509>
+Next at t=139916419
+(0) [0x000000100842] ffff:0852 (unk. ctxt): jnz .+51 (0x00100877)     ; 7533
+<bochs:510>
+Next at t=139916420
+(0) [0x000000100844] ffff:0854 (unk. ctxt): mov ah, byte ptr ds:0x00b2 ; 8a26b200
+<bochs:511>
+Next at t=139916421
+(0) [0x000000100848] ffff:0858 (unk. ctxt): int 0x16                  ; cd16
+<bochs:512>
+Next at t=139916422
+(0) [0x000000000af9] 0070:03f9 (unk. ctxt): sti                       ; fb
+<bochs:513>
+Next at t=139916423
+(0) [0x000000000afa] 0070:03fa (unk. ctxt): pushf                     ; 9c
+<bochs:514>
+Next at t=139916424
+(0) [0x000000000afb] 0070:03fb (unk. ctxt): test byte ptr cs:0x0009, 0x20 ; 2ef606090020
+<bochs:515>
+Next at t=139916425
+(0) [0x000000000b01] 0070:0401 (unk. ctxt): jnz .+19 (0x00000b16)     ; 7513
+<bochs:516>
+Next at t=139916426
+(0) [0x000000000b03] 0070:0403 (unk. ctxt): cli                       ; fa
+<bochs:517>
+Next at t=139916427
+(0) [0x000000000b04] 0070:0404 (unk. ctxt): callf cs:0x015e           ; 2eff1e5e01
+<bochs:518>
+Next at t=139916428
+(0) [0x0000000fe82e] f000:e82e (unk. ctxt): sti                       ; fb
+<bochs:519>
+Next at t=139916429
+(0) [0x0000000fe82f] f000:e82f (unk. ctxt): push ds                   ; 1e
+<bochs:520>
+Next at t=139916430
+(0) [0x0000000fe830] f000:e830 (unk. ctxt): pushf                     ; 9c
+<bochs:521>
+Next at t=139916431
+(0) [0x0000000fe831] f000:e831 (unk. ctxt): pusha                     ; 60
+<bochs:522>
+Next at t=139916432
+(0) [0x0000000fe832] f000:e832 (unk. ctxt): push 0x0040               ; 6a40
+<bochs:523>
+Next at t=139916433
+(0) [0x0000000fe834] f000:e834 (unk. ctxt): pop ds                    ; 1f
+<bochs:524>
+Next at t=139916434
+(0) [0x0000000fe835] f000:e835 (unk. ctxt): cmp ah, 0x00              ; 80fc00
+<bochs:525>
+Next at t=139916435
+(0) [0x0000000fe838] f000:e838 (unk. ctxt): jz .+31 (0x000fe859)      ; 741f
+<bochs:526>
+Next at t=139916436
+(0) [0x0000000fe83a] f000:e83a (unk. ctxt): cmp ah, 0x10              ; 80fc10
+<bochs:527>
+Next at t=139916437
+(0) [0x0000000fe83d] f000:e83d (unk. ctxt): jz .+26 (0x000fe859)      ; 741a
+<bochs:528>
+Next at t=139916438
+(0) [0x0000000fe83f] f000:e83f (unk. ctxt): call .+26566 (0x000f5008) ; e8c667
+<bochs:529>
+Next at t=139916439
+(0) [0x0000000f5008] f000:5008 (unk. ctxt): push bp                   ; 55
+<bochs:530>
+Next at t=139916440
+(0) [0x0000000f5009] f000:5009 (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:531>
+Next at t=139916441
+(0) [0x0000000f500b] f000:500b (unk. ctxt): add sp, 0xfff6            ; 83c4f6
+<bochs:532>
+Next at t=139916442
+(0) [0x0000000f500e] f000:500e (unk. ctxt): mov al, byte ptr ds:0x0017 ; a01700
+<bochs:533>
+Next at t=139916443
+(0) [0x0000000f5011] f000:5011 (unk. ctxt): mov byte ptr ss:[bp-3], al ; 8846fd
+<bochs:534>
+Next at t=139916444
+(0) [0x0000000f5014] f000:5014 (unk. ctxt): mov al, byte ptr ds:0x0097 ; a09700
+<bochs:535>
+Next at t=139916445
+(0) [0x0000000f5017] f000:5017 (unk. ctxt): mov byte ptr ss:[bp-4], al ; 8846fc
+<bochs:536>
+Next at t=139916446
+(0) [0x0000000f501a] f000:501a (unk. ctxt): mov al, byte ptr ss:[bp-4] ; 8a46fc
+<bochs:537>
+Next at t=139916447
+(0) [0x0000000f501d] f000:501d (unk. ctxt): and al, 0x07              ; 2407
+<bochs:538>
+Next at t=139916448
+(0) [0x0000000f501f] f000:501f (unk. ctxt): push ax                   ; 50
+<bochs:539>
+Next at t=139916449
+(0) [0x0000000f5020] f000:5020 (unk. ctxt): mov al, byte ptr ss:[bp-3] ; 8a46fd
+<bochs:540>
+Next at t=139916450
+(0) [0x0000000f5023] f000:5023 (unk. ctxt): xor ah, ah                ; 30e4
+<bochs:541>
+Next at t=139916451
+(0) [0x0000000f5025] f000:5025 (unk. ctxt): mov cl, 0x04              ; b104
+<bochs:542>
+Next at t=139916452
+(0) [0x0000000f5027] f000:5027 (unk. ctxt): shr ax, cl                ; d3e8
+<bochs:543>
+Next at t=139916453
+(0) [0x0000000f5029] f000:5029 (unk. ctxt): and al, 0x07              ; 2407
+<bochs:544>
+Next at t=139916454
+(0) [0x0000000f502b] f000:502b (unk. ctxt): xor al, byte ptr ss:[bp-12] ; 3246f4
+<bochs:545>
+Next at t=139916455
+(0) [0x0000000f502e] f000:502e (unk. ctxt): inc sp                    ; 44
+<bochs:546>
+Next at t=139916456
+(0) [0x0000000f502f] f000:502f (unk. ctxt): inc sp                    ; 44
+<bochs:547>
+Next at t=139916457
+(0) [0x0000000f5030] f000:5030 (unk. ctxt): test al, al               ; 84c0
+<bochs:548>
+Next at t=139916458
+(0) [0x0000000f5032] f000:5032 (unk. ctxt): jz .+149 (0x000f50cb)     ; 0f849500
+<bochs:549>
+Next at t=139916459
+(0) [0x0000000f50cb] f000:50cb (unk. ctxt): mov ax, word ptr ss:[bp+18] ; 8b4612
+<bochs:550>
+Next at t=139916460
+(0) [0x0000000f50ce] f000:50ce (unk. ctxt): mov al, ah                ; 88e0
+<bochs:551>
+Next at t=139916461
+(0) [0x0000000f50d0] f000:50d0 (unk. ctxt): xor ah, ah                ; 30e4
+<bochs:552>
+Next at t=139916462
+(0) [0x0000000f50d2] f000:50d2 (unk. ctxt): jmp .+727 (0x000f53ac)    ; e9d702
+<bochs:553>
+Next at t=139916463
+(0) [0x0000000f53ac] f000:53ac (unk. ctxt): sub ax, 0x0000            ; 2d0000
+<bochs:554>
+Next at t=139916464
+(0) [0x0000000f53af] f000:53af (unk. ctxt): jl .-29 (0x000f5394)      ; 7ce3
+<bochs:555>
+Next at t=139916465
+(0) [0x0000000f53b1] f000:53b1 (unk. ctxt): cmp ax, 0x0012            ; 3d1200
+<bochs:556>
+Next at t=139916466
+(0) [0x0000000f53b4] f000:53b4 (unk. ctxt): jnbe .+47 (0x000f53e5)    ; 772f
+<bochs:557>
+Next at t=139916467
+(0) [0x0000000f53b6] f000:53b6 (unk. ctxt): shl ax, 1                 ; d1e0
+<bochs:558>
+Next at t=139916468
+(0) [0x0000000f53b8] f000:53b8 (unk. ctxt): mov bx, ax                ; 89c3
+<bochs:559>
+Next at t=139916469
+(0) [0x0000000f53ba] f000:53ba (unk. ctxt): jmp word ptr cs:[bx+21439] ; 2effa7bf53
+<bochs:560>
+Next at t=139916470
+(0) [0x0000000f52e7] f000:52e7 (unk. ctxt): xor ax, ax                ; 31c0
+<bochs:561>
+Next at t=139916471
+(0) [0x0000000f52e9] f000:52e9 (unk. ctxt): push ax                   ; 50
+<bochs:562>
+Next at t=139916472
+(0) [0x0000000f52ea] f000:52ea (unk. ctxt): lea bx, word ptr ss:[bp-2] ; 8d5efe
+<bochs:563>
+Next at t=139916473
+(0) [0x0000000f52ed] f000:52ed (unk. ctxt): push bx                   ; 53
+<bochs:564>
+Next at t=139916474
+(0) [0x0000000f52ee] f000:52ee (unk. ctxt): lea bx, word ptr ss:[bp-1] ; 8d5eff
+<bochs:565>
+Next at t=139916475
+(0) [0x0000000f52f1] f000:52f1 (unk. ctxt): push bx                   ; 53
+<bochs:566>
+Next at t=139916476
+(0) [0x0000000f52f2] f000:52f2 (unk. ctxt): call .+261 (0x000f53fa)   ; e80501
+<bochs:567>
+Next at t=139916477
+(0) [0x0000000f53fa] f000:53fa (unk. ctxt): push bp                   ; 55
+<bochs:568>
+Next at t=139916478
+(0) [0x0000000f53fb] f000:53fb (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:569>
+Next at t=139916479
+(0) [0x0000000f53fd] f000:53fd (unk. ctxt): add sp, 0xfff6            ; 83c4f6
+<bochs:570>
+Next at t=139916480
+(0) [0x0000000f5400] f000:5400 (unk. ctxt): mov ax, word ptr ds:0x0080 ; a18000
+<bochs:571>
+Next at t=139916481
+(0) [0x0000000f5403] f000:5403 (unk. ctxt): mov word ptr ss:[bp-2], ax ; 8946fe
+<bochs:572>
+Next at t=139916482
+(0) [0x0000000f5406] f000:5406 (unk. ctxt): mov ax, word ptr ds:0x0082 ; a18200
+<bochs:573>
+Next at t=139916483
+(0) [0x0000000f5409] f000:5409 (unk. ctxt): mov word ptr ss:[bp-4], ax ; 8946fc
+<bochs:574>
+Next at t=139916484
+(0) [0x0000000f540c] f000:540c (unk. ctxt): mov ax, word ptr ds:0x001a ; a11a00
+<bochs:575>
+Next at t=139916485
+(0) [0x0000000f540f] f000:540f (unk. ctxt): mov word ptr ss:[bp-6], ax ; 8946fa
+<bochs:576>
+Next at t=139916486
+(0) [0x0000000f5412] f000:5412 (unk. ctxt): mov ax, word ptr ds:0x001c ; a11c00
+<bochs:577>
+Next at t=139916487
+(0) [0x0000000f5415] f000:5415 (unk. ctxt): mov word ptr ss:[bp-8], ax ; 8946f8
+<bochs:578>
+Next at t=139916488
+(0) [0x0000000f5418] f000:5418 (unk. ctxt): mov ax, word ptr ss:[bp-6] ; 8b46fa
+<bochs:579>
+Next at t=139916489
+(0) [0x0000000f541b] f000:541b (unk. ctxt): cmp ax, word ptr ss:[bp-8] ; 3b46f8
+<bochs:580>
+Next at t=139916490
+(0) [0x0000000f541e] f000:541e (unk. ctxt): jz .+93 (0x000f547d)      ; 745d
+<bochs:581>
+Next at t=139916491
+(0) [0x0000000f547d] f000:547d (unk. ctxt): xor ax, ax                ; 31c0
+<bochs:582>
+Next at t=139916492
+(0) [0x0000000f547f] f000:547f (unk. ctxt): mov sp, bp                ; 89ec
+<bochs:583>
+Next at t=139916493
+(0) [0x0000000f5481] f000:5481 (unk. ctxt): pop bp                    ; 5d
+<bochs:584>
+Next at t=139916494
+(0) [0x0000000f5482] f000:5482 (unk. ctxt): ret                       ; c3
+<bochs:585>
+Next at t=139916495
+(0) [0x0000000f52f5] f000:52f5 (unk. ctxt): add sp, 0x0006            ; 83c406
+<bochs:586>
+Next at t=139916496
+(0) [0x0000000f52f8] f000:52f8 (unk. ctxt): test ax, ax               ; 85c0
+<bochs:587>
+Next at t=139916497
+(0) [0x0000000f52fa] f000:52fa (unk. ctxt): jnz .+12 (0x000f5308)     ; 750c
+<bochs:588>
+Next at t=139916498
+(0) [0x0000000f52fc] f000:52fc (unk. ctxt): mov ax, word ptr ss:[bp+20] ; 8b4614
+<bochs:589>
+Next at t=139916499
+(0) [0x0000000f52ff] f000:52ff (unk. ctxt): or al, 0x40               ; 0c40
+<bochs:590>
+Next at t=139916500
+(0) [0x0000000f5301] f000:5301 (unk. ctxt): mov word ptr ss:[bp+20], ax ; 894614
+<bochs:591>
+Next at t=139916501
+(0) [0x0000000f5304] f000:5304 (unk. ctxt): mov sp, bp                ; 89ec
+<bochs:592>
+Next at t=139916502
+(0) [0x0000000f5306] f000:5306 (unk. ctxt): pop bp                    ; 5d
+<bochs:593>
+Next at t=139916503
+(0) [0x0000000f5307] f000:5307 (unk. ctxt): ret                       ; c3
+<bochs:594>
+Next at t=139916504
+(0) [0x0000000fe842] f000:e842 (unk. ctxt): popa                      ; 61
+<bochs:595>
+Next at t=139916505
+(0) [0x0000000fe843] f000:e843 (unk. ctxt): popf                      ; 9d
+<bochs:596>
+Next at t=139916506
+(0) [0x0000000fe844] f000:e844 (unk. ctxt): pop ds                    ; 1f
+<bochs:597>
+Next at t=139916507
+(0) [0x0000000fe845] f000:e845 (unk. ctxt): jz .+9 (0x000fe850)       ; 7409
+<bochs:598>
+Next at t=139916508
+(0) [0x0000000fe850] f000:e850 (unk. ctxt): push bp                   ; 55
+<bochs:599>
+Next at t=139916509
+(0) [0x0000000fe851] f000:e851 (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:600>
+Next at t=139916510
+(0) [0x0000000fe853] f000:e853 (unk. ctxt): or byte ptr ss:[bp+6], 0x40 ; 804e0640
+<bochs:601>
+Next at t=139916511
+(0) [0x0000000fe857] f000:e857 (unk. ctxt): pop bp                    ; 5d
+<bochs:602>
+Next at t=139916512
+(0) [0x0000000fe858] f000:e858 (unk. ctxt): iret                      ; cf
+<bochs:603>
+Next at t=139916513
+(0) [0x000000000b09] 0070:0409 (unk. ctxt): pushf                     ; 9c
+<bochs:604>
+Next at t=139916514
+(0) [0x000000000b0a] 0070:040a (unk. ctxt): dec word ptr cs:0x044e    ; 2eff0e4e04
+<bochs:605>
+Next at t=139916515
+(0) [0x000000000b0f] 0070:040f (unk. ctxt): jnz .+1 (0x00000b12)      ; 7501
+<bochs:606>
+Next at t=139916516
+(0) [0x000000000b12] 0070:0412 (unk. ctxt): popf                      ; 9d
+<bochs:607>
+Next at t=139916517
+(0) [0x000000000b13] 0070:0413 (unk. ctxt): retf 0x0002               ; ca0200
+<bochs:608>
+Next at t=139916518
+(0) [0x00000010084a] ffff:085a (unk. ctxt): jnz .+4 (0x00100850)      ; 7504
+<bochs:609>
+Next at t=139916519
+(0) [0x00000010084c] ffff:085c (unk. ctxt): stc                       ; f9
+<bochs:610>
+Next at t=139916520
+(0) [0x00000010084d] ffff:085d (unk. ctxt): mov ah, 0x03              ; b403
+<bochs:611>
+Next at t=139916521
+(0) [0x00000010084f] ffff:085f (unk. ctxt): ret                       ; c3
+<bochs:612>
+Next at t=139916522
+(0) [0x000000100135] ffff:0145 (unk. ctxt): pop ds                    ; 1f
+<bochs:613>
+Next at t=139916523
+(0) [0x000000100136] ffff:0146 (unk. ctxt): jb .+2 (0x0010013a)       ; 7202
+<bochs:614>
+Next at t=139916524
+(0) [0x00000010013a] ffff:014a (unk. ctxt): lds bx, ds:0x0012         ; c51e1200
+<bochs:615>
+Next at t=139916525
+(0) [0x00000010013e] ffff:014e (unk. ctxt): mov word ptr ds:[bx+3], ax ; 894703
+<bochs:616>
+Next at t=139916526
+(0) [0x000000100141] ffff:0151 (unk. ctxt): pop es                    ; 07
+(0) [0x000000100142] ffff:0152 (unk. ctxt): pop ds                    ; 1f
+<bochs:626>
+Next at t=139916528
+(0) [0x000000100143] ffff:0153 (unk. ctxt): popa                      ; 61
+<bochs:627>
+Next at t=139916529
+(0) [0x000000100144] ffff:0154 (unk. ctxt): add sp, 0x0002            ; 83c402
+<bochs:628>
+Next at t=139916530
+(0) [0x000000100147] ffff:0157 (unk. ctxt): retf                      ; cb
+<bochs:629>
+Next at t=139916531
+(0) [0x000000108894] ffff:88a4 (unk. ctxt): dec byte ptr ss:0x12b9    ; 36fe0eb912
+<bochs:630>
+Next at t=139916532
+(0) [0x000000108899] ffff:88a9 (unk. ctxt): cmp byte ptr cs:0x8607, 0x00 ; 2e803e078600
+<bochs:631>
+Next at t=139916533
+(0) [0x00000010889f] ffff:88af (unk. ctxt): jz .+5 (0x001088a6)       ; 7405
+<bochs:632>
+Next at t=139916534
+(0) [0x0000001088a6] ffff:88b6 (unk. ctxt): mov ax, 0x5770            ; b87057
+<bochs:633>
+Next at t=139916535
+(0) [0x0000001088a9] ffff:88b9 (unk. ctxt): test word ptr ds:[si+4], 0x8000 ; f744040080
+<bochs:634>
+Next at t=139916536
+(0) [0x0000001088ae] ffff:88be (unk. ctxt): jz .+10 (0x001088ba)      ; 740a
+<bochs:635>
+Next at t=139916537
+(0) [0x0000001088b0] ffff:88c0 (unk. ctxt): test word ptr ds:[si+4], 0x0003 ; f744040300
+<bochs:636>
+Next at t=139916538
+(0) [0x0000001088b5] ffff:88c5 (unk. ctxt): jz .+3 (0x001088ba)       ; 7403
+<bochs:637>
+Next at t=139916539
+(0) [0x0000001088b7] ffff:88c7 (unk. ctxt): mov ax, 0x5763            ; b86357
+<bochs:638>
+Next at t=139916540
+(0) [0x0000001088ba] ffff:88ca (unk. ctxt): call ax                   ; ffd0
+<bochs:639>
+Next at t=139916541
+(0) [0x000000105753] ffff:5763 (unk. ctxt): pushf                     ; 9c
+<bochs:640>
+Next at t=139916542
+(0) [0x000000105754] ffff:5764 (unk. ctxt): push ax                   ; 50
+<bochs:641>
+Next at t=139916543
+(0) [0x000000105755] ffff:5765 (unk. ctxt): xor ax, ax                ; 33c0
+<bochs:642>
+Next at t=139916544
+(0) [0x000000105757] ffff:5767 (unk. ctxt): cmp word ptr ss:0x1306, ax ; 3639060613
+<bochs:643>
+Next at t=139916545
+(0) [0x00000010575c] ffff:576c (unk. ctxt): jnz .-14 (0x00105750)     ; 75f2
+<bochs:644>
+Next at t=139916546
+(0) [0x00000010575e] ffff:576e (unk. ctxt): jmp .+11 (0x0010576b)     ; eb0b
+<bochs:645>
+Next at t=139916547
+(0) [0x00000010576b] ffff:577b (unk. ctxt): cmp byte ptr ss:0x0d65, al ; 363806650d
+<bochs:646>
+Next at t=139916548
+(0) [0x000000105770] ffff:5780 (unk. ctxt): jz .+5 (0x00105777)       ; 7405
+<bochs:647>
+Next at t=139916549
+(0) [0x000000105777] ffff:5787 (unk. ctxt): pop ax                    ; 58
+<bochs:648>
+Next at t=139916550
+(0) [0x000000105778] ffff:5788 (unk. ctxt): popf                      ; 9d
+<bochs:649>
+Next at t=139916551
+(0) [0x000000105779] ffff:5789 (unk. ctxt): ret                       ; c3
+<bochs:650>
+Next at t=139916552
+(0) [0x0000001088bc] ffff:88cc (unk. ctxt): ret                       ; c3
+<bochs:651>
+Next at t=139916553
+(0) [0x000000108672] ffff:8682 (unk. ctxt): mov di, word ptr ss:0x037f ; 368b3e7f03
+<bochs:652>
+Next at t=139916554
+(0) [0x000000108677] ffff:8687 (unk. ctxt): and di, di                ; 23ff
+<bochs:653>
+Next at t=139916555
+(0) [0x000000108679] ffff:8689 (unk. ctxt): js .+52 (0x001086af)      ; 7834
+<bochs:654>
+Next at t=139916556
+(0) [0x00000010867b] ffff:868b (unk. ctxt): mov ax, ss                ; 8cd0
+<bochs:655>
+Next at t=139916557
+(0) [0x00000010867d] ffff:868d (unk. ctxt): mov ds, ax                ; 8ed8
+<bochs:656>
+Next at t=139916558
+(0) [0x00000010867f] ffff:868f (unk. ctxt): cmp ch, 0x05              ; 80fd05
+<bochs:657>
+Next at t=139916559
+(0) [0x000000108682] ffff:8692 (unk. ctxt): jnz .+6 (0x0010868a)      ; 7506
+<bochs:658>
+Next at t=139916560
+(0) [0x000000108684] ffff:8694 (unk. ctxt): mov al, byte ptr ds:0x0389 ; a08903
+<bochs:659>
+Next at t=139916561
+(0) [0x000000108687] ffff:8697 (unk. ctxt): mov byte ptr ds:0x03bc, al ; a2bc03
+<bochs:660>
+Next at t=139916562
+(0) [0x00000010868a] ffff:869a (unk. ctxt): mov ah, byte ptr ds:0x0380 ; 8a268003
+<bochs:661>
+Next at t=139916563
+(0) [0x00000010868e] ffff:869e (unk. ctxt): not ah                    ; f6d4
+<bochs:662>
+Next at t=139916564
+(0) [0x000000108690] ffff:86a0 (unk. ctxt): and ah, 0x02              ; 80e402
+<bochs:663>
+Next at t=139916565
+(0) [0x000000108693] ffff:86a3 (unk. ctxt): call .-17774 (0x00104128) ; e892ba
+<bochs:664>
+Next at t=139916566
+(0) [0x000000104128] ffff:4138 (unk. ctxt): mov es, word ptr cs:0x3ea2 ; 2e8e06a23e
+<bochs:665>
+Next at t=139916567
+(0) [0x00000010412d] ffff:413d (unk. ctxt): pop word ptr es:0x05ee    ; 268f06ee05
+<bochs:666>
+Next at t=139916568
+(0) [0x000000104132] ffff:4142 (unk. ctxt): pop ax                    ; 58
+<bochs:667>
+Next at t=139916569
+(0) [0x000000104133] ffff:4143 (unk. ctxt): pop bx                    ; 5b
+<bochs:668>
+Next at t=139916570
+(0) [0x000000104134] ffff:4144 (unk. ctxt): pop cx                    ; 59
+<bochs:669>
+Next at t=139916571
+(0) [0x000000104135] ffff:4145 (unk. ctxt): pop dx                    ; 5a
+<bochs:670>
+Next at t=139916572
+(0) [0x000000104136] ffff:4146 (unk. ctxt): pop si                    ; 5e
+<bochs:671>
+Next at t=139916573
+(0) [0x000000104137] ffff:4147 (unk. ctxt): pop di                    ; 5f
+<bochs:672>
+Next at t=139916574
+(0) [0x000000104138] ffff:4148 (unk. ctxt): pop bp                    ; 5d
+<bochs:673>
+Next at t=139916575
+(0) [0x000000104139] ffff:4149 (unk. ctxt): pop ds                    ; 1f
+<bochs:674>
+Next at t=139916576
+(0) [0x00000010413a] ffff:414a (unk. ctxt): jmp word ptr es:0x05ee    ; 26ff26ee05
+<bochs:675>
+Next at t=139916577
+(0) [0x000000108696] ffff:86a6 (unk. ctxt): pop es                    ; 07
+<bochs:676>
+Next at t=139916578
+(0) [0x000000108697] ffff:86a7 (unk. ctxt): pushf                     ; 9c
+<bochs:677>
+Next at t=139916579
+(0) [0x000000108698] ffff:86a8 (unk. ctxt): mov al, byte ptr ss:0x0083 ; 36a08300
+<bochs:678>
+Next at t=139916580
+(0) [0x00000010869c] ffff:86ac (unk. ctxt): cbw                       ; 98
+<bochs:679>
+Next at t=139916581
+(0) [0x00000010869d] ffff:86ad (unk. ctxt): cmp ax, 0xffff            ; 83f8ff
+<bochs:680>
+Next at t=139916582
+(0) [0x0000001086a0] ffff:86b0 (unk. ctxt): jnz .+7 (0x001086a9)      ; 7507
+<bochs:681>
+Next at t=139916583
+(0) [0x0000001086a9] ffff:86b9 (unk. ctxt): mov ax, word ptr ss:0x03bc ; 36a1bc03
+<bochs:682>
+Next at t=139916584
+(0) [0x0000001086ad] ffff:86bd (unk. ctxt): popf                      ; 9d
+<bochs:683>
+Next at t=139916585
+(0) [0x0000001086ae] ffff:86be (unk. ctxt): ret                       ; c3
+<bochs:684>
+Next at t=139916586
+(0) [0x0000001057bd] ffff:57cd (unk. ctxt): mov ax, 0x168f            ; b88f16
+<bochs:685>
+Next at t=139916587
+(0) [0x0000001057c0] ffff:57d0 (unk. ctxt): mov dh, 0x01              ; b601
+<bochs:686>
+Next at t=139916588
+(0) [0x0000001057c2] ffff:57d2 (unk. ctxt): int 0x2f                  ; cd2f
+<bochs:687>
+Next at t=139916589
+(0) [0x000000005398] 0520:0198 (unk. ctxt): jmpf 0x051f:0158          ; ea58011f05
+<bochs:688>
+Next at t=139916590
+(0) [0x000000005348] 051f:0158 (unk. ctxt): push ds                   ; 1e
+<bochs:689>
+Next at t=139916591
+(0) [0x000000005349] 051f:0159 (unk. ctxt): push cs                   ; 0e
+<bochs:690>
+Next at t=139916592
+(0) [0x00000000534a] 051f:015a (unk. ctxt): jmpf cs:0x011f            ; 2eff2e1f01
+<bochs:691>
+Next at t=139916593
+(0) [0x00000010dc09] ffff:dc19 (unk. ctxt): pop ds                    ; 1f
+<bochs:692>
+Next at t=139916594
+(0) [0x00000010dc0a] ffff:dc1a (unk. ctxt): cmp ax, 0x122e            ; 3d2e12
+<bochs:693>
+Next at t=139916595
+(0) [0x00000010dc0d] ffff:dc1d (unk. ctxt): jz .+68 (0x0010dc53)      ; 7444
+<bochs:694>
+Next at t=139916596
+(0) [0x00000010dc0f] ffff:dc1f (unk. ctxt): cmp ax, 0x1605            ; 3d0516
+<bochs:695>
+Next at t=139916597
+(0) [0x00000010dc12] ffff:dc22 (unk. ctxt): jnz .+11 (0x0010dc1f)     ; 750b
+<bochs:696>
+Next at t=139916598
+(0) [0x00000010dc1f] ffff:dc2f (unk. ctxt): cmp ax, 0x5500            ; 3d0055
+<bochs:697>
+Next at t=139916599
+(0) [0x00000010dc22] ffff:dc32 (unk. ctxt): jz .+28 (0x0010dc40)      ; 741c
+<bochs:698>
+Next at t=139916600
+(0) [0x00000010dc24] ffff:dc34 (unk. ctxt): push ax                   ; 50
+<bochs:699>
+Next at t=139916601
+(0) [0x00000010dc25] ffff:dc35 (unk. ctxt): push ax                   ; 50
+<bochs:700>
+Next at t=139916602
+(0) [0x00000010dc26] ffff:dc36 (unk. ctxt): push bp                   ; 55
+<bochs:701>
+Next at t=139916603
+(0) [0x00000010dc27] ffff:dc37 (unk. ctxt): push ax                   ; 50
+<bochs:702>
+Next at t=139916604
+(0) [0x00000010dc28] ffff:dc38 (unk. ctxt): mov bp, sp                ; 8bec
+<bochs:703>
+Next at t=139916605
+(0) [0x00000010dc2a] ffff:dc3a (unk. ctxt): mov ax, word ptr ss:[bp+8] ; 8b4608
+<bochs:704>
+Next at t=139916606
+(0) [0x00000010dc2d] ffff:dc3d (unk. ctxt): mov word ptr ss:[bp+4], ax ; 894604
+<bochs:705>
+Next at t=139916607
+(0) [0x00000010dc30] ffff:dc40 (unk. ctxt): mov ax, word ptr ds:0x06f8 ; a1f806
+<bochs:706>
+Next at t=139916608
+(0) [0x00000010dc33] ffff:dc43 (unk. ctxt): mov word ptr ss:[bp+8], ax ; 894608
+<bochs:707>
+Next at t=139916609
+(0) [0x00000010dc36] ffff:dc46 (unk. ctxt): mov ax, word ptr ds:0x06f6 ; a1f606
+<bochs:708>
+Next at t=139916610
+(0) [0x00000010dc39] ffff:dc49 (unk. ctxt): mov word ptr ss:[bp+6], ax ; 894606
+<bochs:709>
+Next at t=139916611
+(0) [0x00000010dc3c] ffff:dc4c (unk. ctxt): pop ax                    ; 58
+<bochs:710>
+Next at t=139916612
+(0) [0x00000010dc3d] ffff:dc4d (unk. ctxt): pop bp                    ; 5d
+<bochs:711>
+Next at t=139916613
+(0) [0x00000010dc3e] ffff:dc4e (unk. ctxt): pop ds                    ; 1f
+<bochs:712>
+Next at t=139916614
+(0) [0x00000010dc3f] ffff:dc4f (unk. ctxt): retf                      ; cb
+<bochs:713>
+Next at t=139916615
+(0) [0x0000001031f4] ffff:3204 (unk. ctxt): cmp ah, 0x43              ; 80fc43
+<bochs:714>
+Next at t=139916616
+(0) [0x0000001031f7] ffff:3207 (unk. ctxt): jz .+5 (0x001031fe)       ; 7405
+<bochs:715>
+Next at t=139916617
+(0) [0x0000001031f9] ffff:3209 (unk. ctxt): jmpf cs:0x31fc            ; 2eff2efc31
+<bochs:716>
+Next at t=139916618
+(0) [0x000000104470] ffff:4480 (unk. ctxt): sti                       ; fb
+<bochs:717>
+Next at t=139916619
+(0) [0x000000104471] ffff:4481 (unk. ctxt): cmp ah, 0x11              ; 80fc11
+<bochs:718>
+Next at t=139916620
+(0) [0x000000104474] ffff:4484 (unk. ctxt): jnz .+10 (0x00104480)     ; 750a
+<bochs:719>
+Next at t=139916621
+(0) [0x000000104480] ffff:4490 (unk. ctxt): cmp ah, 0x10              ; 80fc10
+<bochs:720>
+Next at t=139916622
+(0) [0x000000104483] ffff:4493 (unk. ctxt): jz .-15 (0x00104476)      ; 74f1
+<bochs:721>
+Next at t=139916623
+(0) [0x000000104485] ffff:4495 (unk. ctxt): cmp ah, 0x14              ; 80fc14
+<bochs:722>
+Next at t=139916624
+(0) [0x000000104488] ffff:4498 (unk. ctxt): jz .-20 (0x00104476)      ; 74ec
+<bochs:723>
+Next at t=139916625
+(0) [0x00000010448a] ffff:449a (unk. ctxt): cmp ah, 0x12              ; 80fc12
+<bochs:724>
+Next at t=139916626
+(0) [0x00000010448d] ffff:449d (unk. ctxt): jnz .+3 (0x00104492)      ; 7503
+<bochs:725>
+Next at t=139916627
+(0) [0x000000104492] ffff:44a2 (unk. ctxt): cmp ah, 0x16              ; 80fc16
+<bochs:726>
+Next at t=139916628
+(0) [0x000000104495] ffff:44a5 (unk. ctxt): jz .+3 (0x0010449a)       ; 7403
+<bochs:727>
+Next at t=139916629
+(0) [0x00000010449a] ffff:44aa (unk. ctxt): push ds                   ; 1e
+<bochs:728>
+Next at t=139916630
+(0) [0x00000010449b] ffff:44ab (unk. ctxt): mov ds, word ptr cs:0x3ea2 ; 2e8e1ea23e
+<bochs:729>
+Next at t=139916631
+(0) [0x0000001044a0] ffff:44b0 (unk. ctxt): cmp al, 0x06              ; 3c06
+<bochs:730>
+Next at t=139916632
+(0) [0x0000001044a2] ffff:44b2 (unk. ctxt): jz .+70 (0x001044ea)      ; 7446
+<bochs:731>
+Next at t=139916633
+(0) [0x0000001044a4] ffff:44b4 (unk. ctxt): cmp al, 0x07              ; 3c07
+<bochs:732>
+Next at t=139916634
+(0) [0x0000001044a6] ffff:44b6 (unk. ctxt): jz .+84 (0x001044fc)      ; 7454
+<bochs:733>
+Next at t=139916635
+(0) [0x0000001044a8] ffff:44b8 (unk. ctxt): cmp al, 0x05              ; 3c05
+<bochs:734>
+Next at t=139916636
+(0) [0x0000001044aa] ffff:44ba (unk. ctxt): jnz .+179 (0x00104561)    ; 0f85b300
+<bochs:735>
+Next at t=139916637
+(0) [0x000000104561] ffff:4571 (unk. ctxt): pop ds                    ; 1f
+<bochs:736>
+Next at t=139916638
+(0) [0x000000104562] ffff:4572 (unk. ctxt): jmp .-206 (0x00104497)    ; e932ff
+<bochs:737>
+Next at t=139916639
+(0) [0x000000104497] ffff:44a7 (unk. ctxt): jmp .-9284 (0x00102056)   ; e9bcdb
+<bochs:738>
+Next at t=139916640
+(0) [0x000000102056] ffff:2066 (unk. ctxt): cmp ah, 0x08              ; 80fc08
+<bochs:739>
+Next at t=139916641
+(0) [0x000000102059] ffff:2069 (unk. ctxt): jz .+79 (0x001020aa)      ; 744f
+<bochs:740>
+Next at t=139916642
+(0) [0x00000010205b] ffff:206b (unk. ctxt): cmp ah, 0x13              ; 80fc13
+<bochs:741>
+Next at t=139916643
+(0) [0x00000010205e] ffff:206e (unk. ctxt): jz .+29 (0x0010207d)      ; 741d
+<bochs:742>
+Next at t=139916644
+(0) [0x000000102060] ffff:2070 (unk. ctxt): cmp ah, 0x16              ; 80fc16
+<bochs:743>
+Next at t=139916645
+(0) [0x000000102063] ffff:2073 (unk. ctxt): jz .+148 (0x001020fb)     ; 0f849400
+<bochs:744>
+Next at t=139916646
+(0) [0x0000001020fb] ffff:210b (unk. ctxt): cmp al, 0x11              ; 3c11
+<bochs:745>
+Next at t=139916647
+(0) [0x0000001020fd] ffff:210d (unk. ctxt): jz .-25 (0x001020e6)      ; 74e7
+<bochs:746>
+Next at t=139916648
+(0) [0x0000001020ff] ffff:210f (unk. ctxt): push ds                   ; 1e
+<bochs:747>
+Next at t=139916649
+(0) [0x000000102100] ffff:2110 (unk. ctxt): cmp al, 0x13              ; 3c13
+<bochs:748>
+Next at t=139916650
+(0) [0x000000102102] ffff:2112 (unk. ctxt): jz .+142 (0x00102194)     ; 0f848e00
+<bochs:749>
+Next at t=139916651
+(0) [0x000000102106] ffff:2116 (unk. ctxt): cmp al, 0x14              ; 3c14
+<bochs:750>
+Next at t=139916652
+(0) [0x000000102108] ffff:2118 (unk. ctxt): jz .+162 (0x001021ae)     ; 0f84a200
+<bochs:751>
+Next at t=139916653
+(0) [0x00000010210c] ffff:211c (unk. ctxt): mov ds, word ptr cs:0x0054 ; 2e8e1e5400
+<bochs:752>
+Next at t=139916654
+(0) [0x000000102111] ffff:2121 (unk. ctxt): cmp al, 0x0e              ; 3c0e
+<bochs:753>
+Next at t=139916655
+(0) [0x000000102113] ffff:2123 (unk. ctxt): jz .+198 (0x001021dd)     ; 0f84c600
+<bochs:754>
+Next at t=139916656
+(0) [0x000000102117] ffff:2127 (unk. ctxt): cmp al, 0x0f              ; 3c0f
+<bochs:755>
+Next at t=139916657
+(0) [0x000000102119] ffff:2129 (unk. ctxt): jz .+294 (0x00102243)     ; 0f842601
+<bochs:756>
+Next at t=139916658
+(0) [0x00000010211d] ffff:212d (unk. ctxt): cmp al, 0x12              ; 3c12
+<bochs:757>
+Next at t=139916659
+(0) [0x00000010211f] ffff:212f (unk. ctxt): jz .+106 (0x0010218b)     ; 746a
+<bochs:758>
+Next at t=139916660
+(0) [0x000000102121] ffff:2131 (unk. ctxt): cmp al, 0x05              ; 3c05
+<bochs:759>
+Next at t=139916661
+(0) [0x000000102123] ffff:2133 (unk. ctxt): jz .+55 (0x0010215c)      ; 7437
+<bochs:760>
+Next at t=139916662
+(0) [0x000000102125] ffff:2135 (unk. ctxt): cmp al, 0x06              ; 3c06
+<bochs:761>
+Next at t=139916663
+(0) [0x000000102127] ffff:2137 (unk. ctxt): jz .+27 (0x00102144)      ; 741b
+<bochs:762>
+Next at t=139916664
+(0) [0x000000102129] ffff:2139 (unk. ctxt): cmp al, 0x07              ; 3c07
+<bochs:763>
+Next at t=139916665
+(0) [0x00000010212b] ffff:213b (unk. ctxt): jz .+35 (0x00102150)      ; 7423
+<bochs:764>
+Next at t=139916666
+(0) [0x00000010212d] ffff:213d (unk. ctxt): cmp al, 0x90              ; 3c90
+<bochs:765>
+Next at t=139916667
+(0) [0x00000010212f] ffff:213f (unk. ctxt): jz .+2 (0x00102133)       ; 7402
+<bochs:766>
+Next at t=139916668
+(0) [0x000000102131] ffff:2141 (unk. ctxt): jmp .+86 (0x00102189)     ; eb56
+<bochs:767>
+Next at t=139916669
+(0) [0x000000102189] ffff:2199 (unk. ctxt): pop ds                    ; 1f
+<bochs:768>
+Next at t=139916670
+(0) [0x00000010218a] ffff:219a (unk. ctxt): iret                      ; cf
+<bochs:769>
+Next at t=139916671
+(0) [0x0000001057c4] ffff:57d4 (unk. ctxt): test ax, ax               ; 85c0
+<bochs:770>
+Next at t=139916672
+(0) [0x0000001057c6] ffff:57d6 (unk. ctxt): jz .+49 (0x001057f9)      ; 7431
+<bochs:771>
+Next at t=139916673
+(0) [0x0000001057c8] ffff:57d8 (unk. ctxt): mov ah, 0x84              ; b484
+<bochs:772>
+Next at t=139916674
+(0) [0x0000001057ca] ffff:57da (unk. ctxt): int 0x2a                  ; cd2a
+<bochs:773>
+Next at t=139916675
+(0) [0x00000010411c] ffff:412c (unk. ctxt): iret                      ; cf
+<bochs:774>
+Next at t=139916676
+(0) [0x0000001057cc] ffff:57dc (unk. ctxt): cmp byte ptr ss:0x0dba, 0xff ; 36803eba0dff
+<bochs:775>
+Next at t=139916677
+(0) [0x0000001057d2] ffff:57e2 (unk. ctxt): jnz .+22 (0x001057ea)     ; 7516
+<bochs:776>
+Next at t=139916678
+(0) [0x0000001057ea] ffff:57fa (unk. ctxt): pop ax                    ; 58
+<bochs:777>
+Next at t=139916679
+(0) [0x0000001057eb] ffff:57fb (unk. ctxt): inc word ptr ss:0x0dba    ; 36ff06ba0d
+<bochs:778>
+Next at t=139916680
+(0) [0x0000001057f0] ffff:5800 (unk. ctxt): jmp .-72 (0x001057aa)     ; ebb8
+<bochs:779>
+Next at t=139916681
+(0) [0x0000001057aa] ffff:57ba (unk. ctxt): push ax                   ; 50
+<bochs:780>
+Next at t=139916682
+(0) [0x0000001057ab] ffff:57bb (unk. ctxt): call .+14360 (0x00108fc6) ; e81838
+<bochs:781>
+Next at t=139916683
+(0) [0x000000108fc6] ffff:8fd6 (unk. ctxt): push bx                   ; 53
+<bochs:782>
+Next at t=139916684
+(0) [0x000000108fc7] ffff:8fd7 (unk. ctxt): push ax                   ; 50
+<bochs:783>
+Next at t=139916685
+(0) [0x000000108fc8] ffff:8fd8 (unk. ctxt): cmp al, 0x02              ; 3c02
+<bochs:784>
+Next at t=139916686
+(0) [0x000000108fca] ffff:8fda (unk. ctxt): jz .+3 (0x00108fcf)       ; 7403
+<bochs:785>
+Next at t=139916687
+(0) [0x000000108fcc] ffff:8fdc (unk. ctxt): call .-140 (0x00108f43)   ; e874ff
+<bochs:786>
+Next at t=139916688
+(0) [0x000000108f43] ffff:8f53 (unk. ctxt): cmp byte ptr ss:0x0321, 0x01 ; 36803e210301
+<bochs:787>
+Next at t=139916689
+(0) [0x000000108f49] ffff:8f59 (unk. ctxt): jnz .-9 (0x00108f42)      ; 75f7
+<bochs:788>
+Next at t=139916690
+(0) [0x000000108f4b] ffff:8f5b (unk. ctxt): push cx                   ; 51
+<bochs:789>
+Next at t=139916691
+(0) [0x000000108f4c] ffff:8f5c (unk. ctxt): push es                   ; 06
+<bochs:790>
+Next at t=139916692
+(0) [0x000000108f4d] ffff:8f5d (unk. ctxt): push bx                   ; 53
+<bochs:791>
+Next at t=139916693
+(0) [0x000000108f4e] ffff:8f5e (unk. ctxt): push ds                   ; 1e
+<bochs:792>
+Next at t=139916694
+(0) [0x000000108f4f] ffff:8f5f (unk. ctxt): push si                   ; 56
+<bochs:793>
+Next at t=139916695
+(0) [0x000000108f50] ffff:8f60 (unk. ctxt): lds si, cs:0x8f2e         ; 2ec5362e8f
+<bochs:794>
+Next at t=139916696
+(0) [0x000000108f55] ffff:8f65 (unk. ctxt): push word ptr ds:[si]     ; ff34
+<bochs:795>
+Next at t=139916697
+(0) [0x000000108f57] ffff:8f67 (unk. ctxt): push ax                   ; 50
+<bochs:796>
+Next at t=139916698
+(0) [0x000000108f58] ffff:8f68 (unk. ctxt): mov ax, ss                ; 8cd0
+<bochs:797>
+Next at t=139916699
+(0) [0x000000108f5a] ffff:8f6a (unk. ctxt): mov ds, ax                ; 8ed8
+<bochs:798>
+Next at t=139916700
+(0) [0x000000108f5c] ffff:8f6c (unk. ctxt): mov es, ax                ; 8ec0
+<bochs:799>
+Next at t=139916701
+(0) [0x000000108f5e] ffff:8f6e (unk. ctxt): mov bx, 0x0392            ; bb9203
+<bochs:800>
+Next at t=139916702
+(0) [0x000000108f61] ffff:8f71 (unk. ctxt): mov byte ptr ds:0x0394, 0x05 ; c606940305
+<bochs:801>
+Next at t=139916703
+(0) [0x000000108f66] ffff:8f76 (unk. ctxt): mov byte ptr ds:0x0392, 0x0e ; c60692030e
+<bochs:802>
+Next at t=139916704
+(0) [0x000000108f6b] ffff:8f7b (unk. ctxt): mov word ptr ds:0x0395, 0x0000 ; c70695030000
+<bochs:803>
+Next at t=139916705
+(0) [0x000000108f71] ffff:8f81 (unk. ctxt): lds si, ds:0x0032         ; c5363200
+<bochs:804>
+Next at t=139916706
+(0) [0x000000108f75] ffff:8f85 (unk. ctxt): call .-1903 (0x00108809)  ; e891f8
+<bochs:805>
+Next at t=139916707
+(0) [0x000000108809] ffff:8819 (unk. ctxt): mov ax, 0x5718            ; b81857
+<bochs:806>
+Next at t=139916708
+(0) [0x00000010880c] ffff:881c (unk. ctxt): test word ptr ds:[si+4], 0x8000 ; f744040080
+<bochs:807>
+Next at t=139916709
+(0) [0x000000108811] ffff:8821 (unk. ctxt): jz .+10 (0x0010881d)      ; 740a
+<bochs:808>
+Next at t=139916710
+(0) [0x000000108813] ffff:8823 (unk. ctxt): test word ptr ds:[si+4], 0x0003 ; f744040300
+<bochs:809>
+Next at t=139916711
+(0) [0x000000108818] ffff:8828 (unk. ctxt): jz .+3 (0x0010881d)       ; 7403
+<bochs:810>
+Next at t=139916712
+(0) [0x00000010881a] ffff:882a (unk. ctxt): mov ax, 0x570b            ; b80b57
+<bochs:811>
+Next at t=139916713
+(0) [0x00000010881d] ffff:882d (unk. ctxt): call ax                   ; ffd0
+<bochs:812>
+Next at t=139916714
+(0) [0x0000001056fb] ffff:570b (unk. ctxt): pushf                     ; 9c
+<bochs:813>
+Next at t=139916715
+(0) [0x0000001056fc] ffff:570c (unk. ctxt): push ax                   ; 50
+<bochs:814>
+Next at t=139916716
+(0) [0x0000001056fd] ffff:570d (unk. ctxt): xor ax, ax                ; 33c0
+<bochs:815>
+Next at t=139916717
+(0) [0x0000001056ff] ffff:570f (unk. ctxt): cmp word ptr ss:0x1306, ax ; 3639060613
+<bochs:816>
+Next at t=139916718
+(0) [0x000000105704] ffff:5714 (unk. ctxt): jnz .-23 (0x001056ef)     ; 75e9
+<bochs:817>
+Next at t=139916719
+(0) [0x000000105706] ffff:5716 (unk. ctxt): jmp .+11 (0x00105713)     ; eb0b
+<bochs:818>
+Next at t=139916720
+(0) [0x000000105713] ffff:5723 (unk. ctxt): cmp byte ptr ss:0x0d65, al ; 363806650d
+<bochs:819>
+Next at t=139916721
+(0) [0x000000105718] ffff:5728 (unk. ctxt): jz .+5 (0x0010571f)       ; 7405
+<bochs:820>
+Next at t=139916722
+(0) [0x00000010571f] ffff:572f (unk. ctxt): pop ax                    ; 58
+<bochs:821>
+Next at t=139916723
+(0) [0x000000105720] ffff:5730 (unk. ctxt): popf                      ; 9d
+<bochs:822>
+Next at t=139916724
+(0) [0x000000105721] ffff:5731 (unk. ctxt): ret                       ; c3
+<bochs:823>
+Next at t=139916725
+(0) [0x00000010881f] ffff:882f (unk. ctxt): test byte ptr ds:[si+5], 0x80 ; f6440580
+<bochs:824>
+Next at t=139916726
+(0) [0x000000108823] ffff:8833 (unk. ctxt): jnz .+77 (0x00108872)     ; 754d
+<bochs:825>
+Next at t=139916727
+(0) [0x000000108872] ffff:8882 (unk. ctxt): inc byte ptr ss:0x12b9    ; 36fe06b912
+<bochs:826>
+Next at t=139916728
+(0) [0x000000108877] ffff:8887 (unk. ctxt): mov ax, word ptr ds:[si+6] ; 8b4406
+<bochs:827>
+Next at t=139916729
+(0) [0x00000010887a] ffff:888a (unk. ctxt): mov word ptr ss:0x0378, ax ; 36a37803
+<bochs:828>
+Next at t=139916730
+(0) [0x00000010887e] ffff:888e (unk. ctxt): mov word ptr ss:0x037a, ds ; 368c1e7a03
+<bochs:829>
+Next at t=139916731
+(0) [0x000000108883] ffff:8893 (unk. ctxt): callf ss:0x0378           ; 36ff1e7803
+<bochs:830>
+Next at t=139916732
+(0) [0x000000000962] 0070:0262 (unk. ctxt): mov word ptr cs:0x0012, bx ; 2e891e1200
+<bochs:831>
+Next at t=139916733
+(0) [0x000000000967] 0070:0267 (unk. ctxt): mov word ptr cs:0x0014, es ; 2e8c061400
+<bochs:832>
+Next at t=139916734
+(0) [0x00000000096c] 0070:026c (unk. ctxt): retf                      ; cb
+<bochs:833>
+Next at t=139916735
+(0) [0x000000108888] ffff:8898 (unk. ctxt): mov ax, word ptr ds:[si+8] ; 8b4408
+<bochs:834>
+Next at t=139916736
+(0) [0x00000010888b] ffff:889b (unk. ctxt): mov word ptr ss:0x0378, ax ; 36a37803
+<bochs:835>
+Next at t=139916737
+(0) [0x00000010888f] ffff:889f (unk. ctxt): callf ss:0x0378           ; 36ff1e7803
+<bochs:836>
+Next at t=139916738
+(0) [0x000000000972] 0070:0272 (unk. ctxt): call .+54 (0x000009ab)    ; e83600
+<bochs:837>
+Next at t=139916739
+(0) [0x0000000009ab] 0070:02ab (unk. ctxt): jmpf cs:0x012e            ; 2eff2e2e01
+<bochs:838>
+Next at t=139916740
+(0) [0x0000001000c5] ffff:00d5 (unk. ctxt): pusha                     ; 60
+<bochs:839>
+Next at t=139916741
+(0) [0x0000001000c6] ffff:00d6 (unk. ctxt): push ds                   ; 1e
+<bochs:840>
+Next at t=139916742
+(0) [0x0000001000c7] ffff:00d7 (unk. ctxt): push es                   ; 06
+<bochs:841>
+Next at t=139916743
+(0) [0x0000001000c8] ffff:00d8 (unk. ctxt): mov bp, sp                ; 8bec
+<bochs:842>
+Next at t=139916744
+(0) [0x0000001000ca] ffff:00da (unk. ctxt): mov ds, word ptr cs:0x0054 ; 2e8e1e5400
+<bochs:843>
+Next at t=139916745
+(0) [0x0000001000cf] ffff:00df (unk. ctxt): mov bx, word ptr ss:[bp+20] ; 8b5e14
+<bochs:844>
+Next at t=139916746
+(0) [0x0000001000d2] ffff:00e2 (unk. ctxt): mov si, word ptr ds:[bx]  ; 8b37
+<bochs:845>
+Next at t=139916747
+(0) [0x0000001000d4] ffff:00e4 (unk. ctxt): cmp si, 0x07d5            ; 81fed507
+<bochs:846>
+Next at t=139916748
+(0) [0x0000001000d8] ffff:00e8 (unk. ctxt): jz .+12 (0x001000e6)      ; 740c
+<bochs:847>
+Next at t=139916749
+(0) [0x0000001000e6] ffff:00f6 (unk. ctxt): les bx, ds:0x0012         ; c41e1200
+<bochs:848>
+Next at t=139916750
+(0) [0x0000001000ea] ffff:00fa (unk. ctxt): mov al, byte ptr es:[bx+1] ; 268a4701
+<bochs:849>
+Next at t=139916751
+(0) [0x0000001000ee] ffff:00fe (unk. ctxt): mov ah, byte ptr es:[bx+13] ; 268a670d
+<bochs:850>
+Next at t=139916752
+(0) [0x0000001000f2] ffff:0102 (unk. ctxt): mov cx, word ptr es:[bx+18] ; 268b4f12
+<bochs:851>
+Next at t=139916753
+(0) [0x0000001000f6] ffff:0106 (unk. ctxt): mov dx, word ptr es:[bx+20] ; 268b5714
+<bochs:852>
+Next at t=139916754
+(0) [0x0000001000fa] ffff:010a (unk. ctxt): cmp si, 0x0cb2            ; 81feb20c
+<bochs:853>
+Next at t=139916755
+(0) [0x0000001000fe] ffff:010e (unk. ctxt): jnz .+25 (0x00100119)     ; 7519
+<bochs:854>
+Next at t=139916756
+(0) [0x000000100119] ffff:0129 (unk. ctxt): xchg di, ax               ; 97
+<bochs:855>
+Next at t=139916757
+(0) [0x00000010011a] ffff:012a (unk. ctxt): mov al, byte ptr es:[bx+2] ; 268a4702
+<bochs:856>
+Next at t=139916758
+(0) [0x00000010011e] ffff:012e (unk. ctxt): cmp al, byte ptr cs:[si]  ; 2e3a04
+<bochs:857>
+Next at t=139916759
+(0) [0x000000100121] ffff:0131 (unk. ctxt): jnb .-231 (0x0010003e)    ; 0f8319ff
+<bochs:858>
+Next at t=139916760
+(0) [0x000000100125] ffff:0135 (unk. ctxt): cbw                       ; 98
+<bochs:859>
+Next at t=139916761
+(0) [0x000000100126] ffff:0136 (unk. ctxt): shl ax, 1                 ; d1e0
+<bochs:860>
+Next at t=139916762
+(0) [0x000000100128] ffff:0138 (unk. ctxt): add si, ax                ; 03f0
+<bochs:861>
+Next at t=139916763
+(0) [0x00000010012a] ffff:013a (unk. ctxt): xchg di, ax               ; 97
+<bochs:862>
+Next at t=139916764
+(0) [0x00000010012b] ffff:013b (unk. ctxt): les di, es:[bx+14]        ; 26c47f0e
+<bochs:863>
+Next at t=139916765
+(0) [0x00000010012f] ffff:013f (unk. ctxt): cld                       ; fc
+<bochs:864>
+Next at t=139916766
+(0) [0x000000100130] ffff:0140 (unk. ctxt): push ds                   ; 1e
+<bochs:865>
+Next at t=139916767
+(0) [0x000000100131] ffff:0141 (unk. ctxt): call word ptr cs:[si+1]   ; 2eff5401
+<bochs:866>
+Next at t=139916768
+(0) [0x00000010083d] ffff:084d (unk. ctxt): mov al, byte ptr ds:0x0424 ; a02404
+<bochs:867>
+Next at t=139916769
+(0) [0x000000100840] ffff:0850 (unk. ctxt): or al, al                 ; 0ac0
+<bochs:868>
+Next at t=139916770
+(0) [0x000000100842] ffff:0852 (unk. ctxt): jnz .+51 (0x00100877)     ; 7533
+<bochs:869>
+Next at t=139916771
+(0) [0x000000100844] ffff:0854 (unk. ctxt): mov ah, byte ptr ds:0x00b2 ; 8a26b200
+<bochs:870>
+Next at t=139916772
+(0) [0x000000100848] ffff:0858 (unk. ctxt): int 0x16                  ; cd16
+<bochs:871>
+Next at t=139916773
+(0) [0x000000000af9] 0070:03f9 (unk. ctxt): sti                       ; fb
+<bochs:872>
+Next at t=139916774
+(0) [0x000000000afa] 0070:03fa (unk. ctxt): pushf                     ; 9c
+<bochs:873>
+Next at t=139916775
+(0) [0x000000000afb] 0070:03fb (unk. ctxt): test byte ptr cs:0x0009, 0x20 ; 2ef606090020
+<bochs:874>
+Next at t=139916776
+(0) [0x000000000b01] 0070:0401 (unk. ctxt): jnz .+19 (0x00000b16)     ; 7513
+<bochs:875>
+Next at t=139916777
+(0) [0x000000000b03] 0070:0403 (unk. ctxt): cli                       ; fa
+<bochs:876>
+Next at t=139916778
+(0) [0x000000000b04] 0070:0404 (unk. ctxt): callf cs:0x015e           ; 2eff1e5e01
+<bochs:877>
+Next at t=139916779
+(0) [0x0000000fe82e] f000:e82e (unk. ctxt): sti                       ; fb
+<bochs:878>
+Next at t=139916780
+(0) [0x0000000fe82f] f000:e82f (unk. ctxt): push ds                   ; 1e
+<bochs:879>
+Next at t=139916781
+(0) [0x0000000fe830] f000:e830 (unk. ctxt): pushf                     ; 9c
+<bochs:880>
+Next at t=139916782
+(0) [0x0000000fe831] f000:e831 (unk. ctxt): pusha                     ; 60
+<bochs:881>
+Next at t=139916783
+(0) [0x0000000fe832] f000:e832 (unk. ctxt): push 0x0040               ; 6a40
+<bochs:882>
+Next at t=139916784
+(0) [0x0000000fe834] f000:e834 (unk. ctxt): pop ds                    ; 1f
+<bochs:883>
+Next at t=139916785
+(0) [0x0000000fe835] f000:e835 (unk. ctxt): cmp ah, 0x00              ; 80fc00
+<bochs:884>
+Next at t=139916786
+(0) [0x0000000fe838] f000:e838 (unk. ctxt): jz .+31 (0x000fe859)      ; 741f
+<bochs:885>
+Next at t=139916787
+(0) [0x0000000fe83a] f000:e83a (unk. ctxt): cmp ah, 0x10              ; 80fc10
+<bochs:886>
+Next at t=139916788
+(0) [0x0000000fe83d] f000:e83d (unk. ctxt): jz .+26 (0x000fe859)      ; 741a
+<bochs:887>
+Next at t=139916789
+(0) [0x0000000fe83f] f000:e83f (unk. ctxt): call .+26566 (0x000f5008) ; e8c667
+<bochs:888>
+Next at t=139916790
+(0) [0x0000000f5008] f000:5008 (unk. ctxt): push bp                   ; 55
+<bochs:889>
+Next at t=139916791
+(0) [0x0000000f5009] f000:5009 (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:890>
+Next at t=139916792
+(0) [0x0000000f500b] f000:500b (unk. ctxt): add sp, 0xfff6            ; 83c4f6
+<bochs:891>
+Next at t=139916793
+(0) [0x0000000f500e] f000:500e (unk. ctxt): mov al, byte ptr ds:0x0017 ; a01700
+<bochs:892>
+Next at t=139916794
+(0) [0x0000000f5011] f000:5011 (unk. ctxt): mov byte ptr ss:[bp-3], al ; 8846fd
+<bochs:893>
+Next at t=139916795
+(0) [0x0000000f5014] f000:5014 (unk. ctxt): mov al, byte ptr ds:0x0097 ; a09700
+<bochs:894>
+Next at t=139916796
+(0) [0x0000000f5017] f000:5017 (unk. ctxt): mov byte ptr ss:[bp-4], al ; 8846fc
+<bochs:895>
+Next at t=139916797
+(0) [0x0000000f501a] f000:501a (unk. ctxt): mov al, byte ptr ss:[bp-4] ; 8a46fc
+<bochs:896>
+Next at t=139916798
+(0) [0x0000000f501d] f000:501d (unk. ctxt): and al, 0x07              ; 2407
+<bochs:897>
+Next at t=139916799
+(0) [0x0000000f501f] f000:501f (unk. ctxt): push ax                   ; 50
+<bochs:898>
+Next at t=139916800
+(0) [0x0000000f5020] f000:5020 (unk. ctxt): mov al, byte ptr ss:[bp-3] ; 8a46fd
+<bochs:899>
+Next at t=139916801
+(0) [0x0000000f5023] f000:5023 (unk. ctxt): xor ah, ah                ; 30e4
+<bochs:900>
+Next at t=139916802
+(0) [0x0000000f5025] f000:5025 (unk. ctxt): mov cl, 0x04              ; b104
+<bochs:901>
+Next at t=139916803
+(0) [0x0000000f5027] f000:5027 (unk. ctxt): shr ax, cl                ; d3e8
+<bochs:902>
+Next at t=139916804
+(0) [0x0000000f5029] f000:5029 (unk. ctxt): and al, 0x07              ; 2407
+<bochs:903>
+Next at t=139916805
+(0) [0x0000000f502b] f000:502b (unk. ctxt): xor al, byte ptr ss:[bp-12] ; 3246f4
+<bochs:904>
+Next at t=139916806
+(0) [0x0000000f502e] f000:502e (unk. ctxt): inc sp                    ; 44
+<bochs:905>
+Next at t=139916807
+(0) [0x0000000f502f] f000:502f (unk. ctxt): inc sp                    ; 44
+<bochs:906>
+Next at t=139916808
+(0) [0x0000000f5030] f000:5030 (unk. ctxt): test al, al               ; 84c0
+<bochs:907>
+Next at t=139916809
+(0) [0x0000000f5032] f000:5032 (unk. ctxt): jz .+149 (0x000f50cb)     ; 0f849500
+<bochs:908>
+Next at t=139916810
+(0) [0x0000000f50cb] f000:50cb (unk. ctxt): mov ax, word ptr ss:[bp+18] ; 8b4612
+<bochs:909>
+Next at t=139916811
+(0) [0x0000000f50ce] f000:50ce (unk. ctxt): mov al, ah                ; 88e0
+<bochs:910>
+Next at t=139916812
+(0) [0x0000000f50d0] f000:50d0 (unk. ctxt): xor ah, ah                ; 30e4
+<bochs:911>
+Next at t=139916813
+(0) [0x0000000f50d2] f000:50d2 (unk. ctxt): jmp .+727 (0x000f53ac)    ; e9d702
+<bochs:912>
+Next at t=139916814
+(0) [0x0000000f53ac] f000:53ac (unk. ctxt): sub ax, 0x0000            ; 2d0000
+<bochs:913>
+Next at t=139916815
+(0) [0x0000000f53af] f000:53af (unk. ctxt): jl .-29 (0x000f5394)      ; 7ce3
+<bochs:914>
+Next at t=139916816
+(0) [0x0000000f53b1] f000:53b1 (unk. ctxt): cmp ax, 0x0012            ; 3d1200
+<bochs:915>
+Next at t=139916817
+(0) [0x0000000f53b4] f000:53b4 (unk. ctxt): jnbe .+47 (0x000f53e5)    ; 772f
+<bochs:916>
+Next at t=139916818
+(0) [0x0000000f53b6] f000:53b6 (unk. ctxt): shl ax, 1                 ; d1e0
+<bochs:917>
+Next at t=139916819
+(0) [0x0000000f53b8] f000:53b8 (unk. ctxt): mov bx, ax                ; 89c3
+<bochs:918>
+Next at t=139916820
+(0) [0x0000000f53ba] f000:53ba (unk. ctxt): jmp word ptr cs:[bx+21439] ; 2effa7bf53
+<bochs:919>
+Next at t=139916821
+(0) [0x0000000f52e7] f000:52e7 (unk. ctxt): xor ax, ax                ; 31c0
+<bochs:920>
+Next at t=139916822
+(0) [0x0000000f52e9] f000:52e9 (unk. ctxt): push ax                   ; 50
+<bochs:921>
+Next at t=139916823
+(0) [0x0000000f52ea] f000:52ea (unk. ctxt): lea bx, word ptr ss:[bp-2] ; 8d5efe
+<bochs:922>
+Next at t=139916824
+(0) [0x0000000f52ed] f000:52ed (unk. ctxt): push bx                   ; 53
+<bochs:923>
+Next at t=139916825
+(0) [0x0000000f52ee] f000:52ee (unk. ctxt): lea bx, word ptr ss:[bp-1] ; 8d5eff
+<bochs:924>
+Next at t=139916826
+(0) [0x0000000f52f1] f000:52f1 (unk. ctxt): push bx                   ; 53
+<bochs:925>
+Next at t=139916827
+(0) [0x0000000f52f2] f000:52f2 (unk. ctxt): call .+261 (0x000f53fa)   ; e80501
+<bochs:926>
+Next at t=139916828
+(0) [0x0000000f53fa] f000:53fa (unk. ctxt): push bp                   ; 55
+<bochs:927>
+Next at t=139916829
+(0) [0x0000000f53fb] f000:53fb (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:928>
+Next at t=139916830
+(0) [0x0000000f53fd] f000:53fd (unk. ctxt): add sp, 0xfff6            ; 83c4f6
+<bochs:929>
+Next at t=139916831
+(0) [0x0000000f5400] f000:5400 (unk. ctxt): mov ax, word ptr ds:0x0080 ; a18000
+<bochs:930>
+Next at t=139916832
+(0) [0x0000000f5403] f000:5403 (unk. ctxt): mov word ptr ss:[bp-2], ax ; 8946fe
+<bochs:931>
+Next at t=139916833
+(0) [0x0000000f5406] f000:5406 (unk. ctxt): mov ax, word ptr ds:0x0082 ; a18200
+<bochs:932>
+Next at t=139916834
+(0) [0x0000000f5409] f000:5409 (unk. ctxt): mov word ptr ss:[bp-4], ax ; 8946fc
+<bochs:933>
+Next at t=139916835
+(0) [0x0000000f540c] f000:540c (unk. ctxt): mov ax, word ptr ds:0x001a ; a11a00
+<bochs:934>
+Next at t=139916836
+(0) [0x0000000f540f] f000:540f (unk. ctxt): mov word ptr ss:[bp-6], ax ; 8946fa
+<bochs:935>
+Next at t=139916837
+(0) [0x0000000f5412] f000:5412 (unk. ctxt): mov ax, word ptr ds:0x001c ; a11c00
+<bochs:936>
+Next at t=139916838
+(0) [0x0000000f5415] f000:5415 (unk. ctxt): mov word ptr ss:[bp-8], ax ; 8946f8
+<bochs:937>
+Next at t=139916839
+(0) [0x0000000f5418] f000:5418 (unk. ctxt): mov ax, word ptr ss:[bp-6] ; 8b46fa
+<bochs:938>
+Next at t=139916840
+(0) [0x0000000f541b] f000:541b (unk. ctxt): cmp ax, word ptr ss:[bp-8] ; 3b46f8
+<bochs:939>
+Next at t=139916841
+(0) [0x0000000f541e] f000:541e (unk. ctxt): jz .+93 (0x000f547d)      ; 745d
+<bochs:940>
+Next at t=139916842
+(0) [0x0000000f547d] f000:547d (unk. ctxt): xor ax, ax                ; 31c0
+<bochs:941>
+Next at t=139916843
+(0) [0x0000000f547f] f000:547f (unk. ctxt): mov sp, bp                ; 89ec
+<bochs:942>
+Next at t=139916844
+(0) [0x0000000f5481] f000:5481 (unk. ctxt): pop bp                    ; 5d
+<bochs:943>
+Next at t=139916845
+(0) [0x0000000f5482] f000:5482 (unk. ctxt): ret                       ; c3
+<bochs:944>
+Next at t=139916846
+(0) [0x0000000f52f5] f000:52f5 (unk. ctxt): add sp, 0x0006            ; 83c406
+<bochs:945>
+Next at t=139916847
+(0) [0x0000000f52f8] f000:52f8 (unk. ctxt): test ax, ax               ; 85c0
+<bochs:946>
+Next at t=139916848
+(0) [0x0000000f52fa] f000:52fa (unk. ctxt): jnz .+12 (0x000f5308)     ; 750c
+<bochs:947>
+Next at t=139916849
+(0) [0x0000000f52fc] f000:52fc (unk. ctxt): mov ax, word ptr ss:[bp+20] ; 8b4614
+<bochs:948>
+Next at t=139916850
+(0) [0x0000000f52ff] f000:52ff (unk. ctxt): or al, 0x40               ; 0c40
+<bochs:949>
+Next at t=139916851
+(0) [0x0000000f5301] f000:5301 (unk. ctxt): mov word ptr ss:[bp+20], ax ; 894614
+<bochs:950>
+Next at t=139916852
+(0) [0x0000000f5304] f000:5304 (unk. ctxt): mov sp, bp                ; 89ec
+<bochs:951>
+Next at t=139916853
+(0) [0x0000000f5306] f000:5306 (unk. ctxt): pop bp                    ; 5d
+<bochs:952>
+Next at t=139916854
+(0) [0x0000000f5307] f000:5307 (unk. ctxt): ret                       ; c3
+<bochs:953>
+Next at t=139916855
+(0) [0x0000000fe842] f000:e842 (unk. ctxt): popa                      ; 61
+<bochs:954>
+Next at t=139916856
+(0) [0x0000000fe843] f000:e843 (unk. ctxt): popf                      ; 9d
+<bochs:955>
+Next at t=139916857
+(0) [0x0000000fe844] f000:e844 (unk. ctxt): pop ds                    ; 1f
+<bochs:956>
+Next at t=139916858
+(0) [0x0000000fe845] f000:e845 (unk. ctxt): jz .+9 (0x000fe850)       ; 7409
+<bochs:957>
+Next at t=139916859
+(0) [0x0000000fe850] f000:e850 (unk. ctxt): push bp                   ; 55
+<bochs:958>
+Next at t=139916860
+(0) [0x0000000fe851] f000:e851 (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:959>
+Next at t=139916861
+(0) [0x0000000fe853] f000:e853 (unk. ctxt): or byte ptr ss:[bp+6], 0x40 ; 804e0640
+<bochs:960>
+Next at t=139916862
+(0) [0x0000000fe857] f000:e857 (unk. ctxt): pop bp                    ; 5d
+<bochs:961>
+Next at t=139916863
+(0) [0x0000000fe858] f000:e858 (unk. ctxt): iret                      ; cf
+<bochs:962>
+Next at t=139916864
+(0) [0x000000000b09] 0070:0409 (unk. ctxt): pushf                     ; 9c
+<bochs:963>
+Next at t=139916865
+(0) [0x000000000b0a] 0070:040a (unk. ctxt): dec word ptr cs:0x044e    ; 2eff0e4e04
+<bochs:964>
+Next at t=139916866
+(0) [0x000000000b0f] 0070:040f (unk. ctxt): jnz .+1 (0x00000b12)      ; 7501
+<bochs:965>
+Next at t=139916867
+(0) [0x000000000b12] 0070:0412 (unk. ctxt): popf                      ; 9d
+<bochs:966>
+Next at t=139916868
+(0) [0x000000000b13] 0070:0413 (unk. ctxt): retf 0x0002               ; ca0200
+<bochs:967>
+Next at t=139916869
+(0) [0x00000010084a] ffff:085a (unk. ctxt): jnz .+4 (0x00100850)      ; 7504
+<bochs:968>
+Next at t=139916870
+(0) [0x00000010084c] ffff:085c (unk. ctxt): stc                       ; f9
+<bochs:969>
+Next at t=139916871
+(0) [0x00000010084d] ffff:085d (unk. ctxt): mov ah, 0x03              ; b403
+<bochs:970>
+Next at t=139916872
+(0) [0x00000010084f] ffff:085f (unk. ctxt): ret                       ; c3
+<bochs:971>
+Next at t=139916873
+(0) [0x000000100135] ffff:0145 (unk. ctxt): pop ds                    ; 1f
+<bochs:972>
+Next at t=139916874
+(0) [0x000000100136] ffff:0146 (unk. ctxt): jb .+2 (0x0010013a)       ; 7202
+<bochs:973>
+Next at t=139916875
+(0) [0x00000010013a] ffff:014a (unk. ctxt): lds bx, ds:0x0012         ; c51e1200
+<bochs:974>
+Next at t=139916876
+(0) [0x00000010013e] ffff:014e (unk. ctxt): mov word ptr ds:[bx+3], ax ; 894703
+<bochs:975>
+Next at t=139916877
+(0) [0x000000100141] ffff:0151 (unk. ctxt): pop es                    ; 07
+<bochs:976>
+Next at t=139916878
+(0) [0x000000100142] ffff:0152 (unk. ctxt): pop ds                    ; 1f
+<bochs:977>
+Next at t=139916879
+(0) [0x000000100143] ffff:0153 (unk. ctxt): popa                      ; 61
+<bochs:978>
+Next at t=139916880
+(0) [0x000000100144] ffff:0154 (unk. ctxt): add sp, 0x0002            ; 83c402
+<bochs:979>
+Next at t=139916881
+(0) [0x000000100147] ffff:0157 (unk. ctxt): retf                      ; cb
+<bochs:980>
+Next at t=139916882
+(0) [0x000000108894] ffff:88a4 (unk. ctxt): dec byte ptr ss:0x12b9    ; 36fe0eb912
+<bochs:981>
+Next at t=139916883
+(0) [0x000000108899] ffff:88a9 (unk. ctxt): cmp byte ptr cs:0x8607, 0x00 ; 2e803e078600
+<bochs:982>
+Next at t=139916884
+(0) [0x00000010889f] ffff:88af (unk. ctxt): jz .+5 (0x001088a6)       ; 7405
+<bochs:983>
+Next at t=139916885
+(0) [0x0000001088a6] ffff:88b6 (unk. ctxt): mov ax, 0x5770            ; b87057
+<bochs:984>
+Next at t=139916886
+(0) [0x0000001088a9] ffff:88b9 (unk. ctxt): test word ptr ds:[si+4], 0x8000 ; f744040080
+<bochs:985>
+Next at t=139916887
+(0) [0x0000001088ae] ffff:88be (unk. ctxt): jz .+10 (0x001088ba)      ; 740a
+<bochs:986>
+Next at t=139916888
+(0) [0x0000001088b0] ffff:88c0 (unk. ctxt): test word ptr ds:[si+4], 0x0003 ; f744040300
+<bochs:987>
+Next at t=139916889
+(0) [0x0000001088b5] ffff:88c5 (unk. ctxt): jz .+3 (0x001088ba)       ; 7403
+<bochs:988>
+Next at t=139916890
+(0) [0x0000001088b7] ffff:88c7 (unk. ctxt): mov ax, 0x5763            ; b86357
+<bochs:989>
+Next at t=139916891
+(0) [0x0000001088ba] ffff:88ca (unk. ctxt): call ax                   ; ffd0
+<bochs:990>
+Next at t=139916892
+(0) [0x000000105753] ffff:5763 (unk. ctxt): pushf                     ; 9c
+<bochs:991>
+Next at t=139916893
+(0) [0x000000105754] ffff:5764 (unk. ctxt): push ax                   ; 50
+<bochs:992>
+Next at t=139916894
+(0) [0x000000105755] ffff:5765 (unk. ctxt): xor ax, ax                ; 33c0
+<bochs:993>
+Next at t=139916895
+(0) [0x000000105757] ffff:5767 (unk. ctxt): cmp word ptr ss:0x1306, ax ; 3639060613
+<bochs:994>
+Next at t=139916896
+(0) [0x00000010575c] ffff:576c (unk. ctxt): jnz .-14 (0x00105750)     ; 75f2
+<bochs:995>
+Next at t=139916897
+(0) [0x00000010575e] ffff:576e (unk. ctxt): jmp .+11 (0x0010576b)     ; eb0b
+<bochs:996>
+Next at t=139916898
+(0) [0x00000010576b] ffff:577b (unk. ctxt): cmp byte ptr ss:0x0d65, al ; 363806650d
+<bochs:997>
+Next at t=139916899
+(0) [0x000000105770] ffff:5780 (unk. ctxt): jz .+5 (0x00105777)       ; 7405
+<bochs:998>
+Next at t=139916900
+(0) [0x000000105777] ffff:5787 (unk. ctxt): pop ax                    ; 58
+<bochs:999>
+Next at t=139916901
+(0) [0x000000105778] ffff:5788 (unk. ctxt): popf                      ; 9d
+<bochs:1000>
+Next at t=139916902
+(0) [0x000000105779] ffff:5789 (unk. ctxt): ret                       ; c3
+<bochs:1001>
+Next at t=139916903
+(0) [0x0000001088bc] ffff:88cc (unk. ctxt): ret                       ; c3
+<bochs:1002>
+Next at t=139916904
+(0) [0x000000108f78] ffff:8f88 (unk. ctxt): pop ax                    ; 58
+<bochs:1003>
+Next at t=139916905
+(0) [0x000000108f79] ffff:8f89 (unk. ctxt): test al, al               ; 84c0
+<bochs:1004>
+Next at t=139916906
+(0) [0x000000108f7b] ffff:8f8b (unk. ctxt): pop ax                    ; 58
+<bochs:1005>
+Next at t=139916907
+(0) [0x000000108f7c] ffff:8f8c (unk. ctxt): jnz .+7 (0x00108f85)      ; 7507
+<bochs:1006>
+Next at t=139916908
+(0) [0x000000108f85] ffff:8f95 (unk. ctxt): push ss                   ; 16
+<bochs:1007>
+Next at t=139916909
+(0) [0x000000108f86] ffff:8f96 (unk. ctxt): pop ds                    ; 1f
+<bochs:1008>
+Next at t=139916910
+(0) [0x000000108f87] ffff:8f97 (unk. ctxt): test byte ptr ds:0x0396, 0x02 ; f606960302
+<bochs:1009>
+Next at t=139916911
+(0) [0x000000108f8c] ffff:8f9c (unk. ctxt): jz .+8 (0x00108f96)       ; 7408
+<bochs:1010>
+Next at t=139916912
+(0) [0x000000108f8e] ffff:8f9e (unk. ctxt): xor al, al                ; 32c0
+<bochs:1011>
+Next at t=139916913
+(0) [0x000000108f90] ffff:8fa0 (unk. ctxt): pop si                    ; 5e
+<bochs:1012>
+Next at t=139916914
+(0) [0x000000108f91] ffff:8fa1 (unk. ctxt): pop ds                    ; 1f
+<bochs:1013>
+Next at t=139916915
+(0) [0x000000108f92] ffff:8fa2 (unk. ctxt): pop bx                    ; 5b
+<bochs:1014>
+Next at t=139916916
+(0) [0x000000108f93] ffff:8fa3 (unk. ctxt): pop es                    ; 07
+<bochs:1015>
+Next at t=139916917
+(0) [0x000000108f94] ffff:8fa4 (unk. ctxt): pop cx                    ; 59
+<bochs:1016>
+Next at t=139916918
+(0) [0x000000108f95] ffff:8fa5 (unk. ctxt): ret                       ; c3
+<bochs:1017>
+Next at t=139916919
+(0) [0x000000108fcf] ffff:8fdf (unk. ctxt): xor bx, bx                ; 33db
+<bochs:1018>
+Next at t=139916920
+(0) [0x000000108fd1] ffff:8fe1 (unk. ctxt): call .-4775 (0x00107d2d)  ; e859ed
+<bochs:1019>
+Next at t=139916921
+(0) [0x000000107d2d] ffff:7d3d (unk. ctxt): cmp byte ptr ss:0x0357, 0x00 ; 36803e570300
+<bochs:1020>
+Next at t=139916922
+(0) [0x000000107d33] ffff:7d43 (unk. ctxt): jnz .+18 (0x00107d47)     ; 7512
+<bochs:1021>
+Next at t=139916923
+(0) [0x000000107d47] ffff:7d57 (unk. ctxt): cmp bx, 0x0001            ; 83fb01
+<bochs:1022>
+Next at t=139916924
+(0) [0x000000107d4a] ffff:7d5a (unk. ctxt): jnbe .-23 (0x00107d35)    ; 77e9
+<bochs:1023>
+Next at t=139916925
+(0) [0x000000107d4c] ffff:7d5c (unk. ctxt): lds si, ss:0x05e6         ; 36c536e605
+<bochs:1024>
+Next at t=139916926
+(0) [0x000000107d51] ffff:7d61 (unk. ctxt): clc                       ; f8
+<bochs:1025>
+Next at t=139916927
+(0) [0x000000107d52] ffff:7d62 (unk. ctxt): ret                       ; c3
+<bochs:1026>
+Next at t=139916928
+(0) [0x000000108fd4] ffff:8fe4 (unk. ctxt): jb .+58 (0x00109010)      ; 723a
+<bochs:1027>
+Next at t=139916929
+(0) [0x000000108fd6] ffff:8fe6 (unk. ctxt): mov ah, 0x01              ; b401
+<bochs:1028>
+Next at t=139916930
+(0) [0x000000108fd8] ffff:8fe8 (unk. ctxt): call .-2513 (0x0010860a)  ; e82ff6
+<bochs:1029>
+Next at t=139916931
+(0) [0x00000010860a] ffff:861a (unk. ctxt): mov word ptr ss:0x038c, ss ; 368c168c03
+<bochs:1030>
+Next at t=139916932
+(0) [0x00000010860f] ffff:861f (unk. ctxt): mov word ptr ss:0x038a, 0x03bc ; 36c7068a03bc03
+<bochs:1031>
+Next at t=139916933
+(0) [0x000000108616] ffff:8626 (unk. ctxt): mov word ptr ss:0x038e, 0x0001 ; 36c7068e030100
+<bochs:1032>
+Next at t=139916934
+(0) [0x00000010861d] ffff:862d (unk. ctxt): mov word ptr ss:0x03bc, ax ; 36a3bc03
+<bochs:1033>
+Next at t=139916935
+(0) [0x000000108621] ffff:8631 (unk. ctxt): test byte ptr ds:[si+6], 0x80 ; f6440680
+<bochs:1034>
+Next at t=139916936
+(0) [0x000000108625] ffff:8635 (unk. ctxt): jz .+3 (0x0010862a)       ; 7403
+<bochs:1035>
+Next at t=139916937
+(0) [0x00000010862a] ffff:863a (unk. ctxt): test byte ptr ds:[si+5], 0x80 ; f6440580
+<bochs:1036>
+Next at t=139916938
+(0) [0x00000010862e] ffff:863e (unk. ctxt): jnz .+3 (0x00108633)      ; 7503
+<bochs:1037>
+Next at t=139916939
+(0) [0x000000108633] ffff:8643 (unk. ctxt): push es                   ; 06
+<bochs:1038>
+Next at t=139916940
+(0) [0x000000108634] ffff:8644 (unk. ctxt): call .-17656 (0x0010413f) ; e808bb
+<bochs:1039>
+Next at t=139916941
+(0) [0x00000010413f] ffff:414f (unk. ctxt): mov es, word ptr cs:0x3ea2 ; 2e8e06a23e
+<bochs:1040>
+Next at t=139916942
+(0) [0x000000104144] ffff:4154 (unk. ctxt): pop word ptr es:0x05ee    ; 268f06ee05
+<bochs:1041>
+Next at t=139916943
+(0) [0x000000104149] ffff:4159 (unk. ctxt): push ds                   ; 1e
+<bochs:1042>
+Next at t=139916944
+(0) [0x00000010414a] ffff:415a (unk. ctxt): push bp                   ; 55
+<bochs:1043>
+Next at t=139916945
+(0) [0x00000010414b] ffff:415b (unk. ctxt): push di                   ; 57
+<bochs:1044>
+Next at t=139916946
+(0) [0x00000010414c] ffff:415c (unk. ctxt): push si                   ; 56
+<bochs:1045>
+Next at t=139916947
+(0) [0x00000010414d] ffff:415d (unk. ctxt): push dx                   ; 52
+<bochs:1046>
+Next at t=139916948
+(0) [0x00000010414e] ffff:415e (unk. ctxt): push cx                   ; 51
+<bochs:1047>
+Next at t=139916949
+(0) [0x00000010414f] ffff:415f (unk. ctxt): push bx                   ; 53
+<bochs:1048>
+Next at t=139916950
+(0) [0x000000104150] ffff:4160 (unk. ctxt): push ax                   ; 50
+<bochs:1049>
+Next at t=139916951
+(0) [0x000000104151] ffff:4161 (unk. ctxt): push word ptr es:0x05ee   ; 26ff36ee05
+<bochs:1050>
+Next at t=139916952
+(0) [0x000000104156] ffff:4166 (unk. ctxt): push bp                   ; 55
+<bochs:1051>
+Next at t=139916953
+(0) [0x000000104157] ffff:4167 (unk. ctxt): mov bp, sp                ; 8bec
+<bochs:1052>
+Next at t=139916954
+(0) [0x000000104159] ffff:4169 (unk. ctxt): mov es, word ptr ss:[bp+20] ; 8e4614
+<bochs:1053>
+Next at t=139916955
+(0) [0x00000010415c] ffff:416c (unk. ctxt): pop bp                    ; 5d
+<bochs:1054>
+Next at t=139916956
+(0) [0x00000010415d] ffff:416d (unk. ctxt): ret                       ; c3
+<bochs:1055>
+Next at t=139916957
+(0) [0x000000108637] ffff:8647 (unk. ctxt): mov dx, ds                ; 8cda
+<bochs:1056>
+Next at t=139916958
+(0) [0x000000108639] ffff:8649 (unk. ctxt): mov bx, ss                ; 8cd3
+<bochs:1057>
+Next at t=139916959
+(0) [0x00000010863b] ffff:864b (unk. ctxt): mov ds, bx                ; 8edb
+<bochs:1058>
+Next at t=139916960
+(0) [0x00000010863d] ffff:864d (unk. ctxt): mov es, bx                ; 8ec3
+<bochs:1059>
+Next at t=139916961
+(0) [0x00000010863f] ffff:864f (unk. ctxt): xor bx, bx                ; 33db
+<bochs:1060>
+Next at t=139916962
+(0) [0x000000108641] ffff:8651 (unk. ctxt): cmp ah, 0x05              ; 80fc05
+<bochs:1061>
+Next at t=139916963
+(0) [0x000000108644] ffff:8654 (unk. ctxt): jnz .+4 (0x0010864a)      ; 7504
+<bochs:1062>
+Next at t=139916964
+(0) [0x00000010864a] ffff:865a (unk. ctxt): mov word ptr ds:0x037f, bx ; 891e7f03
+<bochs:1063>
+Next at t=139916965
+(0) [0x00000010864e] ffff:865e (unk. ctxt): xor bx, bx                ; 33db
+<bochs:1064>
+Next at t=139916966
+(0) [0x000000108650] ffff:8660 (unk. ctxt): mov byte ptr ds:0x0389, bl ; 881e8903
+<bochs:1065>
+Next at t=139916967
+(0) [0x000000108654] ffff:8664 (unk. ctxt): mov bl, ah                ; 8adc
+<bochs:1066>
+Next at t=139916968
+(0) [0x000000108656] ffff:8666 (unk. ctxt): mov ah, byte ptr cs:[bx-31224] ; 2e8aa70886
+<bochs:1067>
+Next at t=139916969
+(0) [0x00000010865b] ffff:866b (unk. ctxt): shl bx, 1                 ; d1e3
+<bochs:1068>
+Next at t=139916970
+(0) [0x00000010865d] ffff:866d (unk. ctxt): mov cx, word ptr cs:[bx-31218] ; 2e8b8f0e86
+<bochs:1069>
+Next at t=139916971
+(0) [0x000000108662] ffff:8672 (unk. ctxt): mov bx, 0x037c            ; bb7c03
+<bochs:1070>
+Next at t=139916972
+(0) [0x000000108665] ffff:8675 (unk. ctxt): mov byte ptr ds:0x037c, ah ; 88267c03
+<bochs:1071>
+Next at t=139916973
+(0) [0x000000108669] ffff:8679 (unk. ctxt): mov byte ptr ds:0x037e, ch ; 882e7e03
+<bochs:1072>
+Next at t=139916974
+(0) [0x00000010866d] ffff:867d (unk. ctxt): mov ds, dx                ; 8eda
+<bochs:1073>
+Next at t=139916975
+(0) [0x00000010866f] ffff:867f (unk. ctxt): call .+404 (0x00108806)   ; e89401
+<bochs:1074>
+Next at t=139916976
+(0) [0x000000108806] ffff:8816 (unk. ctxt): lds si, ds:[si+7]         ; c57407
+<bochs:1075>
+Next at t=139916977
+(0) [0x000000108809] ffff:8819 (unk. ctxt): mov ax, 0x5718            ; b81857
+<bochs:1076>
+Next at t=139916978
+(0) [0x00000010880c] ffff:881c (unk. ctxt): test word ptr ds:[si+4], 0x8000 ; f744040080
+<bochs:1077>
+Next at t=139916979
+(0) [0x000000108811] ffff:8821 (unk. ctxt): jz .+10 (0x0010881d)      ; 740a
+<bochs:1078>
+Next at t=139916980
+(0) [0x000000108813] ffff:8823 (unk. ctxt): test word ptr ds:[si+4], 0x0003 ; f744040300
+<bochs:1079>
+Next at t=139916981
+(0) [0x000000108818] ffff:8828 (unk. ctxt): jz .+3 (0x0010881d)       ; 7403
+<bochs:1080>
+Next at t=139916982
+(0) [0x00000010881a] ffff:882a (unk. ctxt): mov ax, 0x570b            ; b80b57
+<bochs:1081>
+Next at t=139916983
+(0) [0x00000010881d] ffff:882d (unk. ctxt): call ax                   ; ffd0
+<bochs:1082>
+Next at t=139916984
+(0) [0x0000001056fb] ffff:570b (unk. ctxt): pushf                     ; 9c
+<bochs:1083>
+Next at t=139916985
+(0) [0x0000001056fc] ffff:570c (unk. ctxt): push ax                   ; 50
+<bochs:1084>
+Next at t=139916986
+(0) [0x0000001056fd] ffff:570d (unk. ctxt): xor ax, ax                ; 33c0
+<bochs:1085>
+Next at t=139916987
+(0) [0x0000001056ff] ffff:570f (unk. ctxt): cmp word ptr ss:0x1306, ax ; 3639060613
+<bochs:1086>
+Next at t=139916988
+(0) [0x000000105704] ffff:5714 (unk. ctxt): jnz .-23 (0x001056ef)     ; 75e9
+<bochs:1087>
+Next at t=139916989
+(0) [0x000000105706] ffff:5716 (unk. ctxt): jmp .+11 (0x00105713)     ; eb0b
+<bochs:1088>
+Next at t=139916990
+(0) [0x000000105713] ffff:5723 (unk. ctxt): cmp byte ptr ss:0x0d65, al ; 363806650d
+<bochs:1089>
+Next at t=139916991
+(0) [0x000000105718] ffff:5728 (unk. ctxt): jz .+5 (0x0010571f)       ; 7405
+<bochs:1090>
+Next at t=139916992
+(0) [0x00000010571f] ffff:572f (unk. ctxt): pop ax                    ; 58
+<bochs:1091>
+Next at t=139916993
+(0) [0x000000105720] ffff:5730 (unk. ctxt): popf                      ; 9d
+<bochs:1092>
+Next at t=139916994
+(0) [0x000000105721] ffff:5731 (unk. ctxt): ret                       ; c3
+<bochs:1093>
+Next at t=139916995
+(0) [0x00000010881f] ffff:882f (unk. ctxt): test byte ptr ds:[si+5], 0x80 ; f6440580
+<bochs:1094>
+Next at t=139916996
+(0) [0x000000108823] ffff:8833 (unk. ctxt): jnz .+77 (0x00108872)     ; 754d
+<bochs:1095>
+Next at t=139916997
+(0) [0x000000108872] ffff:8882 (unk. ctxt): inc byte ptr ss:0x12b9    ; 36fe06b912
+<bochs:1096>
+Next at t=139916998
+(0) [0x000000108877] ffff:8887 (unk. ctxt): mov ax, word ptr ds:[si+6] ; 8b4406
+<bochs:1097>
+Next at t=139916999
+(0) [0x00000010887a] ffff:888a (unk. ctxt): mov word ptr ss:0x0378, ax ; 36a37803
+<bochs:1098>
+Next at t=139917000
+(0) [0x00000010887e] ffff:888e (unk. ctxt): mov word ptr ss:0x037a, ds ; 368c1e7a03
+<bochs:1099>
+Next at t=139917001
+(0) [0x000000108883] ffff:8893 (unk. ctxt): callf ss:0x0378           ; 36ff1e7803
+<bochs:1100>
+Next at t=139917002
+(0) [0x000000000962] 0070:0262 (unk. ctxt): mov word ptr cs:0x0012, bx ; 2e891e1200
+<bochs:1101>
+Next at t=139917003
+(0) [0x000000000967] 0070:0267 (unk. ctxt): mov word ptr cs:0x0014, es ; 2e8c061400
+<bochs:1102>
+Next at t=139917004
+(0) [0x00000000096c] 0070:026c (unk. ctxt): retf                      ; cb
+<bochs:1103>
+Next at t=139917005
+(0) [0x000000108888] ffff:8898 (unk. ctxt): mov ax, word ptr ds:[si+8] ; 8b4408
+<bochs:1104>
+Next at t=139917006
+(0) [0x00000010888b] ffff:889b (unk. ctxt): mov word ptr ss:0x0378, ax ; 36a37803
+<bochs:1105>
+Next at t=139917007
+(0) [0x00000010888f] ffff:889f (unk. ctxt): callf ss:0x0378           ; 36ff1e7803
+<bochs:1106>
+Next at t=139917008
+(0) [0x000000000972] 0070:0272 (unk. ctxt): call .+54 (0x000009ab)    ; e83600
+<bochs:1107>
+Next at t=139917009
+(0) [0x0000000009ab] 0070:02ab (unk. ctxt): jmpf cs:0x012e            ; 2eff2e2e01
+<bochs:1108>
+Next at t=139917010
+(0) [0x0000001000c5] ffff:00d5 (unk. ctxt): pusha                     ; 60
+<bochs:1109>
+Next at t=139917011
+(0) [0x0000001000c6] ffff:00d6 (unk. ctxt): push ds                   ; 1e
+<bochs:1110>
+Next at t=139917012
+(0) [0x0000001000c7] ffff:00d7 (unk. ctxt): push es                   ; 06
+<bochs:1111>
+Next at t=139917013
+(0) [0x0000001000c8] ffff:00d8 (unk. ctxt): mov bp, sp                ; 8bec
+<bochs:1112>
+Next at t=139917014
+(0) [0x0000001000ca] ffff:00da (unk. ctxt): mov ds, word ptr cs:0x0054 ; 2e8e1e5400
+<bochs:1113>
+Next at t=139917015
+(0) [0x0000001000cf] ffff:00df (unk. ctxt): mov bx, word ptr ss:[bp+20] ; 8b5e14
+<bochs:1114>
+Next at t=139917016
+(0) [0x0000001000d2] ffff:00e2 (unk. ctxt): mov si, word ptr ds:[bx]  ; 8b37
+<bochs:1115>
+Next at t=139917017
+(0) [0x0000001000d4] ffff:00e4 (unk. ctxt): cmp si, 0x07d5            ; 81fed507
+<bochs:1116>
+Next at t=139917018
+(0) [0x0000001000d8] ffff:00e8 (unk. ctxt): jz .+12 (0x001000e6)      ; 740c
+<bochs:1117>
+Next at t=139917019
+(0) [0x0000001000e6] ffff:00f6 (unk. ctxt): les bx, ds:0x0012         ; c41e1200
+<bochs:1118>
+Next at t=139917020
+(0) [0x0000001000ea] ffff:00fa (unk. ctxt): mov al, byte ptr es:[bx+1] ; 268a4701
+<bochs:1119>
+Next at t=139917021
+(0) [0x0000001000ee] ffff:00fe (unk. ctxt): mov ah, byte ptr es:[bx+13] ; 268a670d
+<bochs:1120>
+Next at t=139917022
+(0) [0x0000001000f2] ffff:0102 (unk. ctxt): mov cx, word ptr es:[bx+18] ; 268b4f12
+<bochs:1121>
+Next at t=139917023
+(0) [0x0000001000f6] ffff:0106 (unk. ctxt): mov dx, word ptr es:[bx+20] ; 268b5714
+<bochs:1122>
+Next at t=139917024
+(0) [0x0000001000fa] ffff:010a (unk. ctxt): cmp si, 0x0cb2            ; 81feb20c
+<bochs:1123>
+Next at t=139917025
+(0) [0x0000001000fe] ffff:010e (unk. ctxt): jnz .+25 (0x00100119)     ; 7519
+<bochs:1124>
+Next at t=139917026
+(0) [0x000000100119] ffff:0129 (unk. ctxt): xchg di, ax               ; 97
+<bochs:1125>
+Next at t=139917027
+(0) [0x00000010011a] ffff:012a (unk. ctxt): mov al, byte ptr es:[bx+2] ; 268a4702
+<bochs:1126>
+Next at t=139917028
+(0) [0x00000010011e] ffff:012e (unk. ctxt): cmp al, byte ptr cs:[si]  ; 2e3a04
+<bochs:1127>
+Next at t=139917029
+(0) [0x000000100121] ffff:0131 (unk. ctxt): jnb .-231 (0x0010003e)    ; 0f8319ff
+<bochs:1128>
+Next at t=139917030
+(0) [0x000000100125] ffff:0135 (unk. ctxt): cbw                       ; 98
+<bochs:1129>
+Next at t=139917031
+(0) [0x000000100126] ffff:0136 (unk. ctxt): shl ax, 1                 ; d1e0
+<bochs:1130>
+Next at t=139917032
+(0) [0x000000100128] ffff:0138 (unk. ctxt): add si, ax                ; 03f0
+<bochs:1131>
+Next at t=139917033
+(0) [0x00000010012a] ffff:013a (unk. ctxt): xchg di, ax               ; 97
+<bochs:1132>
+Next at t=139917034
+(0) [0x00000010012b] ffff:013b (unk. ctxt): les di, es:[bx+14]        ; 26c47f0e
+<bochs:1133>
+Next at t=139917035
+(0) [0x00000010012f] ffff:013f (unk. ctxt): cld                       ; fc
+<bochs:1134>
+Next at t=139917036
+(0) [0x000000100130] ffff:0140 (unk. ctxt): push ds                   ; 1e
+<bochs:1135>
+Next at t=139917037
+(0) [0x000000100131] ffff:0141 (unk. ctxt): call word ptr cs:[si+1]   ; 2eff5401
+<bochs:1136>
+Next at t=139917038
+(0) [0x00000010083d] ffff:084d (unk. ctxt): mov al, byte ptr ds:0x0424 ; a02404
+<bochs:1137>
+Next at t=139917039
+(0) [0x000000100840] ffff:0850 (unk. ctxt): or al, al                 ; 0ac0
+<bochs:1138>
+Next at t=139917040
+(0) [0x000000100842] ffff:0852 (unk. ctxt): jnz .+51 (0x00100877)     ; 7533
+<bochs:1139>
+Next at t=139917041
+(0) [0x000000100844] ffff:0854 (unk. ctxt): mov ah, byte ptr ds:0x00b2 ; 8a26b200
+<bochs:1140>
+Next at t=139917042
+(0) [0x000000100848] ffff:0858 (unk. ctxt): int 0x16                  ; cd16
+<bochs:1141>
+Next at t=139917043
+(0) [0x000000000af9] 0070:03f9 (unk. ctxt): sti                       ; fb
+<bochs:1142>
+Next at t=139917044
+(0) [0x000000000afa] 0070:03fa (unk. ctxt): pushf                     ; 9c
+<bochs:1143>
+Next at t=139917045
+(0) [0x000000000afb] 0070:03fb (unk. ctxt): test byte ptr cs:0x0009, 0x20 ; 2ef606090020
+<bochs:1144>
+Next at t=139917046
+(0) [0x000000000b01] 0070:0401 (unk. ctxt): jnz .+19 (0x00000b16)     ; 7513
+<bochs:1145>
+Next at t=139917047
+(0) [0x000000000b03] 0070:0403 (unk. ctxt): cli                       ; fa
+<bochs:1146>
+Next at t=139917048
+(0) [0x000000000b04] 0070:0404 (unk. ctxt): callf cs:0x015e           ; 2eff1e5e01
+<bochs:1147>
+Next at t=139917049
+(0) [0x0000000fe82e] f000:e82e (unk. ctxt): sti                       ; fb
+<bochs:1148>
+Next at t=139917050
+(0) [0x0000000fe82f] f000:e82f (unk. ctxt): push ds                   ; 1e
+<bochs:1149>
+Next at t=139917051
+(0) [0x0000000fe830] f000:e830 (unk. ctxt): pushf                     ; 9c
+<bochs:1150>
+Next at t=139917052
+(0) [0x0000000fe831] f000:e831 (unk. ctxt): pusha                     ; 60
+<bochs:1151>
+Next at t=139917053
+(0) [0x0000000fe832] f000:e832 (unk. ctxt): push 0x0040               ; 6a40
+<bochs:1152>
+Next at t=139917054
+(0) [0x0000000fe834] f000:e834 (unk. ctxt): pop ds                    ; 1f
+<bochs:1153>
+Next at t=139917055
+(0) [0x0000000fe835] f000:e835 (unk. ctxt): cmp ah, 0x00              ; 80fc00
+<bochs:1154>
+Next at t=139917056
+(0) [0x0000000fe838] f000:e838 (unk. ctxt): jz .+31 (0x000fe859)      ; 741f
+<bochs:1155>
+Next at t=139917057
+(0) [0x0000000fe83a] f000:e83a (unk. ctxt): cmp ah, 0x10              ; 80fc10
+<bochs:1156>
+Next at t=139917058
+(0) [0x0000000fe83d] f000:e83d (unk. ctxt): jz .+26 (0x000fe859)      ; 741a
+<bochs:1157>
+Next at t=139917059
+(0) [0x0000000fe83f] f000:e83f (unk. ctxt): call .+26566 (0x000f5008) ; e8c667
+<bochs:1158>
+Next at t=139917060
+(0) [0x0000000f5008] f000:5008 (unk. ctxt): push bp                   ; 55
+<bochs:1159>
+Next at t=139917061
+(0) [0x0000000f5009] f000:5009 (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:1160>
+Next at t=139917062
+(0) [0x0000000f500b] f000:500b (unk. ctxt): add sp, 0xfff6            ; 83c4f6
+<bochs:1161>
+Next at t=139917063
+(0) [0x0000000f500e] f000:500e (unk. ctxt): mov al, byte ptr ds:0x0017 ; a01700
+<bochs:1162>
+Next at t=139917064
+(0) [0x0000000f5011] f000:5011 (unk. ctxt): mov byte ptr ss:[bp-3], al ; 8846fd
+<bochs:1163>
+Next at t=139917065
+(0) [0x0000000f5014] f000:5014 (unk. ctxt): mov al, byte ptr ds:0x0097 ; a09700
+<bochs:1164>
+Next at t=139917066
+(0) [0x0000000f5017] f000:5017 (unk. ctxt): mov byte ptr ss:[bp-4], al ; 8846fc
+<bochs:1165>
+Next at t=139917067
+(0) [0x0000000f501a] f000:501a (unk. ctxt): mov al, byte ptr ss:[bp-4] ; 8a46fc
+<bochs:1166>
+Next at t=139917068
+(0) [0x0000000f501d] f000:501d (unk. ctxt): and al, 0x07              ; 2407
+<bochs:1167>
+Next at t=139917069
+(0) [0x0000000f501f] f000:501f (unk. ctxt): push ax                   ; 50
+<bochs:1168>
+Next at t=139917070
+(0) [0x0000000f5020] f000:5020 (unk. ctxt): mov al, byte ptr ss:[bp-3] ; 8a46fd
+<bochs:1169>
+Next at t=139917071
+(0) [0x0000000f5023] f000:5023 (unk. ctxt): xor ah, ah                ; 30e4
+<bochs:1170>
+Next at t=139917072
+(0) [0x0000000f5025] f000:5025 (unk. ctxt): mov cl, 0x04              ; b104
+<bochs:1171>
+Next at t=139917073
+(0) [0x0000000f5027] f000:5027 (unk. ctxt): shr ax, cl                ; d3e8
+<bochs:1172>
+Next at t=139917074
+(0) [0x0000000f5029] f000:5029 (unk. ctxt): and al, 0x07              ; 2407
+<bochs:1173>
+Next at t=139917075
+(0) [0x0000000f502b] f000:502b (unk. ctxt): xor al, byte ptr ss:[bp-12] ; 3246f4
+<bochs:1174>
+Next at t=139917076
+(0) [0x0000000f502e] f000:502e (unk. ctxt): inc sp                    ; 44
+<bochs:1175>
+Next at t=139917077
+(0) [0x0000000f502f] f000:502f (unk. ctxt): inc sp                    ; 44
+<bochs:1176>
+Next at t=139917078
+(0) [0x0000000f5030] f000:5030 (unk. ctxt): test al, al               ; 84c0
+<bochs:1177>
+Next at t=139917079
+(0) [0x0000000f5032] f000:5032 (unk. ctxt): jz .+149 (0x000f50cb)     ; 0f849500
+<bochs:1178>
+Next at t=139917080
+(0) [0x0000000f50cb] f000:50cb (unk. ctxt): mov ax, word ptr ss:[bp+18] ; 8b4612
+<bochs:1179>
+Next at t=139917081
+(0) [0x0000000f50ce] f000:50ce (unk. ctxt): mov al, ah                ; 88e0
+<bochs:1180>
+Next at t=139917082
+(0) [0x0000000f50d0] f000:50d0 (unk. ctxt): xor ah, ah                ; 30e4
+<bochs:1181>
+Next at t=139917083
+(0) [0x0000000f50d2] f000:50d2 (unk. ctxt): jmp .+727 (0x000f53ac)    ; e9d702
+<bochs:1182>
+Next at t=139917084
+(0) [0x0000000f53ac] f000:53ac (unk. ctxt): sub ax, 0x0000            ; 2d0000
+<bochs:1183>
+Next at t=139917085
+(0) [0x0000000f53af] f000:53af (unk. ctxt): jl .-29 (0x000f5394)      ; 7ce3
+<bochs:1184>
+Next at t=139917086
+(0) [0x0000000f53b1] f000:53b1 (unk. ctxt): cmp ax, 0x0012            ; 3d1200
+<bochs:1185>
+Next at t=139917087
+(0) [0x0000000f53b4] f000:53b4 (unk. ctxt): jnbe .+47 (0x000f53e5)    ; 772f
+<bochs:1186>
+Next at t=139917088
+(0) [0x0000000f53b6] f000:53b6 (unk. ctxt): shl ax, 1                 ; d1e0
+<bochs:1187>
+Next at t=139917089
+(0) [0x0000000f53b8] f000:53b8 (unk. ctxt): mov bx, ax                ; 89c3
+<bochs:1188>
+Next at t=139917090
+(0) [0x0000000f53ba] f000:53ba (unk. ctxt): jmp word ptr cs:[bx+21439] ; 2effa7bf53
+<bochs:1189>
+Next at t=139917091
+(0) [0x0000000f52e7] f000:52e7 (unk. ctxt): xor ax, ax                ; 31c0
+<bochs:1190>
+Next at t=139917092
+(0) [0x0000000f52e9] f000:52e9 (unk. ctxt): push ax                   ; 50
+<bochs:1191>
+Next at t=139917093
+(0) [0x0000000f52ea] f000:52ea (unk. ctxt): lea bx, word ptr ss:[bp-2] ; 8d5efe
+<bochs:1192>
+Next at t=139917094
+(0) [0x0000000f52ed] f000:52ed (unk. ctxt): push bx                   ; 53
+<bochs:1193>
+Next at t=139917095
+(0) [0x0000000f52ee] f000:52ee (unk. ctxt): lea bx, word ptr ss:[bp-1] ; 8d5eff
+<bochs:1194>
+Next at t=139917096
+(0) [0x0000000f52f1] f000:52f1 (unk. ctxt): push bx                   ; 53
+<bochs:1195>
+Next at t=139917097
+(0) [0x0000000f52f2] f000:52f2 (unk. ctxt): call .+261 (0x000f53fa)   ; e80501
+<bochs:1196>
+Next at t=139917098
+(0) [0x0000000f53fa] f000:53fa (unk. ctxt): push bp                   ; 55
+<bochs:1197>
+Next at t=139917099
+(0) [0x0000000f53fb] f000:53fb (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:1198>
+Next at t=139917100
+(0) [0x0000000f53fd] f000:53fd (unk. ctxt): add sp, 0xfff6            ; 83c4f6
+<bochs:1199>
+Next at t=139917101
+(0) [0x0000000f5400] f000:5400 (unk. ctxt): mov ax, word ptr ds:0x0080 ; a18000
+<bochs:1200>
+Next at t=139917102
+(0) [0x0000000f5403] f000:5403 (unk. ctxt): mov word ptr ss:[bp-2], ax ; 8946fe
+<bochs:1201>
+Next at t=139917103
+(0) [0x0000000f5406] f000:5406 (unk. ctxt): mov ax, word ptr ds:0x0082 ; a18200
+<bochs:1202>
+Next at t=139917104
+(0) [0x0000000f5409] f000:5409 (unk. ctxt): mov word ptr ss:[bp-4], ax ; 8946fc
+<bochs:1203>
+Next at t=139917105
+(0) [0x0000000f540c] f000:540c (unk. ctxt): mov ax, word ptr ds:0x001a ; a11a00
+<bochs:1204>
+Next at t=139917106
+(0) [0x0000000f540f] f000:540f (unk. ctxt): mov word ptr ss:[bp-6], ax ; 8946fa
+<bochs:1205>
+Next at t=139917107
+(0) [0x0000000f5412] f000:5412 (unk. ctxt): mov ax, word ptr ds:0x001c ; a11c00
+<bochs:1206>
+Next at t=139917108
+(0) [0x0000000f5415] f000:5415 (unk. ctxt): mov word ptr ss:[bp-8], ax ; 8946f8
+<bochs:1207>
+Next at t=139917109
+(0) [0x0000000f5418] f000:5418 (unk. ctxt): mov ax, word ptr ss:[bp-6] ; 8b46fa
+<bochs:1208>
+Next at t=139917110
+(0) [0x0000000f541b] f000:541b (unk. ctxt): cmp ax, word ptr ss:[bp-8] ; 3b46f8
+<bochs:1209>
+Next at t=139917111
+(0) [0x0000000f541e] f000:541e (unk. ctxt): jz .+93 (0x000f547d)      ; 745d
+<bochs:1210>
+Next at t=139917112
+(0) [0x0000000f547d] f000:547d (unk. ctxt): xor ax, ax                ; 31c0
+<bochs:1211>
+Next at t=139917113
+(0) [0x0000000f547f] f000:547f (unk. ctxt): mov sp, bp                ; 89ec
+<bochs:1212>
+Next at t=139917114
+(0) [0x0000000f5481] f000:5481 (unk. ctxt): pop bp                    ; 5d
+<bochs:1213>
+Next at t=139917115
+(0) [0x0000000f5482] f000:5482 (unk. ctxt): ret                       ; c3
+<bochs:1214>
+Next at t=139917116
+(0) [0x0000000f52f5] f000:52f5 (unk. ctxt): add sp, 0x0006            ; 83c406
+<bochs:1215>
+Next at t=139917117
+(0) [0x0000000f52f8] f000:52f8 (unk. ctxt): test ax, ax               ; 85c0
+<bochs:1216>
+Next at t=139917118
+(0) [0x0000000f52fa] f000:52fa (unk. ctxt): jnz .+12 (0x000f5308)     ; 750c
+<bochs:1217>
+Next at t=139917119
+(0) [0x0000000f52fc] f000:52fc (unk. ctxt): mov ax, word ptr ss:[bp+20] ; 8b4614
+<bochs:1218>
+Next at t=139917120
+(0) [0x0000000f52ff] f000:52ff (unk. ctxt): or al, 0x40               ; 0c40
+<bochs:1219>
+Next at t=139917121
+(0) [0x0000000f5301] f000:5301 (unk. ctxt): mov word ptr ss:[bp+20], ax ; 894614
+<bochs:1220>
+Next at t=139917122
+(0) [0x0000000f5304] f000:5304 (unk. ctxt): mov sp, bp                ; 89ec
+<bochs:1221>
+Next at t=139917123
+(0) [0x0000000f5306] f000:5306 (unk. ctxt): pop bp                    ; 5d
+<bochs:1222>
+Next at t=139917124
+(0) [0x0000000f5307] f000:5307 (unk. ctxt): ret                       ; c3
+<bochs:1223>
+Next at t=139917125
+(0) [0x0000000fe842] f000:e842 (unk. ctxt): popa                      ; 61
+<bochs:1224>
+Next at t=139917126
+(0) [0x0000000fe843] f000:e843 (unk. ctxt): popf                      ; 9d
+<bochs:1225>
+Next at t=139917127
+(0) [0x0000000fe844] f000:e844 (unk. ctxt): pop ds                    ; 1f
+<bochs:1226>
+Next at t=139917128
+(0) [0x0000000fe845] f000:e845 (unk. ctxt): jz .+9 (0x000fe850)       ; 7409
+<bochs:1227>
+Next at t=139917129
+(0) [0x0000000fe850] f000:e850 (unk. ctxt): push bp                   ; 55
+<bochs:1228>
+Next at t=139917130
+(0) [0x0000000fe851] f000:e851 (unk. ctxt): mov bp, sp                ; 89e5
+<bochs:1229>
+Next at t=139917131
+(0) [0x0000000fe853] f000:e853 (unk. ctxt): or byte ptr ss:[bp+6], 0x40 ; 804e0640
+<bochs:1230>
+Next at t=139917132
+(0) [0x0000000fe857] f000:e857 (unk. ctxt): pop bp                    ; 5d
+<bochs:1231>
+Next at t=139917133
+(0) [0x0000000fe858] f000:e858 (unk. ctxt): iret                      ; cf
+<bochs:1232>
+Next at t=139917134
+(0) [0x000000000b09] 0070:0409 (unk. ctxt): pushf                     ; 9c
+<bochs:1233>
+Next at t=139917135
+(0) [0x000000000b0a] 0070:040a (unk. ctxt): dec word ptr cs:0x044e    ; 2eff0e4e04
+<bochs:1234>
+Next at t=139917136
+(0) [0x000000000b0f] 0070:040f (unk. ctxt): jnz .+1 (0x00000b12)      ; 7501
+<bochs:1235>
+Next at t=139917137
+(0) [0x000000000b12] 0070:0412 (unk. ctxt): popf                      ; 9d
+<bochs:1236>
+Next at t=139917138
+(0) [0x000000000b13] 0070:0413 (unk. ctxt): retf 0x0002               ; ca0200
+<bochs:1237>
+Next at t=139917139
+(0) [0x00000010084a] ffff:085a (unk. ctxt): jnz .+4 (0x00100850)      ; 7504
+<bochs:1238>
+Next at t=139917140
+(0) [0x00000010084c] ffff:085c (unk. ctxt): stc                       ; f9
+<bochs:1239>
+Next at t=139917141
+(0) [0x00000010084d] ffff:085d (unk. ctxt): mov ah, 0x03              ; b403
+<bochs:1240>
+Next at t=139917142
+(0) [0x00000010084f] ffff:085f (unk. ctxt): ret                       ; c3
+<bochs:1241>
+Next at t=139917143
+(0) [0x000000100135] ffff:0145 (unk. ctxt): pop ds                    ; 1f
+<bochs:1242>
+Next at t=139917144
+(0) [0x000000100136] ffff:0146 (unk. ctxt): jb .+2 (0x0010013a)       ; 7202
+<bochs:1243>
+Next at t=139917145
+(0) [0x00000010013a] ffff:014a (unk. ctxt): lds bx, ds:0x0012         ; c51e1200
+<bochs:1244>
+Next at t=139917146
+(0) [0x00000010013e] ffff:014e (unk. ctxt): mov word ptr ds:[bx+3], ax ; 894703
+<bochs:1245>
+Next at t=139917147
+(0) [0x000000100141] ffff:0151 (unk. ctxt): pop es                    ; 07
+<bochs:1246>
+Next at t=139917148
+(0) [0x000000100142] ffff:0152 (unk. ctxt): pop ds                    ; 1f
+<bochs:1247>
+Next at t=139917149
+(0) [0x000000100143] ffff:0153 (unk. ctxt): popa                      ; 61
+<bochs:1248>
+Next at t=139917150
+(0) [0x000000100144] ffff:0154 (unk. ctxt): add sp, 0x0002            ; 83c402
+<bochs:1249>
+Next at t=139917151
+(0) [0x000000100147] ffff:0157 (unk. ctxt): retf                      ; cb
+<bochs:1250>
+Next at t=139917152
+(0) [0x000000108894] ffff:88a4 (unk. ctxt): dec byte ptr ss:0x12b9    ; 36fe0eb912
+<bochs:1251>
+Next at t=139917153
+(0) [0x000000108899] ffff:88a9 (unk. ctxt): cmp byte ptr cs:0x8607, 0x00 ; 2e803e078600
+<bochs:1252>
+Next at t=139917154
+(0) [0x00000010889f] ffff:88af (unk. ctxt): jz .+5 (0x001088a6)       ; 7405
+<bochs:1253>
+Next at t=139917155
+(0) [0x0000001088a6] ffff:88b6 (unk. ctxt): mov ax, 0x5770            ; b87057
+<bochs:1254>
+Next at t=139917156
+(0) [0x0000001088a9] ffff:88b9 (unk. ctxt): test word ptr ds:[si+4], 0x8000 ; f744040080
+<bochs:1255>
+Next at t=139917157
+(0) [0x0000001088ae] ffff:88be (unk. ctxt): jz .+10 (0x001088ba)      ; 740a
+<bochs:1256>
+Next at t=139917158
+(0) [0x0000001088b0] ffff:88c0 (unk. ctxt): test word ptr ds:[si+4], 0x0003 ; f744040300
+<bochs:1257>
+Next at t=139917159
+(0) [0x0000001088b5] ffff:88c5 (unk. ctxt): jz .+3 (0x001088ba)       ; 7403
+<bochs:1258>
+Next at t=139917160
+(0) [0x0000001088b7] ffff:88c7 (unk. ctxt): mov ax, 0x5763            ; b86357
+<bochs:1259>
+Next at t=139917161
+(0) [0x0000001088ba] ffff:88ca (unk. ctxt): call ax                   ; ffd0
+<bochs:1260>
+Next at t=139917162
+(0) [0x000000105753] ffff:5763 (unk. ctxt): pushf                     ; 9c
+<bochs:1261>
+Next at t=139917163
+(0) [0x000000105754] ffff:5764 (unk. ctxt): push ax                   ; 50
+<bochs:1262>
+Next at t=139917164
+(0) [0x000000105755] ffff:5765 (unk. ctxt): xor ax, ax                ; 33c0
+<bochs:1263>
+Next at t=139917165
+(0) [0x000000105757] ffff:5767 (unk. ctxt): cmp word ptr ss:0x1306, ax ; 3639060613
+<bochs:1264>
+Next at t=139917166
+(0) [0x00000010575c] ffff:576c (unk. ctxt): jnz .-14 (0x00105750)     ; 75f2
+<bochs:1265>
+Next at t=139917167
+(0) [0x00000010575e] ffff:576e (unk. ctxt): jmp .+11 (0x0010576b)     ; eb0b
+<bochs:1266>
+Next at t=139917168
+(0) [0x00000010576b] ffff:577b (unk. ctxt): cmp byte ptr ss:0x0d65, al ; 363806650d
+<bochs:1267>
+Next at t=139917169
+(0) [0x000000105770] ffff:5780 (unk. ctxt): jz .+5 (0x00105777)       ; 7405
+<bochs:1268>
+Next at t=139917170
+(0) [0x000000105777] ffff:5787 (unk. ctxt): pop ax                    ; 58
+<bochs:1269>
+Next at t=139917171
+(0) [0x000000105778] ffff:5788 (unk. ctxt): popf                      ; 9d
+<bochs:1270>
+Next at t=139917172
+(0) [0x000000105779] ffff:5789 (unk. ctxt): ret                       ; c3
+<bochs:1271>
+Next at t=139917173
+(0) [0x0000001088bc] ffff:88cc (unk. ctxt): ret                       ; c3
+<bochs:1272>
+Next at t=139917174
+(0) [0x000000108672] ffff:8682 (unk. ctxt): mov di, word ptr ss:0x037f ; 368b3e7f03
+<bochs:1273>
+Next at t=139917175
+(0) [0x000000108677] ffff:8687 (unk. ctxt): and di, di                ; 23ff
+<bochs:1274>
+Next at t=139917176
+(0) [0x000000108679] ffff:8689 (unk. ctxt): js .+52 (0x001086af)      ; 7834
+<bochs:1275>
+Next at t=139917177
+(0) [0x00000010867b] ffff:868b (unk. ctxt): mov ax, ss                ; 8cd0
+<bochs:1276>
+Next at t=139917178
+(0) [0x00000010867d] ffff:868d (unk. ctxt): mov ds, ax                ; 8ed8
+<bochs:1277>
+Next at t=139917179
+(0) [0x00000010867f] ffff:868f (unk. ctxt): cmp ch, 0x05              ; 80fd05
+<bochs:1278>
+Next at t=139917180
+(0) [0x000000108682] ffff:8692 (unk. ctxt): jnz .+6 (0x0010868a)      ; 7506
+<bochs:1279>
+Next at t=139917181
+(0) [0x000000108684] ffff:8694 (unk. ctxt): mov al, byte ptr ds:0x0389 ; a08903
+<bochs:1280>
+Next at t=139917182
+(0) [0x000000108687] ffff:8697 (unk. ctxt): mov byte ptr ds:0x03bc, al ; a2bc03
+<bochs:1281>
+Next at t=139917183
+(0) [0x00000010868a] ffff:869a (unk. ctxt): mov ah, byte ptr ds:0x0380 ; 8a268003
+<bochs:1282>
+Next at t=139917184
+(0) [0x00000010868e] ffff:869e (unk. ctxt): not ah                    ; f6d4
+<bochs:1283>
+Next at t=139917185
+(0) [0x000000108690] ffff:86a0 (unk. ctxt): and ah, 0x02              ; 80e402
+<bochs:1284>
+Next at t=139917186
+(0) [0x000000108693] ffff:86a3 (unk. ctxt): call .-17774 (0x00104128) ; e892ba
+<bochs:1285>
+Next at t=139917187
+(0) [0x000000104128] ffff:4138 (unk. ctxt): mov es, word ptr cs:0x3ea2 ; 2e8e06a23e
+<bochs:1286>
+Next at t=139917188
+(0) [0x00000010412d] ffff:413d (unk. ctxt): pop word ptr es:0x05ee    ; 268f06ee05
+<bochs:1287>
+Next at t=139917189
+(0) [0x000000104132] ffff:4142 (unk. ctxt): pop ax                    ; 58
+<bochs:1288>
+Next at t=139917190
+(0) [0x000000104133] ffff:4143 (unk. ctxt): pop bx                    ; 5b
+<bochs:1289>
+Next at t=139917191
+(0) [0x000000104134] ffff:4144 (unk. ctxt): pop cx                    ; 59
+<bochs:1290>
+Next at t=139917192
+(0) [0x000000104135] ffff:4145 (unk. ctxt): pop dx                    ; 5a
+<bochs:1291>
+Next at t=139917193
+(0) [0x000000104136] ffff:4146 (unk. ctxt): pop si                    ; 5e
+<bochs:1292>
+Next at t=139917194
+(0) [0x000000104137] ffff:4147 (unk. ctxt): pop di                    ; 5f
+<bochs:1293>
+Next at t=139917195
+(0) [0x000000104138] ffff:4148 (unk. ctxt): pop bp                    ; 5d
+<bochs:1294>
+Next at t=139917196
+(0) [0x000000104139] ffff:4149 (unk. ctxt): pop ds                    ; 1f
+<bochs:1295>
+Next at t=139917197
+(0) [0x00000010413a] ffff:414a (unk. ctxt): jmp word ptr es:0x05ee    ; 26ff26ee05
+<bochs:1296>
+Next at t=139917198
+(0) [0x000000108696] ffff:86a6 (unk. ctxt): pop es                    ; 07
+<bochs:1297>
+Next at t=139917199
+(0) [0x000000108697] ffff:86a7 (unk. ctxt): pushf                     ; 9c
+<bochs:1298>
+Next at t=139917200
+(0) [0x000000108698] ffff:86a8 (unk. ctxt): mov al, byte ptr ss:0x0083 ; 36a08300
+<bochs:1299>
+Next at t=139917201
+(0) [0x00000010869c] ffff:86ac (unk. ctxt): cbw                       ; 98
+<bochs:1300>
+Next at t=139917202
+(0) [0x00000010869d] ffff:86ad (unk. ctxt): cmp ax, 0xffff            ; 83f8ff
+<bochs:1301>
+Next at t=139917203
+(0) [0x0000001086a0] ffff:86b0 (unk. ctxt): jnz .+7 (0x001086a9)      ; 7507
+<bochs:1302>
+Next at t=139917204
+(0) [0x0000001086a9] ffff:86b9 (unk. ctxt): mov ax, word ptr ss:0x03bc ; 36a1bc03
+<bochs:1303>
+Next at t=139917205
+(0) [0x0000001086ad] ffff:86bd (unk. ctxt): popf                      ; 9d
+<bochs:1304>
+Next at t=139917206
+(0) [0x0000001086ae] ffff:86be (unk. ctxt): ret                       ; c3
+<bochs:1305>
+Next at t=139917207
+(0) [0x000000108fdb] ffff:8feb (unk. ctxt): jz .-189 (0x00108f22)     ; 0f8443ff
+<bochs:1306>
+Next at t=139917208
+(0) [0x000000108f22] ffff:8f32 (unk. ctxt): pop ax                    ; 58
+<bochs:1307>
+Next at t=139917209
+(0) [0x000000108f23] ffff:8f33 (unk. ctxt): pop bx                    ; 5b
+<bochs:1308>
+Next at t=139917210
+(0) [0x000000108f24] ffff:8f34 (unk. ctxt): pushf                     ; 9c
+<bochs:1309>
+Next at t=139917211
+(0) [0x000000108f25] ffff:8f35 (unk. ctxt): cmp byte ptr ss:0x0358, 0x00 ; 36803e580300
+<bochs:1310>
+Next at t=139917212
+(0) [0x000000108f2b] ffff:8f3b (unk. ctxt): jz .+20 (0x00108f41)      ; 7414
+<bochs:1311>
+Next at t=139917213
+(0) [0x000000108f41] ffff:8f51 (unk. ctxt): popf                      ; 9d
+<bochs:1312>
+Next at t=139917214
+(0) [0x000000108f42] ffff:8f52 (unk. ctxt): ret                       ; c3
+<bochs:1313>
+Next at t=139917215
+(0) [0x0000001057ae] ffff:57be (unk. ctxt): jnz .+66 (0x001057f2)     ; 7542
+<bochs:1314>
+Next at t=139917216
+(0) [0x0000001057b0] ffff:57c0 (unk. ctxt): cmp byte ptr ss:0x0aa0, 0x00 ; 36803ea00a00
+<bochs:1315>
+Next at t=139917217
+(0) [0x0000001057b6] ffff:57c6 (unk. ctxt): jnz .+16 (0x001057c8)     ; 7510
+<bochs:1316>
+Next at t=139917218
+(0) [0x0000001057b8] ffff:57c8 (unk. ctxt): mov ah, 0x05              ; b405
+<bochs:1317>
+Next at t=139917219
+(0) [0x0000001057ba] ffff:57ca (unk. ctxt): call .+11853 (0x0010860a) ; e84d2e
+<bochs:1318>
+Next at t=139917220
+(0) [0x00000010860a] ffff:861a (unk. ctxt): mov word ptr ss:0x038c, ss ; 368c168c03
+<bochs:1319>
+Next at t=139917221
+(0) [0x00000010860f] ffff:861f (unk. ctxt): mov word ptr ss:0x038a, 0x03bc ; 36c7068a03bc03
+<bochs:1320>
+Next at t=139917222
+(0) [0x000000108616] ffff:8626 (unk. ctxt): mov word ptr ss:0x038e, 0x0001 ; 36c7068e030100
+<bochs:1321>
+Next at t=139917223
+(0) [0x00000010861d] ffff:862d (unk. ctxt): mov word ptr ss:0x03bc, ax ; 36a3bc03
+<bochs:1322>
+Next at t=139917224
+(0) [0x000000108621] ffff:8631 (unk. ctxt): test byte ptr ds:[si+6], 0x80 ; f6440680
+<bochs:1323>
+Next at t=139917225
+(0) [0x000000108625] ffff:8635 (unk. ctxt): jz .+3 (0x0010862a)       ; 7403
+<bochs:1324>
+Next at t=139917226
+(0) [0x00000010862a] ffff:863a (unk. ctxt): test byte ptr ds:[si+5], 0x80 ; f6440580
+<bochs:1325>
+Next at t=139917227
+(0) [0x00000010862e] ffff:863e (unk. ctxt): jnz .+3 (0x00108633)      ; 7503
+<bochs:1326>
+Next at t=139917228
+(0) [0x000000108633] ffff:8643 (unk. ctxt): push es                   ; 06
+<bochs:1327>
+Next at t=139917229
+(0) [0x000000108634] ffff:8644 (unk. ctxt): call .-17656 (0x0010413f) ; e808bb
+<bochs:1328>
+Next at t=139917230
+(0) [0x00000010413f] ffff:414f (unk. ctxt): mov es, word ptr cs:0x3ea2 ; 2e8e06a23e
+<bochs:1329>
+Next at t=139917231
+(0) [0x000000104144] ffff:4154 (unk. ctxt): pop word ptr es:0x05ee    ; 268f06ee05
+<bochs:1330>
+Next at t=139917232
+(0) [0x000000104149] ffff:4159 (unk. ctxt): push ds                   ; 1e
+<bochs:1331>
+Next at t=139917233
+(0) [0x00000010414a] ffff:415a (unk. ctxt): push bp                   ; 55
+<bochs:1332>
+Next at t=139917234
+(0) [0x00000010414b] ffff:415b (unk. ctxt): push di                   ; 57
+<bochs:1333>
+Next at t=139917235
+(0) [0x00000010414c] ffff:415c (unk. ctxt): push si                   ; 56
+<bochs:1334>
+Next at t=139917236
+(0) [0x00000010414d] ffff:415d (unk. ctxt): push dx                   ; 52
+<bochs:1335>
+Next at t=139917237
+(0) [0x00000010414e] ffff:415e (unk. ctxt): push cx                   ; 51
+<bochs:1336>
+Next at t=139917238
+(0) [0x00000010414f] ffff:415f (unk. ctxt): push bx                   ; 53
+<bochs:1337>
+Next at t=139917239
+(0) [0x000000104150] ffff:4160 (unk. ctxt): push ax                   ; 50
+<bochs:1338>
+Next at t=139917240
+(0) [0x000000104151] ffff:4161 (unk. ctxt): push word ptr es:0x05ee   ; 26ff36ee05
+<bochs:1339>
+Next at t=139917241
+(0) [0x000000104156] ffff:4166 (unk. ctxt): push bp                   ; 55
+<bochs:1340>
+Next at t=139917242
+(0) [0x000000104157] ffff:4167 (unk. ctxt): mov bp, sp                ; 8bec
+<bochs:1341>
+Next at t=139917243
+(0) [0x000000104159] ffff:4169 (unk. ctxt): mov es, word ptr ss:[bp+20] ; 8e4614
+<bochs:1342>
+Next at t=139917244
+(0) [0x00000010415c] ffff:416c (unk. ctxt): pop bp                    ; 5d
+<bochs:1343>
+Next at t=139917245
+(0) [0x00000010415d] ffff:416d (unk. ctxt): ret                       ; c3
+<bochs:1344>
+Next at t=139917246
+(0) [0x000000108637] ffff:8647 (unk. ctxt): mov dx, ds                ; 8cda
+<bochs:1345>
+Next at t=139917247
+(0) [0x000000108639] ffff:8649 (unk. ctxt): mov bx, ss                ; 8cd3
+<bochs:1346>
+Next at t=139917248
+(0) [0x00000010863b] ffff:864b (unk. ctxt): mov ds, bx                ; 8edb
+<bochs:1347>
+Next at t=139917249
+(0) [0x00000010863d] ffff:864d (unk. ctxt): mov es, bx                ; 8ec3
+<bochs:1348>
+Next at t=139917250
+(0) [0x00000010863f] ffff:864f (unk. ctxt): xor bx, bx                ; 33db
+<bochs:1349>
+Next at t=139917251
+(0) [0x000000108641] ffff:8651 (unk. ctxt): cmp ah, 0x05              ; 80fc05
+<bochs:1350>
+Next at t=139917252
+(0) [0x000000108644] ffff:8654 (unk. ctxt): jnz .+4 (0x0010864a)      ; 7504
+<bochs:1351>
+Next at t=139917253
+(0) [0x000000108646] ffff:8656 (unk. ctxt): or bx, 0x0400             ; 81cb0004
+<bochs:1352>
+Next at t=139917254
+(0) [0x00000010864a] ffff:865a (unk. ctxt): mov word ptr ds:0x037f, bx ; 891e7f03
+<bochs:1353>
+Next at t=139917255
+(0) [0x00000010864e] ffff:865e (unk. ctxt): xor bx, bx                ; 33db
+<bochs:1354>
+Next at t=139917256
+(0) [0x000000108650] ffff:8660 (unk. ctxt): mov byte ptr ds:0x0389, bl ; 881e8903
+<bochs:1355>
+Next at t=139917257
+(0) [0x000000108654] ffff:8664 (unk. ctxt): mov bl, ah                ; 8adc
+<bochs:1356>
+Next at t=139917258
+(0) [0x000000108656] ffff:8666 (unk. ctxt): mov ah, byte ptr cs:[bx-31224] ; 2e8aa70886
+<bochs:1357>
+Next at t=139917259
+(0) [0x00000010865b] ffff:866b (unk. ctxt): shl bx, 1                 ; d1e3
+<bochs:1358>
+Next at t=139917260
+(0) [0x00000010865d] ffff:866d (unk. ctxt): mov cx, word ptr cs:[bx-31218] ; 2e8b8f0e86
+<bochs:1359>
+Next at t=139917261
+(0) [0x000000108662] ffff:8672 (unk. ctxt): mov bx, 0x037c            ; bb7c03
+<bochs:1360>
+Next at t=139917262
+(0) [0x000000108665] ffff:8675 (unk. ctxt): mov byte ptr ds:0x037c, ah ; 88267c03
+<bochs:1361>
+Next at t=139917263
+(0) [0x000000108669] ffff:8679 (unk. ctxt): mov byte ptr ds:0x037e, ch ; 882e7e03
+<bochs:1362>
+Next at t=139917264
+(0) [0x00000010866d] ffff:867d (unk. ctxt): mov ds, dx                ; 8eda
+<bochs:1363>
+Next at t=139917265
+(0) [0x00000010866f] ffff:867f (unk. ctxt): call .+404 (0x00108806)   ; e89401
+<bochs:1364>
+Next at t=139917266
+(0) [0x000000108806] ffff:8816 (unk. ctxt): lds si, ds:[si+7]         ; c57407
+<bochs:1365>
+Next at t=139917267
+(0) [0x000000108809] ffff:8819 (unk. ctxt): mov ax, 0x5718            ; b81857
+<bochs:1366>
+Next at t=139917268
+(0) [0x00000010880c] ffff:881c (unk. ctxt): test word ptr ds:[si+4], 0x8000 ; f744040080
+<bochs:1367>
+Next at t=139917269
+(0) [0x000000108811] ffff:8821 (unk. ctxt): jz .+10 (0x0010881d)      ; 740a
+<bochs:1368>
+Next at t=139917270
+(0) [0x000000108813] ffff:8823 (unk. ctxt): test word ptr ds:[si+4], 0x0003 ; f744040300
+<bochs:1369>
+Next at t=139917271
+(0) [0x000000108818] ffff:8828 (unk. ctxt): jz .+3 (0x0010881d)       ; 7403
+<bochs:1370>
+Next at t=139917272
+(0) [0x00000010881a] ffff:882a (unk. ctxt): mov ax, 0x570b            ; b80b57
+<bochs:1371>
+Next at t=139917273
+(0) [0x00000010881d] ffff:882d (unk. ctxt): call ax                   ; ffd0
+<bochs:1372>
+Next at t=139917274
+(0) [0x0000001056fb] ffff:570b (unk. ctxt): pushf                     ; 9c
+<bochs:1373>
+Next at t=139917275
+(0) [0x0000001056fc] ffff:570c (unk. ctxt): push ax                   ; 50
+<bochs:1374>
+Next at t=139917276
+(0) [0x0000001056fd] ffff:570d (unk. ctxt): xor ax, ax                ; 33c0
+<bochs:1375>
+Next at t=139917277
+(0) [0x0000001056ff] ffff:570f (unk. ctxt): cmp word ptr ss:0x1306, ax ; 3639060613
+<bochs:1376>
+Next at t=139917278
+(0) [0x000000105704] ffff:5714 (unk. ctxt): jnz .-23 (0x001056ef)     ; 75e9
+<bochs:1377>
+Next at t=139917279
+(0) [0x000000105706] ffff:5716 (unk. ctxt): jmp .+11 (0x00105713)     ; eb0b
+<bochs:1378>
+Next at t=139917280
+(0) [0x000000105713] ffff:5723 (unk. ctxt): cmp byte ptr ss:0x0d65, al ; 363806650d
+<bochs:1379>
+Next at t=139917281
+(0) [0x000000105718] ffff:5728 (unk. ctxt): jz .+5 (0x0010571f)       ; 7405
+<bochs:1380>
+Next at t=139917282
+(0) [0x00000010571f] ffff:572f (unk. ctxt): pop ax                    ; 58
+<bochs:1381>
+Next at t=139917283
+(0) [0x000000105720] ffff:5730 (unk. ctxt): popf                      ; 9d
+<bochs:1382>
+Next at t=139917284
+(0) [0x000000105721] ffff:5731 (unk. ctxt): ret                       ; c3
+<bochs:1383>
+Next at t=139917285
+(0) [0x00000010881f] ffff:882f (unk. ctxt): test byte ptr ds:[si+5], 0x80 ; f6440580
+<bochs:1384>
+Next at t=139917286
+(0) [0x000000108823] ffff:8833 (unk. ctxt): jnz .+77 (0x00108872)     ; 754d
+<bochs:1385>
+Next at t=139917287
+(0) [0x000000108872] ffff:8882 (unk. ctxt): inc byte ptr ss:0x12b9    ; 36fe06b912
+<bochs:1386>
+Next at t=139917288
+(0) [0x000000108877] ffff:8887 (unk. ctxt): mov ax, word ptr ds:[si+6] ; 8b4406
+<bochs:1387>
+Next at t=139917289
+(0) [0x00000010887a] ffff:888a (unk. ctxt): mov word ptr ss:0x0378, ax ; 36a37803
+<bochs:1388>
+Next at t=139917290
+(0) [0x00000010887e] ffff:888e (unk. ctxt): mov word ptr ss:0x037a, ds ; 368c1e7a03
+<bochs:1389>
+Next at t=139917291
+(0) [0x000000108883] ffff:8893 (unk. ctxt): callf ss:0x0378           ; 36ff1e7803
+<bochs:1390>
+Next at t=139917292
+(0) [0x000000000962] 0070:0262 (unk. ctxt): mov word ptr cs:0x0012, bx ; 2e891e1200
+<bochs:1391>
+Next at t=139917293
+(0) [0x000000000967] 0070:0267 (unk. ctxt): mov word ptr cs:0x0014, es ; 2e8c061400
+<bochs:1392>
+Next at t=139917294
+(0) [0x00000000096c] 0070:026c (unk. ctxt): retf                      ; cb
+<bochs:1393>
+Next at t=139917295
+(0) [0x000000108888] ffff:8898 (unk. ctxt): mov ax, word ptr ds:[si+8] ; 8b4408
+<bochs:1394>
+Next at t=139917296
+(0) [0x00000010888b] ffff:889b (unk. ctxt): mov word ptr ss:0x0378, ax ; 36a37803
+<bochs:1395>
+Next at t=139917297
+(0) [0x00000010888f] ffff:889f (unk. ctxt): callf ss:0x0378           ; 36ff1e7803
+<bochs:1396>
+Next at t=139917298
+(0) [0x000000000972] 0070:0272 (unk. ctxt): call .+54 (0x000009ab)    ; e83600
+<bochs:1397>
+Next at t=139917299
+(0) [0x0000000009ab] 0070:02ab (unk. ctxt): jmpf cs:0x012e            ; 2eff2e2e01
+<bochs:1398>
+Next at t=139917300
+(0) [0x0000001000c5] ffff:00d5 (unk. ctxt): pusha                     ; 60
+<bochs:1399>
+Next at t=139917301
+(0) [0x0000001000c6] ffff:00d6 (unk. ctxt): push ds                   ; 1e
+<bochs:1400>
+Next at t=139917302
+(0) [0x0000001000c7] ffff:00d7 (unk. ctxt): push es                   ; 06
+<bochs:1401>
+Next at t=139917303
+(0) [0x0000001000c8] ffff:00d8 (unk. ctxt): mov bp, sp                ; 8bec
+<bochs:1402>
+Next at t=139917304
+(0) [0x0000001000ca] ffff:00da (unk. ctxt): mov ds, word ptr cs:0x0054 ; 2e8e1e5400
+<bochs:1403>
+Next at t=139917305
+(0) [0x0000001000cf] ffff:00df (unk. ctxt): mov bx, word ptr ss:[bp+20] ; 8b5e14
+<bochs:1404>
+Next at t=139917306
+(0) [0x0000001000d2] ffff:00e2 (unk. ctxt): mov si, word ptr ds:[bx]  ; 8b37
+<bochs:1405>
+Next at t=139917307
+(0) [0x0000001000d4] ffff:00e4 (unk. ctxt): cmp si, 0x07d5            ; 81fed507
+<bochs:1406>
+Next at t=139917308
+(0) [0x0000001000d8] ffff:00e8 (unk. ctxt): jz .+12 (0x001000e6)      ; 740c
+<bochs:1407>
+Next at t=139917309
+(0) [0x0000001000e6] ffff:00f6 (unk. ctxt): les bx, ds:0x0012         ; c41e1200
+<bochs:1408>
+Next at t=139917310
+(0) [0x0000001000ea] ffff:00fa (unk. ctxt): mov al, byte ptr es:[bx+1] ; 268a4701
+<bochs:1409>
+Next at t=139917311
+(0) [0x0000001000ee] ffff:00fe (unk. ctxt): mov ah, byte ptr es:[bx+13] ; 268a670d
+<bochs:1410>
+Next at t=139917312
+(0) [0x0000001000f2] ffff:0102 (unk. ctxt): mov cx, word ptr es:[bx+18] ; 268b4f12
+<bochs:1411>
+Next at t=139917313
+(0) [0x0000001000f6] ffff:0106 (unk. ctxt): mov dx, word ptr es:[bx+20] ; 268b5714
+<bochs:1412>
+Next at t=139917314
+(0) [0x0000001000fa] ffff:010a (unk. ctxt): cmp si, 0x0cb2            ; 81feb20c
+<bochs:1413>
+Next at t=139917315
+(0) [0x0000001000fe] ffff:010e (unk. ctxt): jnz .+25 (0x00100119)     ; 7519
+<bochs:1414>
+Next at t=139917316
+(0) [0x000000100119] ffff:0129 (unk. ctxt): xchg di, ax               ; 97
+<bochs:1415>
+Next at t=139917317
+(0) [0x00000010011a] ffff:012a (unk. ctxt): mov al, byte ptr es:[bx+2] ; 268a4702
+<bochs:1416>
+Next at t=139917318
+(0) [0x00000010011e] ffff:012e (unk. ctxt): cmp al, byte ptr cs:[si]  ; 2e3a04
+<bochs:1417>
+Next at t=139917319
+(0) [0x000000100121] ffff:0131 (unk. ctxt): jnb .-231 (0x0010003e)    ; 0f8319ff
+<bochs:1418>
+Next at t=139917320
+(0) [0x000000100125] ffff:0135 (unk. ctxt): cbw                       ; 98
+<bochs:1419>
+Next at t=139917321
+(0) [0x000000100126] ffff:0136 (unk. ctxt): shl ax, 1                 ; d1e0
+<bochs:1420>
+Next at t=139917322
+(0) [0x000000100128] ffff:0138 (unk. ctxt): add si, ax                ; 03f0
+<bochs:1421>
+Next at t=139917323
+(0) [0x00000010012a] ffff:013a (unk. ctxt): xchg di, ax               ; 97
+<bochs:1422>
+Next at t=139917324
+(0) [0x00000010012b] ffff:013b (unk. ctxt): les di, es:[bx+14]        ; 26c47f0e
+<bochs:1423>
+Next at t=139917325
+(0) [0x00000010012f] ffff:013f (unk. ctxt): cld                       ; fc
+<bochs:1424>
+Next at t=139917326
+(0) [0x000000100130] ffff:0140 (unk. ctxt): push ds                   ; 1e
+<bochs:1425>
+Next at t=139917327
+(0) [0x000000100131] ffff:0141 (unk. ctxt): call word ptr cs:[si+1]   ; 2eff5401
+<bochs:1426>
+Next at t=139917328
+(0) [0x00000010083d] ffff:084d (unk. ctxt): mov al, byte ptr ds:0x0424 ; a02404
+<bochs:1427>
+Next at t=139917329
+(0) [0x000000100840] ffff:0850 (unk. ctxt): or al, al                 ; 0ac0
+<bochs:1428>
+Next at t=139917330
+(0) [0x000000100842] ffff:0852 (unk. ctxt): jnz .+51 (0x00100877)     ; 7533
+<bochs:1429>
+Next at t=139917331
+(0) [0x000000100844] ffff:0854 (unk. ctxt): mov ah, byte ptr ds:0x00b2 ; 8a26b200
+<bochs:1430>
+Next at t=139917332
+(0) [0x000000100848] ffff:0858 (unk. ctxt): int 0x16                  ; cd16
+<bochs:1431>
+Next at t=139917333
+(0) [0x000000000af9] 0070:03f9 (unk. ctxt): sti                       ; fb
+<bochs:1432>
+Next at t=139917334
+(0) [0x000000000afa] 0070:03fa (unk. ctxt): pushf                     ; 9c
+<bochs:1433>
+Next at t=139917335
+(0) [0x000000000afb] 0070:03fb (unk. ctxt): test byte ptr cs:0x0009, 0x20 ; 2ef606090020
+<bochs:1434>
+Next at t=139917336
+(0) [0x000000000b01] 0070:0401 (unk. ctxt): jnz .+19 (0x00000b16)     ; 7513
+<bochs:1435>
+Next at t=139917337
+(0) [0x000000000b03] 0070:0403 (unk. ctxt): cli                       ; fa
+<bochs:1436>
+Next at t=139917338
+(0) [0x000000000b04] 0070:0404 (unk. ctxt): callf cs:0x015e           ; 2eff1e5e01
+<bochs:1437>
+Next at t=139917339
+(0) [0x0000000fe82e] f000:e82e (unk. ctxt): sti                       ; fb
+k

@@ -1,0 +1,5 @@
+*.idb
+*.out
+*.trace
+logs.1
+logs.2

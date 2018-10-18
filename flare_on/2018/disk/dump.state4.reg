@@ -1,0 +1,62 @@
+CPU0:
+rax: 00000000_00000000 rcx: 00000000_00000002
+rdx: 00000000_00000000 rbx: 00000000_00000000
+rsp: 00000000_0000086a rbp: 00000000_00000005
+rsi: 00000000_00000522 rdi: 00000000_00000000
+r8 : 00000000_00000000 r9 : 00000000_00000000
+r10: 00000000_00000000 r11: 00000000_00000000
+r12: 00000000_00000000 r13: 00000000_00000000
+r14: 00000000_00000000 r15: 00000000_00000000
+rip: 00000000_00000084
+eflags 0x00000012: id vip vif ac vm rf nt IOPL=0 of df if tf sf zf AF pf cf
+<bochs:18> fp
+status  word: 0x0000: b c3 TOS0 c2 c1 c0 es sf pe ue oe ze de ie
+control word: 0x0040: inf RC_NEAREST PC_32 pm um om zm dm im
+tag word:     0x5555
+operand:      0x0000
+fip:          0x0000000000000000
+fcs:          0x0000
+fdp:          0x0000000000000000
+fds:          0x0000
+=>FP0 ST0(0):        raw 0x0000:0000000000000000 (0.0000000000) (ZERO)
+  FP1 ST1(0):        raw 0x0000:0000000000000000 (0.0000000000) (ZERO)
+  FP2 ST2(0):        raw 0x0000:0000000000000000 (0.0000000000) (ZERO)
+  FP3 ST3(0):        raw 0x0000:0000000000000000 (0.0000000000) (ZERO)
+  FP4 ST4(0):        raw 0x0000:0000000000000000 (0.0000000000) (ZERO)
+  FP5 ST5(0):        raw 0x0000:0000000000000000 (0.0000000000) (ZERO)
+  FP6 ST6(0):        raw 0x0000:0000000000000000 (0.0000000000) (ZERO)
+  FP7 ST7(0):        raw 0x0000:0000000000000000 (0.0000000000) (ZERO)
+<bochs:19> dreg
+DR0=0x0000000000000000
+DR1=0x0000000000000000
+DR2=0x0000000000000000
+DR3=0x0000000000000000
+DR6=0xffff0ff0: bt bs bd b3 b2 b1 b0
+DR7=0x00000400: DR3=Code-Byte DR2=Code-Byte DR1=Code-Byte DR0=Code-Byte gd | ge le | g3 l3 g2 l2 g1 l1 g0 l0
+<bochs:20> creg
+CR0=0x60000010: pg CD NW ac wp ne ET ts em mp pe
+CR2=page fault laddr=0x0000000000000000
+CR3=0x000000000000
+    PCD=page-level cache disable=0
+    PWT=page-level write-through=0
+CR4=0x00000000: smap smep osxsave pcid fsgsbase smx vmx osxmmexcpt osfxsr pce pge mce pae pse de tsd pvi vme
+CR8: 0x0
+EFER=0x00000000: ffxsr nxe lma lme sce
+<bochs:21> sreg
+es:0x03a5, dh=0x00009300, dl=0x3a50ffff, valid=1
+        Data segment, base=0x00003a50, limit=0x0000ffff, Read/Write, Accessed
+cs:0x97c0, dh=0x00009309, dl=0x7c00ffff, valid=7
+        Data segment, base=0x00097c00, limit=0x0000ffff, Read/Write, Accessed
+ss:0x01c0, dh=0x00009300, dl=0x1c00ffff, valid=7
+        Data segment, base=0x00001c00, limit=0x0000ffff, Read/Write, Accessed
+ds:0x0070, dh=0x00009300, dl=0x0700ffff, valid=1
+        Data segment, base=0x00000700, limit=0x0000ffff, Read/Write, Accessed
+fs:0x0000, dh=0x00009300, dl=0x0000ffff, valid=1
+        Data segment, base=0x00000000, limit=0x0000ffff, Read/Write, Accessed
+gs:0x0000, dh=0x00009300, dl=0x0000ffff, valid=1
+        Data segment, base=0x00000000, limit=0x0000ffff, Read/Write, Accessed
+ldtr:0x0000, dh=0x00008200, dl=0x0000ffff, valid=1
+tr:0x0000, dh=0x00008b00, dl=0x0000ffff, valid=1
+gdtr:base=0x00000000000fa1f7, limit=0x30
+idtr:base=0x0000000000000000, limit=0x3ff
+

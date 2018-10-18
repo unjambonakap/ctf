@@ -1,0 +1,20 @@
+romimage: file=$BXSHARE/BIOS-bochs-latest 
+vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
+megs: 32
+#vga_update_interval: 150000
+vga: extension=vbe
+mouse: enabled=0
+log: nul
+logprefix: %t%e%d
+panic: action=fatal
+error: action=report
+info: action=report
+debug: action=ignore
+
+#ata0-master: type=disk, path="./suspicious_floppy_v1.0.img", mode=flat, cylinders=1, heads=1, spt=63
+ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
+#ata0-master: type=none
+
+boot: floppy
+floppya: image="./suspicious_floppy_v1.0.img", status=inserted
+display_library: x

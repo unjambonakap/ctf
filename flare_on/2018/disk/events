@@ -1,0 +1,5 @@
+memory_region_ops_read
+memory_region_ops_write
+cpu_in
+cpu_out
+guest_user_syscall
