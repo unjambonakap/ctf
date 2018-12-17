@@ -104,7 +104,7 @@ def r2_extract_all(filename):
   funcs = cmisc.Attributize({d['name']:d for d in do_cmd('aflj')})
   strs = do_cmd('izj')
   xrefs = do_cmd('axj')
-  xrefs = {int(k):v for k, v in xrefs.items()}
+  xrefs = {v['addr']: v for v in xrefs}
 
   for x in strs:
     x.value = base64.b64decode(x.string)

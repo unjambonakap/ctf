@@ -1,0 +1,28 @@
+Function bliu()
+{
+    $raw = (invoke-webrequest -uri "https://pastebin.com/raw/HuKuR4TZ").content
+    $raw = $raw.split(";")
+    return $raw
+}Function en($a)
+{
+    $b = $a.ToCharArray();
+    Foreach ($element in $b) {$c = $c + " " + [System.String]::Format("{0:X}", [System.Convert]::ToUInt32($element))}
+    $c
+}function bs($po)
+{
+    $rt = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($po))
+    return $rt
+}Function GetFlag()
+{
+    $raw = (invoke-webrequest -uri "https://pastebin.com/raw/pfBh2LAs").content
+    return $raw
+}Function idot()
+{
+    write-host "https://www.youtube.com/watch?v=3rfuffQUhfQ"
+}Function ilot()
+{
+    write-host "https://www.youtube.com/watch?v=04854XqcfCY"
+}Function ipot()
+{
+    write-host "https://www.youtube.com/watch?v=R2ZW_94DyYM"
+}
