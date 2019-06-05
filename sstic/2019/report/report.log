@@ -1,0 +1,2937 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.5.2)  3 MAY 2019 17:04
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2018-12-01>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-dist/tex/latex/attachfile/attachfile.sty
+Package: attachfile 2016/09/18 v1.9 PDF 1.3+ file attachment
+
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
+\calc@Adimen=\dimen111
+\calc@Bdimen=\dimen112
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count93
+\calc@Cskip=\skip45
+)
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count94
+\Hy@pagecounter=\count95
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count96
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count97
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen114
+\Fld@menulength=\count98
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count99
+\c@Item=\count100
+\c@Hfootnote=\count101
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count102
+\c@bookmark@seq@number=\count103
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+\c@atfi@tmp=\count104
+\atfi@appearancewidth=\skip47
+\atfi@appearanceheight=\skip48
+\atfi@appearancedepth=\skip49
+\atfi@appearancebox=\box27
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen119
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen120
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count105
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count106
+\leftroot@=\count107
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count108
+\DOTSCASE@=\count109
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen121
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
+\dotsspace@=\muskip11
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
+\tag@help=\toks17
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
+\andhelp@=\toks18
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/share/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+
+(/usr/share/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count117
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip53
+
+(/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count118
+)
+(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip54
+\skiplinenumber=\skip55
+\skiprule=\skip56
+\skiphlne=\skip57
+\skiptext=\skip58
+\skiplength=\skip59
+\algomargin=\skip60
+\skipalgocfslide=\skip61
+\algowidth=\dimen128
+\inoutsize=\dimen129
+\inoutindent=\dimen130
+\interspacetitleruled=\dimen131
+\interspacealgoruled=\dimen132
+\interspacetitleboxruled=\dimen133
+\algocf@ruledwidth=\skip62
+\algocf@inoutbox=\box30
+\algocf@inputbox=\box31
+\AlCapSkip=\skip63
+\AlCapHSkip=\skip64
+\algoskipindent=\skip65
+\algocf@nlbox=\box32
+\algocf@hangingbox=\box33
+\algocf@untilbox=\box34
+\algocf@skipuntil=\skip66
+\algocf@capbox=\box35
+\algocf@lcaptionbox=\skip67
+\algoheightruledefault=\skip68
+\algoheightrule=\skip69
+\algotitleheightruledefault=\skip70
+\algotitleheightrule=\skip71
+\c@algocfline=\count119
+\c@algocfproc=\count120
+\c@algocf=\count121
+\algocf@algoframe=\box36
+\algocf@algobox=\box37
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box38
+\UL@hyphenbox=\box39
+\UL@skip=\skip72
+\UL@hook=\toks21
+\UL@height=\dimen134
+\UL@pe=\count122
+\UL@pixel=\dimen135
+\ULC@box=\box40
+Package: ulem 2012/05/18
+\ULdepth=\dimen136
+)
+(/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+)
+\c@caption@flags=\count123
+\c@ContinuedFloat=\count124
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count125
+\sf@farskip=\skip73
+\sf@captopadj=\dimen144
+\sf@capskip=\skip74
+\sf@nearskip=\skip75
+\c@subfigure=\count126
+\c@subfigure@save=\count127
+\c@lofdepth=\count128
+\c@subtable=\count129
+\c@subtable@save=\count130
+\c@lotdepth=\count131
+\sf@top=\skip76
+\sf@bottom=\skip77
+)
+
+Package subfig Warning: The subfigure type is already defined. on input line 23
+.
+
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count132
+\float@exts=\toks22
+\float@box=\box41
+\@float@everytoks=\toks23
+\@floatcapt=\box42
+)
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/11/13 3.27 The Babel package
+
+(/usr/share/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
+)
+(/usr/share/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2019/01/30 v3.5d French support from the babel system
+
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count133
+\U@D=\dimen145
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count134
+)
+\l@acadian = a dialect from \language\l@french 
+\FB@nonchar=\count135
+Package babel Info: Making : an active character on input line 414.
+Package babel Info: Making ; an active character on input line 415.
+Package babel Info: Making ! an active character on input line 416.
+Package babel Info: Making ? an active character on input line 417.
+\FBguill@level=\count136
+\FBold@everypar=\toks24
+\FB@Mht=\dimen146
+\mc@charclass=\count137
+\mc@charfam=\count138
+\mc@charslot=\count139
+\std@mcc=\count140
+\dec@mcc=\count141
+\c@FBcaption@count=\count142
+\listindentFB=\dimen147
+\descindentFB=\dimen148
+\labelindentFB=\dimen149
+\labelwidthFB=\dimen150
+\leftmarginFB=\dimen151
+\parindentFFN=\dimen152
+\FBfnindent=\dimen153
+))
+(/usr/share/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
+)
+(/usr/share/texmf/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/share/texmf/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2016/09/02 v1.2.1 fvextra - extensions and patches for fancyvr
+b
+
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count143
+)
+(/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2019/01/15
+
+Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+\FV@CodeLineNo=\count144
+\FV@InFile=\read1
+\FV@TabBox=\box43
+\c@FancyVerbLine=\count145
+\FV@StepNumber=\count146
+\FV@OutFile=\write3
+)
+(/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
+(/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count147
+\output=\toks27
+\linenoprevgraf=\count148
+\linenumbersep=\dimen154
+\linenumberwidth=\dimen155
+\c@linenumber=\count149
+\c@pagewiselinenumber=\count150
+\c@LN@truepage=\count151
+\c@internallinenumber=\count152
+\c@internallinenumbers=\count153
+\quotelinenumbersep=\dimen156
+\bframerule=\dimen157
+\bframesep=\dimen158
+\bframebox=\box44
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count154
+\c@FV@TrueTabCounter=\count155
+\FV@TabBox@Group=\box45
+\FV@TmpLength=\skip78
+\c@FV@HighlightLinesStart=\count156
+\c@FV@HighlightLinesStop=\count157
+\FV@BreakIndent=\dimen159
+\FV@BreakSymbolSepLeft=\dimen160
+\FV@BreakSymbolSepRight=\dimen161
+\FV@BreakSymbolIndentLeft=\dimen162
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 562.
+
+
+(/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+\FV@BreakSymbolIndentRight=\dimen163
+\c@FancyVerbLineBreakLast=\count158
+\FV@LineBox=\box46
+\FV@LineIndentBox=\box47
+)
+(/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+)
+(/usr/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "report.w18")...executed.
+
+ (./report.w18)
+runsystem(rm -- "report.w18")...executed.
+
+)
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count159
+\decimalpart=\count160
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/share/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip79
+\fb@frw=\dimen164
+\fb@frh=\dimen165
+\FrameRule=\dimen166
+\FrameSep=\dimen167
+)
+\minted@appexistsfile=\read2
+\minted@bgbox=\box48
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count161
+\c@minted@pygmentizecounter=\count162
+\@float@every@listing=\toks28
+\c@listing=\count163
+)
+runsystem(mkdir -p _minted-report)...executed.
+
+
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2018/12/07 version 4.15 text color boxes
+
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen168
+\pgfutil@tempdimb=\dimen169
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box49
+
+(/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
+))
+Package: pgf 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen170
+\pgf@y=\dimen171
+\pgf@xa=\dimen172
+\pgf@ya=\dimen173
+\pgf@xb=\dimen174
+\pgf@yb=\dimen175
+\pgf@xc=\dimen176
+\pgf@yc=\dimen177
+\w@pgf@writea=\write5
+\r@pgf@reada=\read3
+\c@pgf@counta=\count164
+\c@pgf@countb=\count165
+\c@pgf@countc=\count166
+\c@pgf@countd=\count167
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count168
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfsyssoftpath@smallbuffer@items=\count169
+\pgfsyssoftpath@bigbuffer@items=\count170
+)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen178
+\pgfmath@count=\count171
+\pgfmath@box=\box50
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count172
+)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@picminx=\dimen179
+\pgf@picmaxx=\dimen180
+\pgf@picminy=\dimen181
+\pgf@picmaxy=\dimen182
+\pgf@pathminx=\dimen183
+\pgf@pathmaxx=\dimen184
+\pgf@pathminy=\dimen185
+\pgf@pathmaxy=\dimen186
+\pgf@xx=\dimen187
+\pgf@xy=\dimen188
+\pgf@yx=\dimen189
+\pgf@yy=\dimen190
+\pgf@zx=\dimen191
+\pgf@zy=\dimen192
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@path@lastx=\dimen193
+\pgf@path@lasty=\dimen194
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@shorten@end@additional=\dimen195
+\pgf@shorten@start@additional=\dimen196
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count173
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgflinewidth=\dimen197
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
+File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@pt@x=\dimen198
+\pgf@pt@y=\dimen199
+\pgf@pt@temp=\dimen256
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
+File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfarrowsep=\dimen257
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@max=\dimen258
+\pgf@sys@shading@range@num=\count174
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfexternal@startupbox=\box54
+))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfnodeparttextbox=\box55
+)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
+\pgf@nodesepstart=\dimen259
+\pgf@nodesepend=\dimen260
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
+))
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks39
+\verbatim@line=\toks40
+\verbatim@in@stream=\read4
+)
+(/usr/share/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box56
+\tcb@upperbox=\box57
+\tcb@lowerbox=\box58
+\tcb@phantombox=\box59
+\c@tcbbreakpart=\count175
+\c@tcblayer=\count176
+\tcolorbox@number=\count177
+\tcb@temp=\box60
+\tcb@temp=\box61
+\tcb@temp=\box62
+\tcb@temp=\box63
+\tcb@out=\write6
+\tcb@record@out=\write7
+
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.15'
+\tcb@testbox=\box64
+\tcb@totalupperbox=\box65
+\tcb@totallowerbox=\box66
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.15'
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen261
+\pgffor@skip=\dimen262
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
+File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@plot@mark@count=\count178
+\pgfplotmarksize=\dimen263
+)
+\tikz@lastx=\dimen264
+\tikz@lasty=\dimen265
+\tikz@lastxsaved=\dimen266
+\tikz@lastysaved=\dimen267
+\tikzleveldistance=\dimen268
+\tikzsiblingdistance=\dimen269
+\tikz@figbox=\box67
+\tikz@figbox@bg=\box68
+\tikz@tempbox=\box69
+\tikz@tempbox@bg=\box70
+\tikztreelevel=\count179
+\tikznumberofchildren=\count180
+\tikznumberofcurrentchild=\count181
+\tikz@fig@count=\count182
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfmatrixcurrentrow=\count183
+\pgfmatrixcurrentcolumn=\count184
+\pgf@matrix@numberofcolumns=\count185
+)
+\tikz@expandcount=\count186
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)))
+\tcb@waterbox=\box71
+
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.15'
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
+Library (tcolorbox): 'tcbminted.code.tex' version '4.15'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.15'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.15'
+)
+\c@tcblisting=\count187
+))) (/usr/share/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip80
+\RaggedLeftLeftskip=\skip81
+\RaggedRightLeftskip=\skip82
+\CenteringRightskip=\skip83
+\RaggedLeftRightskip=\skip84
+\RaggedRightRightskip=\skip85
+\CenteringParfillskip=\skip86
+\RaggedLeftParfillskip=\skip87
+\RaggedRightParfillskip=\skip88
+\JustifyingParfillskip=\skip89
+\CenteringParindent=\skip90
+\RaggedLeftParindent=\skip91
+\RaggedRightParindent=\skip92
+\JustifyingParindent=\skip93
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count188
+\lst@gtempboxa=\box72
+\lst@token=\toks43
+\lst@length=\count189
+\lst@currlwidth=\dimen270
+\lst@column=\count190
+\lst@pos=\count191
+\lst@lostspace=\dimen271
+\lst@width=\dimen272
+\lst@newlines=\count192
+\lst@lineno=\count193
+\lst@maxwidth=\dimen273
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count194
+\lst@skipnumbers=\count195
+\lst@framebox=\box73
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
+)
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks44
+\thm@bodyfont=\toks45
+\thm@headfont=\toks46
+\thm@notefont=\toks47
+\thm@headpunct=\toks48
+\thm@preskip=\skip94
+\thm@postskip=\skip95
+\thm@headsep=\skip96
+\dth@everypar=\toks49
+)
+\c@definition=\count196
+
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/02/04 v3.8 Customized lists
+\labelindent=\skip97
+\enit@outerparindent=\dimen274
+\enit@toks=\toks50
+\enit@inbox=\box74
+\enit@count@id=\count197
+\enitdp@description=\count198
+)
+runsystem(which pygmentize && touch report.aex)...executed.
+
+runsystem(rm report.aex)...executed.
+
+
+
+LaTeX Warning: Unused global option(s):
+    [14pt].
+
+(./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 119.
+
+ (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 119.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=759.6886pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count199
+\scratchdimen=\dimen275
+\scratchbox=\box75
+\nofMPsegments=\count266
+\nofMParguments=\count267
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count268
+\MPscratchDim=\dimen276
+\MPnumerator=\count269
+\makeMPintoPDFobject=\count270
+\everyMPtoPDFconversion=\toks52
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box76
+Package hyperref Info: Link coloring ON on input line 119.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count271
+)
+LaTeX Info: Redefining \ref on input line 119.
+LaTeX Info: Redefining \pageref on input line 119.
+LaTeX Info: Redefining \nameref on input line 119.
+ (./report.out) (./report.out)
+\@outlinefile=\write8
+\openout8 = `report.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \degres on input line 119.
+
+
+Package french.ldf Warning: Figures' and tables' captions might look like
+(french.ldf)                `Figure 1:' in French instead of `Figure 1 :'.
+(french.ldf)                If you have loaded any of the packages caption,
+(french.ldf)                subcaption or floatrow BEFORE babel/french,
+(french.ldf)                please move them AFTER babel/french.
+(french.ldf)                If one of them is loaded by your class,
+(french.ldf)                you can still add AFTER babel/french
+(french.ldf)                \usepackage[labelsep=period]{caption} or
+(french.ldf)                \usepackage[labelsep=endash]{caption} or
+(french.ldf)                ... live with it; reported on input line 119.
+
+LaTeX Info: Redefining \dots on input line 119.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 119.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 119.
+LaTeX Info: Redefining \up on input line 119.
+ABD: EveryShipout initializing macros ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 119.
+\c@lstlisting=\count272
+LaTeX Font Info:    Try loading font information for U+msa on input line 123.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 123.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (./report.toc
+Overfull \hbox (0.88866pt too wide) detected at line 31
+\T1/cmr/m/n/10 IV.10 
+ []
+
+
+Overfull \hbox (0.88866pt too wide) detected at line 32
+\T1/cmr/m/n/10 IV.11 
+ []
+
+
+Overfull \hbox (0.88866pt too wide) detected at line 33
+\T1/cmr/m/n/10 IV.12 
+ []
+
+
+Overfull \hbox (0.88866pt too wide) detected at line 34
+\T1/cmr/m/n/10 IV.13 
+ []
+
+
+Overfull \hbox (0.88866pt too wide) detected at line 35
+\T1/cmr/m/n/10 IV.14 
+ []
+
+
+Overfull \hbox (0.88866pt too wide) detected at line 36
+\T1/cmr/m/n/10 IV.15 
+ []
+
+
+Overfull \hbox (0.88866pt too wide) detected at line 37
+\T1/cmr/m/n/10 IV.16 
+ []
+
+)
+\tf@toc=\write9
+\openout9 = `report.toc'.
+
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/default-pyg-prefix.pygstyle)
+(./_minted-report/default.pygstyle)
+(./_minted-report/89963336D38825085A62F909998E2ADBEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/10AAEB5DC9B60FB68406879A9295300562DD168D169DE37D0AE507129888A
+FDE.pygtex
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 7.
+ (/usr/share/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/E990D2A7ACC9B2FEDC81151CB797521262DD168D169DE37D0AE507129888A
+FDE.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/E292A6C14A0FBEFE1C39DDF182F04695EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/9EB4ACD2ABFAF1AD322067FE38C10B87236C14F9AF5ED2BD46D51E4D062ED
+1FD.pygtex
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2.
+)
+<./screenshots/current1.png, id=243, 1141.26375pt x 283.81032pt>
+File: ./screenshots/current1.png Graphic file (type png)
+<use ./screenshots/current1.png>
+Package pdftex.def Info: ./screenshots/current1.png  used on input line 208.
+(pdftex.def)             Requested size: 512.14963pt x 127.36267pt.
+<./screenshots/current1_zoom.png, id=244, 587.19376pt x 204.01219pt>
+File: ./screenshots/current1_zoom.png Graphic file (type png)
+<use ./screenshots/current1_zoom.png>
+Package pdftex.def Info: ./screenshots/current1_zoom.png  used on input line 21
+3.
+(pdftex.def)             Requested size: 512.14963pt x 177.94055pt.
+ [2]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/18F2F4171D9B1991C930B7C4B60633657C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/482391BA2FDBBE065DC5AFEFEDF8A7A17C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex) [3 <./screenshots/current1.png (PNG copy)> <./screenshots/current1_
+zoom.png (PNG copy)>]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/7D0E31660640005423EF35D9634AC0577C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+<./screenshots/p0_signatures.png, id=263, 512.66531pt x 227.34938pt>
+File: ./screenshots/p0_signatures.png Graphic file (type png)
+<use ./screenshots/p0_signatures.png>
+Package pdftex.def Info: ./screenshots/p0_signatures.png  used on input line 27
+2.
+(pdftex.def)             Requested size: 512.14963pt x 227.13719pt.
+<./screenshots/p0_correl.png, id=265, 1067.48813pt x 286.06876pt>
+File: ./screenshots/p0_correl.png Graphic file (type png)
+<use ./screenshots/p0_correl.png>
+Package pdftex.def Info: ./screenshots/p0_correl.png  used on input line 285.
+(pdftex.def)             Requested size: 512.14963pt x 137.25032pt.
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/8ECA4061152F089573FFC71076F746407C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex) [4 <./screenshots/p0_signatures.png (PNG copy)> <./screenshots/p0_c
+orrel.png (PNG copy)>]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/C4C877E962A1193972502800CB722F10D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/CDFF571B0F2F11D95118C4676E826FCC62DD168D169DE37D0AE507129888A
+FDE.pygtex) [5]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/75540F92CCEA27ADC1D00AA25B1A8CA0D056FA939DEE1CFB528B6798A1EED
+084.pygtex) [6]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/609F48D630F7A2FCFD294964B5C45747EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68C0E6DC909DF44FAF9ABED4496DD1CDEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68C0E6DC909DF44FAF9ABED4496DD1CDEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68E72A1869D25DAF9DF2E81606087BC4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68E72A1869D25DAF9DF2E81606087BC4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68E72A1869D25DAF9DF2E81606087BC4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68E72A1869D25DAF9DF2E81606087BC4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+<./schematics.png, id=282, 5631.0375pt x 2820.5375pt>
+File: ./schematics.png Graphic file (type png)
+<use ./schematics.png>
+Package pdftex.def Info: ./schematics.png  used on input line 399.
+(pdftex.def)             Requested size: 512.14963pt x 256.50577pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68E72A1869D25DAF9DF2E81606087BC4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68E72A1869D25DAF9DF2E81606087BC4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68E72A1869D25DAF9DF2E81606087BC4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68E72A1869D25DAF9DF2E81606087BC4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/D502267A4D140DCACFF6F6BA62A6E5727C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex) [7 <./schematics.png>]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/CF1F2D41CE42480EB9C972AC2D93EA717C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex) [8]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/0E6742C4F8781330D138B5D7AB8D3E117C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/DEF92A03EC6FA1B93E184304AD3F724ED056FA939DEE1CFB528B6798A1EED
+084.pygtex) [9]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68C0E6DC909DF44FAF9ABED4496DD1CDEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/68C0E6DC909DF44FAF9ABED4496DD1CDEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/B4D7B428F33DC4015C9F3B6AF0E1BE5FD056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/BA728513B7ADF9B64571BA366709AB1B62DD168D169DE37D0AE507129888A
+FDE.pygtex) [10]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/1AEF3AE7CC315B33C1AF1156E6107A5062DD168D169DE37D0AE507129888A
+FDE.pygtex)
+<./screenshots/p2_main.png, id=307, 780.66656pt x 409.53pt>
+File: ./screenshots/p2_main.png Graphic file (type png)
+<use ./screenshots/p2_main.png>
+Package pdftex.def Info: ./screenshots/p2_main.png  used on input line 603.
+(pdftex.def)             Requested size: 409.72125pt x 214.93773pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C897C2167F77748644493434066AE04FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C897C2167F77748644493434066AE04FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/6CA41843CF09F8C1296234BEA87CC48CFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/6CA41843CF09F8C1296234BEA87CC48CFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C897C2167F77748644493434066AE04FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C897C2167F77748644493434066AE04FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/6CA41843CF09F8C1296234BEA87CC48CFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/6CA41843CF09F8C1296234BEA87CC48CFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/F6FD12811B88B2CA7C45AB56EC078CC7EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/F6FD12811B88B2CA7C45AB56EC078CC7EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/65662D8EE8EF0F91F8090DE6EE226FE1EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/65662D8EE8EF0F91F8090DE6EE226FE1EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/DF8B22A89B636CD86D293DC6951445EBEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/DF8B22A89B636CD86D293DC6951445EBEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/C10C24937DA73A56720A73A2E0D6E859EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/C10C24937DA73A56720A73A2E0D6E859EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+Overfull \hbox (3.03671pt too wide) in paragraph at lines 608--611
+[]\T1/cmr/m/n/10 Un pe-tit  [][][][][][]   confirme la pré-sence de sec-tion  [
+][][][][][]
+ []
+
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/BF3ECC3426C54963BE20FAD3DC47DE02D056FA939DEE1CFB528B6798A1EED
+084.pygtex) [11 <./screenshots/p2_main.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 638--639
+
+ []
+
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C897C2167F77748644493434066AE04FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C897C2167F77748644493434066AE04FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/EB589AE3ACB89B676391DAC994DE204AEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/EB589AE3ACB89B676391DAC994DE204AEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/A3AAA487C595ADB632A64DB7E52F50B4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/A3AAA487C595ADB632A64DB7E52F50B4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9B4E5C479779C7EC970B701A4260F2DBEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9B4E5C479779C7EC970B701A4260F2DBEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/8A1D5DF210D1F10D59F6B552661B42A5EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/8A1D5DF210D1F10D59F6B552661B42A5EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+Overfull \hbox (30.08678pt too wide) in paragraph at lines 649--650
+[]\T1/cmr/m/n/10 En uti-li-sant l'ému-la-teur, on ob-tient une trace pour  [][]
+[][][][]   et une autre pour  [][][][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 649--650
+
+ []
+
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/BACA1E36B56FC004D69D09D67CD81DF6EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/BACA1E36B56FC004D69D09D67CD81DF6EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+<./screenshots/p2_vimdiff_len0_len1_trace.png, id=315, 1197.72469pt x 318.43968
+pt>
+File: ./screenshots/p2_vimdiff_len0_len1_trace.png Graphic file (type png)
+<use ./screenshots/p2_vimdiff_len0_len1_trace.png>
+Package pdftex.def Info: ./screenshots/p2_vimdiff_len0_len1_trace.png  used on 
+input line 654.
+(pdftex.def)             Requested size: 512.14963pt x 136.16838pt.
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/8E019731DC61EA3F1102D97FCE4380B0D056FA939DEE1CFB528B6798A1EED
+084.pygtex) [12 <./screenshots/p2_vimdiff_len0_len1_trace.png (PNG copy)>]
+<./screenshots/p2_ida_execute_stack_op.png, id=322, 852.18375pt x 367.3725pt>
+File: ./screenshots/p2_ida_execute_stack_op.png Graphic file (type png)
+<use ./screenshots/p2_ida_execute_stack_op.png>
+Package pdftex.def Info: ./screenshots/p2_ida_execute_stack_op.png  used on inp
+ut line 670.
+(pdftex.def)             Requested size: 409.72125pt x 176.63388pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/5CAA0C0AE890FAAFF575C27EE7B1D1E7EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/5CAA0C0AE890FAAFF575C27EE7B1D1E7EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/B15FCA2D9328BDCD982F395F93A415B05F56A2E2ED33B856EF5098E2CDD28
+469.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/74D48353491A43F8224E1B6BF3FEFC21EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/74D48353491A43F8224E1B6BF3FEFC21EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex) [13 <./screenshots/p2_ida_execute_stack_op.png (PNG copy)>]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/5D1CD59DB8409A646963CFB6ADF9A9E4FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/5D1CD59DB8409A646963CFB6ADF9A9E4FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/B9C0E22483DABADA2C1366E3246B3BF75F56A2E2ED33B856EF5098E2CDD28
+469.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/2AF58019A0DBA148CCE0C86DA584F448EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/2AF58019A0DBA148CCE0C86DA584F448EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/E96973AAEA28740837077207AFE4CC14EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/E96973AAEA28740837077207AFE4CC14EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/DEB1D991C5DF960D72940A96ED25FB24EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/DEB1D991C5DF960D72940A96ED25FB24EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/6BCDA3009945CDE89597CCBC8B9478AEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/3CF07CB84A97CDF16B42E7738A32FEC2D056FA939DEE1CFB528B6798A1EED
+084.pygtex) [14]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/C58FB3B47ECF2AB1130331A0F19BF4DAEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/045AC50134FC78480BCD1549190A91367C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/2D51C4E99FB9B304E16F26148C5F2C75FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/2D51C4E99FB9B304E16F26148C5F2C75FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 844--846
+
+ []
+
+[15]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1705842A4A66B38E7C136FE7CC7182E7EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1705842A4A66B38E7C136FE7CC7182E7EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 858--860
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 862--864
+
+ []
+
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/46DB34578445AF7ACCC03362408E4C2EFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/46DB34578445AF7ACCC03362408E4C2EFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/46669F2941190542B430700D8DDC4BBEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/46669F2941190542B430700D8DDC4BBEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/72C505760DA1F5E1CB2654E6468AD09E7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/DAE01CCDD58F887AE458477F411270F2FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/DAE01CCDD58F887AE458477F411270F2FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 887--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 891--892
+
+ []
+
+[16]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/C0691AFB48C6AB74E8178D0FFCF3EEEED056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+<../virtual_phone/safe_01/graphs/t5.png, id=363, 616.3025pt x 1417.295pt>
+File: ../virtual_phone/safe_01/graphs/t5.png Graphic file (type png)
+<use ../virtual_phone/safe_01/graphs/t5.png>
+Package pdftex.def Info: ../virtual_phone/safe_01/graphs/t5.png  used on input 
+line 961.
+(pdftex.def)             Requested size: 230.46576pt x 529.99213pt.
+
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 961--961
+[][] 
+ []
+
+<../virtual_phone/safe_01/graphs/t8.png, id=364, 468.75125pt x 839.135pt>
+File: ../virtual_phone/safe_01/graphs/t8.png Graphic file (type png)
+<use ../virtual_phone/safe_01/graphs/t8.png>
+Package pdftex.def Info: ../virtual_phone/safe_01/graphs/t8.png  used on input 
+line 966.
+(pdftex.def)             Requested size: 230.46576pt x 412.56259pt.
+
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 966--966
+[][] 
+ []
+
+[17]
+<./screenshots/p2_llvmpy_p0.png, id=371, 373.395pt x 619.56468pt>
+File: ./screenshots/p2_llvmpy_p0.png Graphic file (type png)
+<use ./screenshots/p2_llvmpy_p0.png>
+Package pdftex.def Info: ./screenshots/p2_llvmpy_p0.png  used on input line 975
+.
+(pdftex.def)             Requested size: 274.70695pt x 455.8178pt.
+ [18 <../virtual_phone/safe_01/graphs/t5.png> <../virtual_phone/safe_01/graphs/
+t8.png>]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/22B87A63A38420D520B882A31850084BEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/22B87A63A38420D520B882A31850084BEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+<./screenshots/p2_loops.png, id=383, 616.55344pt x 1417.54594pt>
+File: ./screenshots/p2_loops.png Graphic file (type png)
+<use ./screenshots/p2_loops.png>
+Package pdftex.def Info: ./screenshots/p2_loops.png  used on input line 1003.
+(pdftex.def)             Requested size: 256.07481pt x 588.7681pt.
+ [19 <./screenshots/p2_llvmpy_p0.png (PNG copy)>]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9CBABBF86449F488A184111B2656A265D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9CBABBF86449F488A184111B2656A265D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/59DADDFA994D9368B609017950CBE9C9EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+<./screenshots/p2_loop_b3_21f.v2.png, id=390, 752.8125pt x 374.39874pt>
+File: ./screenshots/p2_loop_b3_21f.v2.png Graphic file (type png)
+<use ./screenshots/p2_loop_b3_21f.v2.png>
+Package pdftex.def Info: ./screenshots/p2_loop_b3_21f.v2.png  used on input lin
+e 1021.
+(pdftex.def)             Requested size: 460.93153pt x 229.24554pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9CBABBF86449F488A184111B2656A265D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9CBABBF86449F488A184111B2656A265D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9CBABBF86449F488A184111B2656A265D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9CBABBF86449F488A184111B2656A265D056FA939DEE1CFB528B6798A1EED
+084.pygtex) [20 <./screenshots/p2_loops.png>]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/8D92607906D4ACC7BD431F40CECCA41FD056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/8D92607906D4ACC7BD431F40CECCA41FD056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/CD623D732B8FF13BCED6C55E39F32BFD7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/CD623D732B8FF13BCED6C55E39F32BFD7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/DCA7C9580C4C6C17ED743B083F68CC417C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+<./screenshots/800px-Feistel_cipher_diagram_en.svg.png, id=397, 803.0pt x 1173.
+38374pt>
+File: ./screenshots/800px-Feistel_cipher_diagram_en.svg.png Graphic file (type 
+png)
+<use ./screenshots/800px-Feistel_cipher_diagram_en.svg.png>
+Package pdftex.def Info: ./screenshots/800px-Feistel_cipher_diagram_en.svg.png 
+ used on input line 1051.
+(pdftex.def)             Requested size: 460.93153pt x 673.54454pt.
+ [21 <./screenshots/p2_loop_b3_21f.v2.png>]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/07F8D6B823A3ACA843659C1A02C3B3E2D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/07F8D6B823A3ACA843659C1A02C3B3E2D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/ED69FCD7CE7C31770F674C209E6FBF72EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex) [22 <./screenshots/800px-Feistel_cipher_diagram_en.svg.png>]
+<./screenshots/p2_154-210.png, id=410, 617.30624pt x 433.62pt>
+File: ./screenshots/p2_154-210.png Graphic file (type png)
+<use ./screenshots/p2_154-210.png>
+Package pdftex.def Info: ./screenshots/p2_154-210.png  used on input line 1066.
+
+(pdftex.def)             Requested size: 460.93153pt x 323.78503pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/07F8D6B823A3ACA843659C1A02C3B3E2D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/07F8D6B823A3ACA843659C1A02C3B3E2D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/07F8D6B823A3ACA843659C1A02C3B3E2D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/07F8D6B823A3ACA843659C1A02C3B3E2D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/EF7CF20CCDC82CC0598EAA074A2D45077C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/E9183204F58E453356A7EE4BB259542CD056FA939DEE1CFB528B6798A1EED
+084.pygtex) [23 <./screenshots/p2_154-210.png>]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/1A6829E9865172CB3BC49FB1FACF09DF7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1E517692B9B2AD5D78CBB83A4E707A9B7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1E517692B9B2AD5D78CBB83A4E707A9B7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/F6F19657CC6613200AB690D1B00AD3D17C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/F6F19657CC6613200AB690D1B00AD3D17C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1E517692B9B2AD5D78CBB83A4E707A9B7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1E517692B9B2AD5D78CBB83A4E707A9B7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/D2A33790E5BF28B33CDBF61722A069897C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/D2A33790E5BF28B33CDBF61722A069897C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1DD3EF20648B5C6B53E9169228492E99EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1DD3EF20648B5C6B53E9169228492E99EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/C7934F6933FA81CBBB253C7A3223E9107C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex) [24]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/E5CA2E95F92DB3DDF21828B63533A4EC62DD168D169DE37D0AE507129888A
+FDE.pygtex) [25]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/843C571508565916A2DE095018BC9B5062DD168D169DE37D0AE507129888A
+FDE.pygtex)
+<./screenshots/map_processor_modes_to_aarch32.png, id=427, 386.94562pt x 151.31
+53pt>
+File: ./screenshots/map_processor_modes_to_aarch32.png Graphic file (type png)
+<use ./screenshots/map_processor_modes_to_aarch32.png>
+Package pdftex.def Info: ./screenshots/map_processor_modes_to_aarch32.png  used
+ on input line 1214.
+(pdftex.def)             Requested size: 460.93153pt x 180.24983pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/44B7D7E94A37E9A2B34B29F42C9ECCC5EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/44B7D7E94A37E9A2B34B29F42C9ECCC5EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/60BE4CBA8E0ADF6F1482DDEB70687FAA18FCF30E4CCFEFA1C760F8E08136A
+D0D.pygtex) [26 <./screenshots/map_processor_modes_to_aarch32.png>]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/C9D8A6C063F4F4B3DB8CFD9FC218CE8EEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/C9D8A6C063F4F4B3DB8CFD9FC218CE8EEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/703792357AF683BCA57F43628B767FE1FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/703792357AF683BCA57F43628B767FE1FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/646D9D4F8327D439FF2124E2A701160318FCF30E4CCFEFA1C760F8E08136A
+D0D.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/23222497E3C12B2EB0C40E7C217EE26DFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex) [27]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/08D1ED51B58386C7D06C0B557D816705EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/08D1ED51B58386C7D06C0B557D816705EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/05D8F1BFC979D4F678C35AFF14DEF8B5FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/05D8F1BFC979D4F678C35AFF14DEF8B5FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+<./screenshots/p3_kern_module_ioctl.png, id=439, 733.23938pt x 411.78844pt>
+File: ./screenshots/p3_kern_module_ioctl.png Graphic file (type png)
+<use ./screenshots/p3_kern_module_ioctl.png>
+Package pdftex.def Info: ./screenshots/p3_kern_module_ioctl.png  used on input 
+line 1305.
+(pdftex.def)             Requested size: 460.93153pt x 258.86256pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/B6EE9424104A979E1B7A93CC9705F684FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/B6EE9424104A979E1B7A93CC9705F684FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/4FE110390C9B2457132EA11900BEFF00FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/4FE110390C9B2457132EA11900BEFF00FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/5725F0078E851D3005E4F592AE82A67BEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/5725F0078E851D3005E4F592AE82A67BEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/935C2460F87FC00411CD41FB8DA2018EEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/935C2460F87FC00411CD41FB8DA2018EEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/14647EC34BB67356F3D1E7012E82814AEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/05D8F1BFC979D4F678C35AFF14DEF8B5FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/05D8F1BFC979D4F678C35AFF14DEF8B5FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/88BF5C59D38876AD479EA9F509FC9A6DEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/88BF5C59D38876AD479EA9F509FC9A6DEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex) [28 <./screenshots/p3_kern_module_ioctl.png (PNG copy)>]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/05D8F1BFC979D4F678C35AFF14DEF8B5FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/05D8F1BFC979D4F678C35AFF14DEF8B5FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1001EC03A876B07884ABA28A15EC4C98EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1001EC03A876B07884ABA28A15EC4C98EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/4FE729DBDFBE4930753715BA94F453DB7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/4835685024814C9FB9A16FAB468CE98DFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/4835685024814C9FB9A16FAB468CE98DFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex) [29]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/CCE26CFFE21197D3552BAA0747BF266DD056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/76DFDF2FA08748CF7695EF26B2D84438EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/2240669D05C1D4DFB97997CE4DCD1C0AD056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/2240669D05C1D4DFB97997CE4DCD1C0AD056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/849F0090605E4A6780945E577413E4BED056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+<./screenshots/p3_tracegraph_low.png, id=479, 895.345pt x 594.22pt>
+File: ./screenshots/p3_tracegraph_low.png Graphic file (type png)
+<use ./screenshots/p3_tracegraph_low.png>
+Package pdftex.def Info: ./screenshots/p3_tracegraph_low.png  used on input lin
+e 1442.
+(pdftex.def)             Requested size: 361.34999pt x 239.82361pt.
+
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 1442--1442
+[][] 
+ []
+
+<./screenshots/p3_tracegraph_high.png, id=480, 1244.65pt x 583.17876pt>
+File: ./screenshots/p3_tracegraph_high.png Graphic file (type png)
+<use ./screenshots/p3_tracegraph_high.png>
+Package pdftex.def Info: ./screenshots/p3_tracegraph_high.png  used on input li
+ne 1448.
+(pdftex.def)             Requested size: 361.34999pt x 169.30438pt.
+
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 1448--1448
+[][] 
+ []
+
+[30]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/59ED2760B3BA7A969A8D89A56B7F040CFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/59ED2760B3BA7A969A8D89A56B7F040CFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/067B1E71BAC8985A42F22AD44FECC233FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/067B1E71BAC8985A42F22AD44FECC233FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/470E5334EED0D5AC217B0C68B8728035FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/470E5334EED0D5AC217B0C68B8728035FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/C5DB8A888253D05C100D275923862CFEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/C5DB8A888253D05C100D275923862CFEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1DE9A28E17786C37D616363979B82542FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/1DE9A28E17786C37D616363979B82542FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex) [31 <./screenshots/p3_tracegraph_low.png> <./screenshots/p3_tracegr
+aph_high.png>]
+Overfull \hbox (3.7836pt too wide) in paragraph at lines 1483--1485
+[]\T1/cmr/m/n/10 Refaire les étapes men-tion-nées dans le firmware-design ([][]
+$\T1/cmtt/m/n/10 https : / / chromium . googlesource . com / external / github 
+.
+ []
+
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/A718AE828F9C37F759AB26D062094C05FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/A718AE828F9C37F759AB26D062094C05FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/CD91BDA21FEC6D52CDDA34698FE6A66FFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/CD91BDA21FEC6D52CDDA34698FE6A66FFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 1492--1493
+
+ []
+
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/A718AE828F9C37F759AB26D062094C05FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/A718AE828F9C37F759AB26D062094C05FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/B0267E4CF39C401F59783337FC37D74C7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9867852B8FCFB6BCE15BE77051199A9EFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9867852B8FCFB6BCE15BE77051199A9EFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+<./screenshots/p3_secureos_dispatch_func.png, id=497, 783.67781pt x 266.49562pt
+>
+File: ./screenshots/p3_secureos_dispatch_func.png Graphic file (type png)
+<use ./screenshots/p3_secureos_dispatch_func.png>
+Package pdftex.def Info: ./screenshots/p3_secureos_dispatch_func.png  used on i
+nput line 1532.
+(pdftex.def)             Requested size: 409.72125pt x 139.3308pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9867852B8FCFB6BCE15BE77051199A9EFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9867852B8FCFB6BCE15BE77051199A9EFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9867852B8FCFB6BCE15BE77051199A9EFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9867852B8FCFB6BCE15BE77051199A9EFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex) [32 <./screenshots/p3_secureos_dispatch_func.png (PNG copy)>]
+<./screenshots/p3_dispatch_br.png, id=507, 517.18219pt x 80.55093pt>
+File: ./screenshots/p3_dispatch_br.png Graphic file (type png)
+<use ./screenshots/p3_dispatch_br.png>
+Package pdftex.def Info: ./screenshots/p3_dispatch_br.png  used on input line 1
+547.
+(pdftex.def)             Requested size: 409.72125pt x 63.81644pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+<./screenshots/p3_oem_svc_handler.png, id=508, 574.39594pt x 441.90094pt>
+File: ./screenshots/p3_oem_svc_handler.png Graphic file (type png)
+<use ./screenshots/p3_oem_svc_handler.png>
+Package pdftex.def Info: ./screenshots/p3_oem_svc_handler.png  used on input li
+ne 1561.
+(pdftex.def)             Requested size: 409.72125pt x 315.2218pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/036CBFC71A592E00CFBDC29DB1C9FDB1AA2C1D387FE7E30F5580031BA6874
+727.pygtex)
+<./screenshots/p3_oem_smc_dispatch.png, id=510, 673.76718pt x 194.97844pt>
+File: ./screenshots/p3_oem_smc_dispatch.png Graphic file (type png)
+<use ./screenshots/p3_oem_smc_dispatch.png>
+Package pdftex.def Info: ./screenshots/p3_oem_smc_dispatch.png  used on input l
+ine 1581.
+(pdftex.def)             Requested size: 409.72125pt x 118.56775pt.
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex) [33 <./screenshots/p3_dispatch_br.png (PNG copy)> <./screenshots/p3
+_oem_svc_handler.png (PNG copy)>]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/8A5E1811BB29E3E783C0E2DE10ABAD95FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/8A5E1811BB29E3E783C0E2DE10ABAD95FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+<./screenshots/p3_vmops_2.png, id=517, 748.7975pt x 772.8875pt>
+File: ./screenshots/p3_vmops_2.png Graphic file (type png)
+<use ./screenshots/p3_vmops_2.png>
+Package pdftex.def Info: ./screenshots/p3_vmops_2.png  used on input line 1604.
+
+(pdftex.def)             Requested size: 409.72125pt x 422.90767pt.
+ [34 <./screenshots/p3_oem_smc_dispatch.png (PNG copy)> <./screenshots/p3_vmops
+_2.png>]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9867852B8FCFB6BCE15BE77051199A9EFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/9867852B8FCFB6BCE15BE77051199A9EFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/7C65734C1281FAFBE8C612DBEFCBE0CEFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/4973A73841297DFDB28FEB77A7007383D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/CE771BB33A2A445C8E616A88EC29C517D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/CE771BB33A2A445C8E616A88EC29C517D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 1680.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.22144pt
+(hyperref)                removed on input line 1680.
+
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/D34668F32BFEE169DC5E4C0887A513B7EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/D34668F32BFEE169DC5E4C0887A513B7EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/1DACEE724982CE322E1F91B5637EB0E27C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex) [35]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 1716.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.22144pt
+(hyperref)                removed on input line 1716.
+
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/723EE98EE6381C8E14781835294513CCEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+<./screenshots/p3_diff_2.png, id=531, 1062.97125pt x 117.43875pt>
+File: ./screenshots/p3_diff_2.png Graphic file (type png)
+<use ./screenshots/p3_diff_2.png>
+Package pdftex.def Info: ./screenshots/p3_diff_2.png  used on input line 1731.
+(pdftex.def)             Requested size: 512.14963pt x 56.58319pt.
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/9A8B763A156F5A4B288F10336D0C18077C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex) [36 <./screenshots/p3_diff_2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1749--1751
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 1759.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.22144pt
+(hyperref)                removed on input line 1759.
+
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/4835685024814C9FB9A16FAB468CE98DFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/4835685024814C9FB9A16FAB468CE98DFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 1760--1763
+
+ []
+
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/4A5AD3758701FD41F6BD9BBA0B3F2A3BEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/4A5AD3758701FD41F6BD9BBA0B3F2A3BEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/DCEE2195EFCBFA8E80345FA654AC731CFB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/125C5A2762791A6AF0AE29AD81894239FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/F2EA53394A051244208780C4E3BFCC08FB48802ABAF78951FDD6C9BB923B9
+B58.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/8AE4803F0E77195167E7FC5B2F7D0974D056FA939DEE1CFB528B6798A1EED
+084.pygtex) [37]
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/525530883EB5B855E7A69D3BCFB545A37C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 1835.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.22144pt
+(hyperref)                removed on input line 1835.
+
+<./screenshots/diag.png, id=543, 734.745pt x 335.2525pt>
+File: ./screenshots/diag.png Graphic file (type png)
+<use ./screenshots/diag.png>
+Package pdftex.def Info: ./screenshots/diag.png  used on input line 1841.
+(pdftex.def)             Requested size: 409.72125pt x 186.95232pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 1847.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.22144pt
+(hyperref)                removed on input line 1847.
+
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/B2D6EECDD4CD37461732875D616E48E4EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex) [38 <./screenshots/diag.png>]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/601B71AEE1C287E19DAB814571C1DC55D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/601B71AEE1C287E19DAB814571C1DC55D056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/D98B02E74769291DA5EB40B0F11D97687C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 1912--1913
+
+ []
+
+<./screenshots/p3_diff_constant_var.png, id=551, 581.17125pt x 62.48344pt>
+File: ./screenshots/p3_diff_constant_var.png Graphic file (type png)
+<use ./screenshots/p3_diff_constant_var.png>
+Package pdftex.def Info: ./screenshots/p3_diff_constant_var.png  used on input 
+line 1918.
+(pdftex.def)             Requested size: 460.93153pt x 49.55681pt.
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/B7FDE867FD5485EC2E0047982C583D3F7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex) [39 <./screenshots/p3_diff_constant_var.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 1932.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.22144pt
+(hyperref)                removed on input line 1932.
+
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/552CA5862171E7AEFFF5CBA3E3DFDD5C7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 1945.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.22144pt
+(hyperref)                removed on input line 1945.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 1945.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.22144pt
+(hyperref)                removed on input line 1945.
+
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/D7D8394DEBB1DD7CAC09C73B844A67187C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/9B497338ED3B98EA59A7E6FB289E16B97C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/875439F608508EACE3105A492A0B3D487C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/875439F608508EACE3105A492A0B3D487C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/69447596339F0D98A149AA33983C91E07C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex) [40]
+Underfull \hbox (badness 10000) in paragraph at lines 2004--2005
+
+ []
+
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/6C64917CC4A2B48514CE95BFED6C99CF7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/6C64917CC4A2B48514CE95BFED6C99CF7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/AD743DA0A9A5D104ED36D88C0DBC9BBA7C2E7F49E087B8E8E8DF5244CE287
+E39.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/788C874C9F1D5EAC3B7E1F0522FB53EBD056FA939DEE1CFB528B6798A1EED
+084.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/3E3BA7647F34200B83A99FF44A492F8462DD168D169DE37D0AE507129888A
+FDE.pygtex) [41] [42]
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/57DF788B3072A73F24EAF66E4C95A728EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/57DF788B3072A73F24EAF66E4C95A728EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/F952AEE1F8DD49AE36674A004B0C2AB1EAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/8CAB5C3F5106AA48299DEC51E77921ADEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/8CAB5C3F5106AA48299DEC51E77921ADEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout3 = `report.pyg'.
+
+
+(./_minted-report/7324E4B09B244476679009C5A029CAE75FCFE0ABA8E3246F857F0731FE8F5
+D55.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/FAC382D3FA94A9DFD75EB787E41376BCEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex)
+\openout4 = `report.pyg'.
+
+
+(./_minted-report/FAC382D3FA94A9DFD75EB787E41376BCEAD440A79C3E84ACDCEF803F7E227
+B29.pygtex) [43]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2114.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2114.
+ (./report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2114.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2114.
+
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: E6ED18E1B23A5AF118A1DDC00F03194C;2628.
+runsystem(rm report.pyg)...executed.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2114.
+ ) 
+Here is how much of TeX's memory you used:
+ 30164 strings out of 492616
+ 619878 string characters out of 6135178
+ 874764 words of memory out of 5000000
+ 32768 multiletter control sequences out of 15000+600000
+ 20322 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 54i,14n,85p,983b,1245s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
+exmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
+fbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
+sr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-
+dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf-dist/fonts/type
+1/public/cm-super/sfit1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
+></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/
+type1/public/cm-super/sftt1000.pfb>
+Output written on report.pdf (43 pages, 1793429 bytes).
+PDF statistics:
+ 687 PDF objects out of 1000 (max. 8388607)
+ 584 compressed objects within 6 object streams
+ 166 named destinations out of 1000 (max. 500000)
+ 436 words of extra memory for PDF output out of 10000 (max. 10000000)
+

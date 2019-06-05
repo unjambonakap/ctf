@@ -1,0 +1,28 @@
+00400000-00415000 rwxp 00000000 00:02 2040                               /root/safe_01/decrypted_file
+00415000-00436000 rw-p 00000000 00:00 0                                  [heap]
+ffffbf350000-ffffbf48f000 r-xp 00000000 00:02 241                        /lib/libc-2.28.so
+ffffbf48f000-ffffbf49f000 ---p 0013f000 00:02 241                        /lib/libc-2.28.so
+ffffbf49f000-ffffbf4a3000 r--p 0013f000 00:02 241                        /lib/libc-2.28.so
+ffffbf4a3000-ffffbf4a5000 rw-p 00143000 00:02 241                        /lib/libc-2.28.so
+ffffbf4a5000-ffffbf4a8000 rw-p 00000000 00:00 0
+ffffbf4a8000-ffffbf4b8000 r-xp 00000000 00:02 235                        /lib/libgcc_s.so.1
+ffffbf4b8000-ffffbf4c7000 ---p 00010000 00:02 235                        /lib/libgcc_s.so.1
+ffffbf4c7000-ffffbf4c8000 r--p 0000f000 00:02 235                        /lib/libgcc_s.so.1
+ffffbf4c8000-ffffbf4c9000 rw-p 00010000 00:02 235                        /lib/libgcc_s.so.1
+ffffbf4c9000-ffffbf56d000 r-xp 00000000 00:02 221                        /lib/libm-2.28.so
+ffffbf56d000-ffffbf57c000 ---p 000a4000 00:02 221                        /lib/libm-2.28.so
+ffffbf57c000-ffffbf57d000 r--p 000a3000 00:02 221                        /lib/libm-2.28.so
+ffffbf57d000-ffffbf57e000 rw-p 000a4000 00:02 221                        /lib/libm-2.28.so
+ffffbf57e000-ffffbf6b0000 r-xp 00000000 00:02 694                        /usr/lib/libstdc++.so.6.0.24
+ffffbf6b0000-ffffbf6c0000 ---p 00132000 00:02 694                        /usr/lib/libstdc++.so.6.0.24
+ffffbf6c0000-ffffbf6ca000 r--p 00132000 00:02 694                        /usr/lib/libstdc++.so.6.0.24
+ffffbf6ca000-ffffbf6ce000 rw-p 0013c000 00:02 694                        /usr/lib/libstdc++.so.6.0.24
+ffffbf6ce000-ffffbf6d1000 rw-p 00000000 00:00 0
+ffffbf6d1000-ffffbf6ee000 r-xp 00000000 00:02 243                        /lib/ld-2.28.so
+ffffbf6f6000-ffffbf6fc000 rw-p 00000000 00:00 0
+ffffbf6fc000-ffffbf6fd000 r--p 00000000 00:00 0                          [vvar]
+ffffbf6fd000-ffffbf6fe000 r-xp 00000000 00:00 0                          [vdso]
+ffffbf6fe000-ffffbf6ff000 r--p 0001d000 00:02 243                        /lib/ld-2.28.so
+ffffbf6ff000-ffffbf700000 rw-p 0001e000 00:02 243                        /lib/ld-2.28.so
+ffffbf700000-ffffbf701000 rw-p 00000000 00:00 0
+fffffffdf000-1000000000000 rw-p 00000000 00:00 0                         [stack]

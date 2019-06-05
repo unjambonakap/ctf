@@ -1,0 +1,34 @@
+
+qemu-system-aarch64 -nographic -machine virt,secure=on -cpu max -smp 1 -m 1024 -bios rom.bin -semihosting-config enable,target=native -device loader,file=./flash.bin,addr=0x04000000 -netdev user,id=network0,hostfwd=tcp:127.0.0.1:5555-192.168.200.200:22 -net nic,netdev=network0
+
+
+23d87cdf97bb95abe6273c384190c765f552ab86f6de30a8db74435c95e6e3138f54af689812d8f9359cf0f4d453a0c11ec68ce470216c09e74c8947adaf23e902415d61ddf2c0ffe459cbb40f7de42bdb7cd14093100a570e8c29819765e2d8d276f86471b52ac29aa2ce2bb72cd45006279e82bec253ae9675fe45824f6001
+
+
+
+Starting dropbear sshd: OK
+# /root/tools/add_key.py 5fb3a83d1fd97137076019ad6e96c6a366fb6b32618d162e00cdee9
+bad427a8a
+[+] Key with key_id 00000002 ok
+[+] Key added into keystore
+[+] Envoyez le flag SSTIC{5fb3a83d1fd97137076019ad6e96c6a366fb6b32618d162e00cdee9bad427a8a} à l'adresse challenge2019@sstic.org pour valider votre avancée
+[+] Container /root/safe_01/.encrypted decrypted to /root/safe_01/decrypted_file
+
+
+
+
+++++
+
+#3  0x0000ffffa75f2c34 in _IO_do_write () from /lib64/libc.so.6
+#4  0x0000ffffa75f30b0 in _IO_file_overflow () from /lib64/libc.so.6
+#5  0x0000ffffa75e74d0 in puts () from /lib64/libc.so.6
+#6  0x0000000000402f40 in ?? ()
+
+
+
+# dump dwarwf
+python main.py --actions=test --pid=995 --data='aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' --runid=len32   --verbosity=INFO  --dump_dwarf
+
+#prepare ir
+python main.py --actions=go_dwarf   --prepare-dwarf-ir
+

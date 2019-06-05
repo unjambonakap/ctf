@@ -1,0 +1,3 @@
+- {file: ./build/hack/ctf/ccc/2018/crypto/post_quantum/hack_ctf_ccc_2018_crypto_post_quantum_sample_main.cpp, binary: true, deps: true}
+- {file: ./hack/ctf/ccc/2018/crypto/post_quantum/datahrd/relations.txt, flag: --rel_filename}
+

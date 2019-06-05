@@ -1,0 +1,36 @@
+\BOOKMARK [1][-]{section.1}{Niveau 0 - Booter le t\351l\351phone}{}% 1
+\BOOKMARK [1][-]{section.2}{Niveau 1 - Booter le t\351l\351phone}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Impl\351mentation du secure chip}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Calcul des valeurs de chaque octet}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Bruteforce du hash}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Niveau 2 - Nain cach\351}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Reco}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{\311mulation du binaire}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Ex\351cution diff\351rentielle}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Identification de la VM}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.5}{Dump du contenu dwarf}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.6}{Parser le dwarf}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.7}{Impl\351mentation du dwarf en python}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.8}{Compilation dwarf}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.9}{Instrumentation de l'ex\351cution dwarf}{section.3}% 15
+\BOOKMARK [1][-]{section.4}{Niveau 3 - SecureOS}{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{Binaire userspace}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.2}{Module kernel}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.3}{Am\351liorer le workflow de test}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.4}{Hall of fail}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.5}{Trouver des patternes d'acc\350s m\351moires et instructions via le event qemu}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Essayer de fixer qemu}{subsection.4.5}% 22
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Reverse du bootloader}{subsection.4.5}% 23
+\BOOKMARK [2][-]{subsection.4.6}{D\351couverte de SM4}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.7}{Dispatcher du secureos}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.8}{Dispatcher du el2}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.9}{VM ops de l'EL2}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.10}{Extraction de la m\351moire SM4}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.11}{Tentative de r\351solution 1 - \351chec}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.12}{Obtenir une trace fiable}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.13}{Sch\351ma global du syst\350me}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.14}{Automatiser le reversing}{section.4}% 32
+\BOOKMARK [2][-]{subsection.4.15}{angr refail}{section.4}% 33
+\BOOKMARK [2][-]{subsection.4.16}{z3 \340 la rescousse \(partiellement\)}{section.4}% 34
+\BOOKMARK [1][-]{section.5}{Niveau 4, la fin}{}% 35
+\BOOKMARK [1][-]{section.6}{Outils}{}% 36

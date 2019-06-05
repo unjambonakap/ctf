@@ -1,0 +1,644 @@
+/root/safe_02/decrypted_file 000102030405060808090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+/root/safe_02/decrypted_file 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+/root/safe_02/decrypted_file aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+/root/safe_02/decrypted_file ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+/root/safe_02/decrypted_file 0000000000000000000000000000000000000000000000000000000000000000
+/root/safe_02/decrypted_fbad aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+BL1 -> bl2 at 0x00000000000000B0
+unicorn engine -> old verison of qemu, < 3.1 => probably can't run with coprocessor stuff
+-> patching qemu to make do
+
+Modified first byte of tz.app -> direct failure. Trying to figure out where this byte is read
+
+gef➤  dump memory /tmp/securemem-e030-e1550000.bin 0xe030000 0xe155000
+gef➤  dump memory /tmp/securemem-e2-e3.bin 0xe200000 0xe300000
+dump memory /tmp/smem.data 0x413000 0x513000 
+
+git clone https://github.com/ARM-software/arm-trusted-firmware.git
+
+dump-guest-memory -p testmem.bin 0xffff000010171418 0x10
+0xffff000010000000 300000
+pmemsave 0xffff000010100000 0x30000 testmem.bin 
+pmemsave 0xffff000010171418 0x10 testmem.bin
+
+pmemsave 0xe200000 0xe216000 secureos.bin
+dump memory ./resources/secureos2.bin 0xe200000 0xe216000 
+
+
+# after copy:
+hb *0x0E0310D4
+
+
+/dev/sstic
+bootloader
+BL2 resides at
+0xe00b000
+size 0x9440
+BL3 at 0xe003000
+
+-> doing shitton of stuff in 0xffff000010171430 in ?? () after copy
+
+
+break on sstic_ioctl
+follow code until smc ( b *0xFFFF000008590198 )
+handler in MEMORY:000000000E037404 sub_E037404
+
+coprocess comm:
+hb *0x0000E035B08 
+INIT 
+hb *0xFFFF000008590198
+FEED hb *0xFFFF000008590518
+smc (0xf200 5003
+-> goes to 0x000000000E03432C
+
+
+QQ hb *0xFFFF00000859022C
+smc(f200 5001)
+QUERY hb*0xFFFF000008590414
+smc(f200 5002,
+
+svc call: 
+b *0xFFFF000008590E40
+b *0x000000000e037404
+
+# cat /proc/kallsyms | grep sstic
+ffff000008592100 d $d   [sstic]
+ffff000008591024 r $d   [sstic]
+ffff000008591024 r _note_6      [sstic]
+ffff000008590000 t $x   [sstic]
+ffff000008590000 t sstic_open   [sstic]
+ffff000008590020 t sstic_release        [sstic]
+ffff000008590038 t sstic_ioctl  [sstic]
+ffff000008590604 t $x   [sstic]
+ffff000008590604 t sstic_exit   [sstic]
+ffff000008592000 d $d   [sstic]
+ffff000008592000 d pugs_fops    [sstic]
+ffff000008592408 b $d   [sstic]
+ffff000008592408 b already_open [sstic]
+ffff00000859240c b first        [sstic]
+ffff000008592410 b __key.32232  [sstic]
+ffff000008592410 b cl   [sstic]
+ffff000008592418 b c_dev        [sstic]
+ffff000008591040 r $d   [sstic]
+ffff000008591064 r $d   [sstic]
+ffff000008592100 d __this_module        [sstic]
+ffff000008590604 t cleanup_module       [sstic]
+
+
+
+
+user -> kern mod -> arm secure enclave
+
+=====
+(prefix c010)
+INIT -> 0x5300
+LOAD_DATA  -> 0x5301
+QQ  -> 0x5302
+QUERY  -> 0x5303
+5304
+user:
+open /dev/sstic
+ioctl INIT (0x044DBD8 , 0x101010 ) # secret_data, secret_data_len
+ioctl LOAD_DATA (bin_argv[1], 0x20)
+while (true){
+  ioctl(QQ) // nop?
+  int res = ioctl(QUERY);
+reslow = res & 0x0000ffff;
+reshigh = res & 0xffff0000;
+if (reslow==1){
+  if (reshigh==0) win();
+  else loose();
+} else {
+  if (reslow == 0xffff) failure();
+}
+}
+
+
+KERN:
+
+INIT:
+copy params to kern space
+A = malloc(0x60<<16);
+copy data to A
+
+x0=0x8301 0004,LSL#16
+x1=VIRT_TO_PHYS(A)
+x2=len (0x101010)
+res -> 0
+_____________ SVC 8301 0004
+
+INIT DATA stored at 
+:000000000E039008 qword_E039008   DCQ 0xE053000  
+
+LOAD_DATA:
+same
+but feed
+REP(i,8)
+smc (0xf200 5003, i, argv_u32[i])
+ret 
+
+53535449437b613934376436393830636366376238376362386437633234367d
+
+QUERY:
+smc(f200 5002,
+
+QQ:
+smc(f200 5001)
+
+5304:
+smc f200 2000
+
+ALSO cALL:
+c110 5305
+c110 5306
+
+
+----------
+SMC f200 -> 
+fast call
+sip service call
+
+SMC 8301
+OEM service call
+
+
+INIT: 8301 0004-> fastcall, SMC32, service 3 -> oem svc
+FEED f200 5003-> fastcall, SMC64, service 0x32 -> tspd_std TSP_SUSPEND
+QQ f200 5001 TSP_ON_DONE
+QUERY f200 5002 TSP_OFF_DONE
+store data at 0E034500 in tspd_std_smc_handler( E034158 )
+
+f200 0006 -> interrupt -> handle here_E0343E0 
+will return there 0xffff00001047ec54
+0xffff000010115e28
+0xffff000010112f50
+0xffff000010570928
+0xffff00001047ec4c
+
+QUERY
+0xffff000008590040 in ?? ()
+0xffff000008590044 in ?? ()
+0xffff000008590048 in ?? ()
+0xffff00000859004c in ?? ()
+0xffff000008590050 in ?? ()
+0xffff000008590054 in ?? ()
+0xffff000008590058 in ?? ()
+0xffff00000859005c in ?? ()
+0xffff000008590060 in ?? ()
+0xffff000008590064 in ?? ()
+0xffff000008590068 in ?? ()
+0xffff00000859006c in ?? ()
+0xffff000008590070 in ?? ()
+0xffff000008590074 in ?? ()
+0xffff0000085903e8 in ?? ()
+0xffff0000085903ec in ?? ()
+0xffff0000085903f0 in ?? ()
+0xffff0000085903f4 in ?? ()
+0xffff0000085903f8 in ?? ()
+0xffff0000085903fc in ?? ()
+0xffff000008590400 in ?? ()
+0xffff000008590404 in ?? ()
+0xffff000008590408 in ?? ()
+0xffff00000859040c in ?? ()
+0xffff000008590410 in ?? ()
+0xffff000008590414 in ?? ()
+0xffff000010093958 in ?? ()
+
+
+QQ
+0xffff000008590040 in ?? ()
+0xffff000008590044 in ?? ()
+0xffff000008590048 in ?? ()
+0xffff00000859004c in ?? ()
+0xffff000008590050 in ?? ()
+0xffff000008590054 in ?? ()
+0xffff000008590058 in ?? ()
+0xffff00000859005c in ?? ()
+0xffff000008590060 in ?? ()
+0xffff000008590064 in ?? ()
+0xffff000008590068 in ?? ()
+0xffff00000859006c in ?? ()
+0xffff000008590070 in ?? ()
+0xffff000008590074 in ?? ()
+0xffff000008590078 in ?? ()
+0xffff00000859007c in ?? ()
+0xffff000008590080 in ?? ()
+0xffff000008590084 in ?? ()
+0xffff000008590088 in ?? ()
+0xffff00000859008c in ?? ()
+0xffff000008590090 in ?? ()
+0xffff00000859053c in ?? ()
+0xffff000008590540 in ?? ()
+0xffff000008590544 in ?? ()
+0xffff000008590548 in ?? ()
+0xffff00000859020c in ?? ()
+0xffff000008590210 in ?? ()
+0xffff000008590214 in ?? ()
+0xffff000008590218 in ?? ()
+0xffff00000859021c in ?? ()
+0xffff000008590220 in ?? ()
+0xffff000008590224 in ?? ()
+0xffff000008590228 in ?? ()
+0xffff00000859022c in ?? ()
+0
+
+
+
+---- boot process
+
+hb *0xE030000
+
+
+
+first execution diff at 0xe2005a8
+0xe2007c0
+
+
+xlat tables
+} mmap_region_t;
+
+0xe215658:      0x000000000e053000      0x0000000000413000
+0xe215668:      0x0000000000001000      0x0000000000000008
+0xe215678:      0x0000000040000000      0x000000000e054000
+0xe215688:      0x0000000000414000      0x0000000000100000
+0xe215698:      0x0000000000000008      0x0000000040000000
+0xe2156a8:      0x0000000008000000      0x0000000008000000
+0xe2156b8:      0x0000000000021000      0x0000000000000008
+0xe2156c8:      0x0000000040000000      0x0000000009000000
+0
+0xe035a20: eret  b'd69f03e0'
+0xe20224c: eret  b'd69f03e0'
+0xe2022cc: eret  b'd69f03e0'
+0xe20260c: eret  b'd69f03e0'
+0xffff000010083ff0: eret  b'd69f03e0'
+
+ins_str:0xe200f20: rev32 v0.16b, v0.16b b'6e200800' pc:000000000e200f20 v0.q.s[0]:aa8a6f47ddc565af6464d9028e4e4b30 v0.q.u[0]:aa8a6f47ddc565af6464d9028e4e4b30 
+
+sm4e
+https://en.wikipedia.org/wiki/SM4_(cipher)
+
+
+Decode 4 bytes vm operations (from buffer, fixed key sm4e 0xe200f24
+
+
+ins_str:0xe2005a8: mov x4, x1 b'aa0103e4' pc:000000000e2005a8 x1:000000000e20735c x4:000000000e207360 
+ins_str:0xe2005ac: lsr w1, w0, #0x14 b'53147c01' pc:000000000e2005ac w0:0000000000586a96 w1:000000000e20735c 
+fp:000000000e207320 ins_str:0xe2005b0: mov x29, sp b'910003fd' pc:000000000e2005b0 sp:000000000e2072e0 
+ins_str:0xe2005b4: stp x19, x20, [sp, #0x10] b'a90153f3' pc:000000000e2005b4 x19:0000000000000000 x20:0000000000000000 
+ins_str:0xe2005b8: and w2, w1, #0xff b'12001c22' pc:000000000e2005b8 w1:0000000000000005 w2:0000000000000000 
+ins_str:0xe2005bc: mov w19, w0 b'2a0003f3' pc:000000000e2005bc w0:0000000000586a96 w19:0000000000000000 
+ins_str:0xe2005c0: stp x21, x22, [sp, #0x20] b'a9025bf5' pc:000000000e2005c0 x21:00000000f2005002 x22:0000000000000000 
+ins_str:0xe2005c4: cmp w2, #0xc b'7100305f' pc:000000000e2005c4 w2:0000000000000005 
+ins_str:0xe2005c8: str x23, [sp, #0x30] b'f9001bf7' pc:000000000e2005c8 x23:0000000000000000 
+ins_str:0xe2005cc: str wzr, [x4] b'b900009f' pc:000000000e2005cc wzr:0000000000000000 
+ins_str:0xe2005d0: b.ne #0xe2006e4 b'540008a1' pc:000000000e2005d0 
+ins_str:0xe2006e4: cmp w2, #0xa b'7100285f' pc:000000000e2006e4 w2:0000000000000005 
+ins_str:0xe2006e8: b.ne #0xe200754 b'54000361' pc:000000000e2006e8 
+ins_str:0xe200754: sub w3, w2, #0xd b'51003443' pc:000000000e200754 w2:0000000000000005 w3:0000000000000000 
+ins_str:0xe200758: ubfx x4, x0, #0xe, #8 b'd34e5404' pc:000000000e200758 x0:0000000000586a96 x4:000000000e20735c 
+ins_str:0xe20075c: and w3, w3, #0xff b'12001c63' pc:000000000e20075c w3:00000000fffffff8 
+ins_str:0xe200760: and w20, w4, #0xf b'12000c94' pc:000000000e200760 w20:0000000000000000 w4:0000000000000061 
+ins_str:0xe200764: cmp w3, #1 b'7100047f' pc:000000000e200764 w3:00000000000000f8 
+ins_str:0xe200768: b.hi #0xe2007b8 b'54000288' pc:000000000e200768 
+ins_str:0xe2007b8: ubfx x21, x0, #0x12, #2 b'd3524c15' pc:000000000e2007b8 x0:0000000000586a96 x21:00000000f2005002 
+ins_str:0xe2007bc: cbnz w21, #0xe200930 b'35000bb5' pc:000000000e2007bc w21:0000000000000002 
+ins_str:0xe200930: cmp w21, #3 b'71000ebf' pc:000000000e200930 w21:0000000000000002 
+ins_str:0xe200934: b.ne #0xe200b60 b'54001161' pc:000000000e200934 
+ins_str:0xe200b60: ubfx x19, x0, #0xa, #4 b'd34a3413' pc:000000000e200b60 x0:0000000000586a96 x19:0000000000586a96 
+ins_str:0xe200b64: cmp w21, #1 b'710006bf' pc:000000000e200b64 w21:0000000000000002 
+ins_str:0xe200b68: b.ne #0xe200bb8 b'54000281' pc:000000000e200b68 
+ins_str:0xe200bb8: cbnz w2, #0xe200c00 b'35000242' pc:000000000e200bb8 w2:0000000000000005 
+ins_str:0xe200c00: movn w21, #0 b'12800015' pc:000000000e200c00 w21:0000000000000002 
+ins_str:0xe200c04: b #0xe20073c b'17fffece' pc:000000000e200c04 
+#HERE STORING FAILURE
+ins_str:0xe20073c: mov w0, w21 b'2a1503e0' pc:000000000e20073c w0:0000000000586a96 w21:00000000ffffffff 
+ins_str:0xe200740: ldp x19, x20, [sp, #0x10] b'a94153f3' pc:000000000e200740 x19:000000000000000a x20:0000000000000001 
+ins_str:0xe200744: ldp x21, x22, [sp, #0x20] b'a9425bf5' pc:000000000e200744 x21:00000000ffffffff x22:0000000000000000 
+
+
+sm4 key 0x000000000e207250
+
+
+
+SOME AES
+ins_str:0xe03126c: mrs x0, fpexc32_el2 b'd53c5300' pc:000000000e03126c x0:000000000e03afc5 
+ins_str:0xe031270: ins v1.s[0], w0 b'4e041c01' pc:000000000e031270 v1.q.s[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa v1.q.u[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa w0:00000000aaaaaaaa 
+ins_str:0xe031274: mrs x0, dacr32_el2 b'd53c3000' pc:000000000e031274 x0:00000000aaaaaaaa 
+ins_str:0xe031278: ins v1.s[1], w0 b'4e0c1c01' pc:000000000e031278 v1.q.s[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa v1.q.u[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa w0:00000000aaaaaaaa 
+ins_str:0xe03127c: mrs x0, ifsr32_el2 b'd53c5020' pc:000000000e03127c x0:00000000aaaaaaaa 
+ins_str:0xe031280: ins v1.s[2], w0 b'4e141c01' pc:000000000e031280 v1.q.s[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa v1.q.u[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa w0:00000000aaaaaaaa 
+ins_str:0xe031284: mrs x0, sder32_el3 b'd53e1120' pc:000000000e031284 x0:00000000aaaaaaaa 
+ins_str:0xe031288: ins v1.s[3], w0 b'4e1c1c01' pc:000000000e031288 v1.q.s[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa v1.q.u[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa w0:00000000aaaaaaaa 
+ins_str:0xe03128c: ld1 {v0.4s}, [x20] b'4c407a80' pc:000000000e03128c v0.q.s[0]:0000060000000000 v0.q.u[0]:0000060000000000 x20:000000000e03afc0 
+ins_str:0xe031290: aesd v0.16b, v1.16b b'4e285820' pc:000000000e031290 v0.q.s[0]:0000090000000000 v0.q.u[0]:0000090000000000 v1.q.s[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa v1.q.u[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 
+ins_str:0xe031294: eor v0.16b, v0.16b, v1.16b b'6e211c00' pc:000000000e031294 v0.q.s[0]:62626262626271626262626262626262 v0.q.u[0]:62626262626271626262626262626262 v1.q.s[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa v1.q.u[0]:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 
+ins_str:0xe031298: st1 {v0.4s}, [x19] b'4c007a60' pc:000000000e031298 v0.q.s[0]:c8c8c8c8c8c8dbc8c8c8c8c8c8c8c8c8 v0.q.u[0]:c8c8c8c8c8c8dbc8c8c8c8c8c8c8c8c8 x19:000000000e04a6c8 
+ins_str:0xe03129c: b #0xe0310dc b'17ffff90' pc:000000000e03129c 
+ins_str:0xe0310dc: str xzr, [x21] b'f90002bf' pc:000000000e0310dc x21:000000000e04a9c0 xzr:0000000000000000 
+ins_str:0xe0310e0: b #0xe03113c b'14000017' pc:000000000e0310e0 
+ins_str:0xe03113c: mov x0, x21 b'aa1503e0' pc:000000000e03113c x0:00000000aaaaaaaa x21:000000000e04a9c0 
+
+
+ins vx instrutcions:
+
+ins_str:0xe0311e4
+ins_str:0xe0311ec
+ins_str:0xe0311f4
+ins_str:0xe0311fc
+ins_str:0xe031270
+ins_str:0xe031278
+ins_str:0xe031280
+ins_str:0xe031288
+ins_str:0xe031ac0
+ins_str:0xe031ac8
+ins_str:0xe031ad0
+ins_str:0xe031ad8
+ins_str:0xe031af8
+ins_str:0xe031b00
+ins_str:0xe031b08
+ins_str:0xe031b10
+ins_str:0xe031b7c
+ins_str:0xe031b84
+ins_str:0xe031b8c
+ins_str:0xe031b94
+ins_str:0xe200ef4
+ins_str:0xe200ef8
+ins_str:0xe200efc
+ins_str:0xe200f00
+ins_str:0xe200f0c
+ins_str:0xe200f10
+ins_str:0xe200f14
+ins_str:0xe200f18
+ins_str:0xe200f2c
+ins_str:0xe200f30
+ins_str:0xe200f34
+ins_str:0xe200f38
+ins_str:0xe200fd4
+ins_str:0xe200fd8
+ins_str:0xe200fdc
+ins_str:0xe200fe0
+ins_str:0xe200ffc
+ins_str:0xe201000
+ins_str:0xe201004
+ins_str:0xe201008
+
+
+    0xe200fe8                  sm4ekey v0.4s,  v0.4s,  v1.4s
+    0xe200fec                  ld1    {v2.4s},  [x20]
+    0xe200ff0                  rev32  v2.16b,  v2.16b
+    0xe200ff4                  sm4e   v2.4s,  v0.4s
+
+ →  0xe200a84                  fcmla  v0.2d,  v2.2d,  v1.2d,  #270
+
+
+enc FLAG stored in 
+ins_str:0xe200f1c: ld1 {v0.4s}, [x0] b'4c407800' ins_str2:=> 0xe200f1c:	ld1	{v0.4s}, [x0] pc:000000000e200f1c v0.q.s[0]:f07f6b05e84c977adf16e104ae14df69 v0.q.u[0]:f07f6b05e84c977adf16e104ae14df69 x0:0000000000513020 
+
+
+KEY temporary stored in fpexc32_el2, dacr32_el2...
+ins_str:0xe0311e0: mrs x0, fpexc32_el2 b'd53c5300' ins_str2:=> 0xe0311e0:	mrs	x0, fpexc32_el2 pc:000000000e0311e0 x0:000000000e04a5d8 
+ins_str:0xe0311e4: ins v1.s[0], w0 b'4e041c01' ins_str2:=> 0xe0311e4:	mov	v1.s[0], w0 pc:000000000e0311e4 v1.q.s[0]:204f40100f40102d00204d00100d0010 v1.q.u[0]:204f40100f40102d00204d00100d0010 w0:000000000f0e0d0c 
+ins_str:0xe0311e8: mrs x0, dacr32_el2 b'd53c3000' ins_str2:=> 0xe0311e8:	mrs	x0, dacr32_el2 pc:000000000e0311e8 x0:000000000f0e0d0c 
+ins_str:0xe0311ec: ins v1.s[1], w0 b'4e0c1c01' ins_str2:=> 0xe0311ec:	mov	v1.s[1], w0 pc:000000000e0311ec v1.q.s[0]:204f40100f40102d00204d000f0e0d0c v1.q.u[0]:204f40100f40102d00204d000f0e0d0c w0:0000000013121110 
+ins_str:0xe0311f0: mrs x0, ifsr32_el2 b'd53c5020' ins_str2:=> 0xe0311f0:	mrs	x0, ifsr32_el2 pc:000000000e0311f0 x0:0000000013121110 
+ins_str:0xe0311f4: ins v1.s[2], w0 b'4e141c01' ins_str2:=> 0xe0311f4:	mov	v1.s[2], w0 pc:000000000e0311f4 v1.q.s[0]:204f40100f40102d131211100f0e0d0c v1.q.u[0]:204f40100f40102d131211100f0e0d0c w0:0000000017161514 
+ins_str:0xe0311f8: mrs x0, sder32_el3 b'd53e1120' ins_str2:=> 0xe0311f8:	mrs	x0, sder32_el3 pc:000000000e0311f8 x0:0000000017161514 
+ins_str:0xe0311fc: ins v1.s[3], w0 b'4e1c1c01' ins_str2:=> 0xe0311fc:	mov	v1.s[3], w0 pc:000000000e0311fc v1.q.s[0]:204f401017161514131211100f0e0d0c v1.q.u[0]:204f401017161514131211100f0e0d0c w0:000000001b1a1918 
+
+
+working data stored at  (x19 in op mostly)
+000E04A5D8
+initialized with E031248
+
+
+
+
+working up result value 0000010000000000
+ins_str2:=> 0xe031200:	ld1	{v0.4s}, [x19] pc:000000000e031200 v0.q.s[0]:009ec18940000010000000a500000000 v0.q.u[0]:009ec18940000010000000a500000000 x19:000000000e04a5d8 
+ins_str2:=> 0xe031204:	aese	v0.16b, v1.16b pc:000000000e031204 v0.q.s[0]:e023362c53c1698f9451e26c8df1838d v0.q.u[0]:e023362c53c1698f9451e26c8df1838d v1.q.s[0]:1b1a191817161514131211100f0e0d0c v1.q.u[0]:1b1a191817161514131211100f0e0d0c 
+ins_str2:=> 0xe031208:	eor	v0.16b, v0.16b, v1.16b pc:000000000e031208 v0.q.s[0]:1b1a191817161514131210100f0e0d0c v0.q.u[0]:1b1a191817161514131210100f0e0d0c v1.q.s[0]:1b1a191817161514131211100f0e0d0c v1.q.u[0]:1b1a191817161514131211100f0e0d0c 
+ins_str2:=> 0xe03120c:	st1	{v0.4s}, [x1] pc:000000000e03120c v0.q.s[0]:0000010000000000 v0.q.u[0]:0000010000000000 x1:000000000e03afc0 
+ins_str2:=> 0xe031210:	mov	x2, #0x4                   	// #4 pc:000000000e031210 x2:0000000000000000 
+ins_str2:=> 0xe031214:	add	x1, x1, #0x5 pc:000000000e031214 x1:000000000e03afc0 
+
+
+FUNCA: read mem(x19)
+FUNCB: write mem(x19, w2)
+
+FUNCC:
+mem[x19] += mem[x22]
+*PTR += 3
+
+FUNCD -> will do the final byte by byte compare
+mem[x19] = mem[x19] - mem[x22]
+*PTR += 3
+
+FUNCE
+mem[x19] ^= mem[x22]
+*PTR += 3
+
+FUNCF
+mem[x19] --
+*PTR += 3
+
+
+FUNCG
+mem[x19] += x22
+*PTR += 3
+
+FUNCH
+mem[x19] -= x22
+*PTR += 3
+
+FUNCI
+mem[x19] &= x22
+*PTR += 3
+
+FUNCJ
+*ptr = x22
+
+  18283 x0:000000000e0311c0 FUNCA READ MEM-> 8301 0001
+   9189 x0:000000000e031234 FUNCB WRITE MEM-> 8301 0002
+   1160 x0:000000000e03132c FUNCC
+     32 x0:000000000e031518 FUNCD -> called at end
+    192 x0:000000000e031608 FUNCE
+    676 x0:000000000e0317f4 FUNCF
+    726 x0:000000000e031b58 FUNCG
+      1 x0:000000000e031bf4 FUNCH
+    960 x0:000000000e031df0 FUNCI
+     32 x0:000000000e031e9c FUNCJ -> same
+
+
+
+
+T[0xa] = 7;
+T[0xa] += key[3] << 8;
+T[0xa] += key[2];
+T[6] = FetchS(T[0xa]);
+
+T[4] = key[2];
+
+0xe205000: eor r4, r8, r7, lsl #12 b'\x07F(\xe0'
+0xe205004: movw r7, #0x8301 b'\x01s\x08\xe3'
+0xe205008: lsl r7, r7, #0x10 b'\x07x\xa0\xe1'
+0xe20500c: add r0, r7, #1 b'\x01\x00\x87\xe2'
+0xe205010: mov r1, #0xf b'\x0f\x10\xa0\xe3'
+0xe205014: svc #0x1338 b'8\x13\x00\xef'
+0xe205018: add r0, r0, #3 b'\x03\x00\x80\xe2'
+0xe20501c: mov r2, r0 b'\x00 \xa0\xe1'
+0xe205020: mov r1, #0xf b'\x0f\x10\xa0\xe3'
+0xe205024: add r0, r7, #2 b'\x02\x00\x87\xe2'
+0xe205028: svc #0x1338 b'8\x13\x00\xef'
+0xe20502c: svc #0x1337 b'7\x13\x00\xef'
+0xe205030: blt #0xfa57c80 b'\x12Ka\xba'
+0xe205034: blx #0xe8953d4 b'\xe6@\x1a\xfa'
+0xe205038: mrrchi p9, #5, ip, sb, c5 b'U\xc9Y\x8c'
+0xe20503c: blmi #0xe32b02c b'\xfa\x97\x04K'
+0xe205040: svcvs #0xc9677f b'\x7fg\xc9o'
+0xe205044: mcrrge p15, #0xd, r8, r4, c5 b'\xd5\x8fD\xac'
+0xe205048: blt #0xe6a1124 b'5p\x12\xba'
+0xe20504c: cdpgt p5, #0, c13, c8, c4, #2 b'D\xd5\x08\xce'
+0xe205050: ldrmi r2, [r8, -sp, lsr #9]! b'\xad$8G'
+0xe205054: vadd.i8 d20, d8, d15 b'\x0fHH\xf2'
+0xe205058: b #0xf5d2864 b'\x016O\xea'
+0xe20505c: ldrtmi r4, [sl], -r6, lsl #12 b'\x06F:F'
+
+0xe20506c: svc #0x1338 b'8\x13\x00\xef'
+0xe205070: svc #0x1337 b'7\x13\x00\xef'
+0xe205074: andeq r0, r0, r0 b'\x00\x00\x00\x00'
+
+0xe205078: mov r8, r0 b'\x00\x80\xa0\xe1'
+0xe20507c: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe205080: movw r0, #0x8301 b'\x01\x03\x08\xe3'
+0xe205084: lsl r0, r0, #0x10 b'\x00\x08\xa0\xe1'
+0xe205088: add r0, r0, #1 b'\x01\x00\x80\xe2'
+0xe20508c: svc #0x1338 b'8\x13\x00\xef'
+0xe205090: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe205094: add r1, r1, #3 b'\x03\x10\x81\xe2'
+0xe205098: mov r0, r8 b'\x08\x00\xa0\xe1'
+0xe20509c: mov r2, r1 b'\x01 \xa0\xe1'
+0xe2050a0: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe2050a4: movw r0, #0x8301 b'\x01\x03\x08\xe3'
+0xe2050a8: lsl r0, r0, #0x10 b'\x00\x08\xa0\xe1'
+0xe2050ac: add r0, r0, #2 b'\x02\x00\x80\xe2'
+0xe2050b0: svc #0x1338 b'8\x13\x00\xef'
+0xe2050b4: svc #0x1337 b'7\x13\x00\xef'
+0xe2050b8: andeq r0, r0, r0 b'\x00\x00\x00\x00'
+0xe2050bc: andeq r0, r0, r0 b'\x00\x00\x00\x00'
+0xe2050c0: mov r8, r1 b'\x01\x80\xa0\xe1'
+0xe2050c4: movw r7, #0x8301 b'\x01s\x08\xe3'
+0xe2050c8: lsl r7, r7, #0x10 b'\x07x\xa0\xe1'
+0xe2050cc: movw sb, #0x901 b'\x01\x99\x00\xe3'
+0xe2050d0: lsl sb, sb, #0x10 b'\t\x98\xa0\xe1'
+0xe2050d4: ldr sb, [sb] b'\x00\x90\x99\xe5'
+0xe2050d8: add r0, r7, #1 b'\x01\x00\x87\xe2'
+0xe2050dc: mov r1, #0xf b'\x0f\x10\xa0\xe3'
+0xe2050e0: svc #0x1338 b'8\x13\x00\xef'
+0xe2050e4: cmp sb, #5 b'\x05\x00Y\xe3'
+0xe2050e8: addle r0, r0, #3 b'\x03\x00\x80\xd2'
+0xe2050ec: movgt r0, r8 b'\x08\x00\xa0\xc1'
+0xe2050f0: mov r2, r0 b'\x00 \xa0\xe1'
+0xe2050f4: mov r1, #0xf b'\x0f\x10\xa0\xe3'
+0xe2050f8: add r0, r7, #2 b'\x02\x00\x87\xe2'
+0xe2050fc: svc #0x1338 b'8\x13\x00\xef'
+0xe205100: svc #0x1337 b'7\x13\x00\xef'
+0xe205104: andeq r0, r0, r0 b'\x00\x00\x00\x00'
+0xe205108: mov sb, r1 b'\x01\x90\xa0\xe1'
+0xe20510c: mov r8, r0 b'\x00\x80\xa0\xe1'
+0xe205110: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe205114: movw r0, #0x8301 b'\x01\x03\x08\xe3'
+0xe205118: lsl r0, r0, #0x10 b'\x00\x08\xa0\xe1'
+0xe20511c: add r0, r0, #1 b'\x01\x00\x80\xe2'
+0xe205120: svc #0x1338 b'8\x13\x00\xef'
+0xe205124: lsl r1, r0, sb b'\x10\x19\xa0\xe1'
+0xe205128: mov r0, r8 b'\x08\x00\xa0\xe1'
+0xe20512c: mov r2, r1 b'\x01 \xa0\xe1'
+0xe205130: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe205134: movw r0, #0x8301 b'\x01\x03\x08\xe3'
+0xe205138: lsl r0, r0, #0x10 b'\x00\x08\xa0\xe1'
+0xe20513c: add r0, r0, #2 b'\x02\x00\x80\xe2'
+0xe205140: svc #0x1338 b'8\x13\x00\xef'
+0xe205144: svc #0x1337 b'7\x13\x00\xef'
+0xe205148: andeq r0, r0, r0 b'\x00\x00\x00\x00'
+0xe20514c: andeq r0, r0, r0 b'\x00\x00\x00\x00'
+0xe205150: mov sb, r1 b'\x01\x90\xa0\xe1'
+0xe205154: mov r8, r0 b'\x00\x80\xa0\xe1'
+0xe205158: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe20515c: movw r0, #0x8301 b'\x01\x03\x08\xe3'
+0xe205160: lsl r0, r0, #0x10 b'\x00\x08\xa0\xe1'
+0xe205164: add r0, r0, #1 b'\x01\x00\x80\xe2'
+0xe205168: svc #0x1338 b'8\x13\x00\xef'
+0xe20516c: lsr r1, r0, sb b'0\x19\xa0\xe1'
+0xe205170: mov r0, r8 b'\x08\x00\xa0\xe1'
+0xe205174: mov r2, r1 b'\x01 \xa0\xe1'
+0xe205178: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe20517c: movw r0, #0x8301 b'\x01\x03\x08\xe3'
+0xe205180: lsl r0, r0, #0x10 b'\x00\x08\xa0\xe1'
+0xe205184: add r0, r0, #2 b'\x02\x00\x80\xe2'
+0xe205188: svc #0x1338 b'8\x13\x00\xef'
+0xe20518c: svc #0x1337 b'7\x13\x00\xef'
+0xe205190: andeq r0, r0, r0 b'\x00\x00\x00\x00'
+0xe205194: andeq r0, r0, r0 b'\x00\x00\x00\x00'
+0xe205198: mov r8, r1 b'\x01\x80\xa0\xe1'
+0xe20519c: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe2051a0: movw r0, #0x8301 b'\x01\x03\x08\xe3'
+0xe2051a4: lsl r0, r0, #0x10 b'\x00\x08\xa0\xe1'
+0xe2051a8: add r0, r0, #1 b'\x01\x00\x80\xe2'
+0xe2051ac: svc #0x1338 b'8\x13\x00\xef'
+0xe2051b0: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe2051b4: mov r0, r8 b'\x08\x00\xa0\xe1'
+0xe2051b8: mov r2, r1 b'\x01 \xa0\xe1'
+0xe2051bc: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe2051c0: movw r0, #0x8301 b'\x01\x03\x08\xe3'
+0xe2051c4: lsl r0, r0, #0x10 b'\x00\x08\xa0\xe1'
+0xe2051c8: add r0, r0, #2 b'\x02\x00\x80\xe2'
+0xe2051cc: svc #0x1338 b'8\x13\x00\xef'
+0xe2051d0: svc #0x1337 b'7\x13\x00\xef'
+0xe2051d4: andeq r0, r0, r0 b'\x00\x00\x00\x00'
+0xe2051d8: mov r8, r0 b'\x00\x80\xa0\xe1'
+0xe2051dc: mov r1, r0 b'\x00\x10\xa0\xe1'
+0xe2051e0: movw r0, #0x8301 b'\x01\x03\x08\xe3'
+0xe2051e4: lsl r0, r0, #0x10 b'\x00\x08\xa0\xe1'
+0xe2051e8: add r0, r0, #1 b'\x01\x00\x80\xe2'
+0xe2051ec: svc #0x1338 b'8\x13\x00\xef'
+0xe2051f0: add r6, pc, #1 b'\x01`\x8f\xe2'
+0xe2051f4: bx r6 b'\x16\xff/\xe1'
+0xe2051f8: ldrhs lr, [r0], #-0xa4f b'O\xea\x10$'
+
+
+
+0xe205250: movw r7, #0x8301 b'\x01s\x08\xe3'
+0xe205254: lsl r7, r7, #0x10 b'\x07x\xa0\xe1'
+0xe205258: movw r1, #0x901 b'\x01\x19\x00\xe3'
+0xe20525c: lsl r1, r1, #0x10 b'\x01\x18\xa0\xe1'
+0xe205260: add r1, r1, #8 b'\x08\x10\x81\xe2'
+0xe205264: str r0, [r1] b'\x00\x00\x81\xe5'
+0xe205268: add r0, r7, #1 b'\x01\x00\x87\xe2'
+0xe20526c: mov r1, #0xf b'\x0f\x10\xa0\xe3'
+0xe205270: svc #0x1338 b'8\x13\x00\xef'
+0xe205274: add r0, r0, #3 b'\x03\x00\x80\xe2'
+0xe205278: mov r2, r0 b'\x00 \xa0\xe1'
+0xe20527c: mov r1, #0xf b'\x0f\x10\xa0\xe3'
+0xe205280: add r0, r7, #2 b'\x02\x00\x87\xe2'
+0xe205284: svc #0x1338 b'8\x13\x00\xef'
+0xe205288: svc #0x1337 b'7\x13\x00\xef'
+0xe20528c: cmnvc r0, #0, #16 b'\x00(ps'
+0xe205290: strbtvs r2, [r5], -r0, lsr #26 b' -ef'
+0xe205294: strbvs r7, [r5, -r0, lsr #24]! b' |eg'
+0xe205298: rsbshs r6, r0, r2, ror r5 b'rep '
+0xe20529c: strhs r7, [r0, -sp, lsr #2]! b"-q '"
+0xe2052a0: strbvc r6, [sp, #-0x571]! b'qemu'
+0xe2052a4: cmnvc sb, #0xb4000000 b'-sys'
+0xe2052a8: mcrhs p5, #3, r6, c13, c4, #3 b'tem.'
+0xe2052ac: blpl #0xed4d35c b'* -['
+0xe2052b0: stcvc p13, c5, [r0], #-0x1cc b's] |'
+0xe2052b4: strbvc r6, [sp, #-0x571]! b'qemu'
+0xe2052b8: cmnvc sb, #0xb4000000 b'-sys'
+0xe2052bc: mcrhs p5, #3, r6, c13, c4, #3 b'tem.'
+0xe2052c0: blpl #0xed4d370 b'* -['
+0xe2052c4: rsbvs r5, r4, #0x19c0 b'g]db'
+0xe2052c8: eorhs r2, sb, r0, lsr #14 b" ') "
+0xe2052cc: strvs r2, [r0, #-0x626]! b'&& e'
+0xe2052d0: rsbshs r6, r4, r8, ror sb b'xit '
+

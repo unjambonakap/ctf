@@ -1,0 +1,553 @@
+BUF 7592
+0000 6f DW_OP_reg31 
+0001 08 DW_OP_const1u  0xa8
+0003 22 DW_OP_plus 
+0004 06 DW_OP_deref 
+0005 08 DW_OP_const1u  0x8
+0007 22 DW_OP_plus 
+0008 06 DW_OP_deref 
+0009 12 DW_OP_dup 
+000a 06 DW_OP_deref 
+000b 16 DW_OP_swap 
+000c 08 DW_OP_const1u  0x8
+000e 22 DW_OP_plus 
+000f 12 DW_OP_dup 
+0010 06 DW_OP_deref 
+0011 16 DW_OP_swap 
+0012 08 DW_OP_const1u  0x8
+0014 22 DW_OP_plus 
+0015 12 DW_OP_dup 
+0016 06 DW_OP_deref 
+0017 16 DW_OP_swap 
+0018 08 DW_OP_const1u  0x8
+001a 22 DW_OP_plus 
+001b 12 DW_OP_dup 
+001c 06 DW_OP_deref 
+001d 16 DW_OP_swap 
+001e 08 DW_OP_const1u  0x8
+0020 22 DW_OP_plus 
+0021 94 DW_OP_deref_size  0x1
+0023 28 DW_OP_bra  0x44
+0026 15 DW_OP_pick  0x3
+0028 15 DW_OP_pick  0x3
+002a 2f DW_OP_skip  0x49
+002d 0e DW_OP_const8u  0x658302a68e8e1c24
+0036 27 DW_OP_xor 
+0037 16 DW_OP_swap 
+0038 0e DW_OP_const8u  0xdc7564f1612e5347
+0041 27 DW_OP_xor 
+0042 22 DW_OP_plus 
+0043 16 DW_OP_swap 
+0044 0e DW_OP_const8u  0xd9c69b74a86ec613
+004d 27 DW_OP_xor 
+004e 22 DW_OP_plus 
+004f 16 DW_OP_swap 
+0050 0e DW_OP_const8u  0x65850b36e76aaed5
+0059 27 DW_OP_xor 
+005a 22 DW_OP_plus 
+005b 28 DW_OP_bra  0xc
+005e 0e DW_OP_const8u  0x403098 // correct flag
+0067 2f DW_OP_skip  0x7fff
+006a 0e DW_OP_const8u  0x4030b8 // fail
+0073 2f DW_OP_skip  0x7fff
+0076 30 DW_OP_lit0 
+0077 17 DW_OP_rot 
+0078 30 DW_OP_lit0 
+0079 15 DW_OP_pick  0x5
+007b 15 DW_OP_pick  0x5
+007d 2f DW_OP_skip  0x33
+0080 15 DW_OP_pick  0x4
+0082 15 DW_OP_pick  0x4
+0084 2f DW_OP_skip  0xca
+0087 17 DW_OP_rot 
+0088 17 DW_OP_rot 
+0089 13 DW_OP_drop 
+008a 17 DW_OP_rot 
+008b 17 DW_OP_rot 
+008c 13 DW_OP_drop 
+008d 31 DW_OP_lit1 
+008e 15 DW_OP_pick  0x2
+0090 15 DW_OP_pick  0x2
+0092 2f DW_OP_skip  0x1e
+0095 15 DW_OP_pick  0x7
+0097 15 DW_OP_pick  0x7
+0099 2f DW_OP_skip  0xb5
+009c 17 DW_OP_rot 
+009d 17 DW_OP_rot 
+009e 15 DW_OP_pick  0x3
+00a0 16 DW_OP_swap 
+00a1 15 DW_OP_pick  0x5
+00a3 31 DW_OP_lit1 
+00a4 22 DW_OP_plus 
+00a5 12 DW_OP_dup 
+00a6 34 DW_OP_lit4 
+00a7 1c DW_OP_minus 
+00a8 28 DW_OP_bra  0xffffffffffffffcc
+00ab 13 DW_OP_drop 
+00ac 15 DW_OP_pick  0x3
+00ae 15 DW_OP_pick  0x3
+00b0 2f DW_OP_skip  0xffffffffffffff7a
+00b3 34 DW_OP_lit4 
+00b4 17 DW_OP_rot 
+00b5 12 DW_OP_dup 
+00b6 0e DW_OP_const8u  0xffffffff
+00bf 1a DW_OP_and 
+00c0 16 DW_OP_swap 
+00c1 0e DW_OP_const8u  0xffffffff00000000
+00ca 1a DW_OP_and 
+00cb 08 DW_OP_const1u  0x20
+00cd 25 DW_OP_shr 
+00ce 17 DW_OP_rot 
+00cf 17 DW_OP_rot 
+00d0 12 DW_OP_dup 
+00d1 0e DW_OP_const8u  0xffffffff
+00da 1a DW_OP_and 
+00db 16 DW_OP_swap 
+00dc 0e DW_OP_const8u  0xffffffff00000000
+00e5 1a DW_OP_and 
+00e6 08 DW_OP_const1u  0x20
+00e8 25 DW_OP_shr 
+00e9 12 DW_OP_dup 
+00ea 17 DW_OP_rot 
+00eb 15 DW_OP_pick  0x4
+00ed 22 DW_OP_plus 
+00ee 27 DW_OP_xor 
+00ef 0c DW_OP_const4u  0xffffffff
+00f4 1a DW_OP_and 
+00f5 16 DW_OP_swap 
+00f6 15 DW_OP_pick  0x3
+00f8 1a DW_OP_and 
+00f9 16 DW_OP_swap 
+00fa 12 DW_OP_dup 
+00fb 15 DW_OP_pick  0x4
+00fd 16 DW_OP_swap 
+00fe 1c DW_OP_minus 
+00ff 0c DW_OP_const4u  0xffffffff
+0104 1a DW_OP_and 
+0105 16 DW_OP_swap 
+0106 15 DW_OP_pick  0x3
+0108 08 DW_OP_const1u  0xff
+010a 1a DW_OP_and 
+010b 08 DW_OP_const1u  0x2
+010d 24 DW_OP_shl 
+010e 0e DW_OP_const8u  0x4006b4
+0117 22 DW_OP_plus 
+0118 94 DW_OP_deref_size  0x4
+011a 22 DW_OP_plus 
+011b 0c DW_OP_const4u  0xffffffff
+0120 1a DW_OP_and 
+0121 12 DW_OP_dup 
+0122 15 DW_OP_pick  0x4
+0124 08 DW_OP_const1u  0x8
+0126 25 DW_OP_shr 
+0127 27 DW_OP_xor 
+0128 17 DW_OP_rot 
+0129 17 DW_OP_rot 
+012a 16 DW_OP_swap 
+012b 08 DW_OP_const1u  0x20
+012d 24 DW_OP_shl 
+012e 21 DW_OP_or 
+012f 17 DW_OP_rot 
+0130 16 DW_OP_swap 
+0131 08 DW_OP_const1u  0x20
+0133 24 DW_OP_shl 
+0134 21 DW_OP_or 
+0135 16 DW_OP_swap 
+0136 17 DW_OP_rot 
+0137 17 DW_OP_rot 
+0138 13 DW_OP_drop 
+0139 17 DW_OP_rot 
+013a 17 DW_OP_rot 
+013b 13 DW_OP_drop 
+013c 17 DW_OP_rot 
+013d 17 DW_OP_rot 
+013e 08 DW_OP_const1u  0x1
+0140 1c DW_OP_minus 
+0141 12 DW_OP_dup 
+0142 28 DW_OP_bra  0xffffffffffffff6f
+0145 13 DW_OP_drop 
+0146 15 DW_OP_pick  0x2
+0148 28 DW_OP_bra  0x3
+014b 2f DW_OP_skip  0xffffffffffffff32
+014e 2f DW_OP_skip  0xffffffffffffff44
+0151 16 DW_OP_swap 
+0152 30 DW_OP_lit0 
+0153 17 DW_OP_rot 
+0154 15 DW_OP_pick  0x2
+0156 15 DW_OP_pick  0x5
+0158 15 DW_OP_pick  0x5
+015a 17 DW_OP_rot 
+015b 17 DW_OP_rot 
+015c 17 DW_OP_rot 
+015d 30 DW_OP_lit0 
+015e 17 DW_OP_rot 
+015f 15 DW_OP_pick  0x2
+0161 2f DW_OP_skip  0x1a0
+0164 17 DW_OP_rot 
+0165 17 DW_OP_rot 
+0166 12 DW_OP_dup 
+0167 15 DW_OP_pick  0x4
+0169 1c DW_OP_minus 
+016a 28 DW_OP_bra  0x3
+016d 2f DW_OP_skip  0x5
+0170 31 DW_OP_lit1 
+0171 22 DW_OP_plus 
+0172 2f DW_OP_skip  0xffffffffffffffe9
+0175 13 DW_OP_drop 
+0176 17 DW_OP_rot 
+0177 17 DW_OP_rot 
+0178 13 DW_OP_drop 
+0179 16 DW_OP_swap 
+017a 15 DW_OP_pick  0x3
+017c 30 DW_OP_lit0 
+017d 16 DW_OP_swap 
+017e 12 DW_OP_dup 
+017f 0e DW_OP_const8u  0xffffffff
+0188 1a DW_OP_and 
+0189 16 DW_OP_swap 
+018a 0e DW_OP_const8u  0xffffffff00000000
+0193 1a DW_OP_and 
+0194 08 DW_OP_const1u  0x20
+0196 25 DW_OP_shr 
+0197 2f DW_OP_skip  0xf5
+019a 15 DW_OP_pick  0x4
+019c 12 DW_OP_dup 
+019d 0e DW_OP_const8u  0xffffffff
+01a6 1a DW_OP_and 
+01a7 16 DW_OP_swap 
+01a8 0e DW_OP_const8u  0xffffffff00000000
+01b1 1a DW_OP_and 
+01b2 08 DW_OP_const1u  0x20
+01b4 25 DW_OP_shr 
+01b5 2f DW_OP_skip  0x70
+01b8 08 DW_OP_const1u  0x20
+01ba 24 DW_OP_shl 
+01bb 21 DW_OP_or 
+01bc 27 DW_OP_xor 
+01bd 17 DW_OP_rot 
+01be 17 DW_OP_rot 
+01bf 13 DW_OP_drop 
+01c0 12 DW_OP_dup 
+01c1 17 DW_OP_rot 
+01c2 31 DW_OP_lit1 
+01c3 16 DW_OP_swap 
+01c4 12 DW_OP_dup 
+01c5 0e DW_OP_const8u  0xffffffff
+01ce 1a DW_OP_and 
+01cf 16 DW_OP_swap 
+01d0 0e DW_OP_const8u  0xffffffff00000000
+01d9 1a DW_OP_and 
+01da 08 DW_OP_const1u  0x20
+01dc 25 DW_OP_shr 
+01dd 2f DW_OP_skip  0xaf
+01e0 15 DW_OP_pick  0x4
+01e2 12 DW_OP_dup 
+01e3 0e DW_OP_const8u  0xffffffff
+01ec 1a DW_OP_and 
+01ed 16 DW_OP_swap 
+01ee 0e DW_OP_const8u  0xffffffff00000000
+01f7 1a DW_OP_and 
+01f8 08 DW_OP_const1u  0x20
+01fa 25 DW_OP_shr 
+01fb 2f DW_OP_skip  0x5f
+01fe 08 DW_OP_const1u  0x20
+0200 24 DW_OP_shl 
+0201 21 DW_OP_or 
+0202 27 DW_OP_xor 
+0203 17 DW_OP_rot 
+0204 17 DW_OP_rot 
+0205 13 DW_OP_drop 
+0206 17 DW_OP_rot 
+0207 17 DW_OP_rot 
+0208 31 DW_OP_lit1 
+0209 22 DW_OP_plus 
+020a 17 DW_OP_rot 
+020b 16 DW_OP_swap 
+020c 15 DW_OP_pick  0x2
+020e 3f DW_OP_lit15 
+020f 1c DW_OP_minus 
+0210 28 DW_OP_bra  0xffffffffffffff41
+0213 17 DW_OP_rot 
+0214 17 DW_OP_rot 
+0215 13 DW_OP_drop 
+0216 17 DW_OP_rot 
+0217 17 DW_OP_rot 
+0218 13 DW_OP_drop 
+0219 17 DW_OP_rot 
+021a 17 DW_OP_rot 
+021b 13 DW_OP_drop 
+021c 16 DW_OP_swap 
+021d 17 DW_OP_rot 
+021e 17 DW_OP_rot 
+021f 28 DW_OP_bra  0x3
+0222 2f DW_OP_skip  0xfffffffffffffe62
+0225 2f DW_OP_skip  0xfffffffffffffe74
+0228 15 DW_OP_pick  0x2
+022a 27 DW_OP_xor 
+022b 16 DW_OP_swap 
+022c 15 DW_OP_pick  0x3
+022e 27 DW_OP_xor 
+022f 12 DW_OP_dup 
+0230 08 DW_OP_const1u  0x4
+0232 24 DW_OP_shl 
+0233 16 DW_OP_swap 
+0234 08 DW_OP_const1u  0x1c
+0236 25 DW_OP_shr 
+0237 21 DW_OP_or 
+0238 0c DW_OP_const4u  0xffffffff
+023d 1a DW_OP_and 
+023e 15 DW_OP_pick  0x2
+0240 27 DW_OP_xor 
+0241 16 DW_OP_swap 
+0242 12 DW_OP_dup 
+0243 08 DW_OP_const1u  0x12
+0245 25 DW_OP_shr 
+0246 16 DW_OP_swap 
+0247 08 DW_OP_const1u  0xe
+0249 24 DW_OP_shl 
+024a 21 DW_OP_or 
+024b 0c DW_OP_const4u  0xffffffff
+0250 1a DW_OP_and 
+0251 15 DW_OP_pick  0x3
+0253 27 DW_OP_xor 
+0254 17 DW_OP_rot 
+0255 17 DW_OP_rot 
+0256 13 DW_OP_drop 
+0257 17 DW_OP_rot 
+0258 17 DW_OP_rot 
+0259 13 DW_OP_drop 
+025a 2f DW_OP_skip  0xffffffffffffff5b
+025d 16 DW_OP_swap 
+025e 15 DW_OP_pick  0x2
+0260 27 DW_OP_xor 
+0261 12 DW_OP_dup 
+0262 08 DW_OP_const1u  0x1a
+0264 24 DW_OP_shl 
+0265 16 DW_OP_swap 
+0266 08 DW_OP_const1u  0x6
+0268 25 DW_OP_shr 
+0269 21 DW_OP_or 
+026a 0c DW_OP_const4u  0xffffffff
+026f 1a DW_OP_and 
+0270 16 DW_OP_swap 
+0271 15 DW_OP_pick  0x3
+0273 27 DW_OP_xor 
+0274 15 DW_OP_pick  0x2
+0276 27 DW_OP_xor 
+0277 12 DW_OP_dup 
+0278 08 DW_OP_const1u  0xe
+027a 25 DW_OP_shr 
+027b 16 DW_OP_swap 
+027c 08 DW_OP_const1u  0x12
+027e 24 DW_OP_shl 
+027f 21 DW_OP_or 
+0280 0c DW_OP_const4u  0xffffffff
+0285 1a DW_OP_and 
+0286 17 DW_OP_rot 
+0287 17 DW_OP_rot 
+0288 13 DW_OP_drop 
+0289 17 DW_OP_rot 
+028a 17 DW_OP_rot 
+028b 13 DW_OP_drop 
+028c 2f DW_OP_skip  0xffffffffffffff6f
+028f 12 DW_OP_dup 
+0290 17 DW_OP_rot 
+0291 30 DW_OP_lit0 
+0292 12 DW_OP_dup 
+0293 32 DW_OP_lit2 
+0294 1e DW_OP_mul 
+0295 34 DW_OP_lit4 
+0296 1e DW_OP_mul 
+0297 0e DW_OP_const8u  0x400648
+02a0 22 DW_OP_plus 
+02a1 94 DW_OP_deref_size  0x4
+02a3 16 DW_OP_swap 
+02a4 17 DW_OP_rot 
+02a5 22 DW_OP_plus 
+02a6 0c DW_OP_const4u  0xffffffff
+02ab 1a DW_OP_and 
+02ac 16 DW_OP_swap 
+02ad 17 DW_OP_rot 
+02ae 27 DW_OP_xor 
+02af 15 DW_OP_pick  0x1
+02b1 32 DW_OP_lit2 
+02b2 1e DW_OP_mul 
+02b3 31 DW_OP_lit1 
+02b4 22 DW_OP_plus 
+02b5 34 DW_OP_lit4 
+02b6 1e DW_OP_mul 
+02b7 0e DW_OP_const8u  0x400648
+02c0 22 DW_OP_plus 
+02c1 06 DW_OP_deref 
+02c2 16 DW_OP_swap 
+02c3 12 DW_OP_dup 
+02c4 17 DW_OP_rot 
+02c5 21 DW_OP_or 
+02c6 15 DW_OP_pick  0x3
+02c8 27 DW_OP_xor 
+02c9 08 DW_OP_const1u  0x20
+02cb 24 DW_OP_shl 
+02cc 21 DW_OP_or 
+02cd 17 DW_OP_rot 
+02ce 17 DW_OP_rot 
+02cf 13 DW_OP_drop 
+02d0 12 DW_OP_dup 
+02d1 0e DW_OP_const8u  0xffffffff
+02da 1a DW_OP_and 
+02db 16 DW_OP_swap 
+02dc 0e DW_OP_const8u  0xffffffff00000000
+02e5 1a DW_OP_and 
+02e6 08 DW_OP_const1u  0x20
+02e8 25 DW_OP_shr 
+02e9 17 DW_OP_rot 
+02ea 15 DW_OP_pick  0x2
+02ec 17 DW_OP_rot 
+02ed 17 DW_OP_rot 
+02ee 31 DW_OP_lit1 
+02ef 22 DW_OP_plus 
+02f0 12 DW_OP_dup 
+02f1 36 DW_OP_lit6 
+02f2 1c DW_OP_minus 
+02f3 28 DW_OP_bra  0xffffffffffffff9c
+02f6 13 DW_OP_drop 
+02f7 13 DW_OP_drop 
+02f8 16 DW_OP_swap 
+02f9 17 DW_OP_rot 
+02fa 17 DW_OP_rot 
+02fb 28 DW_OP_bra  0x3
+02fe 2f DW_OP_skip  0xfffffffffffffe99
+0301 2f DW_OP_skip  0xfffffffffffffedc
+0304 17 DW_OP_rot 
+0305 16 DW_OP_swap 
+0306 12 DW_OP_dup 
+0307 0e DW_OP_const8u  0xffffffff
+0310 1a DW_OP_and 
+0311 16 DW_OP_swap 
+0312 0e DW_OP_const8u  0xffffffff00000000
+031b 1a DW_OP_and 
+031c 08 DW_OP_const1u  0x20
+031e 25 DW_OP_shr 
+031f 17 DW_OP_rot 
+0320 17 DW_OP_rot 
+0321 12 DW_OP_dup 
+0322 0e DW_OP_const8u  0xffffffff
+032b 1a DW_OP_and 
+032c 16 DW_OP_swap 
+032d 0e DW_OP_const8u  0xffffffff00000000
+0336 1a DW_OP_and 
+0337 08 DW_OP_const1u  0x20
+0339 25 DW_OP_shr 
+033a 15 DW_OP_pick  0x4
+033c 34 DW_OP_lit4 
+033d 1e DW_OP_mul 
+033e 0e DW_OP_const8u  0x400678
+0347 22 DW_OP_plus 
+0348 94 DW_OP_deref_size  0x4
+034a 15 DW_OP_pick  0x4
+034c 27 DW_OP_xor 
+034d 15 DW_OP_pick  0x3
+034f 0c DW_OP_const4u  0x45786532
+0354 22 DW_OP_plus 
+0355 0c DW_OP_const4u  0xffffffff
+035a 1a DW_OP_and 
+035b 12 DW_OP_dup 
+035c 15 DW_OP_pick  0x4
+035e 27 DW_OP_xor 
+035f 15 DW_OP_pick  0x3
+0361 12 DW_OP_dup 
+0362 08 DW_OP_const1u  0x4
+0364 24 DW_OP_shl 
+0365 16 DW_OP_swap 
+0366 08 DW_OP_const1u  0x1c
+0368 25 DW_OP_shr 
+0369 21 DW_OP_or 
+036a 0c DW_OP_const4u  0xffffffff
+036f 1a DW_OP_and 
+0370 17 DW_OP_rot 
+0371 17 DW_OP_rot 
+0372 12 DW_OP_dup 
+0373 15 DW_OP_pick  0x4
+0375 16 DW_OP_swap 
+0376 1c DW_OP_minus 
+0377 0c DW_OP_const4u  0xffffffff
+037c 1a DW_OP_and 
+037d 15 DW_OP_pick  0x3
+037f 0c DW_OP_const4u  0x80000000
+0384 1a DW_OP_and 
+0385 28 DW_OP_bra  0x8
+0388 0c DW_OP_const4u  0x17246549
+038d 2f DW_OP_skip  0x5
+0390 0c DW_OP_const4u  0x84653217
+0395 2f DW_OP_skip  0x4c5
+0398 15 DW_OP_pick  0x2
+039a 27 DW_OP_xor 
+039b 15 DW_OP_pick  0x3
+039d 27 DW_OP_xor 
+039e 15 DW_OP_pick  0x4
+03a0 15 DW_OP_pick  0x4
+03a2 08 DW_OP_const1u  0x20
+03a4 24 DW_OP_shl 
+03a5 21 DW_OP_or 
+03a6 17 DW_OP_rot 
+03a7 08 DW_OP_const1u  0x20
+03a9 24 DW_OP_shl 
+03aa 21 DW_OP_or 
+03ab 17 DW_OP_rot 
+03ac 17 DW_OP_rot 
+03ad 13 DW_OP_drop 
+03ae 17 DW_OP_rot 
+03af 17 DW_OP_rot 
+03b0 13 DW_OP_drop 
+03b1 17 DW_OP_rot 
+03b2 17 DW_OP_rot 
+03b3 13 DW_OP_drop 
+03b4 17 DW_OP_rot 
+03b5 17 DW_OP_rot 
+03b6 13 DW_OP_drop 
+03b7 17 DW_OP_rot 
+03b8 17 DW_OP_rot 
+03b9 13 DW_OP_drop 
+03ba 17 DW_OP_rot 
+03bb 17 DW_OP_rot 
+03bc 13 DW_OP_drop 
+03bd 17 DW_OP_rot 
+03be 17 DW_OP_rot 
+03bf 13 DW_OP_drop 
+03c0 17 DW_OP_rot 
+03c1 17 DW_OP_rot 
+03c2 13 DW_OP_drop 
+03c3 16 DW_OP_swap 
+03c4 17 DW_OP_rot 
+03c5 17 DW_OP_rot 
+03c6 13 DW_OP_drop 
+03c7 2f DW_OP_skip  0xfffffffffffffd9a
+03ca 96 DW_OP_nop 
+03cb 96 DW_OP_nop 
+03cc 96 DW_OP_nop 
+03cd 96 DW_OP_nop 
+03ce 96 DW_OP_nop 
+03cf 96 DW_OP_nop 
+03d0 96 DW_OP_nop 
+03d1 96 DW_OP_nop 
+03d2 96 DW_OP_nop 
+03d3 96 DW_OP_nop 
+03d4 96 DW_OP_nop 
+03d5 96 DW_OP_nop 
+03d6 96 DW_OP_nop 
+03d7 96 DW_OP_nop 
+03d8 96 DW_OP_nop 
+03d9 96 DW_OP_nop 
+03da 96 DW_OP_nop 
+03db 96 DW_OP_nop 
+03dc 96 DW_OP_nop 
+03dd 96 DW_OP_nop 
+03de 96 DW_OP_nop 
+03df 96 DW_OP_nop 
+03e0 96 DW_OP_nop 
+03e1 96 DW_OP_nop 
+03e2 96 DW_OP_nop 
+03e3 96 DW_OP_nop 
+03e4 96 DW_OP_nop 
+03e5 96 DW_OP_nop 
+03e6 96 DW_OP_nop 
+03e7 96 DW_OP_nop 

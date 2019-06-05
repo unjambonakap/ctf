@@ -1,0 +1,39 @@
+\babel@toc {french}{}
+\contentsline {section}{\numberline {I}Niveau 0 - Booter le t\IeC {\'e}l\IeC {\'e}phone}{2}{section.1}% 
+\contentsline {section}{\numberline {II}Niveau 1 - Booter le t\IeC {\'e}l\IeC {\'e}phone}{7}{section.2}% 
+\contentsline {subsection}{\numberline {II.1}Impl\IeC {\'e}mentation du secure chip}{7}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {II.2}Calcul des valeurs de chaque octet}{8}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {II.3}Bruteforce du hash}{9}{subsection.2.3}% 
+\contentsline {section}{\numberline {III}Niveau 2 - Nain cach\IeC {\'e}}{11}{section.3}% 
+\contentsline {subsection}{\numberline {III.1}Reco}{11}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {III.2}\IeC {\'E}mulation du binaire}{12}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {III.3}Ex\IeC {\'e}cution diff\IeC {\'e}rentielle}{12}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {III.4}Identification de la VM}{13}{subsection.3.4}% 
+\contentsline {subsection}{\numberline {III.5}Dump du contenu dwarf}{14}{subsection.3.5}% 
+\contentsline {subsection}{\numberline {III.6}Parser le dwarf}{14}{subsection.3.6}% 
+\contentsline {subsection}{\numberline {III.7}Impl\IeC {\'e}mentation du dwarf en python}{15}{subsection.3.7}% 
+\contentsline {subsection}{\numberline {III.8}Compilation dwarf}{16}{subsection.3.8}% 
+\contentsline {paragraph}{\numberline {III.8.0.1}Pseudo d\IeC {\'e}compilation dwarf}{16}{paragraph.3.8.0.1}% 
+\contentsline {paragraph}{\numberline {III.8.0.2}R\IeC {\'e}sultats de la compilation llvmpy \\ }{19}{paragraph.3.8.0.2}% 
+\contentsline {subsection}{\numberline {III.9}Instrumentation de l'ex\IeC {\'e}cution dwarf}{19}{subsection.3.9}% 
+\contentsline {section}{\numberline {IV}Niveau 3 - SecureOS}{26}{section.4}% 
+\contentsline {subsection}{\numberline {IV.1}Binaire userspace}{26}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {IV.2}Module kernel}{28}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {IV.3}Am\IeC {\'e}liorer le workflow de test}{29}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {IV.4}Hall of fail}{29}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {IV.5}Trouver des patternes d'acc\IeC {\`e}s m\IeC {\'e}moires et instructions via le event qemu}{30}{subsection.4.5}% 
+\contentsline {subsubsection}{\numberline {IV.5.1}Essayer de fixer qemu}{31}{subsubsection.4.5.1}% 
+\contentsline {subsubsection}{\numberline {IV.5.2}Reverse du bootloader}{31}{subsubsection.4.5.2}% 
+\contentsline {subsection}{\numberline {IV.6}D\IeC {\'e}couverte de SM4}{32}{subsection.4.6}% 
+\contentsline {subsection}{\numberline {IV.7}Dispatcher du secureos}{32}{subsection.4.7}% 
+\contentsline {subsection}{\numberline {IV.8}Dispatcher du el2}{33}{subsection.4.8}% 
+\contentsline {subsection}{\numberline {IV.9}VM ops de l'EL2}{35}{subsection.4.9}% 
+\contentsline {subsection}{\numberline {IV.10}\tmspace +\medmuskip {.2222em}Extraction de la m\IeC {\'e}moire SM4}{35}{subsection.4.10}% 
+\contentsline {subsection}{\numberline {IV.11}\tmspace +\medmuskip {.2222em}Tentative de r\IeC {\'e}solution 1 - \IeC {\'e}chec}{36}{subsection.4.11}% 
+\contentsline {subsection}{\numberline {IV.12}\tmspace +\medmuskip {.2222em}Obtenir une trace fiable}{37}{subsection.4.12}% 
+\contentsline {subsection}{\numberline {IV.13}\tmspace +\medmuskip {.2222em}Sch\IeC {\'e}ma global du syst\IeC {\`e}me}{38}{subsection.4.13}% 
+\contentsline {subsection}{\numberline {IV.14}\tmspace +\medmuskip {.2222em}Automatiser le reversing}{38}{subsection.4.14}% 
+\contentsline {subsection}{\numberline {IV.15}\tmspace +\medmuskip {.2222em}angr refail}{40}{subsection.4.15}% 
+\contentsline {subsection}{\numberline {IV.16}\tmspace +\medmuskip {.2222em}\tmspace +\medmuskip {.2222em}z3 \IeC {\`a} la rescousse (partiellement)}{40}{subsection.4.16}% 
+\contentsline {section}{\numberline {V}Niveau 4, la fin}{43}{section.5}% 
+\contentsline {section}{\numberline {VI}Outils}{43}{section.6}% 
